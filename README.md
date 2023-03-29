@@ -1,4 +1,4 @@
-模型：
+（模型：
 
     1.bert-large-uncased-whole-word-masking-finetuned-squad\
     
@@ -18,6 +18,7 @@
     
     1.2.3.4.分别是4个从hugging face上下载的模型 对应的.py文件主要包含一个接收一对{context,question}输出一个answer的函数
     
+）
 
 dataset_modify.py是主函数，其中引用4个模型，分别take原训练集的{context,question}和手动修改过的{context,question}后，分别得到ori_answer和rev_answer，两个answer不完全相同时，输出如下格式的文本块到summary.txt中：
 
