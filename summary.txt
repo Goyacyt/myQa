@@ -1,4 +1,5 @@
 ------------test case2------------
+primary context:
 The Normans (Norman: Nourmands; French: Normands; Latin: Normanni) were the people who in the 10th a
 nd 11th centuries gave their name to Normandy, a region in France. They were descended from Norse ("
 Norman" comes from "Norseman") raiders and pirates from Denmark, Iceland and Norway who, under their
@@ -7,6 +8,8 @@ similation and mixing with the native Frankish and Roman-Gaulish populations, th
 d gradually merge with the Carolingian-based cultures of West Francia. The distinct cultural and eth
 nic identity of the Normans emerged initially in the first half of the 10th century, and it continue
 d to evolve over the succeeding centuries.
+----------------------------------------------
+context after modification:
   The Normans (Norman: Nourmands; French: Normands; Latin: Normanni) were the people who in the 10th and 11th centuries gave their name to Normandy,
    a region in France,
    They were descended from Norse ("Norman" comes from "Norseman") raiders and pirates from Denmark,
@@ -24,6 +27,7 @@ d to evolve over the succeeding centuries.
    The distinct cultural and ethnic identity of the Normans emerged initially in the first half of the 10th century,
    and it continued to evolve over the succeeding centuries,
   
+----------------------------------------------
 question: From which countries did the Norse originate?
 right answer:-------- ['Denmark, Iceland and Norway', 'Denmark, Iceland and Norway', 'Denmark, Iceland and Norway', 'Denmark, Iceland and Norway']
 model minilm:
@@ -31,6 +35,7 @@ original result:----- Denmark, Iceland and Norway
 modified result:----- 
 
 ------------test case7------------
+primary context:
 The Normans (Norman: Nourmands; French: Normands; Latin: Normanni) were the people who in the 10th a
 nd 11th centuries gave their name to Normandy, a region in France. They were descended from Norse ("
 Norman" comes from "Norseman") raiders and pirates from Denmark, Iceland and Norway who, under their
@@ -39,6 +44,8 @@ similation and mixing with the native Frankish and Roman-Gaulish populations, th
 d gradually merge with the Carolingian-based cultures of West Francia. The distinct cultural and eth
 nic identity of the Normans emerged initially in the first half of the 10th century, and it continue
 d to evolve over the succeeding centuries.
+----------------------------------------------
+context after modification:
   The Normans (Norman: Nourmands; French: Normands; Latin: Normanni) were the people who in the 10th and 11th centuries gave their name to Normandy,
    a region in France,
    They were descended from Norse ("Norman" comes from "Norseman") raiders and pirates from Denmark,
@@ -53,6 +60,7 @@ d to evolve over the succeeding centuries.
    The distinct cultural and ethnic identity of the Normans emerged initially in the first half of the 10th century,
    and it continued to evolve over the succeeding centuries,
   
+----------------------------------------------
 question: Who did King Charles III swear fealty to?
 right answer:-------- []
 model longformer:
@@ -63,6 +71,7 @@ original result:----- West Francia
 modified result:----- Rollo
 
 ------------test case9------------
+primary context:
 The Norman dynasty had a major political, cultural and military impact on medieval Europe and even t
 he Near East. The Normans were famed for their martial spirit and eventually for their Christian pie
 ty, becoming exponents of the Catholic orthodoxy into which they assimilated. They adopted the Gallo
@@ -78,6 +87,8 @@ Hastings in 1066. Norman cultural and military influence spread from these new E
 he Crusader states of the Near East, where their prince Bohemond I founded the Principality of Antio
 ch in the Levant, to Scotland and Wales in Great Britain, to Ireland, and to the coasts of north Afr
 ica and the Canary Islands.
+----------------------------------------------
+context after modification:
   The Norman dynasty had a major political,
    cultural and military impact on medieval Europe and even the Near East,
    The Normans were famed for their martial spirit and eventually for their Christian piety,
@@ -105,6 +116,7 @@ ica and the Canary Islands.
    to Ireland,
    and to the coasts of north Africa and the Canary Islands,
   
+----------------------------------------------
 question: Who was the duke in the battle of Hastings?
 right answer:-------- ['William the Conqueror', 'William the Conqueror', 'William the Conqueror']
 model roberta:
