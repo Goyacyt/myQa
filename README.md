@@ -25,9 +25,19 @@ dataset_modify.py是主函数，其中引用4个模型，分别take原训练集�
     
     正确answer
     
+    model:使用的模型
+    
     原context对应的answer
     
     修改过的context对应的answer
+    
+    model:使用的模型
+    
+    原context对应的answer
+    
+    修改过的context对应的answer
+    
+    ......
     
 到summary.txt里面
 
