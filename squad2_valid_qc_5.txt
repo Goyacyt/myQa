@@ -1,0 +1,94 @@
+{'id': '5ad3de8b604f3c001a3ff469', 'title': 'Normans', 'context': 'One of the first Norman mercenari
+es to serve as a Byzantine general was Hervé in the 1050s. By then however, there were already Norma
+n mercenaries serving as far away as Trebizond and Georgia. They were based at Malatya and Edessa, u
+nder the Byzantine duke of Antioch, Alexius Komnenos. In the 1060s, Robert Crispin led the Normans of 
+Edessa against the Turks. Roussel de Bailleul even tried to carve out an independent state in Asia M
+inor with support from the local population, but he was stopped by the Byzantine general Alexius Kom
+nenos.', 'question': 'Who ruined Alexius Komnenos plans for an independent state?', 'answers': {'tex
+t': [], 'answer_start': []}}
+{'id': '5ad3de8b604f3c001a3ff46a', 'title': 'Normans', 'context': 'One of the first Norman mercenari
+es to serve as a Byzantine general was Hervé in the 1050s. By then however, there were already Norma
+n mercenaries serving as far away as Trebizond and Georgia. They were based at Malatya and Edessa, u
+nder the Byzantine duke of Antioch, Isaac Komnenos. In the 1050s, Robert Crispin led the Normans of 
+Edessa against the Turks. Roussel de Bailleul even tried to carve out an independent state in Asia M
+inor with support from the local population, but he was stopped by the Byzantine general Alexius Kom
+nenos.', 'question': 'When did Herve go up against the Turks?', 'answers': {'text': [], 'answer_star
+t': []}}
+{'id': '56de10b44396321400ee2593', 'title': 'Normans', 'context': 'Some Normans joined Turkish force
+s to aid in the destruction of the Armenians vassal-states of Sassoun and Taron in far eastern Anato
+lia. Later, many took up service with the Armenian state further south in Cilicia and the Taurus Mou
+ntains. A Norman named Oursel led a force of "Franks" into the upper Euphrates valley in northern Sy
+ria. From 1073 to 1074, 8,000 of the 20,000 troops of the Armenian general Philaretus Brachamius wer
+e Normans—formerly of Oursel—led by Raimbaud. They even lent their ethnicity to the name of their ca
+stle: Afranji, meaning "Normans." The known trade between Amalfi and Antioch and between Bari and Tar
+sus may be related to the presence of Italo-Normans in those cities while Amalfi and Bari were under
+ Norman rule in Italy.', 'question': 'What was the name of the Norman castle?', 'answers': {'text': 
+['Afranji', 'Afranji', 'Afranji'], 'answer_start': [539, 539, 539]}}
+{'id': '56de10b44396321400ee2594', 'title': 'Normans', 'context': 'Some Normans joined Turkish force
+s to aid in the destruction of the Armenians vassal-states of Sassoun and Taron in far eastern Anato
+lia. Later, many took up service with the Armenian state further south in Cilicia and the Taurus Mou
+ntains. A Norman called Oursel led a force of "Franks" into the upper Euphrates valley in southern Sy
+ria. From 1073 to 1074, 8,000 of the 20,000 troops of the Armenian general Philaretus Brachamius wer
+e Normans—formerly of Oursel—led by Raimbaud. They even lent their ethnicity to the name of their ca
+stle: Afranji, meaning "Franks." The known trade between Amalfi and Antioch and between Bari and Tar
+sus may be related to the presence of Italo-Normans in those cities while Amalfi and Bari were under
+ Norman rule in Italy.', 'question': 'Who was the leader when the Franks entered the Euphrates valle
+y?', 'answers': {'text': ['Oursel', 'Oursel', 'Oursel'], 'answer_start': [256, 256, 256]}}
+{'id': '56de10b44396321400ee2595', 'title': 'Normans', 'context': 'Some Normans joined Turkish force
+s to aid in the destruction of Taron in near eastern Anato
+lia. Later, many took up service with the Armenian state further south in Cilicia and the Taurus Mou
+ntains. A Norman named Oursel led a force of "Franks" into the upper Euphrates valley in northern Sy
+ria. From 1073 to 1074, 8,000 of the 20,000 troops of the Armenian general Philaretus Brachamius wer
+e Normans—formerly of Oursel—led by Raimbaud. They even lent their ethnicity to the name of their ca
+stle: Afranji, meaning "Franks." The known trade between Amalfi and Antioch and between Bari and Tar
+sus may be related to the presence of Italo-Normans in those cities while Amalfi and Bari were under
+ Norman rule in Italy.', 'question': 'Who did the Normans team up with in Anatolia?', 'answers': {'t
+ext': ['Turkish forces', 'Turkish forces', 'Turkish forces'], 'answer_start': [20, 20, 20]}}
+{'id': '5ad3e96b604f3c001a3ff689', 'title': 'Normans', 'context': 'Some Normans joined Turkish force
+s to aid in the destruction in far eastern Anato
+lia. Later, many took up service with the Armenian state further south in Cilicia and the Taurus Mou
+ntains. A Norman named Oursel led a force of "Franks" into the upper Euphrates valley in northern Sy
+ria. From 1073 to 1074, 8,000 of the 20,000 troops of the Armenian general Philaretus Brachamius wer
+e Normans—formerly of Oursel—led by Raimbaud. They even lent their ethnicity to the name of their ca
+stle: Afranji, meaning "Franks." The known trade between Amalfi and Antioch and between Bari and Tar
+sus may be related to the presence of Italo-Normans in those cities while Amalfi and Bari were under
+ Norman rule in Italy.', 'question': 'Who joined Norman forces in the destruction of the Armenians?'
+, 'answers': {'text': [], 'answer_start': []}}
+{'id': '5ad3e96b604f3c001a3ff68a', 'title': 'Normans', 'context': 'Some Normans joined Turkish force
+s to aid in the destruction of the Armenians vassal-states of Sassoun and Taron in far eastern Anato
+lia. Later, many took up service with the Armenian state further south in Cilicia and the Taurus Mou
+ntains. A Norman named Oursel led a force of "Franks" into the upper Euphrates valley in northern Sy
+ria. From 1073 to 1074, 8,000 of the 20,000 troops of the Armenian general Philaretus Brachamius wer
+e Normans—formerly of Oursel—led by Raimbaud. They even lent their ethnicity to the name of their ca
+stle: Afranji, meaning "Franks." The known trade between Amalfi and Antioch and between Bari and Tar
+sus may be related to the presence of Italo-Normans in those cities while Amalfi and Bari were under
+ Norman rule in Italy.', 'question': 'Who did the Turks take up service with?', 'answers': {'text': 
+[], 'answer_start': []}}
+{'id': '5ad3e96b604f3c001a3ff68b', 'title': 'Normans', 'context': 'Some Normans joined Turkish force
+s to aid in the destruction of the Armenians vassal-states of Sassoun and Taron in far eastern Anato
+lia. Later, many took up service with the Armenian state further south in Cilicia and the Taurus Mou
+ntains. A Norman named Oursel led a force of "Franks".
+From 1073 to 1074, 8,000 of the 20,000 troops of the Armenian general Philaretus Brachamius wer
+e Normans—formerly of Oursel—led by Raimbaud. They even lent their ethnicity to the name of their ca
+stle: Afranji, meaning "Franks." The known trade between Amalfi and Antioch and between Bari and Tar
+sus may be related to the presence of Italo-Normans in those cities while Amalfi and Bari were under
+ Norman rule in Italy.', 'question': 'What Frank led Norman forces?', 'answers': {'text': [], 'answe
+r_start': []}}
+{'id': '5ad3e96b604f3c001a3ff68c', 'title': 'Normans', 'context': 'Some Normans joined Turkish force
+s to aid in the destruction of the Armenians vassal-states of Sassoun and Taron in far eastern Anato
+lia. Later, many took up service with the Armenian state further south in Cilicia and the Taurus Mou
+ntains. A Norman named Oursel led a force of "Franks" into the upper Euphrates valley in northern Sy
+ria. From 1073 to 1074, 8,000 of the 20,000 troops of the Armenian general Philaretus Brachamius wer
+e Normans—formerly of Oursel—led by Raimbaud. They even lent their ethnicity to the name of their ca
+stle: Afranji, meaning "Franks." The known trade between Amalfi and Antioch and between Bari and Tar
+sus may be related to the presence of Italo-Normans in those cities while Amalfi and Bari were under
+ Norman rule in Italy.', 'question': 'Where did Oursel lead the Franks?', 'answers': {'text': [], 'a
+nswer_start': []}}
+{'id': '56de11154396321400ee25aa', 'title': 'Normans', 'context': "Several families of Byzantine Gre
+ece were of Norman mercenary origin during the period of the Comnenian Restoration, when Byzantine e
+mperors were seeking out western European warriors. The Raoulii were descended from an Italo-Norman 
+named Raoul, the Petraliphae were descended from a Pierre d'Aulps, and that group of Albanian clans 
+known as the Maniakates were descended from Normans who served under George Maniaces in the Sicilian
+ expedition of 1038.", 'question': 'What were the origins of the Raoulii family?', 'answers': {'tex
+t': ['Norman mercenary', 'an Italo-Norman named Raoul', 'descended from an Italo-Norman named Raoul'
+], 'answer_start': [45, 217, 202]}}

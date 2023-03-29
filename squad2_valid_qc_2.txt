@@ -1,0 +1,110 @@
+{'id': '5ad3ab70604f3c001a3feb8a', 'title': 'Normans', 'context': 'The English name "Normans" comes 
+from the French words Normans/Normanz, plural of Normant, modern French normand, which is itself bor
+rowed from Old Low Franconian Nortmann "Northman" or directly from Old Norse Norðmaðr, Latinized var
+iously as Nortmannus, Normannus, or Nordmannus (recorded in Medieval Latin, 9th century) to mean "No
+rseman, Viking".', 'question': 'When was the French version of the word Norman first recorded?', 'an
+swers': {'text': [], 'answer_start': []}}
+{'id': '56dde0ba66d3e219004dad75', 'title': 'Normans', 'context': 'In the course of the 10th century
+, the initially destructive incursions of Norse war bands into the rivers of France evolved into mor
+e permanent encampments that included local women and personal property. The Duchy of Normandy, whic
+h began in 911, was established between King Char
+les III and the famed Viking ruler Rollo.
+The treaty offered Rollo and his men the French lands between the river Epte and 
+the Atlantic coast in exchange for their protection against further Viking incursions. The area corr
+esponded to the northern part of present-day Upper Normandy down to the river Seine, but the Duchy w
+ould eventually extend west beyond the Seine. The territory was roughly equivalent to the old provin
+ce of Rouen, and reproduced the Roman administrative structure of Gallia Lugdunensis II (part of the
+ former Gallia Lugdunensis).', 'question': 'When was the Duchy of Normandy founded?', 'answers': {'t
+ext': ['911', '911', '911'], 'answer_start': [244, 244, 244]}}
+{'id': '56dde0ba66d3e219004dad76', 'title': 'Normans', 'context': 'In the course of the 10th century
+, the initially destructive incursions of Norse war bands into the rivers of France evolved into mor
+e permanent encampments that included local women and personal property. The Duchy of Normandy
+was established by the treaty of Saint-Clair-sur-Epte between King Char
+les III  and the Viking ruler Rollo. 
+The treaty offered Rollo and his men the French lands between the river Epte and 
+the Atlantic coast in exchange for their protection against further Viking incursions. The area corr
+esponded to the northern part of present-day Upper Normandy down to the river Seine, but the Duchy w
+ould eventually extend west beyond the Seine. The territory was roughly equivalent to the old provin
+ce of Rouen, and reproduced the Roman administrative structure of Gallia Lugdunensis II (part of the
+ former Gallia Lugdunensis).', 'question': 'Who did Rollo sign the treaty of Saint-Clair-sur-Epte wi
+th?', 'answers': {'text': ['King Charles III', 'King Charles III', 'King Charles III'], 'answer_star
+t': [324, 324, 324]}}
+{'id': '56dde0ba66d3e219004dad77', 'title': 'Normans', 'context': 'In the course of the 10th century
+, the initially destructive incursions of Norse war bands into the rivers of France evolved into mor
+e permanent encampments that included local women and personal property. The Duchy of Normandy, whic
+h began in 911 as a fiefdom, was established by the treaty of Saint-Clair-sur-Epte between King Char
+les III of West Francia and the famed Viking ruler Rollo, and was situated in the former Frankish ki
+ngdom of Neustria. The treaty offered Rollo and his men lands between the river Epte and 
+the coast. The area corr
+esponded to the northern part of Upper Normandy down to the river Seine, but the Duchy w
+ould eventually extend west beyond the Seine. The territory was roughly equivalent to the old provin
+ce of Rouen, and reproduced the Roman administrative structure of Gallia Lugdunensis II (part of the
+ former Gallia Lugdunensis).', 'question': 'What river originally bounded the Duchy', 'answers': {'t
+ext': ['Seine', 'Epte', 'Seine'], 'answer_start': [711, 524, 711]}}
+{'id': '5ad3ad61604f3c001a3fec0d', 'title': 'Normans', 'context': 'In the course of the 10th century
+, the initially destructive incursions of Norse war bands into the rivers of France evolved into mor
+e permanent encampments that included local women and personal property. The Duchy of Normandy, whic
+h began in 911 as a fiefdom, was established by the treaty of Saint-Clair-sur-Epte between King Char
+les III of West Francia and the famed Viking ruler Rollo, and was situated in the former Frankish ki
+ngdom of Neustria. The treaty offered Rollo and his men the French lands between the river Epte and 
+the Atlantic coast in exchange for their protection against further Viking incursions. The area corr
+esponded to the northern part of present-day Upper Normandy down to the river Seine, but the Duchy w
+ould eventually extend west beyond the Seine. The territory was roughly equivalent to the old provin
+ce of Rouen, and reproduced the Roman administrative structure of Gallia Lugdunensis II (part of the
+ former Gallia Lugdunensis).', 'question': 'when did Nors encampments ivolve into destructive incurs
+ions?', 'answers': {'text': [], 'answer_start': []}}
+{'id': '5ad3ad61604f3c001a3fec0e', 'title': 'Normans', 'context': 'In the course of the 10th century
+, the initially destructive incursions of Norse war bands into the rivers of France evolved into mor
+e permanent encampments that included local women and personal property. The Duchy of Normandy, whic
+h began in 911 as a fiefdom, was established by the treaty of Saint-Clair-sur-Epte between King Char
+les III of West Francia and the famed Viking ruler Rollo, and was situated in the former Frankish ki
+ngdom of Neustria. The treaty offered Rollo and his men the French lands between the river Epte and 
+the Atlantic coast in exchange for their protection against further Viking incursions. The area corr
+esponded to the northern part of present-day Upper Normandy down to the river Seine, but the Duchy w
+ould eventually extend west beyond the Seine. The territory was roughly equivalent to the old provin
+ce of Rouen, and reproduced the Roman administrative structure of Gallia Lugdunensis II (part of the
+ former Gallia Lugdunensis).', 'question': 'What treaty was established in the 9th century?', 'answe
+rs': {'text': [], 'answer_start': []}}
+{'id': '5ad3ad61604f3c001a3fec0f', 'title': 'Normans', 'context': 'In the course of the 10th century
+, the initially destructive incursions of Norse war bands into the rivers of France evolved into mor
+e permanent encampments that included local women and personal property. The Duchy of Normandy, whic
+h began in 911 as a fiefdom, was established by the treaty of Saint-Clair-sur-Epte between King Char
+les III of West Francia and the famed Viking ruler Rollo, and was situated in the former Frankish ki
+ngdom of Neustria. The treaty offered Rollo and his men the French lands between the river Epte and 
+the Atlantic coast in exchange for their protection against further Viking incursions. The area corr
+esponded to the northern part of present-day Upper Normandy down to the river Seine, but the Duchy w
+ould eventually extend west beyond the Seine. The territory was roughly equivalent to the old provin
+ce of Rouen, and reproduced the Roman administrative structure of Gallia Lugdunensis II (part of the
+ former Gallia Lugdunensis).', 'question': 'Who established a treaty with King Charles the third of 
+France?', 'answers': {'text': [], 'answer_start': []}}
+{'id': '5ad3ad61604f3c001a3fec10', 'title': 'Normans', 'context': 'In the course of the 10th century
+, the initially destructive incursions of Norse war bands into the rivers of France evolved into mor
+e permanent encampments that included local women and personal property. The Duchy of Normandy, whic
+h began in 911 as a fiefdom, was established by the treaty of Saint-Clair-sur-Epte between King Char
+les III of West Francia and the famed Viking ruler Rollo, and was situated in the former Frankish ki
+ngdom of Neustria. The treaty offered Rollo and his men the French lands between the river Epte and 
+the Atlantic coast in exchange for their protection against further Viking incursions. The area corr
+esponded to the northern part of present-day Upper Normandy down to the river Seine, but the Duchy w
+ould eventually extend west beyond the Seine. The territory was roughly equivalent to the old provin
+ce of Rouen, and reproduced the Roman administrative structure of Gallia Lugdunensis II (part of the
+ former Gallia Lugdunensis).', 'question': 'What did the French promises to protect Rollo and his me
+n from?', 'answers': {'text': [], 'answer_start': []}}
+{'id': '56dde1d966d3e219004dad8d', 'title': 'Normans', 'context': 'Before Rollo\'s arrival, its popu
+lations did not differ from Picardy or the Île-de-France. Earlier 
+Viking settlers had begun arriving in the 880s, but were divided between colonies in the east (Roumo
+is and Pays de Caux) around the low Seine valley and in the west in the Cotentin Peninsula, and were
+ separated by traditional pagii, where the population remained about the same with almost no foreign
+ settlers. Rollo\'s contingents who raided and ultimately settled Normandy and parts of the Atlantic
+ coast included Danes, Norwegians, Norse–Gaels, Orkney Vikings, possibly Swedes, and Anglo-Danes fro
+m the English Danelaw under Norse control.', 'question': 'Who upon arriving gave the original viking
+ settlers a common identity?', 'answers': {'text': ['Rollo', 'Rollo', 'Rollo'], 'answer_start': [7, 
+7, 7]}}
+{'id': '5ad3ae14604f3c001a3fec39', 'title': 'Normans', 'context': 'Before Rollo\'s arrival, its popu
+lations did not differ from Picardy or the Île-de-France, which were considered "Frankish". Earlier 
+Viking settlers had begun arriving in the 880s, but were divided between colonies in the east (Roumo
+is and Pays de Caux) around the low Seine valley and in the west in the Cotentin Peninsula, and were
+ separated by traditional pagii, where the population remained about the same with almost no foreign
+ settlers. Rollo\'s contingents who raided and ultimately settled Normandy and parts of the Atlantic
+ coast included Danes, Norwegians, Norse–Gaels, Orkney Vikings, possibly Swedes, and Anglo-Danes fro
+m the English Danelaw under Norse control.', 'question': 'When did Rollo begin to arrive in Normandy
+?', 'answers': {'text': [], 'answer_start': []}}

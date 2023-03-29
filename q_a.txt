@@ -1,0 +1,91 @@
+{'id': '56be85543aeaaa14008c9063', 'title': 'Beyoncé', 'context': 'Beyoncé Giselle Knowles-Carter (/
+biːˈjɒnseɪ/ bee-YON-say) (born September 4, 1981) is an American singer, songwriter, record producer
+ and actress.She performed in various singing and dancing compet
+itions as a child, and rose to fame in the late 1990s as lead dancer of R&B boy-group Destiny\'s Ch
+ild. Managed by her father, Mathew Knowles, the group became one of the world\'s best-selling girl g
+roups of all time. Their hiatus saw the release of Beyoncé\'s debut album, Dangerously in Love (2003
+), which established her as a solo artist worldwide, earned five Grammy Awards and featured the Bill
+board Hot 100 number-one singles "Crazy in Love" and "Baby Boy".', 'question': 'When did Beyonce sta
+rt becoming popular?', 'answers': {'text': ['in the late 1990s'], 'answer_start': [269]}}
+{'id': '56be85543aeaaa14008c9065', 'title': 'Beyoncé', 'context': 'Beyoncé Giselle Knowles-Carter (/
+biːˈjɒnseɪ/ bee-YON-say) (born September 4, 1981) is an American singer, songwriter, record producer
+ and actress. Born and raised in Houston, Texas, she performed in many dancing and singing contest
+ as a child, and rose to fame in the late 1990s as lead singer of R&B girl-group Destiny\'s Ch
+ild. Managed by her father, Mathew Knowles, the group became one of the world\'s best-selling girl g
+roups of all time. Their hiatus saw the release of Beyoncé\'s debut album, Dangerously in Love (2003
+), which established her as a solo artist worldwide, earned five Grammy Awards and featured the Bill
+board Hot 100 number-one singles "Crazy in Love" and "Baby Boy".', 'question': 'What areas did Beyon
+ce compete in when she was growing up?', 'answers': {'text': ['singing and dancing'], 'answer_start'
+: [207]}}
+{'id': '56be85543aeaaa14008c9066', 'title': 'Beyoncé', 'context': 'Beyoncé Giselle Knowles-Carter (/
+biːˈjɒnseɪ/ bee-YON-say) (born September 4, 1981) is an American singer, songwriter, record producer
+ and actress. Born and raised in Houston, Texas, she performed in various singing and dancing compet
+itions as a child, and rose to fame in the late 1990s as lead singer of R&B girl-group Destiny\'s Ch
+ild. The group became one of the world\'s best-selling girl g
+roups of all time. Their hiatus saw the release of Beyoncé\'s debut album, Dangerously in Love (2003
+), which established her as a solo artist worldwide.', 'question': "When did Beyonce lea
+ve Destiny's Child and become a solo singer?", 'answers': {'text': ['2003'], 'answer_start': [526]}}
+{'id': '56bf6b0f3aeaaa14008c9601', 'title': 'Beyoncé', 'context': 'Beyoncé Giselle Knowles-Carter (/
+biːˈjɒnseɪ/ bee-YON-say) (born September 4, 1981) is an American singer, songwriter, record producer
+ and actress who was born and raised in Houston, Texas. she performed in various singing and dancing compet
+itions as a child, and rose to fame in the late 1990s as lead singer of R&B girl-group Destiny\'s Ch
+ild. Managed by her father, Mathew Knowles, the group became one of the world\'s best-selling girl g
+roups of all time. Their hiatus saw the release of Beyoncé\'s debut album, Dangerously in Love (2003
+), which established her as a solo artist worldwide, earned five Grammy Awards and featured the Bill
+board Hot 100 number-one singles "Crazy in Love" and "Baby Boy".', 'question': 'In what city and sta
+te did Beyonce  grow up? ', 'answers': {'text': ['Houston, Texas'], 'answer_start': [166]}}
+{'id': '56bf6b0f3aeaaa14008c9602', 'title': 'Beyoncé', 'context': 'Beyoncé Giselle Knowles-Carter (/
+biːˈjɒnseɪ/ bee-YON-say) (born September 4, 1981) is an American singer, songwriter, record producer
+ and actress. Born and raised in Houston, Texas, Beyoncé performed in various singing and dancing compet
+itions as a child, and rose to fame in the late 1990s as lead singer of R&B girl-group Destiny\'s Ch
+ild. Managed by her father, Mathew Knowles, the group became one of the world\'s best-selling girl g
+roups of all time. Their hiatus saw the release of Beyoncé\'s debut album, Dangerously in Love (2003
+), which established her as a solo artist worldwide, earned five Grammy Awards and featured the Bill
+board Hot 100 number-one singles "Crazy in Love" and "Baby Boy".', 'question': 'In which decade did 
+Beyonce become famous?', 'answers': {'text': ['late 1990s'], 'answer_start': [276]}}
+{'id': '56bf6b0f3aeaaa14008c9603', 'title': 'Beyoncé', 'context': 'Beyoncé Giselle Knowles-Carter (/
+biːˈjɒnseɪ/ bee-YON-say) (born September 4, 1981) is an American singer, songwriter, record producer
+ and actress. Born and raised in Houston, Texas, she performed in various singing and dancing compet
+itions as a child, and rose to fame in the late 1990s as lead singer of the R&B team Destiny\'s Ch
+ild. Managed by her father, Mathew Knowles, the group became one of the world\'s best-selling girl g
+roups of all time. Their hiatus saw the release of Beyoncé\'s debut album, Dangerously in Love (2003
+), which established her as a solo artist worldwide, earned five Grammy Awards and featured the Bill
+board Hot 100 number-one singles "Crazy in Love" and "Baby Boy".', 'question': 'In what R&B group wa
+s she the lead singer?', 'answers': {'text': ["Destiny's Child"], 'answer_start': [320]}}
+{'id': '56bf6b0f3aeaaa14008c9604', 'title': 'Beyoncé', 'context': 'Beyoncé Giselle Knowles-Carter (/
+biːˈjɒnseɪ/ bee-YON-say) (born September 4, 1981) is an American singer, songwriter, record producer
+ and actress. Born and raised in Houston, Texas, she performed in various singing and dancing compet
+itions as a child, and rose to fame in the late 1990s as lead singer of R&B girl-group Destiny\'s Ch
+ild. Managed by her father, Mathew Knowles, the group became one of the world\'s best-selling girl g
+roups of all time. Their hiatus saw the publishment of Dangerously in Love (2003
+), which established her as a solo artist worldwide, earned five Grammy Awards and featured the Bill
+board Hot 100 number-one singles "Crazy in Love" and "Baby Boy".', 'question': 'What album made her 
+a worldwide known artist?', 'answers': {'text': ['Dangerously in Love'], 'answer_start': [505]}}
+{'id': '56bf6b0f3aeaaa14008c9605', 'title': 'Beyoncé', 'context': 'Beyoncé Giselle Knowles-Carter (/
+biːˈjɒnseɪ/ bee-YON-say) (born September 4, 1981) is an American singer, songwriter, record producer
+ and actress. Born and raised in Houston, Texas, she performed in various singing and dancing compet
+itions as a child, and rose to fame in the late 1990s as lead singer of R&B girl-group Destiny\'s Ch
+ild. Managed by Beyoncé's father, a great man who is called Mathew Knowles, the group became one of 
+the world\'s best-selling girl g
+roups of all time. Their hiatus saw the release of Beyoncé\'s debut album, Dangerously in Love (2003
+), which established her as a solo artist worldwide, earned five Grammy Awards and featured the Bill
+board Hot 100 number-one singles "Crazy in Love" and "Baby Boy".', 'question': 'Who managed the Dest
+iny\'s Child group?', 'answers': {'text': ['Mathew Knowles'], 'answer_start': [360]}}
+{'id': '56d43c5f2ccc5a1400d830a9', 'title': 'Beyoncé', 'context': 'Beyoncé Giselle Knowles-Carter (/
+biːˈjɒnseɪ/ bee-YON-say) (born September 4, 1981) is an American singer, songwriter, record producer
+ and actress. Born and raised in Houston, Texas, she performed in various singing and dancing compet
+itions as a child, and rose to fame in 1999 as lead singer of R&B girl-group Destiny\'s Ch
+ild. Managed by her father, Mathew Knowles, the group became one of the world\'s best-selling girl g
+roups of all time. Their hiatus saw the release of Beyoncé\'s debut album, Dangerously in Love (2003
+), which established her as a solo artist worldwide, earned five Grammy Awards and featured the Bill
+board Hot 100 number-one singles "Crazy in Love" and "Baby Boy".', 'question': 'When did Beyoncé ris
+e to fame?', 'answers': {'text': ['late 1990s'], 'answer_start': [276]}}
+{'id': '56d43c5f2ccc5a1400d830aa', 'title': 'Beyoncé', 'context': 'Beyoncé Giselle Knowles-Carter (/
+biːˈjɒnseɪ/ bee-YON-say) (born September 4, 1981) is an American singer, songwriter, record producer
+ and actress. Born and raised in Houston, Texas, she performed in various dancing compet
+itions as a child, and rose to fame as lead singer of Destiny\'s Ch
+ild. Managed by her father, Mathew Knowles, the group became one of the world\'s best-selling girl g
+roups of all time. Their hiatus saw the release of Beyoncé\'s debut album, Dangerously in Love (2003
+), which established her as a solo artist worldwide, earned five Grammy Awards and featured the Bill
+board Hot 100 number-one singles "Crazy in Love" and "Baby Boy".', 'question': 'What role did Beyonc
+é have in Destiny\'s Child?', 'answers': {'text': ['lead singer'], 'answer_start': [290]}}

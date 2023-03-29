@@ -1,0 +1,134 @@
+{'id': '56dddf4066d3e219004dad60', 'title': 'Normans', 'context': 'The Norman dynasty had a major po
+litical, cultural and military impact on medieval Europe and even the Near East. The Normans were fa
+med for their martial spirit and eventually for their Christian piety, becoming exponents of the Cat
+holic orthodoxy into which they assimilated. They adopted the Gallo-Romance language of the Frankish
+ land they settled, their dialect becoming known as Norman, Normaund or Norman French, an important 
+literary language. The Duchy of Normandy, which they formed by treaty with the England crown, was a g
+reat fief of medieval France, and under Richard I was built into a cohesive and formida
+ble principality in feudal tenure. The Normans are noted both for their culture, such as their uniqu
+e Romanesque architecture and musical traditions, and for their significant military accomplishments
+ and innovations. Norman adventurers founded the Kingdom of Sicily under Roger II after conquering s
+outhern Italy on the Saracens and Byzantines, and an expedition on behalf of their duke, William the
+ Conqueror, led to the Norman conquest of England at the Battle of Hastings in 1066. Norman cultural
+ and military influence spread from these new European centres to the Crusader states of the Near Ea
+st, where their prince Bohemond I founded the Principality of Antioch in the Levant, to Scotland and
+ Wales in Great Britain, to Ireland, and to the coasts of north Africa and the Canary Islands.', 'qu
+estion': 'Who ruled the duchy of Normandy', 'answers': {'text': ['Richard I', 'Richard I', 'Richard 
+I'], 'answer_start': [573, 573, 573]}}
+{'id': '56dddf4066d3e219004dad61', 'title': 'Normans', 'context': 'The Norman dynasty had a major po
+litical, cultural and military impact on medieval Europe and even the Near East. The Normans were fa
+med for their martial spirit, becoming exponents of the Cat
+holic orthodoxy. They adopted the Gallo-Romance language of the Frankish
+ land they settled, their dialect becoming known as Norman, Normaund or Norman French, an important 
+literary language. The Duchy of Normandy, which they formed by treaty with the French crown, was a g
+reat fief of medieval France, and under Richard I of Normandy was forged into a cohesive and formida
+ble principality in feudal tenure. The Normans are noted both for their culture, such as their uniqu
+e Romanesque architecture and musical traditions, and for their significant military accomplishments
+ and innovations. Norman adventurers founded the Kingdom of Sicily under Roger II after conquering s
+outhern Italy on the Saracens and Byzantines, and an expedition on behalf of their duke, William the
+ Conqueror, led to the Norman conquest of England at the Battle of Hastings in 1066. Norman cultural
+ and military influence spread from these new European centres to the Crusader states of the Near Ea
+st, where their prince Bohemond I founded the Principality of Antioch in the Levant, to Scotland and
+ Wales in Great Britain, to Ireland, and to the coasts of north Africa and the Canary Islands.', 'qu
+estion': 'What religion were the Normans', 'answers': {'text': ['Catholic', 'Catholic orthodoxy', 'C
+atholic'], 'answer_start': [230, 230, 230]}}
+{'id': '5ad3a266604f3c001a3fea27', 'title': 'Normans', 'context': 'The Norman dynasty had a major po
+litical, cultural and military impact on medieval Europe and even the Near East. The Normans were fa
+med for their martial spirit and eventually for their Christian piety, becoming exponents of the Cat
+holic orthodoxy into which they assimilated. They adopted the Gallo-Romance language of the Frankish
+ land they settled, their dialect becoming known as Norman, Normaund or Norman French, an important 
+literary language. The Duchy of Normandy, which they formed by treaty with the French crown, was a g
+reat fief of medieval France, and under Richard I of Normandy was forged into a cohesive and formida
+ble principality in feudal tenure. The Normans are noted both for their culture, such as their uniqu
+e Romanesque architecture and musical traditions, and for their significant military accomplishments
+ and innovations. Norman adventurers founded the Kingdom of Sicily under Roger II after conquering s
+outhern Italy on the Saracens and Byzantines, and an expedition on behalf of their duke, William the
+ Conqueror, led to the Norman conquest of England at the Battle of Hastings in 1066. Norman cultural
+ and military influence spread from these new European centres to the Crusader states of the Near Ea
+st, where their prince Bohemond I founded the Principality of Antioch in the Levant, to Scotland and
+ Wales in Great Britain, to Ireland, and to the coasts of north Africa and the Canary Islands.', 'qu
+estion': 'What type of major impact did the Norman dynasty have on modern Europe?', 'answers': {'tex
+t': [], 'answer_start': []}}
+{'id': '5ad3a266604f3c001a3fea28', 'title': 'Normans', 'context': 'The Norman dynasty had a major po
+litical, cultural and military impact on medieval Europe and even the Near East. The Normans were fa
+med for their martial spirit and eventually for their Christian piety, becoming exponents of the Cat
+holic orthodoxy into which they assimilated. They adopted the Gallo-Romance language of the Frankish
+ land they settled, their dialect becoming known as Norman, Normaund or Norman French, an important 
+literary language. The Duchy of Normandy, which they formed by treaty with the French crown, was a g
+reat fief of medieval France, and under Richard I of Normandy was forged into a cohesive and formida
+ble principality in feudal tenure. The Normans are noted both for their culture, such as their uniqu
+e Romanesque architecture and musical traditions, and for their significant military accomplishments
+ and innovations. Norman adventurers founded the Kingdom of Sicily under Roger II after conquering s
+outhern Italy on the Saracens and Byzantines, and an expedition on behalf of their duke, William the
+ Conqueror, led to the Norman conquest of England at the Battle of Hastings in 1066. Norman cultural
+ and military influence spread from these new European centres to the Crusader states of the Near Ea
+st, where their prince Bohemond I founded the Principality of Antioch in the Levant, to Scotland and
+ Wales in Great Britain, to Ireland, and to the coasts of north Africa and the Canary Islands.', 'qu
+estion': 'Who was famed for their Christian spirit?', 'answers': {'text': [], 'answer_start': []}}
+{'id': '5ad3a266604f3c001a3fea29', 'title': 'Normans', 'context': 'The Norman dynasty had a major po
+litical, cultural and military impact on medieval Europe and even the Near East. The Normans were fa
+med for their martial spirit and eventually for their Christian piety, becoming exponents of the Cat
+holic orthodoxy into which they assimilated. They adopted the Gallo-Romance language of the Frankish
+ land they settled, their dialect becoming known as Norman, Normaund or Norman French, an important 
+literary language. The Duchy of Normandy, which they formed by treaty with the French crown, was a g
+reat fief of medieval France, and under Richard I of Normandy was forged into a cohesive and formida
+ble principality in feudal tenure. The Normans are noted both for their culture, such as their uniqu
+e Romanesque architecture and musical traditions, and for their significant military accomplishments
+ and innovations. Norman adventurers founded the Kingdom of Sicily under Roger II after conquering s
+outhern Italy on the Saracens and Byzantines, and an expedition on behalf of their duke, William the
+ Conqueror, led to the Norman conquest of England at the Battle of Hastings in 1066. Norman cultural
+ and military influence spread from these new European centres to the Crusader states of the Near Ea
+st, where their prince Bohemond I founded the Principality of Antioch in the Levant, to Scotland and
+ Wales in Great Britain, to Ireland, and to the coasts of north Africa and the Canary Islands.', 'qu
+estion': 'Who assimilted the Roman language?', 'answers': {'text': [], 'answer_start': []}}
+{'id': '5ad3a266604f3c001a3fea2a', 'title': 'Normans', 'context': 'The Norman dynasty had a major po
+litical, cultural and military impact on medieval Europe and even the Near East. The Normans were fa
+med for their martial spirit and eventually for their Christian piety, becoming exponents of the Cat
+holic orthodoxy into which they assimilated. They adopted the Gallo-Romance language of the Frankish
+ land they settled, their dialect becoming known as Norman, Normaund or Norman French, an important 
+literary language. The Duchy of Normandy, which they formed by treaty with the French crown, was a g
+reat fief of medieval France, and under Richard I of Normandy was forged into a cohesive and formida
+ble principality in feudal tenure. The Normans are noted both for their culture, such as their uniqu
+e Romanesque architecture and musical traditions, and for their significant military accomplishments
+ and innovations. Norman adventurers founded the Kingdom of Sicily under Roger II after conquering s
+outhern Italy on the Saracens and Byzantines, and an expedition on behalf of their duke, William the
+ Conqueror, led to the Norman conquest of England at the Battle of Hastings in 1066. Norman cultural
+ and military influence spread from these new European centres to the Crusader states of the Near Ea
+st, where their prince Bohemond I founded the Principality of Antioch in the Levant, to Scotland and
+ Wales in Great Britain, to Ireland, and to the coasts of north Africa and the Canary Islands.', 'qu
+estion': 'Who ruled the country of Normandy?', 'answers': {'text': [], 'answer_start': []}}
+{'id': '5ad3a266604f3c001a3fea2b', 'title': 'Normans', 'context': 'The Norman dynasty had a major po
+litical, cultural and military impact on medieval Europe and even the Near East. The Normans were fa
+med for their martial spirit and eventually for their Christian piety, becoming exponents of the Cat
+holic orthodoxy into which they assimilated. They adopted the Gallo-Romance language of the Frankish
+ land they settled, their dialect becoming known as Norman, Normaund or Norman French, an important 
+literary language. The Duchy of Normandy, which they formed by treaty with the French crown, was a g
+reat fief of medieval France, and under Richard I of Normandy was forged into a cohesive and formida
+ble principality in feudal tenure. The Normans are noted both for their culture, such as their uniqu
+e Romanesque architecture and musical traditions, and for their significant military accomplishments
+ and innovations. Norman adventurers founded the Kingdom of Sicily under Roger II after conquering s
+outhern Italy on the Saracens and Byzantines, and an expedition on behalf of their duke, William the
+ Conqueror, led to the Norman conquest of England at the Battle of Hastings in 1066. Norman cultural
+ and military influence spread from these new European centres to the Crusader states of the Near Ea
+st, where their prince Bohemond I founded the Principality of Antioch in the Levant, to Scotland and
+ Wales in Great Britain, to Ireland, and to the coasts of north Africa and the Canary Islands.', 'qu
+estion': 'What principality did William the conquerer found?', 'answers': {'text': [], 'answer_start
+': []}}
+{'id': '56dde0379a695914005b9636', 'title': 'Normans', 'context': 'The English name "Normans" comes 
+from the French words Normans/Normanz, plural of Normant, modern French normand, which is itself bor
+rowed from Old Low Franconian Nortmann "Northman" or directly from Old Norse Norðmaðr, Latinized var
+iously as Nortmannus, Normannus, or Nordmannus (recorded in Medieval Latin, 9th century) to mean "No
+rseman, Viking".', 'question': 'What is the original meaning of the word Norman?', 'answers': {'text
+': ['Viking', 'Norseman, Viking', 'Norseman, Viking'], 'answer_start': [341, 331, 331]}}
+{'id': '56dde0379a695914005b9637', 'title': 'Normans', 'context': 'The English name "Normans" comes 
+from the French words Normans/Normanz, plural of Normant, modern French normand, which is itself bor
+rowed from Old Low Franconian Nortmann "Northman" or directly from Old Norse Norðmaðr, Latinized var
+iously as Nortmannus, Normannus, or Nordmannus (recorded in Latin, 9th century) to mean "No
+rseman, Viking".', 'question': 'When was the Latin version of the word Norman first recorded?', 'ans
+wers': {'text': ['9th century', '9th century', '9th century'], 'answer_start': [309, 309, 309]}}
+{'id': '5ad3ab70604f3c001a3feb89', 'title': 'Normans', 'context': 'The English name "Normans" comes 
+from the French words Normans/Normanz, plural of Normant, modern French normand, which is itself bor
+rowed from Old Low Franconian Nortmann "Northman" or directly from Old Norse Norðmaðr, Latinized var
+iously as Nortmannus, Normannus, or Nordmannus (recorded in Medieval Latin, 9th century) to mean "No
+rseman, Viking".', 'question': 'What name comes from the English words Normans/Normanz?', 'answers':
+ {'text': [], 'answer_start': []}}

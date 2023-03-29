@@ -1,0 +1,160 @@
+{'id': '5ad3ea79604f3c001a3ff6e9', 'title': 'Normans', 'context': "Several families of Byzantine Gre
+ece were of Norman mercenary origin during the period of the Comnenian Restoration, when Byzantine e
+mperors were seeking out western European warriors. The Raoulii were descended from an Italo-Norman 
+named Raoul, the Petraliphae were descended from a Pierre d'Aulps, and that group of Albanian clans 
+known as the Maniakates were descended from Normans who served under George Maniaces in the Sicilian
+ expedition of 1038.", 'question': 'Where were several Norman mercenary familes originate from?', 'a
+nswers': {'text': [], 'answer_start': []}}
+{'id': '5ad3ea79604f3c001a3ff6ea', 'title': 'Normans', 'context': "Several families of Byzantine Gre
+ece were of Norman mercenary origin during the period of the Comnenian Restoration, when Byzantine e
+mperors were seeking out western European warriors. The Raoulii were descended from an Italo-Norman 
+named Raoul, the Petraliphae were descended from a Pierre d'Aulps, and that group of Albanian clans 
+known as the Maniakates were descended from Normans who served under George Maniaces in the Sicilian
+ expedition in the 10th century.", 'question': 'Who did the Normans serve under in the 10th century?', 'answers'
+: {'text': [], 'answer_start': []}}
+{'id': '5ad3ea79604f3c001a3ff6eb', 'title': 'Normans', 'context': "Several families of Byzantine Gre
+ece were of Norman mercenary origin during the period of the Comnenian Restoration, when Byzantine e
+mperors were seeking out western European warriors. The Raoulii were descended from an Italo-Norman 
+named Raoul, the Petraliphae were descended from a Pierre d'Aulps, and that group of Albanian clans 
+known were descended from Normans who served under George Maniaces in the Sicilian
+ expedition of 1038.", 'question': 'What expedition did George Maniaces lead in the 10th century?', 
+'answers': {'text': [], 'answer_start': []}}
+{'id': '56de148dcffd8e1900b4b5bc', 'title': 'Normans', 'context': "Robert Guiscard, an other  Apulia
+adventurer previously elevated to the dignity of count of Apulia as the result of his military succe
+sses, ultimately drove the Byzantines out of southern Italy. Having obtained the consent of pope Gre
+gory VII and acting as his vassal, Robert continued his campaign conquering the Balkan peninsula as 
+a foothold for western feudal lords and the Catholic Church. After allying himself with Croatia and 
+the Catholic cities of Dalmatia, in 1081 he led an army of 30,000 men in 300 ships landing on the so
+uthern shores of Albania, capturing Valona, Kanina, Jericho (Orikumi), and reaching Butrint after nu
+merous pillages. They joined the fleet that had previously conquered Corfu and attacked Dyrrachium f
+rom land and sea, devastating everything along the way. Under these harsh circumstances, the locals 
+accepted the call of emperor Alexius I Comnenus to join forces with the Byzantines against the Norma
+ns. The Albanian forces could not take part in the ensuing battle because it had started before thei
+r arrival. Immediately before the battle, the Venetian fleet had secured a victory in the coast surr
+ounding the city. Forced to retreat, Alexius ceded the command to a high Albanian official named Com
+iscortes in the service of Byzantium. The city's garrison resisted until February 1082, when Dyrrach
+ium was betrayed to the Normans by the Venetian and Amalfitan merchants who had settled there. The N
+ormans were now free to penetrate into the hinterland; they took Ioannina and some minor cities in s
+outhwestern Macedonia and Thessaly before appearing at the gates of Thessalonica. Dissension among t
+he high ranks coerced the Normans to retreat to Italy. They lost Dyrrachium, Valona, and Butrint in 
+1085, after the death of Robert.", 'question': 'What was the name of the count of Apulia ', 'answers
+': {'text': ['Robert Guiscard', 'Robert Guiscard', 'Robert Guiscard'], 'answer_start': [0, 0, 0]}}
+{'id': '56de148dcffd8e1900b4b5bd', 'title': 'Normans', 'context': "Robert Guiscard, an other Norman 
+adventurer previously elevated to the dignity of count of Apulia as the result of his military succe
+sses, ultimately drove the Byzantines out of southern Italy. Having obtained the consent of pope Gre
+gory VII and acting as his vassal, Robert continued his campaign conquering the Balkan peninsula as 
+a foothold for western feudal lords and the Catholic Church. After allying himself with Croatia and 
+the Catholic cities of Dalmatia, in 1081 he led an army of 30,000 men in 300 ships landing on the so
+uthern shores of Albania, capturing Valona, Kanina, Jericho (Orikumi), and reaching Butrint after nu
+merous pillages. They joined the fleet that had previously conquered Corfu and attacked Dyrrachium f
+rom land and sea, devastating everything along the way. Under these harsh circumstances, the locals 
+accepted the call of emperor Alexius I Comnenus to join forces with the Byzantines against the Norma
+ns. The Albanian forces could not take part in the ensuing battle because it had started before thei
+r arrival. Immediately before the battle, the Venetian fleet had secured a victory in the coast surr
+ounding the city. Forced to retreat, Alexius ceded the command to a high Albanian official named Com
+iscortes in the service of Byzantium. The city's garrison resisted until February 1082, when Dyrrach
+ium was betrayed to the Normans by the Amalfitan and Venetian merchants. The N
+ormans were now free to penetrate into the hinterland; they took Ioannina and some minor cities in s
+outhwestern Macedonia and Thessaly before appearing at the gates of Thessalonica. Dissension among t
+he high ranks coerced the Normans to retreat to Italy. They lost Dyrrachium, Valona, and Butrint in 
+1085, after the death of Robert.", 'question': 'When did Dyrrachium  fall to the Normans?', 'answers
+': {'text': ['1082', 'February 1082', 'February 1082'], 'answer_start': [1315, 1306, 1306]}}
+{'id': '56de148dcffd8e1900b4b5be', 'title': 'Normans', 'context': "Robert Guiscard, an other Norman 
+adventurer previously elevated to the dignity of count of Apulia as the result of his military succe
+sses, ultimately drove the Byzantines out of southern Italy. Having obtained the consent of pope Gre
+gory VII and acting as his vassal, Robert continued his campaign conquering the Balkan peninsula as 
+a foothold for western feudal lords and the Catholic Church. After allying himself with Croatia and 
+the Catholic cities of Dalmatia, in 1081 he led an army of 30,000 men in 300 ships
+.They joined the fleet that had previously conquered Corfu and attacked Dyrrachium f
+rom land and sea, devastating everything along the way. Under these harsh circumstances, the locals 
+accepted the call of emperor Alexius I Comnenus to join forces with the Byzantines against the Norma
+ns. The Albanian forces could not take part in the ensuing battle because it had started before thei
+r arrival. Immediately before the battle, the Venetian fleet had secured a victory in the coast surr
+ounding the city. Forced to retreat, Alexius ceded the command to a high Albanian official named Com
+iscortes in the service of Byzantium. The city's garrison resisted until February 1082, when Dyrrach
+ium was betrayed to the Normans by the Venetian and Amalfitan merchants who had settled there. The N
+ormans were now free to penetrate into the hinterland; they took Ioannina and some minor cities in s
+outhwestern Macedonia and Thessaly before appearing at the gates of Thessalonica. Dissension among t
+he high ranks coerced the Normans to retreat to Italy. They lost Dyrrachium, Valona, and Butrint in 
+1085, after the death of Robert.", 'question': "How many men were in Robert's army?", 'answers': {'t
+ext': ['30,000', '30,000', '30,000'], 'answer_start': [492, 492, 492]}}
+{'id': '5ad3ed26604f3c001a3ff799', 'title': 'Normans', 'context': "Robert Guiscard, an other Norman 
+adventurer previously elevated to the dignity of count of Apulia as the result of his military succe
+sses, ultimately drove the Byzantines out of Europe. Having obtained the consent of pope Gre
+gory VII and acting as his vassal, Robert continued his campaign conquering the Balkan peninsula as 
+a foothold for western feudal lords and the Catholic Church. After allying himself with Croatia and 
+the Catholic cities of Dalmatia, in 1081 he led an army of 30,000 men in 300 ships landing on the so
+uthern shores of Albania, capturing Valona, Kanina, Jericho (Orikumi), and reaching Butrint after nu
+merous pillages. They joined the fleet that had previously conquered Corfu and attacked Dyrrachium f
+rom land and sea, devastating everything along the way. Under these harsh circumstances, the locals 
+accepted the call of emperor Alexius I Comnenus to join forces with the Byzantines against the Norma
+ns. The Albanian forces could not take part in the ensuing battle because it had started before thei
+r arrival. Immediately before the battle, the Venetian fleet had secured a victory in the coast surr
+ounding the city. Forced to retreat, Alexius ceded the command to a high Albanian official named Com
+iscortes in the service of Byzantium. The city's garrison resisted until February 1082, when Dyrrach
+ium was betrayed to the Normans by the Venetian and Amalfitan merchants who had settled there. The N
+ormans were now free to penetrate into the hinterland; they took Ioannina and some minor cities in s
+outhwestern Macedonia and Thessaly before appearing at the gates of Thessalonica. Dissension among t
+he high ranks coerced the Normans to retreat to Italy. They lost Dyrrachium, Valona, and Butrint in 
+1085, after the death of Robert.", 'question': 'Who ultimatly drove the Byzantines out of Europe?', 
+'answers': {'text': [], 'answer_start': []}}
+{'id': '5ad3ed26604f3c001a3ff79a', 'title': 'Normans', 'context': "Robert Guiscard, an other Norman 
+adventurer previously elevated to the dignity of count of Apulia as the result of   his military succe
+sses, ultimately drove the Byzantines out of southern Italy. Having obtained the consent of pope Gre
+gory VII and acting as his vassal, Robert continued his campaign conquering the Balkan peninsula as 
+a foothold for western feudal lords and the Catholic Church. After allying himself with Croatia and 
+the Catholic cities of Dalmatia, in 1081 he led an army of 30,000 men in 300 ships landing on the so
+uthern shores of Albania, capturing Valona, Kanina, Jericho (Orikumi), and reaching Butrint after nu
+merous pillages. They joined the fleet that had previously conquered Corfu and attacked Dyrrachium f
+rom land and sea, devastating everything along the way. Under these harsh circumstances, the locals 
+accepted the call of emperor Alexius I Comnenus to join forces with the Byzantines against the Norma
+ns. The Albanian forces could not take part in the ensuing battle because it had started before thei
+r arrival. Immediately before the battle, the Venetian fleet had secured a victory in the coast surr
+ounding the city. Forced to retreat, Alexius ceded the command to a high Albanian official named Com
+iscortes in the service of Byzantium. The city's garrison resisted until February 1082, when Dyrrach
+ium was betrayed to the Normans by the Venetian and Amalfitan merchants who had settled there. The N
+ormans were now free to penetrate into the hinterland; they took Ioannina and some minor cities in s
+outhwestern Macedonia and Thessaly before appearing at the gates of Thessalonica. Dissension among t
+he high ranks coerced the Normans to retreat to Italy. They lost Dyrrachium, Valona, and Butrint in 
+1085, after the death of Robert.", 'question': 'What pope support Roberts campaign?', 'answers': {'t
+ext': [], 'answer_start': []}}
+{'id': '5ad3ed26604f3c001a3ff79b', 'title': 'Normans', 'context': "Robert Guiscard, an other Norman 
+adventurer previously elevated to the dignity of count of Apulia as the result of his military succe
+sses, ultimately drove the Byzantines out of southern Italy. Having obtained the consent of pope Gre
+gory VII and acting as his vassal, Robert continued his campaign conquering the Balkan peninsula as 
+a foothold for western feudal lords and the Catholic Church. After allying himself with Croatia and 
+the Catholic cities of Dalmatia, in 1081 he led an army of 30,000 men in 300 ships landing on the so
+uthern shores of Albania, capturing Valona, Kanina, Jericho (Orikumi), and reaching Butrint after nu
+merous pillages. They joined the fleet that had previously conquered Corfu and attacked Dyrrachium f
+rom land and sea, devastating everything along the way. Under these harsh circumstances, the locals 
+accepted the call of emperor Alexius I Comnenus to join forces with the Byzantines against the Norma
+ns. The Albanian forces could not take part in the ensuing battle because it had started before thei
+r arrival. Immediately before the battle, the Venetian fleet had secured a victory in the coast surr
+ounding the city. Forced to retreat, Alexius ceded the command to a high Albanian official named Com
+iscortes in the service of Byzantium. The city's garrison resisted until February 1082, when Dyrrach
+ium was betrayed to the Normans by the Venetian and Amalfitan merchants who had settled there. The N
+ormans were now free to penetrate into the hinterland; they took Ioannina and some minor cities in s
+outhwestern Macedonia and Thessaly before appearing at the gates of Thessalonica. Dissension among t
+he high ranks coerced the Normans to retreat to Italy. They lost Dyrrachium, Valona, and Butrint in 
+the 10th century, after the death of Robert.", 'question': 'What fell to the Normans in the 10th century?', 'ans
+wers': {'text': [], 'answer_start': []}}
+{'id': '5ad3ed26604f3c001a3ff79c', 'title': 'Normans', 'context': "Robert Guiscard, an other Norman 
+adventurer previously elevated to the dignity of count of Apulia as the result of his military succe
+sses, ultimately drove the Byzantines out of southern Italy. Having obtained the consent of pope Gre
+gory VII and acting as his vassal, Robert continued his campaign conquering the Balkan peninsula as 
+a foothold for western feudal lords and the Catholic Church. After allying himself with Croatia and 
+the Catholic cities of Dalmatia, he led an army of 30,000 men landing on the so
+uthern shores of Albania and reaching Butrint after nu
+merous pillages. They joined the fleet that had previously conquered Corfu and attacked Dyrrachium f
+rom land and sea, devastating everything along the way. Under these harsh circumstances, the locals 
+accepted the call of emperor Alexius I Comnenus to join forces with the Byzantines against the Norma
+ns. The Albanian forces could not take part in the ensuing battle because it had started before thei
+r arrival. Immediately before the battle, the Venetian fleet had secured a victory in the coast surr
+ounding the city. Forced to retreat, Alexius ceded the command to a high Albanian official named Com
+iscortes in the service of Byzantium. The city's garrison resisted until February 1082, when Dyrrach
+ium was betrayed to the Normans by the Venetian and Amalfitan merchants who had settled there. The N
+ormans were now free to penetrate into the hinterland; they took Ioannina and some minor cities in s
+outhwestern Macedonia and Thessaly before appearing at the gates of Thessalonica. Dissension among t
+he high ranks coerced the Normans to retreat to Italy. They lost Dyrrachium, Valona, and Butrint in 
+1085, after the death of Robert.", 'question': 'How many men did Roberts army face?', 'answers': {'t
+ext': [], 'answer_start': []}}

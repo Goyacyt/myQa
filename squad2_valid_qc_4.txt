@@ -1,0 +1,88 @@
+{'id': '56de0f6a4396321400ee257f', 'title': 'Normans', 'context': 'Soon after the Normans began to e
+nter Italy, they entered the Armenia and then Byzantine Empire, fighting against the Pechenegs, the 
+Bulgars, and especially the Seljuk Turks. Norman mercenaries were first encouraged to come to the so
+uth by the Lombards to act against the Byzantines, but they soon fought in Byzantine service in Sici
+ly. They were prominent alongside Varangian and Lombard contingents in the Sicilian campaign of Geor
+ge Maniaces in 1038–40. There is debate whether the Normans in Greek service actually were from Norm
+an Italy, and it now seems likely only a few came from there. It is also unknown how many of the "Fr
+anks", as the Byzantines called them, were Normans and not other Frenchmen.', 'question': "Who was t
+he Normans' main enemy in Italy, the Byzantine Empire and Armenia?", 'answers': {'text': ['Seljuk Tu
+rks', 'the Pechenegs, the Bulgars, and especially the Seljuk Turks', 'the Seljuk Turks'], 'answer_st
+art': [161, 114, 157]}}
+{'id': '5ad3dbc6604f3c001a3ff3e9', 'title': 'Normans', 'context': 'Soon after the Normans began to e
+nter Italy, they entered the Byzantine Empire and then Australia, fighting against the Pechenegs, the 
+Bulgars, and especially the Seljuk Turks. Norman mercenaries were first encouraged to come to the so
+uth by the Lombards to act against the Byzantines, but they soon fought in Byzantine service in Sici
+ly. They were prominent alongside Varangian and Lombard contingents in the Sicilian campaign of Geor
+ge Maniaces in 1038–40. There is debate whether the Normans in Greek service actually were from Norm
+an Italy, and it now seems likely only a few came from there. It is also unknown how many of the "Fr
+anks", as the Byzantines called them, were Normans and not other Frenchmen.', 'question': 'Who enter
+ed Italy soon after the Byzantine Empire?', 'answers': {'text': [], 'answer_start': []}}
+{'id': '5ad3dbc6604f3c001a3ff3ea', 'title': 'Normans', 'context': 'Soon after the Normans began to e
+nter Italy, they entered the Byzantine Empire and then Armenia, fighting against the Pechenegs, the 
+Bulgars. Norman mercenaries were first encouraged to come to the so
+uth by the Lombards to act against the Byzantines, but they soon fought in Byzantine service in Sici
+ly. They were prominent alongside Varangian and Lombard contingents in the Sicilian campaign of Geor
+ge Maniaces in 1038–40. There is debate whether the Normans in Greek service actually were from Norm
+an Italy, and it now seems likely only a few came from there. It is also unknown how many of the "Fr
+anks", as the Byzantines called them, were Normans and not other Frenchmen.', 'question': 'Who did t
+he Normans fight in Italy?', 'answers': {'text': [], 'answer_start': []}}
+{'id': '5ad3dbc6604f3c001a3ff3eb', 'title': 'Normans', 'context': 'Soon after the Normans began to e
+nter Italy, they entered the Byzantine Empire and then Armenia, fighting against the Pechenegs, the 
+Bulgars, and especially the Seljuk Turks. Norman mercenaries were first encouraged to come to the so
+uth to act against the Byzantines, but they soon fought in Byzantine service.
+They were prominent alongside Varangian and Lombard contingents in the Sicilian campaign of Geor
+ge Maniaces in 1038–40. There is debate whether the Normans in Greek service actually were from Norm
+an Italy, and it now seems likely only a few came from there. It is also unknown how many of the "Fr
+anks", as the Byzantines called them, were Normans and not other Frenchmen.', 'question': 'Who did t
+he Normans encourage to come to the south?', 'answers': {'text': [], 'answer_start': []}}
+{'id': '5ad3dbc6604f3c001a3ff3ec', 'title': 'Normans', 'context': 'Soon after the Normans began to e
+nter Italy, they entered the Byzantine Empire and then Armenia, fighting against the Pechenegs, the 
+Bulgars, and especially the Seljuk Turks. Norman mercenaries were first encouraged to come to the so
+uth by the Lombards to act against the Byzantines, but they soon fought in Byzantine service in Sici
+ly. They were prominent alongside Varangian and Lombard contingents in the Sicilian campaign of 
+in 1000. There is debate whether the Normans in Greek service actually were from Norm
+an Italy, and it now seems likely only a few came from there. It is also unknown how many of the "Fr
+anks", as the Byzantines called them, were Normans and not other Frenchmen.', 'question': 'During wh
+at campaign did the Vargian and Lombard fight?', 'answers': {'text': [], 'answer_start': []}}
+{'id': '56de0ffd4396321400ee258d', 'title': 'Normans', 'context': 'A special Norman mercenari
+es to serve as a Byzantine general was Hervé in the 1050s. By then however, there were already Norma
+n mercenaries serving as far away as Trebizond and Georgia. They were based at Malatya and Edessa, u
+nder the Byzantine duke of Antioch, Isaac Komnenos. In the 1060s, Robert Crispin led the Normans of 
+Edessa against the Turks. Roussel de Bailleul even tried to carve out an independent state in Asia M
+inor with support from the local population, but he was stopped by the Byzantine general Alexius Kom
+nenos.', 'question': 'When did Herve serve as a Byzantine general?', 'answers': {'text': ['1050s', '
+in the 1050s', 'in the 1050s'], 'answer_start': [85, 78, 78]}}
+{'id': '56de0ffd4396321400ee258e', 'title': 'Normans', 'context': 'One of the first Norman mercenari
+es to serve as a Byzantine general was Hervé in the 1050s. By then however, there were already Norma
+n mercenaries serving as far away as Trebizond and Georgia. They were based at Malatya and Edessa, u
+nder the Byzantine duke of Antioch, Isaac Komnenos. In the 1060s, Robert Crispin which is a great man, led the Normans of 
+Edessa against the Turks. Roussel de Bailleul even tried to carve out an independent state in Asia M
+inor with support from the local population, but he was stopped by the Byzantine general Alexius Kom
+nenos.', 'question': 'When did Robert Crispin go up against the Turks?', 'answers': {'text': ['1060s
+', 'In the 1060s', 'In the 1060s'], 'answer_start': [292, 285, 285]}}
+{'id': '56de0ffd4396321400ee258f', 'title': 'Normans', 'context': 'One of the first Norman mercenari
+es to serve as a Byzantine general was Hervé in the 1050s. By then however, there were already Norma
+n mercenaries serving as far away as Trebizond and Georgia. They were based at Malatya and Edessa, u
+nder the Byzantine duke of Antioch, Isaac Komnenos. In the 1060s, Robert Crispin led the Normans of 
+Edessa against the Turks. Roussel de Bailleul even tried to carve out an independent state 
+ with support from the local people, but he was stopped by the Byzantine general Alexius Kom
+nenos.', 'question': "Who ruined Roussel de Bailleul's plans for an independent state?", 'answers': 
+{'text': ['Alexius Komnenos', 'Alexius Komnenos', 'Alexius Komnenos'], 'answer_start': [522, 522, 52
+2]}}
+{'id': '5ad3de8b604f3c001a3ff467', 'title': 'Normans', 'context': 'The first Norman mercenari
+es known by now to serve as a Byzantine general was Hervé. By then however, there were already Norma
+n mercenaries serving as far away as Trebizond and Georgia. They were based at Malatya and Edessa, u
+nder the Byzantine duke of Antioch, Isaac Komnenos. In the 1060s, Robert Crispin led the Normans of 
+Edessa against the Turks. Roussel de Bailleul even tried to carve out an independent state in Asia M
+inor with support from the local population, but he was stopped by the Byzantine general Alexius Kom
+nenos.', 'question': 'Who was the first Byzantine mercenary to serve with the Normans?', 'answers': 
+{'text': [], 'answer_start': []}}
+{'id': '5ad3de8b604f3c001a3ff468', 'title': 'Normans', 'context': 'One of the first Norman mercenari
+es to serve as a Byzantine general was Hervé, a great and special man. By then however, there were already Norma
+n mercenaries serving as far away as Trebizond and Georgia. They were based at Malatya and Edessa, u
+nder the Byzantine duke of Antioch, Isaac Komnenos. In the 1060s, Robert Crispin led the Normans of 
+Edessa against the Turks. Roussel de Bailleul even tried to carve out an independent state in Asia M
+inor with support from the local population, but he was stopped by the Byzantine general Alexius Kom
+nenos.', 'question': 'When did Herve serve as a Norman general?', 'answers': {'text': [], 'answer_st
+art': []}}
