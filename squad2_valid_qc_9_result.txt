@@ -1,0 +1,280 @@
+------------test case90------------
+primary context:
+When finally Edward the Confessor returned from his father's refuge in 1041, at the invitation of hi
+s half-brother Harthacnut, he brought with him a Norman-educated mind. He also brought many Norman c
+ounsellors and fighters, some of whom established an English cavalry force. This concept never reall
+y took root, but it is a typical example of the attitudes of Edward. He appointed Robert of Jumièges
+ archbishop of Canterbury and made Ralph the Timid earl of Hereford. He invited his brother-in-law E
+ustace II, Count of Boulogne to his court in 1051, an event which resulted in the greatest of early 
+conflicts between Saxon and Norman and ultimately resulted in the exile of Earl Godwin of Wessex.
+----------------------------------------------
+context after modification:
+  When finally Edward the Confessor returned from his father's refuge in 1041,
+   at the invitation of his half-brother Harthacnut,
+   he brought with him a Norman-educated mind,
+   He also brought many Norman counsellors and fighters,
+   some of whom established an English cavalry force,
+   This concept never really took root,
+   but it is a typical example of the attitudes of Edward,
+   He appointed Robert of Jumièges archbishop of Canterbury and made Ralph the Timid earl of Hereford,
+   He invited his brother-in-law Eustace II,
+   Count of Boulogne to his court in 1051,
+   an event which resulted in the greatest of early conflicts between Saxon and Norman and ultimately resulted in the exile of Earl Godwin of Wessex,
+  
+----------------------------------------------
+question: When did Edward return?
+right answer:-------- ['1041', 'in 1041', '1041']
+
+
+
+
+------------test case91------------
+primary context:
+When finally Edward the Confessor returned from his father's refuge in 1041, at the invitation of hi
+s half-brother Harthacnut, he brought with him a Norman-educated mind. He also brought many Norman c
+ounsellors and fighters, some of whom established an English cavalry force. This concept never reall
+y took root, but it is a typical example of the attitudes of Edward. He appointed Robert of Jumièges
+ archbishop of Canterbury and made Ralph the Timid earl of Hereford. He invited his brother-in-law E
+ustace II, Count of Boulogne to his court in 1051, an event which resulted in the greatest of early 
+conflicts between Saxon and Norman and ultimately resulted in the exile of Earl Godwin of Wessex.
+----------------------------------------------
+context after modification:
+  When finally Edward the Confessor returned from his father's refuge in 1041,
+   at the invitation of his half-brother Harthacnut,
+   he brought with him a Norman-educated mind,
+   He also brought many Norman counsellors and fighters,
+   some of whom established an English cavalry force,
+   This concept never really took root,
+   but it is a typical example of the attitudes of Edward,
+   He appointed Robert of Jumièges archbishop of Canterbury and made Ralph the Timid earl of Hereford,
+   He invited his brother-in-law Eustace II,
+   Count of Boulogne to his court in 1051,
+   an event which resulted in the greatest of early conflicts between Saxon and Norman and ultimately resulted in the exile of Earl Godwin of Wessex,
+  
+----------------------------------------------
+question: Who did Edward make archbishop of Canterbury?
+right answer:-------- ['Robert of Jumièges', 'Robert of Jumièges', 'Robert of Jumièges']
+
+
+
+
+------------test case92------------
+primary context:
+When finally Edward the Confessor returned from his father's refuge in 1041, at the invitation of hi
+s half-brother Harthacnut, he brought with him a Norman-educated mind. He also brought many Norman c
+ounsellors and fighters, some of whom established an English cavalry force. This concept never reall
+y took root, but it is a typical example of the attitudes of Edward. He appointed Robert of Jumièges
+ archbishop of Canterbury and made Ralph the Timid earl of Hereford. He invited his brother-in-law E
+ustace II, Count of Boulogne to his court in 1051, an event which resulted in the greatest of early 
+conflicts between Saxon and Norman and ultimately resulted in the exile of Earl Godwin of Wessex.
+----------------------------------------------
+context after modification:
+  When finally Edward the Confessor returned from his father's refuge in 1041,
+   at the invitation of his half-brother Harthacnut,
+   he brought with him a Norman-educated mind,
+   He also brought many Norman counsellors and fighters,
+   some of whom established an English cavalry force,
+   This concept never really took root,
+   but it is a typical example of the attitudes of Edward,
+   He appointed Robert of Jumièges archbishop of Canterbury and made Ralph the Timid earl of Hereford,
+   He invited his brother-in-law Eustace II,
+   Count of Boulogne to his court in 1051,
+   an event which resulted in the greatest of early conflicts between Saxon and Norman and ultimately resulted in the exile of Earl Godwin of Wessex,
+  
+----------------------------------------------
+question: When did Edward the Confessor's son return from his fathers refuge?
+right answer:-------- []
+
+
+
+
+------------test case93------------
+primary context:
+When finally Edward the Confessor returned from his father's refuge in 1041, at the invitation of hi
+s half-brother Harthacnut, he brought with him a Norman-educated mind. He also brought many Norman c
+ounsellors and fighters, some of whom established an English cavalry force. This concept never reall
+y took root, but it is a typical example of the attitudes of Edward. He appointed Robert of Jumièges
+ archbishop of Canterbury and made Ralph the Timid earl of Hereford. He invited his brother-in-law E
+ustace II, Count of Boulogne to his court in 1051, an event which resulted in the greatest of early 
+conflicts between Saxon and Norman and ultimately resulted in the exile of Earl Godwin of Wessex.
+----------------------------------------------
+context after modification:
+  When finally Edward the Confessor returned from his father's refuge in 1041,
+   at the invitation of his half-brother Harthacnut,
+   he brought with him a Norman-educated mind,
+   He also brought many Norman counsellors and fighters,
+   some of whom established an English cavalry force,
+   This concept never really took root,
+   but it is a typical example of the attitudes of Edward,
+   He appointed Robert of Jumièges archbishop of Canterbury and made Ralph the Timid earl of Hereford,
+   He invited his brother-in-law Eustace II,
+   Count of Boulogne to his court in 1051,
+   an event which resulted in the greatest of early conflicts between Saxon and Norman and ultimately resulted in the exile of Earl Godwin of Wessex,
+  
+----------------------------------------------
+question: What kind of force did Harthacnut establish?
+right answer:-------- []
+
+
+
+
+------------test case94------------
+primary context:
+When finally Edward the Confessor returned from his father's refuge in 1041, at the invitation of hi
+s half-brother Harthacnut, he brought with him a Norman-educated mind. He also brought many Norman c
+ounsellors and fighters, some of whom established an English cavalry force. This concept never reall
+y took root, but it is a typical example of the attitudes of Edward. He appointed Robert of Jumièges
+ archbishop of Canterbury and made Ralph the Timid earl of Hereford. He invited his brother-in-law E
+ustace II, Count of Boulogne to his court in 1051, an event which resulted in the greatest of early 
+conflicts between Saxon and Norman and ultimately resulted in the exile of Earl Godwin of Wessex.
+----------------------------------------------
+context after modification:
+  When finally Edward the Confessor returned from his father's refuge in 1041,
+   at the invitation of his half-brother Harthacnut,
+   he brought with him a Norman-educated mind,
+   He also brought many Norman counsellors and fighters,
+   some of whom established an English cavalry force,
+   This concept never really took root,
+   but it is a typical example of the attitudes of Edward,
+   He appointed Robert of Jumièges archbishop of Canterbury and made Ralph the Timid earl of Hereford,
+   He invited his brother-in-law Eustace II,
+   Count of Boulogne to his court in 1051,
+   an event which resulted in the greatest of early conflicts between Saxon and Norman and ultimately resulted in the exile of Earl Godwin of Wessex,
+  
+----------------------------------------------
+question: Who made Robert of Jumieges earl of Hereford?
+right answer:-------- []
+
+
+
+
+------------test case95------------
+primary context:
+In 1066, Duke William II of Normandy conquered England killing King Harold II at the Battle of Hasti
+ngs. The invading Normans and their descendants replaced the Anglo-Saxons as the ruling class of Eng
+land. The nobility of England were part of a single Normans culture and many had lands on both sides
+ of the channel. Early Norman kings of England, as Dukes of Normandy, owed homage to the King of Fra
+nce for their land on the continent. They considered England to be their most important holding (it 
+brought with it the title of King—an important status symbol).
+----------------------------------------------
+context after modification:
+  In 1066,
+   Duke William II of Normandy conquered England killing King Harold II at the Battle of Hastings,
+   The invading Normans and their descendants replaced the Anglo-Saxons as the ruling class of England,
+   The nobility of England were part of a single Normans culture and many had lands on both sides of the channel,
+   Early Norman kings of England,
+   as Dukes of Normandy,
+   owed homage to the King of France for their land on the continent,
+   They considered England to be their most important holding (it brought with it the title of King—an important status symbol),
+  
+----------------------------------------------
+question: Where did Harold II die?
+right answer:-------- ['Battle of Hastings', 'the Battle of Hastings', 'at the Battle of Hastings']
+
+
+
+
+------------test case96------------
+primary context:
+In 1066, Duke William II of Normandy conquered England killing King Harold II at the Battle of Hasti
+ngs. The invading Normans and their descendants replaced the Anglo-Saxons as the ruling class of Eng
+land. The nobility of England were part of a single Normans culture and many had lands on both sides
+ of the channel. Early Norman kings of England, as Dukes of Normandy, owed homage to the King of Fra
+nce for their land on the continent. They considered England to be their most important holding (it 
+brought with it the title of King—an important status symbol).
+----------------------------------------------
+context after modification:
+  In 1066,
+   Duke William II of Normandy conquered England killing King Harold II at the Battle of Hastings,
+   The invading Normans and their descendants replaced the Anglo-Saxons as the ruling class of England,
+   The nobility of England were part of a single Normans culture and many had lands on both sides of the channel,
+   Early Norman kings of England,
+   as Dukes of Normandy,
+   owed homage to the King of France for their land on the continent,
+   They considered England to be their most important holding (it brought with it the title of King—an important status symbol),
+  
+----------------------------------------------
+question: Who killed Harold II? 
+right answer:-------- ['William II', 'Duke William II', 'Duke William II']
+
+
+
+
+------------test case97------------
+primary context:
+In 1066, Duke William II of Normandy conquered England killing King Harold II at the Battle of Hasti
+ngs. The invading Normans and their descendants replaced the Anglo-Saxons as the ruling class of Eng
+land. The nobility of England were part of a single Normans culture and many had lands on both sides
+ of the channel. Early Norman kings of England, as Dukes of Normandy, owed homage to the King of Fra
+nce for their land on the continent. They considered England to be their most important holding (it 
+brought with it the title of King—an important status symbol).
+----------------------------------------------
+context after modification:
+  In 1066,
+   Duke William II of Normandy conquered England killing King Harold II at the Battle of Hastings,
+   The invading Normans and their descendants replaced the Anglo-Saxons as the ruling class of England,
+   The nobility of England were part of a single Normans culture and many had lands on both sides of the channel,
+   Early Norman kings of England,
+   as Dukes of Normandy,
+   owed homage to the King of France for their land on the continent,
+   They considered England to be their most important holding (it brought with it the title of King—an important status symbol),
+  
+----------------------------------------------
+question: When was the Battle of Hastings?
+right answer:-------- ['1066', 'In 1066', '1066']
+
+
+
+
+------------test case98------------
+primary context:
+In 1066, Duke William II of Normandy conquered England killing King Harold II at the Battle of Hasti
+ngs. The invading Normans and their descendants replaced the Anglo-Saxons as the ruling class of Eng
+land. The nobility of England were part of a single Normans culture and many had lands on both sides
+ of the channel. Early Norman kings of England, as Dukes of Normandy, owed homage to the King of Fra
+nce for their land on the continent. They considered England to be their most important holding (it 
+brought with it the title of King—an important status symbol).
+----------------------------------------------
+context after modification:
+  In 1066,
+   Duke William II of Normandy conquered England killing King Harold II at the Battle of Hastings,
+   The invading Normans and their descendants replaced the Anglo-Saxons as the ruling class of England,
+   The nobility of England were part of a single Normans culture and many had lands on both sides of the channel,
+   Early Norman kings of England,
+   as Dukes of Normandy,
+   owed homage to the King of France for their land on the continent,
+   They considered England to be their most important holding (it brought with it the title of King—an important status symbol),
+  
+----------------------------------------------
+question: Who was the ruling class ahead of the Normans?
+right answer:-------- ['Anglo-Saxons', 'the Anglo-Saxons', 'Anglo-Saxons']
+
+
+
+
+------------test case99------------
+primary context:
+In 1066, Duke William II of Normandy conquered England killing King Harold II at the Battle of Hasti
+ngs. The invading Normans and their descendants replaced the Anglo-Saxons as the ruling class of Eng
+land. The nobility of England were part of a single Normans culture and many had lands on both sides
+ of the channel. Early Norman kings of England, as Dukes of Normandy, owed homage to the King of Fra
+nce for their land on the continent. They considered England to be their most important holding (it 
+brought with it the title of King—an important status symbol).
+----------------------------------------------
+context after modification:
+  In 1066,
+   Duke William II of Normandy conquered England killing King Harold II at the Battle of Hastings,
+   The invading Normans and their descendants replaced the Anglo-Saxons as the ruling class of England,
+   The nobility of England were part of a single Normans culture and many had lands on both sides of the channel,
+   Early Norman kings of England,
+   as Dukes of Normandy,
+   owed homage to the King of France for their land on the continent,
+   They considered England to be their most important holding (it brought with it the title of King—an important status symbol),
+  
+----------------------------------------------
+question: When did King Harold II conquer England?
+right answer:-------- []
+
+
+
+

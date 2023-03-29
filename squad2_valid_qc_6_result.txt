@@ -1,39 +1,34 @@
-------------test case0------------
+------------test case60------------
+primary context:
 Several families of Byzantine Greece were of Norman mercenary origin during the period of the Comnen
 ian Restoration, when Byzantine emperors were seeking out western European warriors. The Raoulii wer
 e descended from an Italo-Norman named Raoul, the Petraliphae were descended from a Pierre d'Aulps, 
 and that group of Albanian clans known as the Maniakates were descended from Normans who served unde
 r George Maniaces in the Sicilian expedition of 1038.
+----------------------------------------------
+context after modification:
   Several families of Byzantine Greece were of Norman mercenary origin during the period of the Comnenian Restoration,
    when Byzantine emperors were seeking out western European warriors,
    The Raoulii were descended from an Italo-Norman named Raoul,
    the Petraliphae were descended from a Pierre d'Aulps,
    and that group of Albanian clans known as the Maniakates were descended from Normans who served under George Maniaces in the Sicilian expedition of 1038,
   
+----------------------------------------------
 question: Where were several Norman mercenary familes originate from?
 right answer:-------- []
-model roberta:
-original result:----- Byzantine Greece 
-modified result:----- Byzantine Greece
-model longformer:
-original result:----- Byzantine Greece 
-modified result:----- Byzantine Greece
-model minilm:
-original result:----- Byzantine Greece 
-modified result:----- Byzantine Greece
-model bert_large:
-original result:----- Byzantine Greece 
-modified result:----- Byzantine Greece
 
 
 
 
-------------test case1------------
+------------test case61------------
+primary context:
 Several families of Byzantine Greece were of Norman mercenary origin during the period of the Comnen
 ian Restoration, when Byzantine emperors were seeking out western European warriors. The Raoulii wer
 e descended from an Italo-Norman named Raoul, the Petraliphae were descended from a Pierre d'Aulps, 
 and that group of Albanian clans known as the Maniakates were descended from Normans who served unde
 r George Maniaces in the Sicilian expedition of 1038.
+----------------------------------------------
+context after modification:
   Several families of Byzantine Greece were of Norman mercenary origin during the period of the Comnenian Restoration,
    when Byzantine emperors were seeking out western European warriors,
    The Raoulii were descended from an Italo-Norman named Raoul,
@@ -45,30 +40,28 @@ r George Maniaces in the Sicilian expedition of 1038.
 ?                                                                                                                                                   ^^^^^^   ^^^^^^^^^^
 ,
   
+----------------------------------------------
 question: Who did the Normans serve under in the 10th century?
 right answer:-------- []
 model roberta:
 original result:-----  
 modified result:----- George Maniaces
-model longformer:
-original result:----- George Maniaces 
-modified result:----- George Maniaces
 model minilm:
 original result:-----  
 modified result:----- George Maniaces
-model bert_large:
-original result:----- George Maniaces 
-modified result:----- George Maniaces
 
 
 
 
-------------test case2------------
+------------test case62------------
+primary context:
 Several families of Byzantine Greece were of Norman mercenary origin during the period of the Comnen
 ian Restoration, when Byzantine emperors were seeking out western European warriors. The Raoulii wer
 e descended from an Italo-Norman named Raoul, the Petraliphae were descended from a Pierre d'Aulps, 
 and that group of Albanian clans known as the Maniakates were descended from Normans who served unde
 r George Maniaces in the Sicilian expedition of 1038.
+----------------------------------------------
+context after modification:
   Several families of Byzantine Greece were of Norman mercenary origin during the period of the Comnenian Restoration,
    when Byzantine emperors were seeking out western European warriors,
    The Raoulii were descended from an Italo-Norman named Raoul,
@@ -78,25 +71,15 @@ r George Maniaces in the Sicilian expedition of 1038.
 ,
 +  and that group of Albanian clans known were descended from Normans who served under George Maniaces in the Sicilian expedition of 1038,
   
+----------------------------------------------
 question: What expedition did George Maniaces lead in the 10th century?
 right answer:-------- []
-model roberta:
-original result:-----  
-modified result:----- 
-model longformer:
-original result:----- Sicilian expedition 
-modified result:----- Sicilian expedition
-model minilm:
-original result:-----  
-modified result:----- 
-model bert_large:
-original result:----- Sicilian expedition 
-modified result:----- Sicilian expedition
 
 
 
 
-------------test case3------------
+------------test case63------------
+primary context:
 Robert Guiscard, an other Norman adventurer previously elevated to the dignity of count of Apulia as
  the result of his military successes, ultimately drove the Byzantines out of southern Italy. Having
  obtained the consent of pope Gregory VII and acting as his vassal, Robert continued his campaign co
@@ -115,6 +98,8 @@ ants who had settled there. The Normans were now free to penetrate into the hint
 annina and some minor cities in southwestern Macedonia and Thessaly before appearing at the gates of
  Thessalonica. Dissension among the high ranks coerced the Normans to retreat to Italy. They lost Dy
 rrachium, Valona, and Butrint in 1085, after the death of Robert.
+----------------------------------------------
+context after modification:
   Robert Guiscard,
 -  an other Norman adventurer previously elevated to the dignity of count of Apulia as the result of his military successes,
 ?           ^^^^ --
@@ -150,25 +135,18 @@ rrachium, Valona, and Butrint in 1085, after the death of Robert.
    and Butrint in 1085,
    after the death of Robert,
   
+----------------------------------------------
 question: What was the name of the count of Apulia 
 right answer:-------- ['Robert Guiscard', 'Robert Guiscard', 'Robert Guiscard']
-model roberta:
-original result:----- Robert Guiscard 
-modified result:----- Robert Guiscard
-model longformer:
-original result:----- Robert Guiscard 
-modified result:----- Robert Guiscard
 model minilm:
 original result:----- Robert Guiscard, an other Norman adventurer previously elevated to the dignity of count of Apulia 
 modified result:----- Robert Guiscard
-model bert_large:
-original result:----- Robert Guiscard 
-modified result:----- Robert Guiscard
 
 
 
 
-------------test case4------------
+------------test case64------------
+primary context:
 Robert Guiscard, an other Norman adventurer previously elevated to the dignity of count of Apulia as
  the result of his military successes, ultimately drove the Byzantines out of southern Italy. Having
  obtained the consent of pope Gregory VII and acting as his vassal, Robert continued his campaign co
@@ -187,6 +165,8 @@ ants who had settled there. The Normans were now free to penetrate into the hint
 annina and some minor cities in southwestern Macedonia and Thessaly before appearing at the gates of
  Thessalonica. Dissension among the high ranks coerced the Normans to retreat to Italy. They lost Dy
 rrachium, Valona, and Butrint in 1085, after the death of Robert.
+----------------------------------------------
+context after modification:
   Robert Guiscard,
    an other Norman adventurer previously elevated to the dignity of count of Apulia as the result of his military successes,
    ultimately drove the Byzantines out of southern Italy,
@@ -222,25 +202,15 @@ rrachium, Valona, and Butrint in 1085, after the death of Robert.
    and Butrint in 1085,
    after the death of Robert,
   
+----------------------------------------------
 question: When did Dyrrachium  fall to the Normans?
 right answer:-------- ['1082', 'February 1082', 'February 1082']
-model roberta:
-original result:----- February 1082 
-modified result:----- February 1082
-model longformer:
-original result:----- February 1082 
-modified result:----- February 1082
-model minilm:
-original result:----- February 1082 
-modified result:----- February 1082
-model bert_large:
-original result:----- 1085 
-modified result:----- 1085
 
 
 
 
-------------test case5------------
+------------test case65------------
+primary context:
 Robert Guiscard, an other Norman adventurer previously elevated to the dignity of count of Apulia as
  the result of his military successes, ultimately drove the Byzantines out of southern Italy. Having
  obtained the consent of pope Gregory VII and acting as his vassal, Robert continued his campaign co
@@ -259,6 +229,8 @@ ants who had settled there. The Normans were now free to penetrate into the hint
 annina and some minor cities in southwestern Macedonia and Thessaly before appearing at the gates of
  Thessalonica. Dissension among the high ranks coerced the Normans to retreat to Italy. They lost Dy
 rrachium, Valona, and Butrint in 1085, after the death of Robert.
+----------------------------------------------
+context after modification:
   Robert Guiscard,
    an other Norman adventurer previously elevated to the dignity of count of Apulia as the result of his military successes,
    ultimately drove the Byzantines out of southern Italy,
@@ -293,25 +265,15 @@ rrachium, Valona, and Butrint in 1085, after the death of Robert.
    and Butrint in 1085,
    after the death of Robert,
   
+----------------------------------------------
 question: How many men were in Robert's army?
 right answer:-------- ['30,000', '30,000', '30,000']
-model roberta:
-original result:----- 30,000 
-modified result:----- 30,000
-model longformer:
-original result:----- 30,000 
-modified result:----- 30,000
-model minilm:
-original result:----- 30,000 
-modified result:----- 30,000
-model bert_large:
-original result:----- 30,000 
-modified result:----- 30,000
 
 
 
 
-------------test case6------------
+------------test case66------------
+primary context:
 Robert Guiscard, an other Norman adventurer previously elevated to the dignity of count of Apulia as
  the result of his military successes, ultimately drove the Byzantines out of southern Italy. Having
  obtained the consent of pope Gregory VII and acting as his vassal, Robert continued his campaign co
@@ -330,6 +292,8 @@ ants who had settled there. The Normans were now free to penetrate into the hint
 annina and some minor cities in southwestern Macedonia and Thessaly before appearing at the gates of
  Thessalonica. Dissension among the high ranks coerced the Normans to retreat to Italy. They lost Dy
 rrachium, Valona, and Butrint in 1085, after the death of Robert.
+----------------------------------------------
+context after modification:
   Robert Guiscard,
    an other Norman adventurer previously elevated to the dignity of count of Apulia as the result of his military successes,
 -  ultimately drove the Byzantines out of southern Italy,
@@ -365,25 +329,21 @@ rrachium, Valona, and Butrint in 1085, after the death of Robert.
    and Butrint in 1085,
    after the death of Robert,
   
+----------------------------------------------
 question: Who ultimatly drove the Byzantines out of Europe?
 right answer:-------- []
 model roberta:
 original result:-----  
 modified result:----- Robert Guiscard
-model longformer:
-original result:----- Robert Guiscard 
-modified result:----- Robert Guiscard
 model minilm:
 original result:-----  
 modified result:----- Robert Guiscard
-model bert_large:
-original result:----- Robert Guiscard 
-modified result:----- Robert Guiscard
 
 
 
 
-------------test case7------------
+------------test case67------------
+primary context:
 Robert Guiscard, an other Norman adventurer previously elevated to the dignity of count of Apulia as
  the result of his military successes, ultimately drove the Byzantines out of southern Italy. Having
  obtained the consent of pope Gregory VII and acting as his vassal, Robert continued his campaign co
@@ -402,6 +362,8 @@ ants who had settled there. The Normans were now free to penetrate into the hint
 annina and some minor cities in southwestern Macedonia and Thessaly before appearing at the gates of
  Thessalonica. Dissension among the high ranks coerced the Normans to retreat to Italy. They lost Dy
 rrachium, Valona, and Butrint in 1085, after the death of Robert.
+----------------------------------------------
+context after modification:
   Robert Guiscard,
 -  an other Norman adventurer previously elevated to the dignity of count of Apulia as the result of his military successes,
 +  an other Norman adventurer previously elevated to the dignity of count of Apulia as the result of   his military successes,
@@ -435,25 +397,15 @@ rrachium, Valona, and Butrint in 1085, after the death of Robert.
    and Butrint in 1085,
    after the death of Robert,
   
+----------------------------------------------
 question: What pope opposed Roberts campaign?
 right answer:-------- []
-model roberta:
-original result:-----  
-modified result:----- 
-model longformer:
-original result:----- Gregory VII 
-modified result:----- Gregory VII
-model minilm:
-original result:-----  
-modified result:----- 
-model bert_large:
-original result:----- pope Gregory VII 
-modified result:----- pope Gregory VII
 
 
 
 
-------------test case8------------
+------------test case68------------
+primary context:
 Robert Guiscard, an other Norman adventurer previously elevated to the dignity of count of Apulia as
  the result of his military successes, ultimately drove the Byzantines out of southern Italy. Having
  obtained the consent of pope Gregory VII and acting as his vassal, Robert continued his campaign co
@@ -472,6 +424,8 @@ ants who had settled there. The Normans were now free to penetrate into the hint
 annina and some minor cities in southwestern Macedonia and Thessaly before appearing at the gates of
  Thessalonica. Dissension among the high ranks coerced the Normans to retreat to Italy. They lost Dy
 rrachium, Valona, and Butrint in 1085, after the death of Robert.
+----------------------------------------------
+context after modification:
   Robert Guiscard,
    an other Norman adventurer previously elevated to the dignity of count of Apulia as the result of his military successes,
    ultimately drove the Byzantines out of southern Italy,
@@ -503,6 +457,7 @@ rrachium, Valona, and Butrint in 1085, after the death of Robert.
 +  and Butrint in the 10th century,
    after the death of Robert,
   
+----------------------------------------------
 question: What fell to the Normans in the 10th century?
 right answer:-------- []
 model roberta:
@@ -521,7 +476,8 @@ modified result:----- Dyrrachium, Valona, and Butrint
 
 
 
-------------test case9------------
+------------test case69------------
+primary context:
 Robert Guiscard, an other Norman adventurer previously elevated to the dignity of count of Apulia as
  the result of his military successes, ultimately drove the Byzantines out of southern Italy. Having
  obtained the consent of pope Gregory VII and acting as his vassal, Robert continued his campaign co
@@ -540,6 +496,8 @@ ants who had settled there. The Normans were now free to penetrate into the hint
 annina and some minor cities in southwestern Macedonia and Thessaly before appearing at the gates of
  Thessalonica. Dissension among the high ranks coerced the Normans to retreat to Italy. They lost Dy
 rrachium, Valona, and Butrint in 1085, after the death of Robert.
+----------------------------------------------
+context after modification:
   Robert Guiscard,
    an other Norman adventurer previously elevated to the dignity of count of Apulia as the result of his military successes,
    ultimately drove the Byzantines out of southern Italy,
@@ -574,20 +532,9 @@ rrachium, Valona, and Butrint in 1085, after the death of Robert.
    and Butrint in 1085,
    after the death of Robert,
   
+----------------------------------------------
 question: How many men did Roberts army face?
 right answer:-------- []
-model roberta:
-original result:----- 30,000 
-modified result:----- 30,000
-model longformer:
-original result:----- 30,000 
-modified result:----- 30,000
-model minilm:
-original result:----- 30,000 
-modified result:----- 30,000
-model bert_large:
-original result:----- 30,000 
-modified result:----- 30,000
 
 
 

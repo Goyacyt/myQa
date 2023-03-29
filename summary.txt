@@ -1,0 +1,457 @@
+------------test case2------------
+The Normans (Norman: Nourmands; French: Normands; Latin: Normanni) were the people who in the 10th a
+nd 11th centuries gave their name to Normandy, a region in France. They were descended from Norse ("
+Norman" comes from "Norseman") raiders and pirates from Denmark, Iceland and Norway who, under their
+ leader Rollo, agreed to swear fealty to King Charles III of West Francia. Through generations of as
+similation and mixing with the native Frankish and Roman-Gaulish populations, their descendants woul
+d gradually merge with the Carolingian-based cultures of West Francia. The distinct cultural and eth
+nic identity of the Normans emerged initially in the first half of the 10th century, and it continue
+d to evolve over the succeeding centuries.
+  The Normans (Norman: Nourmands; French: Normands; Latin: Normanni) were the people who in the 10th and 11th centuries gave their name to Normandy,
+   a region in France,
+   They were descended from Norse ("Norman" comes from "Norseman") raiders and pirates from Denmark,
+-  Iceland and Norway who,
+?                    ----
+,
++  Iceland and Norway,
+-  under their leader Rollo,
+-  agreed to swear fealty to King Charles III of West Francia,
+-  Through generations of assimilation and mixing with the native Frankish and Roman-Gaulish populations,
+? -
+,
++ Through generations of assimilation and mixing with the native Frankish and Roman-Gaulish populations,
+   their descendants would gradually merge with the Carolingian-based cultures of West Francia,
+   The distinct cultural and ethnic identity of the Normans emerged initially in the first half of the 10th century,
+   and it continued to evolve over the succeeding centuries,
+  
+question: From which countries did the Norse originate?
+right answer:-------- ['Denmark, Iceland and Norway', 'Denmark, Iceland and Norway', 'Denmark, Iceland and Norway', 'Denmark, Iceland and Norway']
+model minilm:
+original result:----- Denmark, Iceland and Norway 
+modified result:----- 
+
+------------test case7------------
+The Normans (Norman: Nourmands; French: Normands; Latin: Normanni) were the people who in the 10th a
+nd 11th centuries gave their name to Normandy, a region in France. They were descended from Norse ("
+Norman" comes from "Norseman") raiders and pirates from Denmark, Iceland and Norway who, under their
+ leader Rollo, agreed to swear fealty to King Charles III of West Francia. Through generations of as
+similation and mixing with the native Frankish and Roman-Gaulish populations, their descendants woul
+d gradually merge with the Carolingian-based cultures of West Francia. The distinct cultural and eth
+nic identity of the Normans emerged initially in the first half of the 10th century, and it continue
+d to evolve over the succeeding centuries.
+  The Normans (Norman: Nourmands; French: Normands; Latin: Normanni) were the people who in the 10th and 11th centuries gave their name to Normandy,
+   a region in France,
+   They were descended from Norse ("Norman" comes from "Norseman") raiders and pirates from Denmark,
+   Iceland and Norway who,
+   under their leader Rollo,
+-  agreed to swear fealty to King Charles III of West Francia,
+?                                            ----------------
+,
++  agreed to swear fealty to King Charles III,
+   Through generations of assimilation and mixing with the native Frankish and Roman-Gaulish populations,
+   their descendants would gradually merge with the Carolingian-based cultures of West Francia,
+   The distinct cultural and ethnic identity of the Normans emerged initially in the first half of the 10th century,
+   and it continued to evolve over the succeeding centuries,
+  
+question: Who did King Charles III swear fealty to?
+right answer:-------- []
+model longformer:
+original result:----- West Francia 
+modified result:----- Rollo
+model bert_large:
+original result:----- West Francia 
+modified result:----- Rollo
+
+------------test case9------------
+The Norman dynasty had a major political, cultural and military impact on medieval Europe and even t
+he Near East. The Normans were famed for their martial spirit and eventually for their Christian pie
+ty, becoming exponents of the Catholic orthodoxy into which they assimilated. They adopted the Gallo
+-Romance language of the Frankish land they settled, their dialect becoming known as Norman, Normaun
+d or Norman French, an important literary language. The Duchy of Normandy, which they formed by trea
+ty with the French crown, was a great fief of medieval France, and under Richard I of Normandy was f
+orged into a cohesive and formidable principality in feudal tenure. The Normans are noted both for t
+heir culture, such as their unique Romanesque architecture and musical traditions, and for their sig
+nificant military accomplishments and innovations. Norman adventurers founded the Kingdom of Sicily 
+under Roger II after conquering southern Italy on the Saracens and Byzantines, and an expedition on 
+behalf of their duke, William the Conqueror, led to the Norman conquest of England at the Battle of 
+Hastings in 1066. Norman cultural and military influence spread from these new European centres to t
+he Crusader states of the Near East, where their prince Bohemond I founded the Principality of Antio
+ch in the Levant, to Scotland and Wales in Great Britain, to Ireland, and to the coasts of north Afr
+ica and the Canary Islands.
+  The Norman dynasty had a major political,
+   cultural and military impact on medieval Europe and even the Near East,
+   The Normans were famed for their martial spirit and eventually for their Christian piety,
+   becoming exponents of the Catholic orthodoxy into which they assimilated,
+   They adopted the Gallo-Romance language of the Frankish land they settled,
+   their dialect becoming known as Norman,
+   Normaund or Norman French,
+   an important literary language,
+   The Duchy of Normandy,
+   which they formed by treaty with the French crown,
+   was a great fief of medieval France,
+   and under Richard I of Normandy was forged into a cohesive and formidable principality in feudal tenure,
+   The Normans are noted both for their culture,
+   such as their unique Romanesque architecture and musical traditions,
+   and for their significant military accomplishments and innovations,
+-  Norman adventurers founded the Kingdom of Sicily under Roger II after conquering southern Italy on the Saracens and Byzantines,
++  Norman adventurers founded the Kingdom of Sicily under Roger II ,
+   and an expedition on behalf of their duke,
+   William the Conqueror,
+-  led to the Norman conquest of England at the Battle of Hastings in 1066,
++  led to the Norman conquest of England,
+   Norman cultural and military influence spread from these new European centres to the Crusader states of the Near East,
+   where their prince Bohemond I founded the Principality of Antioch in the Levant,
+   to Scotland and Wales in Great Britain,
+   to Ireland,
+   and to the coasts of north Africa and the Canary Islands,
+  
+question: Who was the duke in the battle of Hastings?
+right answer:-------- ['William the Conqueror', 'William the Conqueror', 'William the Conqueror']
+model roberta:
+original result:----- William the Conqueror 
+modified result:----- 
+model minilm:
+original result:----- William the Conqueror 
+modified result:----- 
+
+------------test case30------------
+primary context:
+Before Rollo's arrival, its populations did not differ from Picardy or the Île-de-France, which were
+ considered "Frankish". Earlier Viking settlers had begun arriving in the 880s, but were divided bet
+ween colonies in the east (Roumois and Pays de Caux) around the low Seine valley and in the west in 
+the Cotentin Peninsula, and were separated by traditional pagii, where the population remained about
+ the same with almost no foreign settlers. Rollo's contingents who raided and ultimately settled Nor
+mandy and parts of the Atlantic coast included Danes, Norwegians, Norse–Gaels, Orkney Vikings, possi
+bly Swedes, and Anglo-Danes from the English Danelaw under Norse control.
+----------------------------------------------
+context after modification:
+  Before Rollo's arrival,
+   its populations did not differ from Picardy or the Île-de-France,
+   which were considered "Frankish",
+-  Earlier Viking settlers had begun arriving in the 880s,
+?                                                    ^^
+,
++  Earlier Viking settlers had begun arriving in the 100s,
+?                                                    ^^
+,
+-  but were divided between colonies in the east (Roumois and Pays de Caux) around the low Seine valley and in the west in the Cotentin Peninsula,
+?                                               ---------------------------
+,
++  but were divided between colonies in the east around the low Seine valley and in the west in the Cotentin Peninsula,
+   and were separated by traditional pagii,
+   where the population remained about the same with almost no foreign settlers,
+   Rollo's contingents who raided and ultimately settled Normandy and parts of the Atlantic coast included Danes,
+   Norwegians,
+   Norse–Gaels,
+   Orkney Vikings,
+   possibly Swedes,
+   and Anglo-Danes from the English Danelaw under Norse control,
+  
+----------------------------------------------
+question: What Viking groups were conquered by Rollo?
+right answer:-------- []
+model minilm:
+original result:-----  
+modified result:----- Danes, Norwegians, Norse–Gaels, Orkney Vikings
+
+------------test case35------------
+primary context:
+The descendants of Rollo's Vikings and their Frankish wives would replace the Norse religion and Old
+ Norse language with Catholicism (Christianity) and the Gallo-Romance language of the local people, 
+blending their maternal Frankish heritage with Old Norse traditions and customs to synthesize a uniq
+ue "Norman" culture in the north of France. The Norman language was forged by the adoption of the in
+digenous langue d'oïl branch of Romance by a Norse-speaking ruling class, and it developed into the 
+regional language that survives today.
+----------------------------------------------
+context after modification:
+- The descendants of Rollo's Vikings and their Frankish wives would replace the Norse religion and Old Norse language with Catholicism (Christianity) and the Gallo-Romance language of the local people,
+?                                                                                                                                     ----------------                              --------------------
+,
++ The descendants of Rollo's Vikings and their Frankish wives would replace the Norse religion and Old Norse language with Catholicismand the Gallo-Romance language,
+-  blending their maternal Frankish heritage with Old Norse traditions and customs to synthesize a unique "Norman" culture in the north of France,
+-  The Norman language was forged by the adoption of the indigenous langue d'oïl branch of Romance by a Norse-speaking ruling class,
+? -
+,
++ The Norman language was forged by the adoption of the indigenous langue d'oïl branch of Romance by a Norse-speaking ruling class,
+   and it developed into the regional language that survives today,
+  
+----------------------------------------------
+question: What language replaced the Gallo-Romance language?
+right answer:-------- []
+model roberta:
+original result:-----  
+modified result:----- The descendants of Rollo's Vikings and their Frankish wives would replace the Norse religion and Old Norse language with Catholicism
+
+------------test case37------------
+primary context:
+The Normans thereafter adopted the growing feudal doctrines of the rest of France, and worked them i
+nto a functional hierarchical system in both Normandy and in England. The new Norman rulers were cul
+turally and ethnically distinct from the old French aristocracy, most of whom traced their lineage t
+o Franks of the Carolingian dynasty. Most Norman knights remained poor and land-hungry, and by 1066 
+Normandy had been exporting fighting horsemen for more than a generation. Many Normans of Italy, Fra
+nce and England eventually served as avid Crusaders under the Italo-Norman prince Bohemund I and the
+ Anglo-Norman king Richard the Lion-Heart.
+----------------------------------------------
+context after modification:
+- The Normans thereafter adopted the growing feudal doctrines of the rest of France,
+?                                   --------
+,
++ The Normans thereafter adopted the feudal doctrines of the rest of France,
+-  and worked them into a functional hierarchical system in both Normandy and in England,
+?                                                       --------------------------------
+,
++  and worked them into a functional hierarchical system,
+   The new Norman rulers were culturally and ethnically distinct from the old French aristocracy,
+   most of whom traced their lineage to Franks of the Carolingian dynasty,
+   Most Norman knights remained poor and land-hungry,
+   and by 1066 Normandy had been exporting fighting horsemen for more than a generation,
+   Many Normans of Italy,
+   France and England eventually served as avid Crusaders under the Italo-Norman prince Bohemund I and the Anglo-Norman king Richard the Lion-Heart,
+  
+----------------------------------------------
+question: Who adopted the fuedel doctrines of the Normans?
+right answer:-------- []
+model roberta:
+original result:----- The Normans thereafter adopted the growing feudal doctrines of the rest of France 
+modified result:----- 
+model minilm:
+original result:----- The Normans thereafter adopted the growing feudal doctrines of the rest of France 
+modified result:----- 
+
+------------test case43------------
+primary context:
+Soon after the Normans began to enter Italy, they entered the Byzantine Empire and then Armenia, fig
+hting against the Pechenegs, the Bulgars, and especially the Seljuk Turks. Norman mercenaries were f
+irst encouraged to come to the south by the Lombards to act against the Byzantines, but they soon fo
+ught in Byzantine service in Sicily. They were prominent alongside Varangian and Lombard contingents
+ in the Sicilian campaign of George Maniaces in 1038–40. There is debate whether the Normans in Gree
+k service actually were from Norman Italy, and it now seems likely only a few came from there. It is
+ also unknown how many of the "Franks", as the Byzantines called them, were Normans and not other Fr
+enchmen.
+----------------------------------------------
+context after modification:
+  Soon after the Normans began to enter Italy,
+   they entered the Byzantine Empire and then Armenia,
+   fighting against the Pechenegs,
+   the Bulgars,
+   and especially the Seljuk Turks,
+-  Norman mercenaries were first encouraged to come to the south by the Lombards to act against the Byzantines,
+?                                                                ----------------
+,
++  Norman mercenaries were first encouraged to come to the south to act against the Byzantines,
+-  but they soon fought in Byzantine service in Sicily,
+?                                           ----------
+,
++  but they soon fought in Byzantine service,
+-  They were prominent alongside Varangian and Lombard contingents in the Sicilian campaign of George Maniaces in 1038–40,
+? -
+,
++ They were prominent alongside Varangian and Lombard contingents in the Sicilian campaign of George Maniaces in 1038–40,
+   There is debate whether the Normans in Greek service actually were from Norman Italy,
+   and it now seems likely only a few came from there,
+   It is also unknown how many of the "Franks",
+   as the Byzantines called them,
+   were Normans and not other Frenchmen,
+  
+----------------------------------------------
+question: Who did the Normans encourage to come to the south?
+right answer:-------- []
+model roberta:
+original result:-----  
+modified result:----- Norman mercenaries
+
+------------test case51------------
+primary context:
+One of the first Norman mercenaries to serve as a Byzantine general was Hervé in the 1050s. By then 
+however, there were already Norman mercenaries serving as far away as Trebizond and Georgia. They we
+re based at Malatya and Edessa, under the Byzantine duke of Antioch, Isaac Komnenos. In the 1060s, R
+obert Crispin led the Normans of Edessa against the Turks. Roussel de Bailleul even tried to carve o
+ut an independent state in Asia Minor with support from the local population, but he was stopped by 
+the Byzantine general Alexius Komnenos.
+----------------------------------------------
+context after modification:
+  One of the first Norman mercenaries to serve as a Byzantine general was Hervé in the 1050s,
+   By then however,
+   there were already Norman mercenaries serving as far away as Trebizond and Georgia,
+   They were based at Malatya and Edessa,
+   under the Byzantine duke of Antioch,
+   Isaac Komnenos,
+-  In the 1060s,
+?           ^
+,
++  In the 1050s,
+?           ^
+,
+   Robert Crispin led the Normans of Edessa against the Turks,
+   Roussel de Bailleul even tried to carve out an independent state in Asia Minor with support from the local population,
+   but he was stopped by the Byzantine general Alexius Komnenos,
+  
+----------------------------------------------
+question: When did Herve go up against the Turks?
+right answer:-------- []
+model minilm:
+original result:-----  
+modified result:----- 1050s
+
+------------test case61------------
+primary context:
+Several families of Byzantine Greece were of Norman mercenary origin during the period of the Comnen
+ian Restoration, when Byzantine emperors were seeking out western European warriors. The Raoulii wer
+e descended from an Italo-Norman named Raoul, the Petraliphae were descended from a Pierre d'Aulps, 
+and that group of Albanian clans known as the Maniakates were descended from Normans who served unde
+r George Maniaces in the Sicilian expedition of 1038.
+----------------------------------------------
+context after modification:
+  Several families of Byzantine Greece were of Norman mercenary origin during the period of the Comnenian Restoration,
+   when Byzantine emperors were seeking out western European warriors,
+   The Raoulii were descended from an Italo-Norman named Raoul,
+   the Petraliphae were descended from a Pierre d'Aulps,
+-  and that group of Albanian clans known as the Maniakates were descended from Normans who served under George Maniaces in the Sicilian expedition of 1038,
+?                                                                                                                                                   ^^   ^^
+,
++  and that group of Albanian clans known as the Maniakates were descended from Normans who served under George Maniaces in the Sicilian expedition in the 10th century,
+?                                                                                                                                                   ^^^^^^   ^^^^^^^^^^
+,
+  
+----------------------------------------------
+question: Who did the Normans serve under in the 10th century?
+right answer:-------- []
+model roberta:
+original result:-----  
+modified result:----- George Maniaces
+model minilm:
+original result:-----  
+modified result:----- George Maniaces
+
+------------test case66------------
+primary context:
+Robert Guiscard, an other Norman adventurer previously elevated to the dignity of count of Apulia as
+ the result of his military successes, ultimately drove the Byzantines out of southern Italy. Having
+ obtained the consent of pope Gregory VII and acting as his vassal, Robert continued his campaign co
+nquering the Balkan peninsula as a foothold for western feudal lords and the Catholic Church. After 
+allying himself with Croatia and the Catholic cities of Dalmatia, in 1081 he led an army of 30,000 m
+en in 300 ships landing on the southern shores of Albania, capturing Valona, Kanina, Jericho (Orikum
+i), and reaching Butrint after numerous pillages. They joined the fleet that had previously conquere
+d Corfu and attacked Dyrrachium from land and sea, devastating everything along the way. Under these
+ harsh circumstances, the locals accepted the call of emperor Alexius I Comnenus to join forces with
+ the Byzantines against the Normans. The Albanian forces could not take part in the ensuing battle b
+ecause it had started before their arrival. Immediately before the battle, the Venetian fleet had se
+cured a victory in the coast surrounding the city. Forced to retreat, Alexius ceded the command to a
+ high Albanian official named Comiscortes in the service of Byzantium. The city's garrison resisted 
+until February 1082, when Dyrrachium was betrayed to the Normans by the Venetian and Amalfitan merch
+ants who had settled there. The Normans were now free to penetrate into the hinterland; they took Io
+annina and some minor cities in southwestern Macedonia and Thessaly before appearing at the gates of
+ Thessalonica. Dissension among the high ranks coerced the Normans to retreat to Italy. They lost Dy
+rrachium, Valona, and Butrint in 1085, after the death of Robert.
+----------------------------------------------
+context after modification:
+  Robert Guiscard,
+   an other Norman adventurer previously elevated to the dignity of count of Apulia as the result of his military successes,
+-  ultimately drove the Byzantines out of southern Italy,
+?                                         ^ ^^^ --------
+,
++  ultimately drove the Byzantines out of Europe,
+?                                         ^^^ ^
+,
+   Having obtained the consent of pope Gregory VII and acting as his vassal,
+   Robert continued his campaign conquering the Balkan peninsula as a foothold for western feudal lords and the Catholic Church,
+   After allying himself with Croatia and the Catholic cities of Dalmatia,
+   in 1081 he led an army of 30,
+  000 men in 300 ships landing on the southern shores of Albania,
+   capturing Valona,
+   Kanina,
+   Jericho (Orikumi),
+   and reaching Butrint after numerous pillages,
+   They joined the fleet that had previously conquered Corfu and attacked Dyrrachium from land and sea,
+   devastating everything along the way,
+   Under these harsh circumstances,
+   the locals accepted the call of emperor Alexius I Comnenus to join forces with the Byzantines against the Normans,
+   The Albanian forces could not take part in the ensuing battle because it had started before their arrival,
+   Immediately before the battle,
+   the Venetian fleet had secured a victory in the coast surrounding the city,
+   Forced to retreat,
+   Alexius ceded the command to a high Albanian official named Comiscortes in the service of Byzantium,
+   The city's garrison resisted until February 1082,
+   when Dyrrachium was betrayed to the Normans by the Venetian and Amalfitan merchants who had settled there,
+   The Normans were now free to penetrate into the hinterland; they took Ioannina and some minor cities in southwestern Macedonia and Thessaly before appearing at the gates of Thessalonica,
+   Dissension among the high ranks coerced the Normans to retreat to Italy,
+   They lost Dyrrachium,
+   Valona,
+   and Butrint in 1085,
+   after the death of Robert,
+  
+----------------------------------------------
+question: Who ultimatly drove the Byzantines out of Europe?
+right answer:-------- []
+model roberta:
+original result:-----  
+modified result:----- Robert Guiscard
+model minilm:
+original result:-----  
+modified result:----- Robert Guiscard
+
+------------test case68------------
+primary context:
+Robert Guiscard, an other Norman adventurer previously elevated to the dignity of count of Apulia as
+ the result of his military successes, ultimately drove the Byzantines out of southern Italy. Having
+ obtained the consent of pope Gregory VII and acting as his vassal, Robert continued his campaign co
+nquering the Balkan peninsula as a foothold for western feudal lords and the Catholic Church. After 
+allying himself with Croatia and the Catholic cities of Dalmatia, in 1081 he led an army of 30,000 m
+en in 300 ships landing on the southern shores of Albania, capturing Valona, Kanina, Jericho (Orikum
+i), and reaching Butrint after numerous pillages. They joined the fleet that had previously conquere
+d Corfu and attacked Dyrrachium from land and sea, devastating everything along the way. Under these
+ harsh circumstances, the locals accepted the call of emperor Alexius I Comnenus to join forces with
+ the Byzantines against the Normans. The Albanian forces could not take part in the ensuing battle b
+ecause it had started before their arrival. Immediately before the battle, the Venetian fleet had se
+cured a victory in the coast surrounding the city. Forced to retreat, Alexius ceded the command to a
+ high Albanian official named Comiscortes in the service of Byzantium. The city's garrison resisted 
+until February 1082, when Dyrrachium was betrayed to the Normans by the Venetian and Amalfitan merch
+ants who had settled there. The Normans were now free to penetrate into the hinterland; they took Io
+annina and some minor cities in southwestern Macedonia and Thessaly before appearing at the gates of
+ Thessalonica. Dissension among the high ranks coerced the Normans to retreat to Italy. They lost Dy
+rrachium, Valona, and Butrint in 1085, after the death of Robert.
+----------------------------------------------
+context after modification:
+  Robert Guiscard,
+   an other Norman adventurer previously elevated to the dignity of count of Apulia as the result of his military successes,
+   ultimately drove the Byzantines out of southern Italy,
+   Having obtained the consent of pope Gregory VII and acting as his vassal,
+   Robert continued his campaign conquering the Balkan peninsula as a foothold for western feudal lords and the Catholic Church,
+   After allying himself with Croatia and the Catholic cities of Dalmatia,
+   in 1081 he led an army of 30,
+  000 men in 300 ships landing on the southern shores of Albania,
+   capturing Valona,
+   Kanina,
+   Jericho (Orikumi),
+   and reaching Butrint after numerous pillages,
+   They joined the fleet that had previously conquered Corfu and attacked Dyrrachium from land and sea,
+   devastating everything along the way,
+   Under these harsh circumstances,
+   the locals accepted the call of emperor Alexius I Comnenus to join forces with the Byzantines against the Normans,
+   The Albanian forces could not take part in the ensuing battle because it had started before their arrival,
+   Immediately before the battle,
+   the Venetian fleet had secured a victory in the coast surrounding the city,
+   Forced to retreat,
+   Alexius ceded the command to a high Albanian official named Comiscortes in the service of Byzantium,
+   The city's garrison resisted until February 1082,
+   when Dyrrachium was betrayed to the Normans by the Venetian and Amalfitan merchants who had settled there,
+   The Normans were now free to penetrate into the hinterland; they took Ioannina and some minor cities in southwestern Macedonia and Thessaly before appearing at the gates of Thessalonica,
+   Dissension among the high ranks coerced the Normans to retreat to Italy,
+   They lost Dyrrachium,
+   Valona,
+-  and Butrint in 1085,
++  and Butrint in the 10th century,
+   after the death of Robert,
+  
+----------------------------------------------
+question: What fell to the Normans in the 10th century?
+right answer:-------- []
+model roberta:
+original result:-----  
+modified result:----- Dyrrachium, Valona, and Butrint
+model minilm:
+original result:-----  
+modified result:----- Dyrrachium, Valona, and Butrint
+model bert_large:
+original result:-----  
+modified result:----- Dyrrachium, Valona, and Butrint
