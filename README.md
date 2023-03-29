@@ -1,12 +1,20 @@
 模型：
 
-    1.bert-large-uncased-whole-word-masking-finetuned-squad\  bert_large_uncased_whole_word.py
+    1.bert-large-uncased-whole-word-masking-finetuned-squad\
     
-    2.longformer-base-4096-finetuned-squadv1\  longformer.py
+    bert_large_uncased_whole_word.py
     
-    3.minilm-uncased-squad2\  minilm.py
+    2.longformer-base-4096-finetuned-squadv1\
     
-    4.roberta-base-squad2\  roberta_base_squad2.py
+    longformer.py
+    
+    3.minilm-uncased-squad2\
+    
+    minilm.py
+    
+    4.roberta-base-squad2\
+    
+    roberta_base_squad2.py
     
     1.2.3.4.分别是4个从hugging face上下载的模型 对应的.py文件主要包含一个接收一对{context,question}输出一个answer的函数
     
