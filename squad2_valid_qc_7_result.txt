@@ -27,7 +27,10 @@ context after modification:
    With their help,
    the Normans secured the Arbanon passes and opened their way to Dibra,
    The lack of supplies,
-   disease and Byzantine resistance forced Bohemond to retreat from his campaign and sign a peace treaty with the Byzantines in the city of Deabolis,
+-  disease and Byzantine resistance forced Bohemond to retreat from his campaign and sign a peace treaty with the Byzantines in the city of Deabolis,
+?                                                                                                                               ------------
+,
++  disease and Byzantine resistance forced Bohemond to retreat from his campaign and sign a peace treaty with the Byzantines in Deabolis,
   
 ----------------------------------------------
 question: Where did the Normans and Byzantines sign the peace treaty?
@@ -49,11 +52,12 @@ es in the city of Deabolis.
 ----------------------------------------------
 context after modification:
   A few years after the First Crusade,
-   in 1107,
+-  in 1107,
    the Normans under the command of Bohemond,
    Robert's son,
-   landed in Valona and besieged Dyrrachium using the most sophisticated military equipment of the time,
-   but to no avail,
++  landed in Valona  ,
+-  landed in Valona and besieged Dyrrachium using the most sophisticated military equipment of the time,
+-  but to no avail,
    Meanwhile,
    they occupied Petrela,
    the citadel of Mili at the banks of the river Deabolis,
@@ -95,8 +99,8 @@ context after modification:
    Meanwhile,
    they occupied Petrela,
    the citadel of Mili at the banks of the river Deabolis,
-   Gllavenica (Ballsh),
-   Kanina and Jericho,
+-  Gllavenica (Ballsh),
+-  Kanina and Jericho,
    This time,
    the Albanians sided with the Normans,
    dissatisfied by the heavy taxes the Byzantines had imposed upon them,
@@ -125,7 +129,12 @@ es in the city of Deabolis.
 ----------------------------------------------
 context after modification:
   A few years after the First Crusade,
-   in 1107,
+-  in 1107,
+?      ^ ^
+,
++  in 1800,
+?      ^ ^
+,
    the Normans under the command of Bohemond,
    Robert's son,
    landed in Valona and besieged Dyrrachium using the most sophisticated military equipment of the time,
@@ -203,7 +212,7 @@ context after modification:
   A few years after the First Crusade,
    in 1107,
    the Normans under the command of Bohemond,
-   Robert's son,
+-  Robert's son,
    landed in Valona and besieged Dyrrachium using the most sophisticated military equipment of the time,
    but to no avail,
    Meanwhile,
@@ -222,6 +231,18 @@ context after modification:
 ----------------------------------------------
 question: Who was Bohemond's son?
 right answer:-------- []
+model roberta:
+original result:----- Robert 
+modified result:----- 
+model longformer:
+original result:----- Robert 
+modified result:----- Bohemond
+model minilm:
+original result:----- Robert 
+modified result:----- 
+model bert_large:
+original result:----- Robert 
+modified result:----- 
 
 
 
@@ -235,14 +256,20 @@ ter, Dyrrachium—one of the most important naval bases of the Adriatic—fell a
 ----------------------------------------------
 context after modification:
   The further decline of Byzantine state-of-affairs paved the road to a third attack in 1185,
-   when a large Norman army invaded Dyrrachium,
-   owing to the betrayal of high Byzantine officials,
+-  when a large Norman army invaded Dyrrachium,
+-  owing to the betrayal of high Byzantine officials,
    Some time later,
    Dyrrachium—one of the most important naval bases of the Adriatic—fell again to Byzantine hands,
   
 ----------------------------------------------
 question: When did the Normans attack Dyrrachium?
 right answer:-------- ['1185', 'in 1185', '1185']
+model roberta:
+original result:----- 1185 
+modified result:----- 
+model minilm:
+original result:----- 1185 
+modified result:----- The further decline of Byzantine state-of-affairs paved the road to a third attack in 1185
 
 
 
@@ -259,7 +286,8 @@ context after modification:
    when a large Norman army invaded Dyrrachium,
    owing to the betrayal of high Byzantine officials,
    Some time later,
-   Dyrrachium—one of the most important naval bases of the Adriatic—fell again to Byzantine hands,
+-  Dyrrachium—one of the most important naval bases of the Adriatic—fell again to Byzantine hands,
++  Dyrrachium—one of the most important naval bases,
   
 ----------------------------------------------
 question: What was the naval base called?
@@ -280,11 +308,20 @@ context after modification:
    when a large Norman army invaded Dyrrachium,
    owing to the betrayal of high Byzantine officials,
    Some time later,
-   Dyrrachium—one of the most important naval bases of the Adriatic—fell again to Byzantine hands,
+-  Dyrrachium—one of the most important naval bases of the Adriatic—fell again to Byzantine hands,
+?             ---------------------- --
+,
++  Dyrrachium—a naval bases of the Adriatic—fell again to Byzantine hands,
   
 ----------------------------------------------
 question: Where was Dyrrachium located?
 right answer:-------- ['the Adriatic', 'the Adriatic', 'Adriatic']
+model minilm:
+original result:----- Adriatic 
+modified result:----- the Adriatic
+model bert_large:
+original result:----- the Adriatic 
+modified result:----- Adriatic
 
 
 
@@ -299,7 +336,7 @@ ter, Dyrrachium—one of the most important naval bases of the Adriatic—fell a
 context after modification:
   The further decline of Byzantine state-of-affairs paved the road to a third attack in 1185,
    when a large Norman army invaded Dyrrachium,
-   owing to the betrayal of high Byzantine officials,
+-  owing to the betrayal of high Byzantine officials,
    Some time later,
    Dyrrachium—one of the most important naval bases of the Adriatic—fell again to Byzantine hands,
   

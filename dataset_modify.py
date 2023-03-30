@@ -7,7 +7,7 @@ d=difflib.Differ()
 num=10
 epoch=3
 datasets=load_dataset("squad_v2")
-for e in range(0,10):
+for e in range(7,8):
     refileName="squad2_valid_qc_"+str(e)+".txt"
     with open(refileName,"r",encoding='utf-8') as f:
         s=f.read()

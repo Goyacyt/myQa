@@ -5,12 +5,12 @@ they occupied Petrela, the citadel of Mili at the banks of the river Deabolis, G
 Kanina and Jericho. This time, the Albanians sided with the Normans, dissatisfied by the heavy taxes
  the Byzantines had imposed upon them. With their help, the Normans secured the Arbanon passes and o
 pened their way to Dibra. The lack of supplies, disease and Byzantine resistance forced Bohemond to 
-retreat from his campaign and sign a peace treaty with the Byzantines in the city of Deabolis.", 'qu
+retreat from his campaign and sign a peace treaty with the Byzantines in Deabolis.", 'qu
 estion': 'Where did the Normans and Byzantines sign the peace treaty?', 'answers': {'text': ['Deabol
 is', 'Deabolis', 'Deabolis'], 'answer_start': [302, 718, 718]}}
 {'id': '56de15104396321400ee25b8', 'title': 'Normans', 'context': "A few years after the First Crusa
-de, in 1107, the Normans under the command of Bohemond, Robert's son, landed in Valona and besieged 
-Dyrrachium using the most sophisticated military equipment of the time, but to no avail. Meanwhile, 
+de, the Normans under the command of Bohemond, Robert's son, landed in Valona  
+. Meanwhile, 
 they occupied Petrela, the citadel of Mili at the banks of the river Deabolis, Gllavenica (Ballsh), 
 Kanina and Jericho. This time, the Albanians sided with the Normans, dissatisfied by the heavy taxes
  the Byzantines had imposed upon them. With their help, the Normans secured the Arbanon passes and o
@@ -21,15 +21,15 @@ start': [79, 79, 79]}}
 {'id': '56de15104396321400ee25b9', 'title': 'Normans', 'context': "A few years after the First Crusa
 de, in 1107, the Normans under the command of Bohemond, Robert's son, landed in Valona and besieged 
 Dyrrachium using the most sophisticated military equipment of the time, but to no avail. Meanwhile, 
-they occupied Petrela, the citadel of Mili at the banks of the river Deabolis, Gllavenica (Ballsh), 
-Kanina and Jericho. This time, the Albanians sided with the Normans, dissatisfied by the heavy taxes
+they occupied Petrela, the citadel of Mili at the banks of the river Deabolis.
+ This time, the Albanians sided with the Normans, dissatisfied by the heavy taxes
  the Byzantines had imposed upon them. With their help, the Normans secured the Arbanon passes and o
 pened their way to Dibra. The lack of supplies, disease and Byzantine resistance forced Bohemond to 
 retreat from his campaign and sign a peace treaty with the Byzantines in the city of Deabolis.", 'qu
 estion': 'What river was Petrela located by?', 'answers': {'text': ['Deabolis', 'the river Deabolis'
 , 'Deabolis'], 'answer_start': [302, 292, 302]}}
 {'id': '5ad3ee2d604f3c001a3ff7e1', 'title': 'Normans', 'context': "A few years after the First Crusa
-de, in 1107, the Normans under the command of Bohemond, Robert's son, landed in Valona and besieged 
+de, in 1800, the Normans under the command of Bohemond, Robert's son, landed in Valona and besieged 
 Dyrrachium using the most sophisticated military equipment of the time, but to no avail. Meanwhile, 
 they occupied Petrela, the citadel of Mili at the banks of the river Deabolis, Gllavenica (Ballsh), 
 Kanina and Jericho. This time, the Albanians sided with the Normans, dissatisfied by the heavy taxes
@@ -49,7 +49,7 @@ retreat from his campaign and sign a peace treaty with the Byzantines in the cit
 estion': 'Who did Robert lead agains Dyrrachium in 1107?', 'answers': {'text': [], 'answer_start': [
 ]}}
 {'id': '5ad3ee2d604f3c001a3ff7e3', 'title': 'Normans', 'context': "A few years after the First Crusa
-de, in 1107, the Normans under the command of Bohemond, Robert's son, landed in Valona and besieged 
+de, in 1107, the Normans under the command of Bohemond, landed in Valona and besieged 
 Dyrrachium using the most sophisticated military equipment of the time, but to no avail. Meanwhile, 
 they occupied Petrela, the citadel of Mili at the banks of the river Deabolis, Gllavenica (Ballsh), 
 Kanina and Jericho. This time, the Albanians sided with the Normans, dissatisfied by the heavy taxes
@@ -58,25 +58,25 @@ pened their way to Dibra. The lack of supplies, disease and Byzantine resistance
 retreat from his campaign and sign a peace treaty with the Byzantines in the city of Deabolis.", 'qu
 estion': "Who was Bohemond's son?", 'answers': {'text': [], 'answer_start': []}}
 {'id': '56de1563cffd8e1900b4b5c2', 'title': 'Normans', 'context': 'The further decline of Byzantine 
-state-of-affairs paved the road to a third attack in 1185, when a large Norman army invaded Dyrrachi
-um, owing to the betrayal of high Byzantine officials. Some time later, Dyrrachium—one of the most i
+state-of-affairs paved the road to a third attack in 1185. 
+Some time later, Dyrrachium—one of the most i
 mportant naval bases of the Adriatic—fell again to Byzantine hands.', 'question': 'When did the Norm
 ans attack Dyrrachium?', 'answers': {'text': ['1185', 'in 1185', '1185'], 'answer_start': [86, 83, 8
 6]}}
 {'id': '56de1563cffd8e1900b4b5c3', 'title': 'Normans', 'context': 'The further decline of Byzantine 
 state-of-affairs paved the road to a third attack in 1185, when a large Norman army invaded Dyrrachi
 um, owing to the betrayal of high Byzantine officials. Some time later, Dyrrachium—one of the most i
-mportant naval bases of the Adriatic—fell again to Byzantine hands.', 'question': 'What was the nava
+mportant naval bases.', 'question': 'What was the nava
 l base called?', 'answers': {'text': ['Dyrrachium', 'Dyrrachium', 'Dyrrachium'], 'answer_start': [12
 5, 205, 205]}}
 {'id': '56de1563cffd8e1900b4b5c4', 'title': 'Normans', 'context': 'The further decline of Byzantine 
 state-of-affairs paved the road to a third attack in 1185, when a large Norman army invaded Dyrrachi
-um, owing to the betrayal of high Byzantine officials. Some time later, Dyrrachium—one of the most i
-mportant naval bases of the Adriatic—fell again to Byzantine hands.', 'question': 'Where was Dyrrach
+um, owing to the betrayal of high Byzantine officials. Some time later, Dyrrachium—
+a naval bases of the Adriatic—fell again to Byzantine hands.', 'question': 'Where was Dyrrach
 ium located?', 'answers': {'text': ['the Adriatic', 'the Adriatic', 'Adriatic'], 'answer_start': [25
 7, 257, 261]}}
 {'id': '5ad3f028604f3c001a3ff823', 'title': 'Normans', 'context': 'The further decline of Byzantine 
 state-of-affairs paved the road to a third attack in 1185, when a large Norman army invaded Dyrrachi
-um, owing to the betrayal of high Byzantine officials. Some time later, Dyrrachium—one of the most i
+um. Some time later, Dyrrachium—one of the most i
 mportant naval bases of the Adriatic—fell again to Byzantine hands.', 'question': 'Who attacked Dyrr
 achium in the 11th century?', 'answers': {'text': [], 'answer_start': []}}
