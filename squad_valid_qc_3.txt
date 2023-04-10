@@ -1,0 +1,94 @@
+{'id': '56be4e1facb8001400a502f6', 'title': 'Super_Bowl_50', 'context': 'The Panthers finished the r
+egular season with a 15–1 record, and quarterback Cam Newton was named the NFL Most Valuable Player 
+(MVP). They defeated the Arizona Cardinals 49–15 in the NFC Championship Game and advanced to their 
+second Super Bowl appearance since the franchise was founded in 1995. The Broncos finished the regul
+ar season with a 12–4 record, and denied the New England Patriots a chance to defend their title fro
+m Super Bowl XLIX by defeating them 20–18 in the AFC Championship Game. They joined the Patriots, Da
+llas Cowboys, and Pittsburgh Steelers as one of four teams that have made eight appearances in the S
+uper Bowl.', 'question': 'Which Carolina Panthers player was named Most Valuable Player?', 'answers'
+: {'text': ['Cam Newton', 'Cam Newton', 'Cam Newton'], 'answer_start': [77, 77, 77]}}
+{'id': '56be4e1facb8001400a502f9', 'title': 'Super_Bowl_50', 'context': 'The Panthers finished the r
+egular season with a 15–1 record, and quarterback Cam Newton was named the NFL Most Valuable Player 
+(MVP). They defeated the Arizona Cardinals 49–15 in the NFC Championship Game and advanced to their 
+second Super Bowl appearance since the franchise was founded in 1995. The Broncos finished the regul
+ar season with a 12–4 record, and denied the New England Patriots a chance to defend their title fro
+m Super Bowl XLIX by defeating them 20–18 in the AFC Championship Game. They joined the Patriots, Da
+llas Cowboys, and Pittsburgh Steelers as one of four teams that have made eight appearances in the S
+uper Bowl.', 'question': 'How many appearances have the Denver Broncos made in the Super Bowl?', 'an
+swers': {'text': ['8', 'eight', 'eight'], 'answer_start': [467, 601, 601]}}
+{'id': '56be4e1facb8001400a502fa', 'title': 'Super_Bowl_50', 'context': 'The Panthers finished the r
+egular season with a 15–1 record, and quarterback Cam Newton was named the NFL Most Valuable Player 
+(MVP). They defeated the Arizona Cardinals 49–15 in the NFC Championship Game and advanced to their 
+second Super Bowl appearance since the franchise was founded in 1995. The Broncos finished the regul
+ar season with a 12–4 record, and denied the New England Patriots a chance to defend their title fro
+m Super Bowl XLIX by defeating them 20–18 in the AFC Championship Game. They joined the Patriots, Da
+llas Cowboys, and Pittsburgh Steelers as one of four teams that have made eight appearances in the S
+uper Bowl.', 'question': 'What year was the Carolina Panthers franchise founded?', 'answers': {'text
+': ['1995', '1995', '1995'], 'answer_start': [291, 291, 291]}}
+{'id': '56beaa4a3aeaaa14008c91c2', 'title': 'Super_Bowl_50', 'context': 'The Panthers finished the r
+egular season with a 15–1 record, and quarterback Cam Newton was named the NFL Most Valuable Player 
+(MVP). They defeated the Arizona Cardinals 49–15 in the NFC Championship Game and advanced to their 
+second Super Bowl appearance since the franchise was founded in 1995. The Broncos finished the regul
+ar season with a 12–4 record, and denied the New England Patriots a chance to defend their title fro
+m Super Bowl XLIX by defeating them 20–18 in the AFC Championship Game. They joined the Patriots, Da
+llas Cowboys, and Pittsburgh Steelers as one of four teams that have made eight appearances in the S
+uper Bowl.', 'question': 'What team did the Panthers defeat?', 'answers': {'text': ['Arizona Cardina
+ls', 'the Arizona Cardinals', 'Arizona Cardinals'], 'answer_start': [152, 148, 152]}}
+{'id': '56beaa4a3aeaaa14008c91c3', 'title': 'Super_Bowl_50', 'context': 'The Panthers finished the r
+egular season with a 15–1 record, and quarterback Cam Newton was named the NFL Most Valuable Player 
+(MVP). They defeated the Arizona Cardinals 49–15 in the NFC Championship Game and advanced to their 
+second Super Bowl appearance since the franchise was founded in 1995. The Broncos finished the regul
+ar season with a 12–4 record, and denied the New England Patriots a chance to defend their title fro
+m Super Bowl XLIX by defeating them 20–18 in the AFC Championship Game. They joined the Patriots, Da
+llas Cowboys, and Pittsburgh Steelers as one of four teams that have made eight appearances in the S
+uper Bowl.', 'question': 'Who did the Broncos prevent from going to the Super Bowl?', 'answers': {'t
+ext': ['New England Patriots', 'the New England Patriots', 'New England Patriots'], 'answer_start': 
+[372, 368, 372]}}
+{'id': '56bead5a3aeaaa14008c91e9', 'title': 'Super_Bowl_50', 'context': 'The Panthers finished the r
+egular season with a 15–1 record, and quarterback Cam Newton was named the NFL Most Valuable Player 
+(MVP). They defeated the Arizona Cardinals 49–15 in the NFC Championship Game and advanced to their 
+second Super Bowl appearance since the franchise was founded in 1995. The Broncos finished the regul
+ar season with a 12–4 record, and denied the New England Patriots a chance to defend their title fro
+m Super Bowl XLIX by defeating them 20–18 in the AFC Championship Game. They joined the Patriots, Da
+llas Cowboys, and Pittsburgh Steelers as one of four teams that have made eight appearances in the S
+uper Bowl.', 'question': 'Who did the Panthers beat in the NFC Championship Game?', 'answers': {'tex
+t': ['Arizona Cardinals', 'the Arizona Cardinals', 'Arizona Cardinals'], 'answer_start': [152, 148, 
+152]}}
+{'id': '56bead5a3aeaaa14008c91ea', 'title': 'Super_Bowl_50', 'context': 'The Panthers finished the r
+egular season with a 15–1 record, and quarterback Cam Newton was named the NFL Most Valuable Player 
+(MVP). They defeated the Arizona Cardinals 49–15 in the NFC Championship Game and advanced to their 
+second Super Bowl appearance since the franchise was founded in 1995. The Broncos finished the regul
+ar season with a 12–4 record, and denied the New England Patriots a chance to defend their title fro
+m Super Bowl XLIX by defeating them 20–18 in the AFC Championship Game. They joined the Patriots, Da
+llas Cowboys, and Pittsburgh Steelers as one of four teams that have made eight appearances in the S
+uper Bowl.', 'question': 'Who lost to the Broncos in the AFC Championship?', 'answers': {'text': ['N
+ew England Patriots', 'the New England Patriots', 'New England Patriots'], 'answer_start': [372, 368
+, 372]}}
+{'id': '56bead5a3aeaaa14008c91eb', 'title': 'Super_Bowl_50', 'context': 'The Panthers finished the r
+egular season with a 15–1 record, and quarterback Cam Newton was named the NFL Most Valuable Player 
+(MVP). They defeated the Arizona Cardinals 49–15 in the NFC Championship Game and advanced to their 
+second Super Bowl appearance since the franchise was founded in 1995. The Broncos finished the regul
+ar season with a 12–4 record, and denied the New England Patriots a chance to defend their title fro
+m Super Bowl XLIX by defeating them 20–18 in the AFC Championship Game. They joined the Patriots, Da
+llas Cowboys, and Pittsburgh Steelers as one of four teams that have made eight appearances in the S
+uper Bowl.', 'question': 'Who were the defending Super Bowl champions?', 'answers': {'text': ['New E
+ngland Patriots', 'the New England Patriots', 'New England Patriots'], 'answer_start': [372, 368, 37
+2]}}
+{'id': '56bead5a3aeaaa14008c91ec', 'title': 'Super_Bowl_50', 'context': 'The Panthers finished the r
+egular season with a 15–1 record, and quarterback Cam Newton was named the NFL Most Valuable Player 
+(MVP). They defeated the Arizona Cardinals 49–15 in the NFC Championship Game and advanced to their 
+second Super Bowl appearance since the franchise was founded in 1995. The Broncos finished the regul
+ar season with a 12–4 record, and denied the New England Patriots a chance to defend their title fro
+m Super Bowl XLIX by defeating them 20–18 in the AFC Championship Game. They joined the Patriots, Da
+llas Cowboys, and Pittsburgh Steelers as one of four teams that have made eight appearances in the S
+uper Bowl.', 'question': 'How many teams have been in the Super Bowl eight times?', 'answers': {'tex
+t': ['four', 'four', 'four'], 'answer_start': [575, 575, 575]}}
+{'id': '56bead5a3aeaaa14008c91ed', 'title': 'Super_Bowl_50', 'context': 'The Panthers finished the r
+egular season with a 15–1 record, and quarterback Cam Newton was named the NFL Most Valuable Player 
+(MVP). They defeated the Arizona Cardinals 49–15 in the NFC Championship Game and advanced to their 
+second Super Bowl appearance since the franchise was founded in 1995. The Broncos finished the regul
+ar season with a 12–4 record, and denied the New England Patriots a chance to defend their title fro
+m Super Bowl XLIX by defeating them 20–18 in the AFC Championship Game. They joined the Patriots, Da
+llas Cowboys, and Pittsburgh Steelers as one of four teams that have made eight appearances in the S
+uper Bowl.', 'question': "Who was this season's NFL MVP?", 'answers': {'text': ['Cam Newton', 'Cam N
+ewton', 'Cam Newton'], 'answer_start': [77, 77, 77]}}
