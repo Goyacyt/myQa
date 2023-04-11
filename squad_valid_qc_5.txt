@@ -1,0 +1,78 @@
+{'id': '56d6017d1c85041400946ec1', 'title': 'Super_Bowl_50', 'context': 'The Panthers finished the r
+egular season with a 15–1 record, and quarterback Cam Newton was named the NFL Most Valuable Player 
+(MVP). They defeated the Arizona Cardinals 49–15 in the NFC Championship Game and advanced to their 
+second Super Bowl appearance since the franchise was founded in 1995. The Broncos finished the regul
+ar season with a 12–4 record, and denied the New England Patriots a chance to defend their title fro
+m Super Bowl XLIX by defeating them 20–18 in the AFC Championship Game. They joined the Patriots, Da
+llas Cowboys, and Pittsburgh Steelers as one of four teams that have made eight appearances in the S
+uper Bowl.', 'question': 'Who did Denver beat in the 2015 AFC Championship game?', 'answers': {'text
+': ['New England Patriots', 'the New England Patriots', 'New England Patriots'], 'answer_start': [37
+2, 368, 372]}}
+{'id': '56d6017d1c85041400946ec2', 'title': 'Super_Bowl_50', 'context': 'The Panthers finished the r
+egular season with a 15–1 record, and quarterback Cam Newton was named the NFL Most Valuable Player 
+(MVP). They defeated the Arizona Cardinals 49–15 in the NFC Championship Game and advanced to their 
+second Super Bowl appearance since the franchise was founded in 1995. The Broncos finished the regul
+ar season with a 12–4 record, and denied the New England Patriots a chance to defend their title fro
+m Super Bowl XLIX by defeating them 20–18 in the AFC Championship Game. They joined the Patriots, Da
+llas Cowboys, and Pittsburgh Steelers as one of four teams that have made eight appearances in the S
+uper Bowl.', 'question': 'Who did the Carolina Panthers beat in the 2015 NFC Championship game?', 'a
+nswers': {'text': ['Arizona Cardinals', 'the Arizona Cardinals', 'Arizona Cardinals'], 'answer_start
+': [152, 148, 152]}}
+{'id': '56d98a59dc89441400fdb52a', 'title': 'Super_Bowl_50', 'context': 'The Panthers finished the r
+egular season with a 15–1 record, and quarterback Cam Newton was named the NFL Most Valuable Player 
+(MVP). They defeated the Arizona Cardinals 49–15 in the NFC Championship Game and advanced to their 
+second Super Bowl appearance since the franchise was founded in 1995. The Broncos finished the regul
+ar season with a 12–4 record, and denied the New England Patriots a chance to defend their title fro
+m Super Bowl XLIX by defeating them 20–18 in the AFC Championship Game. They joined the Patriots, Da
+llas Cowboys, and Pittsburgh Steelers as one of four teams that have made eight appearances in the S
+uper Bowl.', 'question': 'Who was the 2015 NFL MVP?', 'answers': {'text': ['Cam Newton', 'Cam Newton
+', 'Cam Newton'], 'answer_start': [77, 77, 77]}}
+{'id': '56d98a59dc89441400fdb52b', 'title': 'Super_Bowl_50', 'context': 'The Panthers finished the r
+egular season with a 15–1 record, and quarterback Cam Newton was named the NFL Most Valuable Player 
+(MVP). They defeated the Arizona Cardinals 49–15 in the NFC Championship Game and advanced to their 
+second Super Bowl appearance since the franchise was founded in 1995. The Broncos finished the regul
+ar season with a 12–4 record, and denied the New England Patriots a chance to defend their title fro
+m Super Bowl XLIX by defeating them 20–18 in the AFC Championship Game. They joined the Patriots, Da
+llas Cowboys, and Pittsburgh Steelers as one of four teams that have made eight appearances in the S
+uper Bowl.', 'question': 'Who did the Panthers beat to become the NFC champs?', 'answers': {'text': 
+['Arizona Cardinals', 'the Arizona Cardinals', 'Arizona Cardinals'], 'answer_start': [152, 148, 152]
+}}
+{'id': '56d98a59dc89441400fdb52e', 'title': 'Super_Bowl_50', 'context': 'The Panthers finished the r
+egular season with a 15–1 record, and quarterback Cam Newton was named the NFL Most Valuable Player 
+(MVP). They defeated the Arizona Cardinals 49–15 in the NFC Championship Game and advanced to their 
+second Super Bowl appearance since the franchise was founded in 1995. The Broncos finished the regul
+ar season with a 12–4 record, and denied the New England Patriots a chance to defend their title fro
+m Super Bowl XLIX by defeating them 20–18 in the AFC Championship Game. They joined the Patriots, Da
+llas Cowboys, and Pittsburgh Steelers as one of four teams that have made eight appearances in the S
+uper Bowl.', 'question': 'What year did the Carolina Panthers form?', 'answers': {'text': ['1995.', 
+'1995', '1995'], 'answer_start': [291, 291, 291]}}
+{'id': '56be4eafacb8001400a50302', 'title': 'Super_Bowl_50', 'context': "The Broncos took an early l
+ead in Super Bowl 50 and never trailed. Newton was limited by Denver's defense, which sacked him sev
+en times and forced him into three turnovers, including a fumble which they recovered for a touchdow
+n. Denver linebacker Von Miller was named Super Bowl MVP, recording five solo tackles, 2½ sacks, and
+ two forced fumbles.", 'question': 'Who was the Super Bowl 50 MVP?', 'answers': {'text': ['Von Mille
+r', 'Von Miller', 'Miller'], 'answer_start': [248, 248, 252]}}
+{'id': '56be4eafacb8001400a50303', 'title': 'Super_Bowl_50', 'context': "The Broncos took an early l
+ead in Super Bowl 50 and never trailed. Newton was limited by Denver's defense, which sacked him sev
+en times and forced him into three turnovers, including a fumble which they recovered for a touchdow
+n. Denver linebacker Von Miller was named Super Bowl MVP, recording five solo tackles, 2½ sacks, and
+ two forced fumbles.", 'question': 'How many fumbles did Von Miller force in Super Bowl 50?', 'answe
+rs': {'text': ['2', 'two', 'two'], 'answer_start': [314, 328, 328]}}
+{'id': '56be4eafacb8001400a50304', 'title': 'Super_Bowl_50', 'context': "The Broncos took an early l
+ead in Super Bowl 50 and never trailed. Newton was limited by Denver's defense, which sacked him sev
+en times and forced him into three turnovers, including a fumble which they recovered for a touchdow
+n. Denver linebacker Von Miller was named Super Bowl MVP, recording five solo tackles, 2½ sacks, and
+ two forced fumbles.", 'question': 'Which team held the scoring lead throughout the entire game?', '
+answers': {'text': ['Broncos', 'The Broncos', 'Broncos'], 'answer_start': [4, 0, 4]}}
+{'id': '56beab833aeaaa14008c91d2', 'title': 'Super_Bowl_50', 'context': "The Broncos took an early l
+ead in Super Bowl 50 and never trailed. Newton was limited by Denver's defense, which sacked him sev
+en times and forced him into three turnovers, including a fumble which they recovered for a touchdow
+n. Denver linebacker Von Miller was named Super Bowl MVP, recording five solo tackles, 2½ sacks, and
+ two forced fumbles.", 'question': 'Which Denver linebacker was named Super Bowl MVP?', 'answers': {
+'text': ['linebacker Von Miller', 'Von Miller', 'Miller'], 'answer_start': [237, 248, 252]}}
+{'id': '56beab833aeaaa14008c91d3', 'title': 'Super_Bowl_50', 'context': "The Broncos took an early l
+ead in Super Bowl 50 and never trailed. Newton was limited by Denver's defense, which sacked him sev
+en times and forced him into three turnovers, including a fumble which they recovered for a touchdow
+n. Denver linebacker Von Miller was named Super Bowl MVP, recording five solo tackles, 2½ sacks, and
+ two forced fumbles.", 'question': 'How many solo tackles did Von Miller make at Super Bowl 50?', 'a
+nswers': {'text': ['five solo tackles', 'five', 'five'], 'answer_start': [295, 295, 295]}}

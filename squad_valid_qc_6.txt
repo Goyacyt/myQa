@@ -1,0 +1,60 @@
+{'id': '56beab833aeaaa14008c91d4', 'title': 'Super_Bowl_50', 'context': "The Broncos took an early l
+ead in Super Bowl 50 and never trailed. Newton was limited by Denver's defense, which sacked him sev
+en times and forced him into three turnovers, including a fumble which they recovered for a touchdow
+n. Denver linebacker Von Miller was named Super Bowl MVP, recording five solo tackles, 2½ sacks, and
+ two forced fumbles.", 'question': "Who was limited by Denver's defense?", 'answers': {'text': ["New
+ton was limited by Denver's defense", 'Newton', 'Newton'], 'answer_start': [67, 67, 67]}}
+{'id': '56beae423aeaaa14008c91f4', 'title': 'Super_Bowl_50', 'context': "The Broncos took an early l
+ead in Super Bowl 50 and never trailed. Newton was limited by Denver's defense, which sacked him sev
+en times and forced him into three turnovers, including a fumble which they recovered for a touchdow
+n. Denver linebacker Von Miller was named Super Bowl MVP, recording five solo tackles, 2½ sacks, and
+ two forced fumbles.", 'question': 'How many times was Cam Newton sacked?', 'answers': {'text': ['se
+ven', 'seven', 'seven'], 'answer_start': [124, 124, 124]}}
+{'id': '56beae423aeaaa14008c91f5', 'title': 'Super_Bowl_50', 'context': "The Broncos took an early l
+ead in Super Bowl 50 and never trailed. Newton was limited by Denver's defense, which sacked him sev
+en times and forced him into three turnovers, including a fumble which they recovered for a touchdow
+n. Denver linebacker Von Miller was named Super Bowl MVP, recording five solo tackles, 2½ sacks, and
+ two forced fumbles.", 'question': 'Who won the Super Bowl MVP?', 'answers': {'text': ['Von Miller',
+ 'The Broncos', 'Miller'], 'answer_start': [248, 0, 252]}}
+{'id': '56beae423aeaaa14008c91f6', 'title': 'Super_Bowl_50', 'context': "The Broncos took an early l
+ead in Super Bowl 50 and never trailed. Newton was limited by Denver's defense, which sacked him sev
+en times and forced him into three turnovers, including a fumble which they recovered for a touchdow
+n. Denver linebacker Von Miller was named Super Bowl MVP, recording five solo tackles, 2½ sacks, and
+ two forced fumbles.", 'question': 'How many turnovers did Cam Newton have?', 'answers': {'text': ['
+three', 'three', 'three'], 'answer_start': [156, 156, 156]}}
+{'id': '56beae423aeaaa14008c91f7', 'title': 'Super_Bowl_50', 'context': "The Broncos took an early l
+ead in Super Bowl 50 and never trailed. Newton was limited by Denver's defense, which sacked him sev
+en times and forced him into three turnovers, including a fumble which they recovered for a touchdow
+n. Denver linebacker Von Miller was named Super Bowl MVP, recording five solo tackles, 2½ sacks, and
+ two forced fumbles.", 'question': 'How many fumbles did Von Miller force?', 'answers': {'text': ['t
+wo', 'two', 'two'], 'answer_start': [328, 328, 328]}}
+{'id': '56bf17653aeaaa14008c9511', 'title': 'Super_Bowl_50', 'context': "The Broncos took an early l
+ead in Super Bowl 50 and never trailed. Newton was limited by Denver's defense, which sacked him sev
+en times and forced him into three turnovers, including a fumble which they recovered for a touchdow
+n. Denver linebacker Von Miller was named Super Bowl MVP, recording five solo tackles, 2½ sacks, and
+ two forced fumbles.", 'question': 'Who was given the esteemed status of MVP for Super Bowl 50?', 'a
+nswers': {'text': ['Von Miller', 'Von Miller', 'Miller'], 'answer_start': [248, 248, 252]}}
+{'id': '56bf17653aeaaa14008c9513', 'title': 'Super_Bowl_50', 'context': "The Broncos took an early l
+ead in Super Bowl 50 and never trailed. Newton was limited by Denver's defense, which sacked him sev
+en times and forced him into three turnovers, including a fumble which they recovered for a touchdow
+n. Denver linebacker Von Miller was named Super Bowl MVP, recording five solo tackles, 2½ sacks, and
+ two forced fumbles.", 'question': 'What position does Von Miller play for the Denver Broncos?', 'an
+swers': {'text': ['linebacker', 'linebacker', 'linebacker'], 'answer_start': [237, 237, 237]}}
+{'id': '56bf17653aeaaa14008c9514', 'title': 'Super_Bowl_50', 'context': "The Broncos took an early l
+ead in Super Bowl 50 and never trailed. Newton was limited by Denver's defense, which sacked him sev
+en times and forced him into three turnovers, including a fumble which they recovered for a touchdow
+n. Denver linebacker Von Miller was named Super Bowl MVP, recording five solo tackles, 2½ sacks, and
+ two forced fumbles.", 'question': 'What was the number of solo tackles that Von Miller had in Super
+ Bowl 50?', 'answers': {'text': ['5', 'five', 'five'], 'answer_start': [45, 295, 295]}}
+{'id': '56bf17653aeaaa14008c9515', 'title': 'Super_Bowl_50', 'context': "The Broncos took an early l
+ead in Super Bowl 50 and never trailed. Newton was limited by Denver's defense, which sacked him sev
+en times and forced him into three turnovers, including a fumble which they recovered for a touchdow
+n. Denver linebacker Von Miller was named Super Bowl MVP, recording five solo tackles, 2½ sacks, and
+ two forced fumbles.", 'question': 'How many forced fumbles did Von Miller have during the Super Bow
+l 50 game?', 'answers': {'text': ['2', 'two', 'two'], 'answer_start': [314, 328, 328]}}
+{'id': '56d204ade7d4791d00902603', 'title': 'Super_Bowl_50', 'context': "The Broncos took an early l
+ead in Super Bowl 50 and never trailed. Newton was limited by Denver's defense, which sacked him sev
+en times and forced him into three turnovers, including a fumble which they recovered for a touchdow
+n. Denver linebacker Von Miller was named Super Bowl MVP, recording five solo tackles, 2½ sacks, and
+ two forced fumbles.", 'question': 'Who won the MVP for the Super Bowl?', 'answers': {'text': ['Von 
+Miller', 'Von Miller', 'Von Miller'], 'answer_start': [248, 248, 248]}}
