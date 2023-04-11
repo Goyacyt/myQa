@@ -2,6 +2,7 @@ import torch
 from transformers import AutoTokenizer
 from datasets import load_dataset,load_metric
 import roberta_base_squad2,longformer,minilm,bert_large_uncased_whole_word
+import unified_t5
 def predict(context,query):
 
   inputs = tokenizer.encode_plus(query, context, return_tensors='pt')
@@ -72,44 +73,45 @@ def give_an_answer(context,query,answer):
   return em_score,f1_score
 
 def main():
-  datasets=load_dataset("squad_v2")
+  datasets=load_dataset("squad")
   em_score1=em_score2=em_score3=em_score4=0
   f1_score1=f1_score2=f1_score3=f1_score4=0
   total=0
   for i,example in enumerate(datasets['validation']):
-    if(i>3000): break
+    if(i>100): break
     question=example['question']
     context=example['context']
     if not example['answers']['text']:
       truthset=['']
     else:
       truthset=example['answers']['text']
-    answer1=roberta_base_squad2.output_answer(question,context)['answer']
-    answer2=longformer.output_answer(question,context)['answer']
+    answer1=unified_t5.output_answer(question,context)
+    """answer2=longformer.output_answer(question,context)['answer']
     answer3=minilm.output_answer(question,context)['answer']
-    answer4=bert_large_uncased_whole_word.output_answer(question,context)['answer']
+    answer4=bert_large_uncased_whole_word.output_answer(question,context)['answer']"""
     total+=1
     em_score1+=max(compute_exact_match(answer1,truth) for truth in truthset)
-    em_score2+=max(compute_exact_match(answer2,truth) for truth in truthset)
+    """em_score2+=max(compute_exact_match(answer2,truth) for truth in truthset)
     em_score3+=max(compute_exact_match(answer3,truth) for truth in truthset)
-    em_score4+=max(compute_exact_match(answer4,truth) for truth in truthset)
+    em_score4+=max(compute_exact_match(answer4,truth) for truth in truthset)"""
     f1_score1+=max(compute_f1(answer1,truth) for truth in truthset)
-    f1_score2+=max(compute_f1(answer2,truth) for truth in truthset)
+    """f1_score2+=max(compute_f1(answer2,truth) for truth in truthset)
     f1_score3+=max(compute_f1(answer3,truth) for truth in truthset)
-    f1_score4+=max(compute_f1(answer4,truth) for truth in truthset)
+    f1_score4+=max(compute_f1(answer4,truth) for truth in truthset)"""
+    print("evaluating example ",i,em_score1,f1_score1)
 
   roberta_em_score=em_score1*100/total
-  longformer_em_score=em_score2*100/total
+  """longformer_em_score=em_score2*100/total
   minilm_em_score=em_score3*100/total
-  bert_em_score=em_score4*100/total
+  bert_em_score=em_score4*100/total"""
   roberta_f1=f1_score1*100/total
-  longformer_f1=f1_score2*100/total
+  """longformer_f1=f1_score2*100/total
   minilm_f1=f1_score3*100/total
-  bert_f1=f1_score4*100/total
+  bert_f1=f1_score4*100/total"""
   print("roberta:",roberta_em_score,roberta_f1)
-  print("longformer:",longformer_em_score,longformer_f1)
+  """print("longformer:",longformer_em_score,longformer_f1)
   print("minilm:",minilm_em_score,minilm_f1)
-  print("bert:",bert_em_score,bert_f1)
+  print("bert:",bert_em_score,bert_f1)"""
 
 
 if __name__ == "__main__":

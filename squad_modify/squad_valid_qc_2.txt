@@ -1,0 +1,108 @@
+{'id': '56bf10f43aeaaa14008c9501', 'title': 'Super_Bowl_50', 'context': 'Super Bowl 50 was an Americ
+an football game to determine the champion of the National Football League (NFL) for the 2015 season
+. The American Football Conference (AFC) champion Denver Broncos defeated the National Football Conf
+erence (NFC) champion Carolina Panthers 24–10 to earn their third Super Bowl title. The game was pla
+yed on February 7, 2016, at Levi\'s Stadium in the San Francisco Bay Area at Santa Clara, California
+. As this was the 50th Super Bowl, the league emphasized the "golden anniversary" with various gold-
+themed initiatives, as well as temporarily suspending the tradition of naming each Super Bowl game w
+ith Roman numerals (under which the game would have been known as "Super Bowl L"), so that the logo 
+could prominently feature the Arabic numerals 50.', 'question': 'What month, day and year did Super 
+Bowl 50 take place? ', 'answers': {'text': ['February 7, 2016', 'February 7, 2016', 'February 7, 201
+6'], 'answer_start': [334, 334, 334]}}
+{'id': '56d20362e7d4791d009025e8', 'title': 'Super_Bowl_50', 'context': 'Super Bowl 50 was an Americ
+an football game to determine the champion of the National Football League (NFL) for the 2015 season
+. The American Football Conference (AFC) champion Denver Broncos defeated the National Football Conf
+erence (NFC) champion Carolina Panthers 24–10 to earn their third Super Bowl title. The game was pla
+yed on February 7, 2016, at Levi\'s Stadium in the San Francisco Bay Area at Santa Clara, California
+. As this was the 50th Super Bowl, the league emphasized the "golden anniversary" with various gold-
+themed initiatives, as well as temporarily suspending the tradition of naming each Super Bowl game w
+ith Roman numerals (under which the game would have been known as "Super Bowl L"), so that the logo 
+could prominently feature the Arabic numerals 50.', 'question': 'What year was Super Bowl 50?', 'ans
+wers': {'text': ['2015', '2016', '2016'], 'answer_start': [116, 346, 346]}}
+{'id': '56d20362e7d4791d009025e9', 'title': 'Super_Bowl_50', 'context': 'Super Bowl 50 was an Americ
+an football game to determine the champion of the National Football League (NFL) for the 2015 season
+. The American Football Conference (AFC) champion Denver Broncos defeated the National Football Conf
+erence (NFC) champion Carolina Panthers 24–10 to earn their third Super Bowl title. The game was pla
+yed on February 7, 2016, at Levi\'s Stadium in the San Francisco Bay Area at Santa Clara, California
+. As this was the 50th Super Bowl, the league emphasized the "golden anniversary" with various gold-
+themed initiatives, as well as temporarily suspending the tradition of naming each Super Bowl game w
+ith Roman numerals (under which the game would have been known as "Super Bowl L"), so that the logo 
+could prominently feature the Arabic numerals 50.', 'question': 'What team was the AFC champion?', '
+answers': {'text': ['Denver Broncos', 'Denver Broncos', 'Denver Broncos'], 'answer_start': [177, 177
+, 177]}}
+{'id': '56d20362e7d4791d009025ea', 'title': 'Super_Bowl_50', 'context': 'Super Bowl 50 was an Americ
+an football game to determine the champion of the National Football League (NFL) for the 2015 season
+. The American Football Conference (AFC) champion Denver Broncos defeated the National Football Conf
+erence (NFC) champion Carolina Panthers 24–10 to earn their third Super Bowl title. The game was pla
+yed on February 7, 2016, at Levi\'s Stadium in the San Francisco Bay Area at Santa Clara, California
+. As this was the 50th Super Bowl, the league emphasized the "golden anniversary" with various gold-
+themed initiatives, as well as temporarily suspending the tradition of naming each Super Bowl game w
+ith Roman numerals (under which the game would have been known as "Super Bowl L"), so that the logo 
+could prominently feature the Arabic numerals 50.', 'question': 'What team was the NFC champion?', '
+answers': {'text': ['Carolina Panthers', 'Carolina Panthers', 'Carolina Panthers'], 'answer_start': 
+[249, 249, 249]}}
+{'id': '56d20362e7d4791d009025eb', 'title': 'Super_Bowl_50', 'context': 'Super Bowl 50 was an Americ
+an football game to determine the champion of the National Football League (NFL) for the 2015 season
+. The American Football Conference (AFC) champion Denver Broncos defeated the National Football Conf
+erence (NFC) champion Carolina Panthers 24–10 to earn their third Super Bowl title. The game was pla
+yed on February 7, 2016, at Levi\'s Stadium in the San Francisco Bay Area at Santa Clara, California
+. As this was the 50th Super Bowl, the league emphasized the "golden anniversary" with various gold-
+themed initiatives, as well as temporarily suspending the tradition of naming each Super Bowl game w
+ith Roman numerals (under which the game would have been known as "Super Bowl L"), so that the logo 
+could prominently feature the Arabic numerals 50.', 'question': 'Who won Super Bowl 50?', 'answers':
+ {'text': ['Denver Broncos', 'Denver Broncos', 'Denver Broncos'], 'answer_start': [177, 177, 177]}}
+{'id': '56d600e31c85041400946eae', 'title': 'Super_Bowl_50', 'context': 'Super Bowl 50 was an Americ
+an football game to determine the champion of the National Football League (NFL) for the 2015 season
+. The American Football Conference (AFC) champion Denver Broncos defeated the National Football Conf
+erence (NFC) champion Carolina Panthers 24–10 to earn their third Super Bowl title. The game was pla
+yed on February 7, 2016, at Levi\'s Stadium in the San Francisco Bay Area at Santa Clara, California
+. As this was the 50th Super Bowl, the league emphasized the "golden anniversary" with various gold-
+themed initiatives, as well as temporarily suspending the tradition of naming each Super Bowl game w
+ith Roman numerals (under which the game would have been known as "Super Bowl L"), so that the logo 
+could prominently feature the Arabic numerals 50.', 'question': 'Super Bowl 50 determined the NFL ch
+ampion for what season?', 'answers': {'text': ['2015', 'the 2015 season', '2015'], 'answer_start': [
+116, 112, 116]}}
+{'id': '56d600e31c85041400946eb0', 'title': 'Super_Bowl_50', 'context': 'Super Bowl 50 was an Americ
+an football game to determine the champion of the National Football League (NFL) for the 2015 season
+. The American Football Conference (AFC) champion Denver Broncos defeated the National Football Conf
+erence (NFC) champion Carolina Panthers 24–10 to earn their third Super Bowl title. The game was pla
+yed on February 7, 2016, at Levi\'s Stadium in the San Francisco Bay Area at Santa Clara, California
+. As this was the 50th Super Bowl, the league emphasized the "golden anniversary" with various gold-
+themed initiatives, as well as temporarily suspending the tradition of naming each Super Bowl game w
+ith Roman numerals (under which the game would have been known as "Super Bowl L"), so that the logo 
+could prominently feature the Arabic numerals 50.', 'question': 'Which team won Super Bowl 50.', 'an
+swers': {'text': ['Denver Broncos', 'Denver Broncos', 'Denver Broncos'], 'answer_start': [177, 177, 
+177]}}
+{'id': '56d600e31c85041400946eb1', 'title': 'Super_Bowl_50', 'context': 'Super Bowl 50 was an Americ
+an football game to determine the champion of the National Football League (NFL) for the 2015 season
+. The American Football Conference (AFC) champion Denver Broncos defeated the National Football Conf
+erence (NFC) champion Carolina Panthers 24–10 to earn their third Super Bowl title. The game was pla
+yed on February 7, 2016, at Levi\'s Stadium in the San Francisco Bay Area at Santa Clara, California
+. As this was the 50th Super Bowl, the league emphasized the "golden anniversary" with various gold-
+themed initiatives, as well as temporarily suspending the tradition of naming each Super Bowl game w
+ith Roman numerals (under which the game would have been known as "Super Bowl L"), so that the logo 
+could prominently feature the Arabic numerals 50.', 'question': 'Where was Super Bowl 50 held?', 'an
+swers': {'text': ['Santa Clara, California.', "Levi's Stadium", "Levi's Stadium"], 'answer_start': [
+403, 355, 355]}}
+{'id': '56d9895ddc89441400fdb50e', 'title': 'Super_Bowl_50', 'context': 'Super Bowl 50 was an Americ
+an football game to determine the champion of the National Football League (NFL) for the 2015 season
+. The American Football Conference (AFC) champion Denver Broncos defeated the National Football Conf
+erence (NFC) champion Carolina Panthers 24–10 to earn their third Super Bowl title. The game was pla
+yed on February 7, 2016, at Levi\'s Stadium in the San Francisco Bay Area at Santa Clara, California
+. As this was the 50th Super Bowl, the league emphasized the "golden anniversary" with various gold-
+themed initiatives, as well as temporarily suspending the tradition of naming each Super Bowl game w
+ith Roman numerals (under which the game would have been known as "Super Bowl L"), so that the logo 
+could prominently feature the Arabic numerals 50.', 'question': 'The name of the NFL championship ga
+me is?', 'answers': {'text': ['Super Bowl', 'Super Bowl', 'Super Bowl'], 'answer_start': [0, 0, 0]}}
+
+{'id': '56d9895ddc89441400fdb510', 'title': 'Super_Bowl_50', 'context': 'Super Bowl 50 was an Americ
+an football game to determine the champion of the National Football League (NFL) for the 2015 season
+. The American Football Conference (AFC) champion Denver Broncos defeated the National Football Conf
+erence (NFC) champion Carolina Panthers 24–10 to earn their third Super Bowl title. The game was pla
+yed on February 7, 2016, at Levi\'s Stadium in the San Francisco Bay Area at Santa Clara, California
+. As this was the 50th Super Bowl, the league emphasized the "golden anniversary" with various gold-
+themed initiatives, as well as temporarily suspending the tradition of naming each Super Bowl game w
+ith Roman numerals (under which the game would have been known as "Super Bowl L"), so that the logo 
+could prominently feature the Arabic numerals 50.', 'question': 'What 2015 NFL team one the AFC play
+off?', 'answers': {'text': ['Denver Broncos', 'Denver Broncos', 'Denver Broncos'], 'answer_start': [
+177, 177, 177]}}

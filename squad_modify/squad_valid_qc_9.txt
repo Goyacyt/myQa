@@ -1,0 +1,68 @@
+{'id': '56bf1ae93aeaaa14008c951b', 'title': 'Super_Bowl_50', 'context': 'CBS broadcast Super Bowl 50
+ in the U.S., and charged an average of $5 million for a 30-second commercial during the game. The S
+uper Bowl 50 halftime show was headlined by the British rock group Coldplay with special guest perfo
+rmers Beyoncé and Bruno Mars, who headlined the Super Bowl XLVII and Super Bowl XLVIII halftime show
+s, respectively. It was the third-most watched U.S. broadcast ever.', 'question': 'Which network bro
+adcasted the 50th Super Bowl game? ', 'answers': {'text': ['CBS', 'CBS', 'CBS'], 'answer_start': [0,
+ 0, 0]}}
+{'id': '56bf1ae93aeaaa14008c951c', 'title': 'Super_Bowl_50', 'context': 'CBS broadcast Super Bowl 50
+ in the U.S., and charged an average of $5 million for a 30-second commercial during the game. The S
+uper Bowl 50 halftime show was headlined by the British rock group Coldplay with special guest perfo
+rmers Beyoncé and Bruno Mars, who headlined the Super Bowl XLVII and Super Bowl XLVIII halftime show
+s, respectively. It was the third-most watched U.S. broadcast ever.', 'question': 'What was the aver
+age cost for a TV ad lasting 30 seconds during Super Bowl 50?', 'answers': {'text': ['$5 million', '
+$5 million', '$5 million'], 'answer_start': [67, 67, 67]}}
+{'id': '56bf1ae93aeaaa14008c951e', 'title': 'Super_Bowl_50', 'context': 'CBS broadcast Super Bowl 50
+ in the U.S., and charged an average of $5 million for a 30-second commercial during the game. The S
+uper Bowl 50 halftime show was headlined by the British rock group Coldplay with special guest perfo
+rmers Beyoncé and Bruno Mars, who headlined the Super Bowl XLVII and Super Bowl XLVIII halftime show
+s, respectively. It was the third-most watched U.S. broadcast ever.', 'question': 'Who was the male 
+singer who performed as a special guest during Super Bowl 50?', 'answers': {'text': ['Bruno Mars', '
+Bruno Mars', 'Bruno Mars,'], 'answer_start': [245, 245, 245]}}
+{'id': '56bf1ae93aeaaa14008c951f', 'title': 'Super_Bowl_50', 'context': 'CBS broadcast Super Bowl 50
+ in the U.S., and charged an average of $5 million for a 30-second commercial during the game. The S
+uper Bowl 50 halftime show was headlined by the British rock group Coldplay with special guest perfo
+rmers Beyoncé and Bruno Mars, who headlined the Super Bowl XLVII and Super Bowl XLVIII halftime show
+s, respectively. It was the third-most watched U.S. broadcast ever.', 'question': 'What ranking does
+ the Super Bowl 50 halftime show have on the list of most watched TV broadcasts?', 'answers': {'text
+': ['third', 'third', 'third'], 'answer_start': [355, 355, 355]}}
+{'id': '56d2051ce7d4791d00902608', 'title': 'Super_Bowl_50', 'context': 'CBS broadcast Super Bowl 50
+ in the U.S., and charged an average of $5 million for a 30-second commercial during the game. The S
+uper Bowl 50 halftime show was headlined by the British rock group Coldplay with special guest perfo
+rmers Beyoncé and Bruno Mars, who headlined the Super Bowl XLVII and Super Bowl XLVIII halftime show
+s, respectively. It was the third-most watched U.S. broadcast ever.', 'question': 'What station aire
+d the Super Bowl?', 'answers': {'text': ['CBS', 'CBS', 'CBS'], 'answer_start': [0, 0, 0]}}
+{'id': '56d2051ce7d4791d00902609', 'title': 'Super_Bowl_50', 'context': 'CBS broadcast Super Bowl 50
+ in the U.S., and charged an average of $5 million for a 30-second commercial during the game. The S
+uper Bowl 50 halftime show was headlined by the British rock group Coldplay with special guest perfo
+rmers Beyoncé and Bruno Mars, who headlined the Super Bowl XLVII and Super Bowl XLVIII halftime show
+s, respectively. It was the third-most watched U.S. broadcast ever.', 'question': 'How much money di
+d a 1/2 minute commercial cost?', 'answers': {'text': ['$5 million', '$5 million', '$5 million'], 'a
+nswer_start': [67, 67, 67]}}
+{'id': '56d2051ce7d4791d0090260a', 'title': 'Super_Bowl_50', 'context': 'CBS broadcast Super Bowl 50
+ in the U.S., and charged an average of $5 million for a 30-second commercial during the game. The S
+uper Bowl 50 halftime show was headlined by the British rock group Coldplay with special guest perfo
+rmers Beyoncé and Bruno Mars, who headlined the Super Bowl XLVII and Super Bowl XLVIII halftime show
+s, respectively. It was the third-most watched U.S. broadcast ever.', 'question': 'What band headlin
+ed half-time during Super Bowl 50?', 'answers': {'text': ['Coldplay', 'Coldplay', 'Coldplay'], 'answ
+er_start': [194, 194, 194]}}
+{'id': '56d2051ce7d4791d0090260b', 'title': 'Super_Bowl_50', 'context': 'CBS broadcast Super Bowl 50
+ in the U.S., and charged an average of $5 million for a 30-second commercial during the game. The S
+uper Bowl 50 halftime show was headlined by the British rock group Coldplay with special guest perfo
+rmers Beyoncé and Bruno Mars, who headlined the Super Bowl XLVII and Super Bowl XLVIII halftime show
+s, respectively. It was the third-most watched U.S. broadcast ever.', 'question': 'What two artists 
+came out with Coldplay during the half-time show?', 'answers': {'text': ['Beyoncé and Bruno Mars', '
+Beyoncé and Bruno Mars', 'Beyoncé and Bruno Mars'], 'answer_start': [233, 233, 233]}}
+{'id': '56d602631c85041400946ed8', 'title': 'Super_Bowl_50', 'context': 'CBS broadcast Super Bowl 50
+ in the U.S., and charged an average of $5 million for a 30-second commercial during the game. The S
+uper Bowl 50 halftime show was headlined by the British rock group Coldplay with special guest perfo
+rmers Beyoncé and Bruno Mars, who headlined the Super Bowl XLVII and Super Bowl XLVIII halftime show
+s, respectively. It was the third-most watched U.S. broadcast ever.', 'question': 'Who broadcast the
+ Super Bowl on TV?', 'answers': {'text': ['CBS', 'CBS', 'CBS'], 'answer_start': [0, 0, 0]}}
+{'id': '56d602631c85041400946eda', 'title': 'Super_Bowl_50', 'context': 'CBS broadcast Super Bowl 50
+ in the U.S., and charged an average of $5 million for a 30-second commercial during the game. The S
+uper Bowl 50 halftime show was headlined by the British rock group Coldplay with special guest perfo
+rmers Beyoncé and Bruno Mars, who headlined the Super Bowl XLVII and Super Bowl XLVIII halftime show
+s, respectively. It was the third-most watched U.S. broadcast ever.', 'question': 'Who headlined the
+ halftime show for Super Bowl 50?', 'answers': {'text': ['Coldplay', 'Coldplay', 'Coldplay'], 'answe
+r_start': [194, 194, 194]}}
