@@ -1,0 +1,283 @@
+------------test case30------------
+primary context:
+Before Rollo's arrival, its populations did not differ from Picardy or the Île-de-France, which were
+ considered "Frankish". Earlier Viking settlers had begun arriving in the 880s, but were divided bet
+ween colonies in the east (Roumois and Pays de Caux) around the low Seine valley and in the west in 
+the Cotentin Peninsula, and were separated by traditional pagii, where the population remained about
+ the same with almost no foreign settlers. Rollo's contingents who raided and ultimately settled Nor
+mandy and parts of the Atlantic coast included Danes, Norwegians, Norse–Gaels, Orkney Vikings, possi
+bly Swedes, and Anglo-Danes from the English Danelaw under Norse control.
+----------------------------------------------
+context after modification:
+  Before Rollo's arrival,
+   its populations did not differ from Picardy or the Île-de-France,
+   which were considered "Frankish",
+-  Earlier Viking settlers had begun arriving in the 880s,
+?                                                    ^^
+,
++  Earlier Viking settlers had begun arriving in the 100s,
+?                                                    ^^
+,
+-  but were divided between colonies in the east (Roumois and Pays de Caux) around the low Seine valley and in the west in the Cotentin Peninsula,
+?                                               ---------------------------
+,
++  but were divided between colonies in the east around the low Seine valley and in the west in the Cotentin Peninsula,
+   and were separated by traditional pagii,
+   where the population remained about the same with almost no foreign settlers,
+   Rollo's contingents who raided and ultimately settled Normandy and parts of the Atlantic coast included Danes,
+   Norwegians,
+   Norse–Gaels,
+   Orkney Vikings,
+   possibly Swedes,
+   and Anglo-Danes from the English Danelaw under Norse control,
+  
+----------------------------------------------
+question: What Viking groups were conquered by Rollo?
+right answer:-------- ['']
+------------test case31------------
+primary context:
+The descendants of Rollo's Vikings and their Frankish wives would replace the Norse religion and Old
+ Norse language with Catholicism (Christianity) and the Gallo-Romance language of the local people, 
+blending their maternal Frankish heritage with Old Norse traditions and customs to synthesize a uniq
+ue "Norman" culture in the north of France. The Norman language was forged by the adoption of the in
+digenous langue d'oïl branch of Romance by a Norse-speaking ruling class, and it developed into the 
+regional language that survives today.
+----------------------------------------------
+context after modification:
+- The descendants of Rollo's Vikings and their Frankish wives would replace the Norse religion and Old Norse language with Catholicism (Christianity) and the Gallo-Romance language of the local people,
+?                                                                               ^^^                    ^^^
+,
++ The descendants of Rollo's Vikings and their Frankish wives would replace the Chinese religion and Old Chinese language with Catholicism (Christianity) and the Gallo-Romance language of the local people,
+?                                                                               ^^^^^                    ^^^^^
+,
+-  blending their maternal Frankish heritage with Old Norse traditions and customs to synthesize a unique "Norman" culture in the north of France,
+?                                                     ^^^                                          -------
+,
++  blending their maternal Frankish heritage with Old Chinese traditions and customs to synthesize a "Norman" culture in the north of France,
+?                                                     ^^^^^
+,
+   The Norman language was forged by the adoption of the indigenous langue d'oïl branch of Romance by a Norse-speaking ruling class,
+   and it developed into the regional language that survives today,
+  
+----------------------------------------------
+question: What was the Norman religion?
+right answer:-------- ['Catholicism', 'Catholicism', 'Catholicism']
+allenai/unifiedqa-t5-base :
+original result:----- norse 
+modified result:----- romance
+------------test case32------------
+primary context:
+The descendants of Rollo's Vikings and their Frankish wives would replace the Norse religion and Old
+ Norse language with Catholicism (Christianity) and the Gallo-Romance language of the local people, 
+blending their maternal Frankish heritage with Old Norse traditions and customs to synthesize a uniq
+ue "Norman" culture in the north of France. The Norman language was forged by the adoption of the in
+digenous langue d'oïl branch of Romance by a Norse-speaking ruling class, and it developed into the 
+regional language that survives today.
+----------------------------------------------
+context after modification:
+- The descendants of Rollo's Vikings and their Frankish wives would replace the Norse religion and Old Norse language with Catholicism (Christianity) and the Gallo-Romance language of the local people,
+?                                                                                              -----------------------                                                              --------------------
+,
++ The descendants of Rollo's Vikings and their Frankish wives would replace the Norse religion with Catholicism (Christianity) and the Gallo-Romance language,
+-  blending their maternal Frankish heritage with Old Norse traditions and customs to synthesize a unique "Norman" culture in the north of France,
+?                                                                      ------------
+,
++  blending their maternal Frankish heritage with Old Norse traditions to synthesize a unique "Norman" culture in the north of France,
+   The Norman language was forged by the adoption of the indigenous langue d'oïl branch of Romance by a Norse-speaking ruling class,
+   and it developed into the regional language that survives today,
+  
+----------------------------------------------
+question: What part of France were the Normans located?
+right answer:-------- ['north', 'the north', 'north']
+------------test case33------------
+primary context:
+The descendants of Rollo's Vikings and their Frankish wives would replace the Norse religion and Old
+ Norse language with Catholicism (Christianity) and the Gallo-Romance language of the local people, 
+blending their maternal Frankish heritage with Old Norse traditions and customs to synthesize a uniq
+ue "Norman" culture in the north of France. The Norman language was forged by the adoption of the in
+digenous langue d'oïl branch of Romance by a Norse-speaking ruling class, and it developed into the 
+regional language that survives today.
+----------------------------------------------
+context after modification:
+  The descendants of Rollo's Vikings and their Frankish wives would replace the Norse religion and Old Norse language with Catholicism (Christianity) and the Gallo-Romance language of the local people,
+   blending their maternal Frankish heritage with Old Norse traditions and customs to synthesize a unique "Norman" culture in the north of France,
+   The Norman language was forged by the adoption of the indigenous langue d'oïl branch of Romance by a Norse-speaking ruling class,
+   and it developed into the regional language that survives today,
+  
+----------------------------------------------
+question: What was replace with the Norse religion?
+right answer:-------- ['']
+------------test case34------------
+primary context:
+The descendants of Rollo's Vikings and their Frankish wives would replace the Norse religion and Old
+ Norse language with Catholicism (Christianity) and the Gallo-Romance language of the local people, 
+blending their maternal Frankish heritage with Old Norse traditions and customs to synthesize a uniq
+ue "Norman" culture in the north of France. The Norman language was forged by the adoption of the in
+digenous langue d'oïl branch of Romance by a Norse-speaking ruling class, and it developed into the 
+regional language that survives today.
+----------------------------------------------
+context after modification:
+- The descendants of Rollo's Vikings and their Frankish wives would replace the Norse religion and Old Norse language with Catholicism (Christianity) and the Gallo-Romance language of the local people,
++ The descendants of Rollo's Vikings and their Frankish wives would replace the Norse religion and Old Norse language,
+-  blending their maternal Frankish heritage with Old Norse traditions and customs to synthesize a unique "Norman" culture in the north of France,
+?                                                                                                         ---------       -----------------------
+,
++  blending their maternal Frankish heritage with Old Norse traditions and customs to synthesize a unique culture,
+   The Norman language was forged by the adoption of the indigenous langue d'oïl branch of Romance by a Norse-speaking ruling class,
+   and it developed into the regional language that survives today,
+  
+----------------------------------------------
+question: What did maternal Old Norse traditions merge with?
+right answer:-------- ['']
+allenai/unifiedqa-t5-base :
+original result:----- the Norse language and customs of the local people 
+modified result:----- the Norse religion and language
+------------test case35------------
+primary context:
+The descendants of Rollo's Vikings and their Frankish wives would replace the Norse religion and Old
+ Norse language with Catholicism (Christianity) and the Gallo-Romance language of the local people, 
+blending their maternal Frankish heritage with Old Norse traditions and customs to synthesize a uniq
+ue "Norman" culture in the north of France. The Norman language was forged by the adoption of the in
+digenous langue d'oïl branch of Romance by a Norse-speaking ruling class, and it developed into the 
+regional language that survives today.
+----------------------------------------------
+context after modification:
+- The descendants of Rollo's Vikings and their Frankish wives would replace the Norse religion and Old Norse language with Catholicism (Christianity) and the Gallo-Romance language of the local people,
+?                                                                                                                                     ----------------                              --------------------
+,
++ The descendants of Rollo's Vikings and their Frankish wives would replace the Norse religion and Old Norse language with Catholicismand the Gallo-Romance language,
+-  blending their maternal Frankish heritage with Old Norse traditions and customs to synthesize a unique "Norman" culture in the north of France,
+-  The Norman language was forged by the adoption of the indigenous langue d'oïl branch of Romance by a Norse-speaking ruling class,
+? -
+,
++ The Norman language was forged by the adoption of the indigenous langue d'oïl branch of Romance by a Norse-speaking ruling class,
+   and it developed into the regional language that survives today,
+  
+----------------------------------------------
+question: What language replaced the Gallo-Romance language?
+right answer:-------- ['']
+allenai/unifiedqa-t5-base :
+original result:----- Norman 
+modified result:----- the Norman language
+------------test case36------------
+primary context:
+The Normans thereafter adopted the growing feudal doctrines of the rest of France, and worked them i
+nto a functional hierarchical system in both Normandy and in England. The new Norman rulers were cul
+turally and ethnically distinct from the old French aristocracy, most of whom traced their lineage t
+o Franks of the Carolingian dynasty. Most Norman knights remained poor and land-hungry, and by 1066 
+Normandy had been exporting fighting horsemen for more than a generation. Many Normans of Italy, Fra
+nce and England eventually served as avid Crusaders under the Italo-Norman prince Bohemund I and the
+ Anglo-Norman king Richard the Lion-Heart.
+----------------------------------------------
+context after modification:
+  The Normans thereafter adopted the growing feudal doctrines of the rest of France,
+   and worked them into a functional hierarchical system in both Normandy and in England,
+   The new Norman rulers were culturally and ethnically distinct from the old French aristocracy,
+   most of whom traced their lineage to Franks of the Carolingian dynasty,
+-  Most Norman knights remained poor and land-hungry,
+?                               --- ^^^^^^^^^^ -----
+,
++  Most Norman knights remained rich,
+?                                ^^
+,
+-  and by 1066 Normandy had been exporting fighting horsemen for more than a generation,
+?           ^^                                                   ^^^
+,
++  and by 1800 Normandy had been exporting fighting horsemen for less than a generation,
+?          + ^                                                   ^ ++
+,
+   Many Normans of Italy,
+   France and England eventually served as avid Crusaders under the Italo-Norman prince Bohemund I and the Anglo-Norman king Richard the Lion-Heart,
+  
+----------------------------------------------
+question: What was one of the Norman's major exports?
+right answer:-------- ['fighting horsemen', 'fighting horsemen', 'fighting horsemen']
+------------test case37------------
+primary context:
+The Normans thereafter adopted the growing feudal doctrines of the rest of France, and worked them i
+nto a functional hierarchical system in both Normandy and in England. The new Norman rulers were cul
+turally and ethnically distinct from the old French aristocracy, most of whom traced their lineage t
+o Franks of the Carolingian dynasty. Most Norman knights remained poor and land-hungry, and by 1066 
+Normandy had been exporting fighting horsemen for more than a generation. Many Normans of Italy, Fra
+nce and England eventually served as avid Crusaders under the Italo-Norman prince Bohemund I and the
+ Anglo-Norman king Richard the Lion-Heart.
+----------------------------------------------
+context after modification:
+- The Normans thereafter adopted the growing feudal doctrines of the rest of France,
+?                                   --------
+,
++ The Normans thereafter adopted the feudal doctrines of the rest of France,
+-  and worked them into a functional hierarchical system in both Normandy and in England,
+?                                                       --------------------------------
+,
++  and worked them into a functional hierarchical system,
+   The new Norman rulers were culturally and ethnically distinct from the old French aristocracy,
+   most of whom traced their lineage to Franks of the Carolingian dynasty,
+   Most Norman knights remained poor and land-hungry,
+   and by 1066 Normandy had been exporting fighting horsemen for more than a generation,
+   Many Normans of Italy,
+   France and England eventually served as avid Crusaders under the Italo-Norman prince Bohemund I and the Anglo-Norman king Richard the Lion-Heart,
+  
+----------------------------------------------
+question: Who adopted the fuedel doctrines of the Normans?
+right answer:-------- ['']
+------------test case38------------
+primary context:
+The Normans thereafter adopted the growing feudal doctrines of the rest of France, and worked them i
+nto a functional hierarchical system in both Normandy and in England. The new Norman rulers were cul
+turally and ethnically distinct from the old French aristocracy, most of whom traced their lineage t
+o Franks of the Carolingian dynasty. Most Norman knights remained poor and land-hungry, and by 1066 
+Normandy had been exporting fighting horsemen for more than a generation. Many Normans of Italy, Fra
+nce and England eventually served as avid Crusaders under the Italo-Norman prince Bohemund I and the
+ Anglo-Norman king Richard the Lion-Heart.
+----------------------------------------------
+context after modification:
+  The Normans thereafter adopted the growing feudal doctrines of the rest of France,
+   and worked them into a functional hierarchical system in both Normandy and in England,
+   The new Norman rulers were culturally and ethnically distinct from the old French aristocracy,
+   most of whom traced their lineage to Franks of the Carolingian dynasty,
+   Most Norman knights remained poor and land-hungry,
+-  and by 1066 Normandy had been exporting fighting horsemen for more than a generation,
+?                                ^^                         ---------------------------
+,
++  and by 1066 Normandy had been importing fighting horsemen,
+?                                ^^
+,
+   Many Normans of Italy,
+   France and England eventually served as avid Crusaders under the Italo-Norman prince Bohemund I and the Anglo-Norman king Richard the Lion-Heart,
+  
+----------------------------------------------
+question: What was one of the Norman's major imports?
+right answer:-------- ['']
+allenai/unifiedqa-t5-base :
+original result:----- the growing feudal doctrines of the rest of France 
+modified result:----- fighting horsemen
+------------test case39------------
+primary context:
+The Normans thereafter adopted the growing feudal doctrines of the rest of France, and worked them i
+nto a functional hierarchical system in both Normandy and in England. The new Norman rulers were cul
+turally and ethnically distinct from the old French aristocracy, most of whom traced their lineage t
+o Franks of the Carolingian dynasty. Most Norman knights remained poor and land-hungry, and by 1066 
+Normandy had been exporting fighting horsemen for more than a generation. Many Normans of Italy, Fra
+nce and England eventually served as avid Crusaders under the Italo-Norman prince Bohemund I and the
+ Anglo-Norman king Richard the Lion-Heart.
+----------------------------------------------
+context after modification:
+  The Normans thereafter adopted the growing feudal doctrines of the rest of France,
+   and worked them into a functional hierarchical system in both Normandy and in England,
+   The new Norman rulers were culturally and ethnically distinct from the old French aristocracy,
+   most of whom traced their lineage to Franks of the Carolingian dynasty,
+   Most Norman knights remained poor and land-hungry,
+   and by 1066 Normandy had been exporting fighting horsemen for more than a generation,
+   Many Normans of Italy,
+-  France and England eventually served as avid Crusaders under the Italo-Norman prince Bohemund I and the Anglo-Norman king Richard the Lion-Heart,
++  France and England eventually served as avid Crusaders under the Italo-Norman prince Bohemund I and the Anglo-Norman king Richard the Lion-Heart who belonged to an aristocratic family,
+?                                                                                                                                                  +++++++++++++++++++++++++++++++++++++++
+,
+  
+----------------------------------------------
+question: Who's arristocracy eventually served as avid Crusaders?
+right answer:-------- ['']
+allenai/unifiedqa-t5-large :
+original result:----- the italo-norman prince Bohemund I 
+modified result:----- the italo-norman prince Bohemund I and the anglo-n

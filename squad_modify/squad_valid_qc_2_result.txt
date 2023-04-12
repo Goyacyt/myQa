@@ -1,0 +1,316 @@
+------------test case20------------
+primary context:
+Super Bowl 50 was an American football game to determine the champion of the National Football Leagu
+e (NFL) for the 2015 season. The American Football Conference (AFC) champion Denver Broncos defeated
+ the National Football Conference (NFC) champion Carolina Panthers 24–10 to earn their third Super B
+owl title. The game was played on February 7, 2016, at Levi's Stadium in the San Francisco Bay Area 
+at Santa Clara, California. As this was the 50th Super Bowl, the league emphasized the "golden anniv
+ersary" with various gold-themed initiatives, as well as temporarily suspending the tradition of nam
+ing each Super Bowl game with Roman numerals (under which the game would have been known as "Super B
+owl L"), so that the logo could prominently feature the Arabic numerals 50.
+----------------------------------------------
+context after modification:
+  Super Bowl 50 was an American football game to determine the champion of the National Football League (NFL) for the 2015 season,
+-  The American Football Conference (AFC) champion Denver Broncos defeated the National Football Conference (NFC) champion Carolina Panthers 24–10 to earn their third Super Bowl title,
+?                                                                                                                                              ^
+,
++  The American Football Conference (AFC) champion Denver Broncos defeated the National Football Conference (NFC) champion Carolina Panthers 24-10 to earn their third Super Bowl title,
+?                                                                                                                                              ^
+,
+   The game was played on February 7,
+   2016,
+   at Levi's Stadium in the San Francisco Bay Area at Santa Clara,
+   California,
+-  As this was the 50th Super Bowl,
+-  the league emphasized the "golden anniversary" with various gold-themed initiatives,
+?  ^
+,
++  The league emphasized the "golden anniversary" with various gold-themed initiatives,
+?  ^
+,
+   as well as temporarily suspending the tradition of naming each Super Bowl game with Roman numerals (under which the game would have been known as "Super Bowl L"),
+   so that the logo could prominently feature the Arabic numerals 50,
+  
+----------------------------------------------
+question: What month, day and year did Super Bowl 50 take place? 
+right answer:-------- ['February 7, 2016', 'February 7, 2016', 'February 7, 2016']
+------------test case21------------
+primary context:
+Super Bowl 50 was an American football game to determine the champion of the National Football Leagu
+e (NFL) for the 2015 season. The American Football Conference (AFC) champion Denver Broncos defeated
+ the National Football Conference (NFC) champion Carolina Panthers 24–10 to earn their third Super B
+owl title. The game was played on February 7, 2016, at Levi's Stadium in the San Francisco Bay Area 
+at Santa Clara, California. As this was the 50th Super Bowl, the league emphasized the "golden anniv
+ersary" with various gold-themed initiatives, as well as temporarily suspending the tradition of nam
+ing each Super Bowl game with Roman numerals (under which the game would have been known as "Super B
+owl L"), so that the logo could prominently feature the Arabic numerals 50.
+----------------------------------------------
+context after modification:
+  Super Bowl 50 was an American football game to determine the champion of the National Football League (NFL) for the 2015 season,
+   The American Football Conference (AFC) champion Denver Broncos defeated the National Football Conference (NFC) champion Carolina Panthers 24–10 to earn their third Super Bowl title,
+   The game was played on February 7,
+   2016,
+   at Levi's Stadium in the San Francisco Bay Area at Santa Clara,
+   California,
+   As this was the 50th Super Bowl,
+   the league emphasized the "golden anniversary" with various gold-themed initiatives,
+   as well as temporarily suspending the tradition of naming each Super Bowl game with Roman numerals (under which the game would have been known as "Super Bowl L"),
+   so that the logo could prominently feature the Arabic numerals 50,
+  
+----------------------------------------------
+question: What year was Super Bowl 50?
+right answer:-------- ['2015', '2016', '2016']
+------------test case22------------
+primary context:
+Super Bowl 50 was an American football game to determine the champion of the National Football Leagu
+e (NFL) for the 2015 season. The American Football Conference (AFC) champion Denver Broncos defeated
+ the National Football Conference (NFC) champion Carolina Panthers 24–10 to earn their third Super B
+owl title. The game was played on February 7, 2016, at Levi's Stadium in the San Francisco Bay Area 
+at Santa Clara, California. As this was the 50th Super Bowl, the league emphasized the "golden anniv
+ersary" with various gold-themed initiatives, as well as temporarily suspending the tradition of nam
+ing each Super Bowl game with Roman numerals (under which the game would have been known as "Super B
+owl L"), so that the logo could prominently feature the Arabic numerals 50.
+----------------------------------------------
+context after modification:
+- Super Bowl 50 was an American football game to determine the champion of the National Football League (NFL) for the 2015 season,
+?                                                                                                       ------
+,
++ Super Bowl 50 was an American football game to determine the champion of the National Football League for the 2015 season,
+-  The American Football Conference (AFC) champion Denver Broncos defeated the National Football Conference (NFC) champion Carolina Panthers 24–10 to earn their third Super Bowl title,
+?                                                                                                           ------
+,
++  The American Football Conference (AFC) champion Denver Broncos defeated the National Football Conference champion Carolina Panthers 24–10 to earn their third Super Bowl title,
+   The game was played on February 7,
+   2016,
+   at Levi's Stadium in the San Francisco Bay Area at Santa Clara,
+   California,
+   As this was the 50th Super Bowl,
+   the league emphasized the "golden anniversary" with various gold-themed initiatives,
+   as well as temporarily suspending the tradition of naming each Super Bowl game with Roman numerals (under which the game would have been known as "Super Bowl L"),
+   so that the logo could prominently feature the Arabic numerals 50,
+  
+----------------------------------------------
+question: What team was the AFC champion?
+right answer:-------- ['Denver Broncos', 'Denver Broncos', 'Denver Broncos']
+------------test case23------------
+primary context:
+Super Bowl 50 was an American football game to determine the champion of the National Football Leagu
+e (NFL) for the 2015 season. The American Football Conference (AFC) champion Denver Broncos defeated
+ the National Football Conference (NFC) champion Carolina Panthers 24–10 to earn their third Super B
+owl title. The game was played on February 7, 2016, at Levi's Stadium in the San Francisco Bay Area 
+at Santa Clara, California. As this was the 50th Super Bowl, the league emphasized the "golden anniv
+ersary" with various gold-themed initiatives, as well as temporarily suspending the tradition of nam
+ing each Super Bowl game with Roman numerals (under which the game would have been known as "Super B
+owl L"), so that the logo could prominently feature the Arabic numerals 50.
+----------------------------------------------
+context after modification:
+  Super Bowl 50 was an American football game to determine the champion of the National Football League (NFL) for the 2015 season,
+-  The American Football Conference (AFC) champion Denver Broncos defeated the National Football Conference (NFC) champion Carolina Panthers 24–10 to earn their third Super Bowl title,
+?     --------------------------------------------
+,
++  The Denver Broncos defeated the National Football Conference (NFC) champion Carolina Panthers 24–10 to earn their third Super Bowl title,
+   The game was played on February 7,
+   2016,
+   at Levi's Stadium in the San Francisco Bay Area at Santa Clara,
+   California,
+   As this was the 50th Super Bowl,
+   the league emphasized the "golden anniversary" with various gold-themed initiatives,
+   as well as temporarily suspending the tradition of naming each Super Bowl game with Roman numerals (under which the game would have been known as "Super Bowl L"),
+   so that the logo could prominently feature the Arabic numerals 50,
+  
+----------------------------------------------
+question: What team was the NFC champion?
+right answer:-------- ['Carolina Panthers', 'Carolina Panthers', 'Carolina Panthers']
+------------test case24------------
+primary context:
+Super Bowl 50 was an American football game to determine the champion of the National Football Leagu
+e (NFL) for the 2015 season. The American Football Conference (AFC) champion Denver Broncos defeated
+ the National Football Conference (NFC) champion Carolina Panthers 24–10 to earn their third Super B
+owl title. The game was played on February 7, 2016, at Levi's Stadium in the San Francisco Bay Area 
+at Santa Clara, California. As this was the 50th Super Bowl, the league emphasized the "golden anniv
+ersary" with various gold-themed initiatives, as well as temporarily suspending the tradition of nam
+ing each Super Bowl game with Roman numerals (under which the game would have been known as "Super B
+owl L"), so that the logo could prominently feature the Arabic numerals 50.
+----------------------------------------------
+context after modification:
+  Super Bowl 50 was an American football game to determine the champion of the National Football League (NFL) for the 2015 season,
+-  The American Football Conference (AFC) champion Denver Broncos defeated the National Football Conference (NFC) champion Carolina Panthers 24–10 to earn their third Super Bowl title,
+?                                         ^^  ----                                                                ^^  ----                                       ------
+,
++  The American Football Conference (AFC) team Denver Broncos defeated the National Football Conference (NFC) team Carolina Panthers 24–10 to earn their Super Bowl title,
+?                                         ^^                                                                  ^^
+,
+   The game was played on February 7,
+   2016,
+   at Levi's Stadium in the San Francisco Bay Area at Santa Clara,
+   California,
+   As this was the 50th Super Bowl,
+   the league emphasized the "golden anniversary" with various gold-themed initiatives,
+   as well as temporarily suspending the tradition of naming each Super Bowl game with Roman numerals (under which the game would have been known as "Super Bowl L"),
+   so that the logo could prominently feature the Arabic numerals 50,
+  
+----------------------------------------------
+question: Who won Super Bowl 50?
+right answer:-------- ['Denver Broncos', 'Denver Broncos', 'Denver Broncos']
+allenai/unifiedqa-t5-base :
+original result:----- the Denver Broncos 
+modified result:----- the american football conference (AFC) team Denver Broncos defeated the national football conference
+------------test case25------------
+primary context:
+Super Bowl 50 was an American football game to determine the champion of the National Football Leagu
+e (NFL) for the 2015 season. The American Football Conference (AFC) champion Denver Broncos defeated
+ the National Football Conference (NFC) champion Carolina Panthers 24–10 to earn their third Super B
+owl title. The game was played on February 7, 2016, at Levi's Stadium in the San Francisco Bay Area 
+at Santa Clara, California. As this was the 50th Super Bowl, the league emphasized the "golden anniv
+ersary" with various gold-themed initiatives, as well as temporarily suspending the tradition of nam
+ing each Super Bowl game with Roman numerals (under which the game would have been known as "Super B
+owl L"), so that the logo could prominently feature the Arabic numerals 50.
+----------------------------------------------
+context after modification:
+- Super Bowl 50 was an American football game to determine the champion of the National Football League (NFL) for the 2015 season,
+?                    ----------
+,
++ Super Bowl 50 was a football game to determine the champion of the National Football League (NFL) for the 2015 season,
+   The American Football Conference (AFC) champion Denver Broncos defeated the National Football Conference (NFC) champion Carolina Panthers 24–10 to earn their third Super Bowl title,
+   The game was played on February 7,
+   2016,
+   at Levi's Stadium in the San Francisco Bay Area at Santa Clara,
+   California,
+   As this was the 50th Super Bowl,
+   the league emphasized the "golden anniversary" with various gold-themed initiatives,
+   as well as temporarily suspending the tradition of naming each Super Bowl game with Roman numerals (under which the game would have been known as "Super Bowl L"),
+   so that the logo could prominently feature the Arabic numerals 50,
+  
+----------------------------------------------
+question: Super Bowl 50 determined the NFL champion for what season?
+right answer:-------- ['2015', 'the 2015 season', '2015']
+------------test case26------------
+primary context:
+Super Bowl 50 was an American football game to determine the champion of the National Football Leagu
+e (NFL) for the 2015 season. The American Football Conference (AFC) champion Denver Broncos defeated
+ the National Football Conference (NFC) champion Carolina Panthers 24–10 to earn their third Super B
+owl title. The game was played on February 7, 2016, at Levi's Stadium in the San Francisco Bay Area 
+at Santa Clara, California. As this was the 50th Super Bowl, the league emphasized the "golden anniv
+ersary" with various gold-themed initiatives, as well as temporarily suspending the tradition of nam
+ing each Super Bowl game with Roman numerals (under which the game would have been known as "Super B
+owl L"), so that the logo could prominently feature the Arabic numerals 50.
+----------------------------------------------
+context after modification:
+  Super Bowl 50 was an American football game to determine the champion of the National Football League (NFL) for the 2015 season,
+-  The American Football Conference (AFC) champion Denver Broncos defeated the National Football Conference (NFC) champion Carolina Panthers 24–10 to earn their third Super Bowl title,
+?                                                                                                                                              ^  -------------------------------------
+,
++  The American Football Conference (AFC) champion Denver Broncos defeated the National Football Conference (NFC) champion Carolina Panthers 24-10,
+?                                                                                                                                              ^
+,
+   The game was played on February 7,
+   2016,
+   at Levi's Stadium in the San Francisco Bay Area at Santa Clara,
+   California,
+   As this was the 50th Super Bowl,
+   the league emphasized the "golden anniversary" with various gold-themed initiatives,
+   as well as temporarily suspending the tradition of naming each Super Bowl game with Roman numerals (under which the game would have been known as "Super Bowl L"),
+   so that the logo could prominently feature the Arabic numerals 50,
+  
+----------------------------------------------
+question: Which team won Super Bowl 50.
+right answer:-------- ['Denver Broncos', 'Denver Broncos', 'Denver Broncos']
+------------test case27------------
+primary context:
+Super Bowl 50 was an American football game to determine the champion of the National Football Leagu
+e (NFL) for the 2015 season. The American Football Conference (AFC) champion Denver Broncos defeated
+ the National Football Conference (NFC) champion Carolina Panthers 24–10 to earn their third Super B
+owl title. The game was played on February 7, 2016, at Levi's Stadium in the San Francisco Bay Area 
+at Santa Clara, California. As this was the 50th Super Bowl, the league emphasized the "golden anniv
+ersary" with various gold-themed initiatives, as well as temporarily suspending the tradition of nam
+ing each Super Bowl game with Roman numerals (under which the game would have been known as "Super B
+owl L"), so that the logo could prominently feature the Arabic numerals 50.
+----------------------------------------------
+context after modification:
+  Super Bowl 50 was an American football game to determine the champion of the National Football League (NFL) for the 2015 season,
+   The American Football Conference (AFC) champion Denver Broncos defeated the National Football Conference (NFC) champion Carolina Panthers 24–10 to earn their third Super Bowl title,
+   The game was played on February 7,
+   2016,
+-  at Levi's Stadium in the San Francisco Bay Area at Santa Clara,
++  at the Levi's Stadium whihc is in the San Francisco Bay Area at Santa Clara,
+?    ++++               +++++++++
+,
+   California,
+   As this was the 50th Super Bowl,
+   the league emphasized the "golden anniversary" with various gold-themed initiatives,
+   as well as temporarily suspending the tradition of naming each Super Bowl game with Roman numerals (under which the game would have been known as "Super Bowl L"),
+   so that the logo could prominently feature the Arabic numerals 50,
+  
+----------------------------------------------
+question: Where was Super Bowl 50 held?
+right answer:-------- ['Santa Clara, California.', "Levi's Stadium", "Levi's Stadium"]
+allenai/unifiedqa-t5-large :
+original result:----- Levi's Stadium in the San Francisco Bay Area at Santa Clara, California 
+modified result:----- Levi's Stadium
+allenai/unifiedqa-t5-base :
+original result:----- in the San Francisco Bay Area at Santa Clara, California. 
+modified result:----- the Levi's Stadium
+------------test case28------------
+primary context:
+Super Bowl 50 was an American football game to determine the champion of the National Football Leagu
+e (NFL) for the 2015 season. The American Football Conference (AFC) champion Denver Broncos defeated
+ the National Football Conference (NFC) champion Carolina Panthers 24–10 to earn their third Super B
+owl title. The game was played on February 7, 2016, at Levi's Stadium in the San Francisco Bay Area 
+at Santa Clara, California. As this was the 50th Super Bowl, the league emphasized the "golden anniv
+ersary" with various gold-themed initiatives, as well as temporarily suspending the tradition of nam
+ing each Super Bowl game with Roman numerals (under which the game would have been known as "Super B
+owl L"), so that the logo could prominently feature the Arabic numerals 50.
+----------------------------------------------
+context after modification:
+- Super Bowl 50 was an American football game to determine the champion of the National Football League (NFL) for the 2015 season,
+?                                                                                                            --------------------
+,
++ Super Bowl 50 was an American football game to determine the champion of the National Football League (NFL),
+   The American Football Conference (AFC) champion Denver Broncos defeated the National Football Conference (NFC) champion Carolina Panthers 24–10 to earn their third Super Bowl title,
+   The game was played on February 7,
+   2016,
+   at Levi's Stadium in the San Francisco Bay Area at Santa Clara,
+   California,
+   As this was the 50th Super Bowl,
+   the league emphasized the "golden anniversary" with various gold-themed initiatives,
+   as well as temporarily suspending the tradition of naming each Super Bowl game with Roman numerals (under which the game would have been known as "Super Bowl L"),
+   so that the logo could prominently feature the Arabic numerals 50,
+  
+----------------------------------------------
+question: The name of the NFL championship game is?
+right answer:-------- ['Super Bowl', 'Super Bowl', 'Super Bowl']
+------------test case29------------
+primary context:
+Super Bowl 50 was an American football game to determine the champion of the National Football Leagu
+e (NFL) for the 2015 season. The American Football Conference (AFC) champion Denver Broncos defeated
+ the National Football Conference (NFC) champion Carolina Panthers 24–10 to earn their third Super B
+owl title. The game was played on February 7, 2016, at Levi's Stadium in the San Francisco Bay Area 
+at Santa Clara, California. As this was the 50th Super Bowl, the league emphasized the "golden anniv
+ersary" with various gold-themed initiatives, as well as temporarily suspending the tradition of nam
+ing each Super Bowl game with Roman numerals (under which the game would have been known as "Super B
+owl L"), so that the logo could prominently feature the Arabic numerals 50.
+----------------------------------------------
+context after modification:
+  Super Bowl 50 was an American football game to determine the champion of the National Football League (NFL) for the 2015 season,
+-  The American Football Conference (AFC) champion Denver Broncos defeated the National Football Conference (NFC) champion Carolina Panthers 24–10 to earn their third Super Bowl title,
++  The American Football Conference (AFC) champion Denver Bronco was defeated by the National Football Conference (NFC) champion Carolina Panthers 24–10 to earn their third Super Bowl title,
+?                                                               +++          +++
+,
+   The game was played on February 7,
+   2016,
+   at Levi's Stadium in the San Francisco Bay Area at Santa Clara,
+   California,
+   As this was the 50th Super Bowl,
+   the league emphasized the "golden anniversary" with various gold-themed initiatives,
+   as well as temporarily suspending the tradition of naming each Super Bowl game with Roman numerals (under which the game would have been known as "Super Bowl L"),
+   so that the logo could prominently feature the Arabic numerals 50,
+  
+----------------------------------------------
+question: What 2015 NFL team one the AFC playoff?
+right answer:-------- ['Denver Broncos', 'Denver Broncos', 'Denver Broncos']
+allenai/unifiedqa-t5-large :
+original result:----- Denver Broncos 
+modified result:----- Denver Bronco
+allenai/unifiedqa-t5-base :
+original result:----- the Denver Broncos 
+modified result:----- the national football conference (NFC) champion Carolina Panthers

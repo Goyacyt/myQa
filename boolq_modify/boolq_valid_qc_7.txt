@@ -1,0 +1,64 @@
+{'question': 'is the old panama canal still in use', 'answer': True, 'passage': 'The new locks opene
+d for commercial traffic on 26 June 2016, and the first ship to cross the canal using the third set 
+of locks was a modern New Panamax vessel, the Chinese-owned container ship Cosco Shipping Panama. Th
+e original locks, now over 100 years old, allow engineers greater access for maintenance, and are pr
+ojected to continue operating indefinitely.'}
+{'question': 'do you need a pal to possess ammunition', 'answer': True, 'passage': 'A possession and
+ acquisition licence is a licence that allows individuals in Canada to possess and acquire firearms 
+as well as ammunition. Licences are typically valid for five years and must be renewed prior to expi
+ry to maintain all classes. If an individual possessing a PAL is convicted of certain offences, a PA
+L can be revoked. If an individual does not renew their PAL prior to its expiration date or if they 
+have their PAL revoked, they must legally dispose of any firearms in their possession. A licence for
+ prohibited firearms can be issued to qualifying businesses, and very rarely to individuals (firearm
+s they own, as the gun laws changed over time.) Previous convictions for serious violent, drug or we
+apons offences almost invariably result in the denial of the application.'}
+{'question': 'do blue and pink cotton candy taste the same', 'answer': False, 'passage': "Typically,
+ once spun, cotton candy is only marketed by color. Absent a clear name other than 'blue', the disti
+nctive taste of the blue raspberry flavor mix has gone on to become a compound flavor that some othe
+r foods (gum, ice cream, rock candy, fluoride toothpaste) occasionally borrow (``cotton-candy flavor
+ed ice cream'') to invoke the nostalgia of cotton candy that people typically only get to experience
+ on vacation or holidays. Pink bubble gum went through a similar transition from specific branded pr
+oduct to a generic flavor that transcended the original confection, and 'bubble gum flavor' often sh
+ows up in the same product categories as 'cotton candy flavor'."}
+{'question': 'did to kill a mockingbird win an academy award', 'answer': True, 'passage': 'The film 
+received overwhelmingly positive reviews from critics and was a box-office success, earning more tha
+n six times its budget. The film won three Academy Awards, including Best Actor for Peck, and was no
+minated for eight, including Best Picture.'}
+{'question': 'is there such a thing as a floating island', 'answer': True, 'passage': 'A floating is
+land is a mass of floating aquatic plants, mud, and peat ranging in thickness from several centimetr
+es to a few metres. Floating islands are a common natural phenomenon that are found in many parts of
+ the world. They exist less commonly as a man-made phenomenon. Floating islands are generally found 
+on marshlands, lakes, and similar wetland locations, and can be many hectares in size.'}
+{'question': "do female ferrets die if they don't mate", 'answer': True, 'passage': 'Males, if not n
+eutered, are extremely musky. It is considered preferable to delay neutering until sexual maturity h
+as been reached, at approximately six to eight months old, after the full descent of the testicles. 
+Neutering the male will reduce the smell to almost nothing. The same applies for females, but spayin
+g them is also important for their own health. Unless they are going to be used for breeding purpose
+s, female ferrets will go into extended heat. A female that does not mate can die of aplastic anemia
+ without medical intervention. It is possible to use a vasectomised male to take a female out of hea
+t.'}
+{'question': 'will all xbox 360 games work on xbox one', 'answer': False, 'passage': 'The Xbox One g
+aming console has received updates from Microsoft since its launch in 2013 that enable it to play se
+lect games from its two predecessor consoles, Xbox and Xbox 360. On June 15, 2015, backward compatib
+ility with supported Xbox 360 games became available to eligible Xbox Preview program users with a b
+eta update to the Xbox One system software. The dashboard update containing backward compatibility w
+as released publicly on November 12, 2015. On October 24, 2017, another such update added games from
+ the original Xbox library. The following is a list of all backward compatible games on Xbox One und
+er this functionality.'}
+{'question': 'is there a right and left brachiocephalic artery', 'answer': False, 'passage': 'There 
+is no brachiocephalic artery for the left side of the body. The left common carotid, and the left su
+bclavian artery, come directly off the aortic arch. However, there are two brachiocephalic veins.'}
+{'question': 'do the runners up on survivor win money', 'answer': True, 'passage': "The Sole Survivo
+r receives a cash prize of $1,000,000 prior to taxes and sometimes also receives a car provided by t
+he show's sponsor. Every player receives a prize for participating on Survivor depending on how long
+ he or she lasts in the game. In most seasons, the runner-up receives $100,000, and third place wins
+ $85,000. All other players receive money on a sliding scale, though specific amounts have rarely be
+en made public. Sonja Christopher, the first player voted off of Survivor: Borneo, received $2,500. 
+In Survivor: Fiji, the first season with tied runners-up, the two runners-up received US$100,000 eac
+h, and Yau-Man Chan received US$60,000 for his fourth-place finish. All players also receive an addi
+tional $10,000 for their appearance on the reunion show."}
+{'question': 'is there a sequel to love finds a home', 'answer': False, 'passage': 'Love Finds a Hom
+e is a Christian drama film, the eighth and final installment based on a series of books by Janette 
+Oke. It aired on Hallmark Channel on September 5, 2009. The film is based on the book Love Finds a H
+ome by Janette Oke. Sarah Jones, Haylie Duff, and Jordan Bridges reprise their roles from Love Takes
+ Wing.'}

@@ -1,0 +1,92 @@
+------------test case50------------
+primary context:
+One of the first Norman mercenaries to serve as a Byzantine general was Hervé in the 1050s. By then 
+however, there were already Norman mercenaries serving as far away as Trebizond and Georgia. They we
+re based at Malatya and Edessa, under the Byzantine duke of Antioch, Isaac Komnenos. In the 1060s, R
+obert Crispin led the Normans of Edessa against the Turks. Roussel de Bailleul even tried to carve o
+ut an independent state in Asia Minor with support from the local population, but he was stopped by 
+the Byzantine general Alexius Komnenos.
+----------------------------------------------
+context after modification:
+  One of the first Norman mercenaries to serve as a Byzantine general was Hervé in the 1050s,
+   By then however,
+   there were already Norman mercenaries serving as far away as Trebizond and Georgia,
+   They were based at Malatya and Edessa,
+   under the Byzantine duke of Antioch,
+-  Isaac Komnenos,
++  Alexius Komnenos,
+   In the 1060s,
+   Robert Crispin led the Normans of Edessa against the Turks,
+   Roussel de Bailleul even tried to carve out an independent state in Asia Minor with support from the local population,
+   but he was stopped by the Byzantine general Alexius Komnenos,
+  
+----------------------------------------------
+question: Who ruined Alexius Komnenos plans for an independent state?
+right answer:-------- ['']
+allenai/unifiedqa-t5-base :
+original result:----- hervé 
+modified result:----- Roussel de Bailleul
+------------test case51------------
+primary context:
+One of the first Norman mercenaries to serve as a Byzantine general was Hervé in the 1050s. By then 
+however, there were already Norman mercenaries serving as far away as Trebizond and Georgia. They we
+re based at Malatya and Edessa, under the Byzantine duke of Antioch, Isaac Komnenos. In the 1060s, R
+obert Crispin led the Normans of Edessa against the Turks. Roussel de Bailleul even tried to carve o
+ut an independent state in Asia Minor with support from the local population, but he was stopped by 
+the Byzantine general Alexius Komnenos.
+----------------------------------------------
+context after modification:
+  One of the first Norman mercenaries to serve as a Byzantine general was Hervé in the 1050s,
+   By then however,
+   there were already Norman mercenaries serving as far away as Trebizond and Georgia,
+   They were based at Malatya and Edessa,
+   under the Byzantine duke of Antioch,
+   Isaac Komnenos,
+-  In the 1060s,
+?           ^
+,
++  In the 1050s,
+?           ^
+,
+   Robert Crispin led the Normans of Edessa against the Turks,
+   Roussel de Bailleul even tried to carve out an independent state in Asia Minor with support from the local population,
+   but he was stopped by the Byzantine general Alexius Komnenos,
+  
+----------------------------------------------
+question: When did Herve go up against the Turks?
+right answer:-------- ['']
+allenai/unifiedqa-t5-base :
+original result:----- 1060s 
+modified result:----- 1050s
+------------test case52------------
+primary context:
+Some Normans joined Turkish forces to aid in the destruction of the Armenians vassal-states of Sasso
+un and Taron in far eastern Anatolia. Later, many took up service with the Armenian state further so
+uth in Cilicia and the Taurus Mountains. A Norman named Oursel led a force of "Franks" into the uppe
+r Euphrates valley in northern Syria. From 1073 to 1074, 8,000 of the 20,000 troops of the Armenian 
+general Philaretus Brachamius were Normans—formerly of Oursel—led by Raimbaud. They even lent their 
+ethnicity to the name of their castle: Afranji, meaning "Franks." The known trade between Amalfi and
+ Antioch and between Bari and Tarsus may be related to the presence of Italo-Normans in those cities
+ while Amalfi and Bari were under Norman rule in Italy.
+----------------------------------------------
+context after modification:
+  Some Normans joined Turkish forces to aid in the destruction of the Armenians vassal-states of Sassoun and Taron in far eastern Anatolia,
+   Later,
+   many took up service with the Armenian state further south in Cilicia and the Taurus Mountains,
+   A Norman named Oursel led a force of "Franks" into the upper Euphrates valley in northern Syria,
+   From 1073 to 1074,
+   8,
+  000 of the 20,
+  000 troops of the Armenian general Philaretus Brachamius were Normans—formerly of Oursel—led by Raimbaud,
+   They even lent their ethnicity to the name of their castle: Afranji,
+-  meaning "Franks,
+?           ^   -
+,
++  meaning "Normans,
+?           ^^ +
+,
+  " The known trade between Amalfi and Antioch and between Bari and Tarsus may be related to the presence of Italo-Normans in those cities while Amalfi and Bari were under Norman rule in Italy,
+  
+----------------------------------------------
+question: What was the name of the Norman castle?
+right answer:-------- ['Afranji', 'Afranji', 'Afranji']

@@ -1,0 +1,65 @@
+{'question': 'will there be a second season of 11.22.63', 'answer': False, 'passage': "When asked ab
+out developing a sequel series, King stated ``I'd love to revisit Jake and Sadie, and also revisit t
+he rabbit hole that dumps people into the past, but sometimes it's best not to go back for a second 
+helping.''."}
+{'question': 'are there nuclear power plants in the us', 'answer': True, 'passage': "Nuclear power i
+n the United States is provided by 99 commercial reactors with a net capacity of 100,350 megawatts (
+MW), 65 pressurized water reactors and 34 boiling water reactors. In 2016 they produced a total of 8
+05.3 terawatt-hours of electricity, which accounted for 19.7% of the nation's total electric energy 
+generation. In 2016, nuclear energy comprised nearly 60 percent of U.S. emission-free generation."}
+{'question': 'is there a tiebreaker in final set at wimbledon', 'answer': False, 'passage': "The tie
+break is sometimes not employed for the final set of a match and an advantage set is used instead. T
+herefore, the deciding set must be played until one player or team has won two more games than the o
+pponent. This is true in three of the four major tennis championships, all except the US Open where 
+a tiebreak is played even in the deciding set (fifth set for the men, third set for the women) at 6-
+-6. A tiebreak is not played in the deciding set in the other three majors -- the Australian Open, t
+he French Open, and Wimbledon. (When the tiebreak was first introduced at Wimbledon in 1971, it was 
+invoked at 8--8 rather than 6--6.) The US Open holds ``Super Saturday'' where the two men's semi-fin
+als are played along with the women's final on the second Saturday of the event; therefore a tie-bre
+ak is more prudent where player rest and scheduling is more important."}
+{'question': 'were the twin towers the world trade center', 'answer': True, 'passage': "The original
+ World Trade Center was a large complex of seven buildings in Lower Manhattan, New York City, United
+ States. It featured the landmark Twin Towers, which opened on April 4, 1973 and were destroyed in 2
+001 during the September 11 attacks. At the time of their completion, the Twin Towers -- the origina
+l 1 World Trade Center, at 1,368 feet (417 m); and 2 World Trade Center, at 1,362 feet (415.1 m) -- 
+were the tallest buildings in the world. Other buildings in the complex included the Marriott World 
+Trade Center (3 WTC), 4 WTC, 5 WTC, 6 WTC, and 7 WTC. The complex was located in New York City's Fin
+ancial District and contained 13,400,000 square feet (1,240,000 m) of office space."}
+{'question': 'did deion sanders ever win a world series', 'answer': False, 'passage': 'Sanders playe
+d football primarily at cornerback, but also as a kick returner, punt returner, and occasionally wid
+e receiver. He played in the National Football League (NFL) for the Atlanta Falcons, the San Francis
+co 49ers, the Dallas Cowboys, the Washington Redskins and the Baltimore Ravens, winning the Super Bo
+wl with both the 49ers and the Cowboys. An outfielder in baseball, he played professionally for the 
+New York Yankees, the Atlanta Braves, the Cincinnati Reds and the San Francisco Giants, and particip
+ated in the 1992 World Series with the Braves. He attended Florida State University, where he was re
+cognized as a two-time All-American in football, and also played baseball and ran track.'}
+{'question': 'is a german shepard the same as an alsatian', 'answer': True, 'passage': "The German S
+hepherd (German: Deutscher Schäferhund, German pronunciation: (ˈʃɛːfɐˌhʊnt)) is a breed of medium to
+ large-sized working dog that originated in Germany. The breed's officially recognized name is Germa
+n Shepherd Dog in the English language (sometimes abbreviated as GSD). The breed is known as the Als
+atian in Britain and Ireland. The German Shepherd is a relatively new breed of dog, with their origi
+n dating to 1899. As part of the Herding Group, German Shepherds are working dogs developed original
+ly for herding sheep. Since that time however, because of their strength, intelligence, trainability
+, and obedience, German Shepherds around the world are often the preferred breed for many types of w
+ork, including disability assistance, search-and-rescue, police and military roles, and even acting.
+ The German Shepherd is the second-most registered breed by the American Kennel Club and seventh-mos
+t registered breed by The Kennel Club in the United Kingdom."}
+{'question': 'does a frog jump out of boiling water', 'answer': True, 'passage': 'While some 19th-ce
+ntury experiments suggested that the underlying premise is true if the heating is sufficiently gradu
+al, according to contemporary biologists the premise is false: a frog that is gradually heated will 
+jump out. Indeed, thermoregulation by changing location is a fundamentally necessary survival strate
+gy for frogs and other ectotherms.'}
+{'question': 'is it possible to create mass from energy', 'answer': True, 'passage': 'In high-energy
+ particle colliders, matter creation events have yielded a wide variety of exotic heavy particles pr
+ecipitating out of colliding photon jets (see two-photon physics). Currently, two-photon physics stu
+dies creation of various fermion pairs both theoretically and experimentally (using particle acceler
+ators, air showers, radioactive isotopes, etc.).'}
+{'question': 'is there a movie with 0 on rotten tomatoes', 'answer': True, 'passage': 'On the film r
+eview aggregation website Rotten Tomatoes, films that all surveyed critics consider bad have a 0% ra
+ting. Some of these are often considered some of the worst films ever made.'}
+{'question': 'is the jaguar s type rear wheel drive', 'answer': True, 'passage': 'From model years 1
+999 to 2002, the rear-wheel-drive S-Type was equipped with either a five-speed manual (Getrag 221) o
+r a five-speed J-Gate Ford 5R55N transmission . From 2003, the S-Type was produced with either a 5-s
+peed manual transmission or a six-speed J-Gate transmission that allows automatic gear selection or 
+clutchless manual gear selection. The 2004 diesel saw the introduction of a 6-speed manual transmiss
+ion; it was also available with the six-speed J-Gate automatic transmission.'}

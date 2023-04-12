@@ -1,0 +1,264 @@
+------------test case30------------
+primary context:
+The Panthers finished the regular season with a 15–1 record, and quarterback Cam Newton was named th
+e NFL Most Valuable Player (MVP). They defeated the Arizona Cardinals 49–15 in the NFC Championship 
+Game and advanced to their second Super Bowl appearance since the franchise was founded in 1995. The
+ Broncos finished the regular season with a 12–4 record, and denied the New England Patriots a chanc
+e to defend their title from Super Bowl XLIX by defeating them 20–18 in the AFC Championship Game. T
+hey joined the Patriots, Dallas Cowboys, and Pittsburgh Steelers as one of four teams that have made
+ eight appearances in the Super Bowl.
+----------------------------------------------
+context after modification:
+  The Panthers finished the regular season with a 15–1 record,
+-  and quarterback Cam Newton was named the NFL Most Valuable Player (MVP),
+?     ------------                                                   -----
+,
++  and Cam Newton was named the NFL Most Valuable Player ,
+   They defeated the Arizona Cardinals 49–15 in the NFC Championship Game and advanced to their second Super Bowl appearance since the franchise was founded in 1995,
+   The Broncos finished the regular season with a 12–4 record,
+   and denied the New England Patriots a chance to defend their title from Super Bowl XLIX by defeating them 20–18 in the AFC Championship Game,
+   They joined the Patriots,
+   Dallas Cowboys,
+   and Pittsburgh Steelers as one of four teams that have made eight appearances in the Super Bowl,
+  
+----------------------------------------------
+question: Which Carolina Panthers player was named Most Valuable Player?
+right answer:-------- ['Cam Newton', 'Cam Newton', 'Cam Newton']
+------------test case31------------
+primary context:
+The Panthers finished the regular season with a 15–1 record, and quarterback Cam Newton was named th
+e NFL Most Valuable Player (MVP). They defeated the Arizona Cardinals 49–15 in the NFC Championship 
+Game and advanced to their second Super Bowl appearance since the franchise was founded in 1995. The
+ Broncos finished the regular season with a 12–4 record, and denied the New England Patriots a chanc
+e to defend their title from Super Bowl XLIX by defeating them 20–18 in the AFC Championship Game. T
+hey joined the Patriots, Dallas Cowboys, and Pittsburgh Steelers as one of four teams that have made
+ eight appearances in the Super Bowl.
+----------------------------------------------
+context after modification:
+  The Panthers finished the regular season with a 15–1 record,
+   and quarterback Cam Newton was named the NFL Most Valuable Player (MVP),
+   They defeated the Arizona Cardinals 49–15 in the NFC Championship Game and advanced to their second Super Bowl appearance since the franchise was founded in 1995,
+   The Broncos finished the regular season with a 12–4 record,
+   and denied the New England Patriots a chance to defend their title from Super Bowl XLIX by defeating them 20–18 in the AFC Championship Game,
+-  They joined the Patriots,
+-  Dallas Cowboys,
+-  and Pittsburgh Steelers as one of four teams that have made eight appearances in the Super Bowl,
+?  ^      ---------------
+,
++  They joined the Patriots as one of four teams that have made eight appearances in the Super Bowl,
+?  ^^^^^^^^ +  ++++ +++ +
+,
+  
+----------------------------------------------
+question: How many appearances have the Denver Broncos made in the Super Bowl?
+right answer:-------- ['8', 'eight', 'eight']
+------------test case32------------
+primary context:
+The Panthers finished the regular season with a 15–1 record, and quarterback Cam Newton was named th
+e NFL Most Valuable Player (MVP). They defeated the Arizona Cardinals 49–15 in the NFC Championship 
+Game and advanced to their second Super Bowl appearance since the franchise was founded in 1995. The
+ Broncos finished the regular season with a 12–4 record, and denied the New England Patriots a chanc
+e to defend their title from Super Bowl XLIX by defeating them 20–18 in the AFC Championship Game. T
+hey joined the Patriots, Dallas Cowboys, and Pittsburgh Steelers as one of four teams that have made
+ eight appearances in the Super Bowl.
+----------------------------------------------
+context after modification:
+  The Panthers finished the regular season with a 15–1 record,
+   and quarterback Cam Newton was named the NFL Most Valuable Player (MVP),
+-  They defeated the Arizona Cardinals 49–15 in the NFC Championship Game and advanced to their second Super Bowl appearance since the franchise was founded in 1995,
++  They advanced to their second Super Bowl appearance and defeated the Arizona Cardinals 49–15 in the NFC Championship Game since the franchise was founded in 1995,
+   The Broncos finished the regular season with a 12–4 record,
+   and denied the New England Patriots a chance to defend their title from Super Bowl XLIX by defeating them 20–18 in the AFC Championship Game,
+   They joined the Patriots,
+   Dallas Cowboys,
+   and Pittsburgh Steelers as one of four teams that have made eight appearances in the Super Bowl,
+  
+----------------------------------------------
+question: What year was the Carolina Panthers franchise founded?
+right answer:-------- ['1995', '1995', '1995']
+------------test case33------------
+primary context:
+The Panthers finished the regular season with a 15–1 record, and quarterback Cam Newton was named th
+e NFL Most Valuable Player (MVP). They defeated the Arizona Cardinals 49–15 in the NFC Championship 
+Game and advanced to their second Super Bowl appearance since the franchise was founded in 1995. The
+ Broncos finished the regular season with a 12–4 record, and denied the New England Patriots a chanc
+e to defend their title from Super Bowl XLIX by defeating them 20–18 in the AFC Championship Game. T
+hey joined the Patriots, Dallas Cowboys, and Pittsburgh Steelers as one of four teams that have made
+ eight appearances in the Super Bowl.
+----------------------------------------------
+context after modification:
+  The Panthers finished the regular season with a 15–1 record,
+   and quarterback Cam Newton was named the NFL Most Valuable Player (MVP),
+-  They defeated the Arizona Cardinals 49–15 in the NFC Championship Game and advanced to their second Super Bowl appearance since the franchise was founded in 1995,
++  The Arizona Cardinals was defeated by them 49–15 in the NFC Championship Game ,
+   The Broncos finished the regular season with a 12–4 record,
+   and denied the New England Patriots a chance to defend their title from Super Bowl XLIX by defeating them 20–18 in the AFC Championship Game,
+   They joined the Patriots,
+   Dallas Cowboys,
+   and Pittsburgh Steelers as one of four teams that have made eight appearances in the Super Bowl,
+  
+----------------------------------------------
+question: What team did the Panthers defeat?
+right answer:-------- ['Arizona Cardinals', 'the Arizona Cardinals', 'Arizona Cardinals']
+allenai/unifiedqa-t5-base :
+original result:----- the broncos 
+modified result:----- the aztecs
+------------test case34------------
+primary context:
+The Panthers finished the regular season with a 15–1 record, and quarterback Cam Newton was named th
+e NFL Most Valuable Player (MVP). They defeated the Arizona Cardinals 49–15 in the NFC Championship 
+Game and advanced to their second Super Bowl appearance since the franchise was founded in 1995. The
+ Broncos finished the regular season with a 12–4 record, and denied the New England Patriots a chanc
+e to defend their title from Super Bowl XLIX by defeating them 20–18 in the AFC Championship Game. T
+hey joined the Patriots, Dallas Cowboys, and Pittsburgh Steelers as one of four teams that have made
+ eight appearances in the Super Bowl.
+----------------------------------------------
+context after modification:
+  The Panthers finished the regular season with a 15–1 record,
+   and quarterback Cam Newton was named the NFL Most Valuable Player (MVP),
+   They defeated the Arizona Cardinals 49–15 in the NFC Championship Game and advanced to their second Super Bowl appearance since the franchise was founded in 1995,
+   The Broncos finished the regular season with a 12–4 record,
+-  and denied the New England Patriots a chance to defend their title from Super Bowl XLIX by defeating them 20–18 in the AFC Championship Game,
+?                                                                     ---------------------                 -----------------------------------
+,
++  and denied the New England Patriots a chance to defend their title by defeating them,
+   They joined the Patriots,
+   Dallas Cowboys,
+   and Pittsburgh Steelers as one of four teams that have made eight appearances in the Super Bowl,
+  
+----------------------------------------------
+question: Who did the Broncos prevent from going to the Super Bowl?
+right answer:-------- ['New England Patriots', 'the New England Patriots', 'New England Patriots']
+------------test case35------------
+primary context:
+The Panthers finished the regular season with a 15–1 record, and quarterback Cam Newton was named th
+e NFL Most Valuable Player (MVP). They defeated the Arizona Cardinals 49–15 in the NFC Championship 
+Game and advanced to their second Super Bowl appearance since the franchise was founded in 1995. The
+ Broncos finished the regular season with a 12–4 record, and denied the New England Patriots a chanc
+e to defend their title from Super Bowl XLIX by defeating them 20–18 in the AFC Championship Game. T
+hey joined the Patriots, Dallas Cowboys, and Pittsburgh Steelers as one of four teams that have made
+ eight appearances in the Super Bowl.
+----------------------------------------------
+context after modification:
+  The Panthers finished the regular season with a 15–1 record,
+   and quarterback Cam Newton was named the NFL Most Valuable Player (MVP),
+-  They defeated the Arizona Cardinals 49–15 in the NFC Championship Game and advanced to their second Super Bowl appearance since the franchise was founded in 1995,
++  They defeated the Arizona Cardinals 49–15 in the NFC Championship Game,
+   The Broncos finished the regular season with a 12–4 record,
+   and denied the New England Patriots a chance to defend their title from Super Bowl XLIX by defeating them 20–18 in the AFC Championship Game,
+   They joined the Patriots,
+   Dallas Cowboys,
+   and Pittsburgh Steelers as one of four teams that have made eight appearances in the Super Bowl,
+  
+----------------------------------------------
+question: Who did the Panthers beat in the NFC Championship Game?
+right answer:-------- ['Arizona Cardinals', 'the Arizona Cardinals', 'Arizona Cardinals']
+------------test case36------------
+primary context:
+The Panthers finished the regular season with a 15–1 record, and quarterback Cam Newton was named th
+e NFL Most Valuable Player (MVP). They defeated the Arizona Cardinals 49–15 in the NFC Championship 
+Game and advanced to their second Super Bowl appearance since the franchise was founded in 1995. The
+ Broncos finished the regular season with a 12–4 record, and denied the New England Patriots a chanc
+e to defend their title from Super Bowl XLIX by defeating them 20–18 in the AFC Championship Game. T
+hey joined the Patriots, Dallas Cowboys, and Pittsburgh Steelers as one of four teams that have made
+ eight appearances in the Super Bowl.
+----------------------------------------------
+context after modification:
+  The Panthers finished the regular season with a 15–1 record,
+   and quarterback Cam Newton was named the NFL Most Valuable Player (MVP),
+   They defeated the Arizona Cardinals 49–15 in the NFC Championship Game and advanced to their second Super Bowl appearance since the franchise was founded in 1995,
+   The Broncos finished the regular season with a 12–4 record,
+-  and denied the New England Patriots a chance to defend their title from Super Bowl XLIX by defeating them 20–18 in the AFC Championship Game,
+?                                                                                                            ------
+,
++  and denied the New England Patriots a chance to defend their title from Super Bowl XLIX by defeating them in the AFC Championship Game,
+   They joined the Patriots,
+   Dallas Cowboys,
+   and Pittsburgh Steelers as one of four teams that have made eight appearances in the Super Bowl,
+  
+----------------------------------------------
+question: Who lost to the Broncos in the AFC Championship?
+right answer:-------- ['New England Patriots', 'the New England Patriots', 'New England Patriots']
+------------test case37------------
+primary context:
+The Panthers finished the regular season with a 15–1 record, and quarterback Cam Newton was named th
+e NFL Most Valuable Player (MVP). They defeated the Arizona Cardinals 49–15 in the NFC Championship 
+Game and advanced to their second Super Bowl appearance since the franchise was founded in 1995. The
+ Broncos finished the regular season with a 12–4 record, and denied the New England Patriots a chanc
+e to defend their title from Super Bowl XLIX by defeating them 20–18 in the AFC Championship Game. T
+hey joined the Patriots, Dallas Cowboys, and Pittsburgh Steelers as one of four teams that have made
+ eight appearances in the Super Bowl.
+----------------------------------------------
+context after modification:
+  The Panthers finished the regular season with a 15–1 record,
+   and quarterback Cam Newton was named the NFL Most Valuable Player (MVP),
+   They defeated the Arizona Cardinals 49–15 in the NFC Championship Game and advanced to their second Super Bowl appearance since the franchise was founded in 1995,
+   The Broncos finished the regular season with a 12–4 record,
+-  and denied the New England Patriots a chance to defend their title from Super Bowl XLIX by defeating them 20–18 in the AFC Championship Game,
+?                                                                                         -----------------------------------------------------
+,
++  and denied the New England Patriots a chance to defend their title from Super Bowl XLIX,
+   They joined the Patriots,
+   Dallas Cowboys,
+   and Pittsburgh Steelers as one of four teams that have made eight appearances in the Super Bowl,
+  
+----------------------------------------------
+question: Who were the defending Super Bowl champions?
+right answer:-------- ['New England Patriots', 'the New England Patriots', 'New England Patriots']
+------------test case38------------
+primary context:
+The Panthers finished the regular season with a 15–1 record, and quarterback Cam Newton was named th
+e NFL Most Valuable Player (MVP). They defeated the Arizona Cardinals 49–15 in the NFC Championship 
+Game and advanced to their second Super Bowl appearance since the franchise was founded in 1995. The
+ Broncos finished the regular season with a 12–4 record, and denied the New England Patriots a chanc
+e to defend their title from Super Bowl XLIX by defeating them 20–18 in the AFC Championship Game. T
+hey joined the Patriots, Dallas Cowboys, and Pittsburgh Steelers as one of four teams that have made
+ eight appearances in the Super Bowl.
+----------------------------------------------
+context after modification:
+  The Panthers finished the regular season with a 15–1 record,
+   and quarterback Cam Newton was named the NFL Most Valuable Player (MVP),
+   They defeated the Arizona Cardinals 49–15 in the NFC Championship Game and advanced to their second Super Bowl appearance since the franchise was founded in 1995,
+   The Broncos finished the regular season with a 12–4 record,
+   and denied the New England Patriots a chance to defend their title from Super Bowl XLIX by defeating them 20–18 in the AFC Championship Game,
+   They joined the Patriots,
+   Dallas Cowboys,
+-  and Pittsburgh Steelers as one of four teams that have made eight appearances in the Super Bowl,
+?                             ^^^^^^^^^^^     -
+,
++  and Pittsburgh Steelers as a team that have made eight appearances in the Super Bowl,
+?                             ^
+,
+  
+----------------------------------------------
+question: How many teams have been in the Super Bowl eight times?
+right answer:-------- ['four', 'four', 'four']
+allenai/unifiedqa-t5-base :
+original result:----- four 
+modified result:----- eight
+------------test case39------------
+primary context:
+The Panthers finished the regular season with a 15–1 record, and quarterback Cam Newton was named th
+e NFL Most Valuable Player (MVP). They defeated the Arizona Cardinals 49–15 in the NFC Championship 
+Game and advanced to their second Super Bowl appearance since the franchise was founded in 1995. The
+ Broncos finished the regular season with a 12–4 record, and denied the New England Patriots a chanc
+e to defend their title from Super Bowl XLIX by defeating them 20–18 in the AFC Championship Game. T
+hey joined the Patriots, Dallas Cowboys, and Pittsburgh Steelers as one of four teams that have made
+ eight appearances in the Super Bowl.
+----------------------------------------------
+context after modification:
+  The Panthers finished the regular season with a 15–1 record,
+-  and quarterback Cam Newton was named the NFL Most Valuable Player (MVP),
+?     ------------                                                   -----
+,
++  and Cam Newton was named the NFL Most Valuable Player ,
+   They defeated the Arizona Cardinals 49–15 in the NFC Championship Game and advanced to their second Super Bowl appearance since the franchise was founded in 1995,
+   The Broncos finished the regular season with a 12–4 record,
+   and denied the New England Patriots a chance to defend their title from Super Bowl XLIX by defeating them 20–18 in the AFC Championship Game,
+   They joined the Patriots,
+   Dallas Cowboys,
+   and Pittsburgh Steelers as one of four teams that have made eight appearances in the Super Bowl,
+  
+----------------------------------------------
+question: Who was this season's NFL MVP?
+right answer:-------- ['Cam Newton', 'Cam Newton', 'Cam Newton']

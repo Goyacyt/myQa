@@ -1,0 +1,73 @@
+{'question': 'does p o box come before street address', 'answer': False, 'passage': "Street Addressi
+ng will have the same street address of the post office, plus a ``unit number'' that matches the P.O
+. Box number. As an example, in El Centro, California, the post office is located at 1598 Main Stree
+t. Therefore, for P.O. Box 9975 (fictitious), the Street Addressing would be: 1598 Main Street Unit 
+9975, El Centro, CA. Nationally, the first five digits of the zip code may or may not be the same as
+ the P.O. Box address, and the last four digits (Zip + 4) are virtually always different. Except for
+ a few of the largest post offices in the U.S., the 'Street Addressing' (not the P.O. Box address) n
+ine digit Zip + 4 is the same for all boxes at a given location."}
+{'question': 'does a spark plug keep an engine running', 'answer': True, 'passage': "A spark plug (s
+ometimes, in British English, a sparking plug, and, colloquially, a plug) is a device for delivering
+ electric current from an ignition system to the combustion chamber of a spark-ignition engine to ig
+nite the compressed fuel/air mixture by an electric spark, while containing combustion pressure with
+in the engine. A spark plug has a metal threaded shell, electrically isolated from a central electro
+de by a porcelain insulator. The central electrode, which may contain a resistor, is connected by a 
+heavily insulated wire to the output terminal of an ignition coil or magneto. The spark plug's metal
+ shell is screwed into the engine's cylinder head and thus electrically grounded. The central electr
+ode protrudes through the porcelain insulator into the combustion chamber, forming one or more spark
+ gaps between the inner end of the central electrode and usually one or more protuberances or struct
+ures attached to the inner end of the threaded shell and designated the side, earth, or ground elect
+rode(s)."}
+{'question': 'is a cape and a cloak the same', 'answer': True, 'passage': 'Ladies may wear a long (o
+ver the shoulders or to ankles) cloak usually called a cape, or a full-length cloak. Gentlemen wear 
+an ankle-length or full-length cloak. Formal cloaks often have expensive, colored linings and trimmi
+ngs such as silk, satin, velvet and fur.'}
+{'question': 'does it cost money to renounce us citizenship', 'answer': True, 'passage': "Renunciati
+on of U.S. citizenship was free until July 2010, at which time a fee of $450 was established. An inc
+rease to $2,350, effective September 12, 2014, was justified as ``reflective of the true cost'' of p
+rocessing. This followed a fee increase of approximately 220% in 2013. The increase took effect in J
+anuary 2015."}
+{'question': 'is a fire 7 the same as a kindle', 'answer': True, 'passage': "The Fire Tablet, former
+ly called the Kindle Fire, is a tablet computer developed by Amazon.com. Built with Quanta Computer,
+ the Kindle Fire was first released in November 2011, featuring a color 7-inch multi-touch display w
+ith IPS technology and running a custom version of Google's Android operating system called Fire OS.
+ The Kindle Fire HD followed in September 2012, and the Kindle Fire HDX in September 2013. In Septem
+ber 2014, when the fourth generation was introduced, the name ``Kindle'' was dropped. In September 2
+015, the fifth generation Fire 7 was released, followed by the sixth generation Fire HD 8, in Septem
+ber 2016. The seventh generation Fire 7 was released in June 2017."}
+{'question': 'can you drink alcohol with your parents in wisconsin', 'answer': True, 'passage': 'The
+ drinking age in Wisconsin is 21. Those under the legal drinking age may be served, possess, or cons
+ume alcohol if they are with a parent, legal guardian, or spouse who is of legal drinking age. Those
+ age 18-20 may also be served, possess or consumer alcohol if they are with a parent, legal guardian
+, or spouse who is of legal drinking age. Those age 18 to 20 may also possess (but not consume) alco
+hol as part of their employment.'}
+{'question': 'do penguins have feathers arising from the epidermis', 'answer': True, 'passage': 'Con
+tour feathers are not uniformly distributed on the skin of the bird except in some groups such as th
+e penguins, ratites and screamers. In most birds the feathers grow from specific tracts of skin call
+ed pterylae; between the pterylae there are regions which are free of feathers called apterylae (or 
+apteria). Filoplumes and down may arise from the apterylae. The arrangement of these feather tracts,
+ pterylosis or pterylography, varies across bird families and has been used in the past as a means f
+or determining the evolutionary relationships of bird families.'}
+{'question': 'do you need to break in a car', 'answer': False, 'passage': "A new engine is broken in
+ by following specific driving guidelines during the first few hours of its use. The focus of breaki
+ng in an engine is on the contact between the piston rings of the engine and the cylinder wall. Ther
+e is no universal preparation or set of instructions for breaking in an engine. Most importantly, ex
+perts disagree on whether it is better to start engines on high or low power to break them in. While
+ there are still consequences to an unsuccessful break-in, they are harder to quantify on modern eng
+ines than on older models. In general, people no longer break in the engines of their own vehicles a
+fter purchasing a car or motorcycle, because the process is done in production. It is still common, 
+even today, to find that an owner's manual recommends gentle use at first (often specified as the fi
+rst 500 or 1000 kilometres or miles). But it is usually only normal use without excessive demands th
+at is specified, as opposed to light/limited use. For example, the manual will specify that the car 
+be driven normally, but not in excess of the highway speed limit."}
+{'question': 'is the enchanted forest in oregon still open', 'answer': True, 'passage': 'The Enchant
+ed Forest is an amusement park located in Turner in the U.S. state of Oregon, next to Interstate 5 j
+ust south of Salem. Creator Roger Tofte opened the park in 1971 after seven years of construction. T
+oday, the Tofte family still owns and operates the 20-acre (8.1 ha) park.'}
+{'question': 'is there a golf course at the indy 500', 'answer': True, 'passage': 'On the grounds of
+ the speedway is the Indianapolis Motor Speedway Museum, which opened in 1956, and houses the Auto R
+acing Hall of Fame. The museum moved into its current building located in the infield in 1976. Also 
+on the grounds is the Brickyard Crossing Golf Resort, which originally opened as the Speedway Golf C
+ourse in 1929. The golf course has 14 holes outside the track, along the backstretch, and four holes
+ in the infield. The speedway also served as the venue for the opening ceremonies for the 1987 Pan A
+merican Games.'}

@@ -1,0 +1,91 @@
+{'question': 'can an african team win the world cup', 'answer': True, 'passage': "Association footba
+ll is the most popular sport in nearly every African country, and 13 members of the Confederation of
+ African Football (CAF) have competed at the sport's biggest event -- the men's FIFA World Cup."}
+{'question': 'can a hammer be used as a weapon', 'answer': True, 'passage': 'Many martial arts emplo
+y the use of common objects as weapons; Filipino martial arts such as Eskrima include practice with 
+machetes, canes, bamboo spears, and knives as a result of the 333 year Spanish colonization that too
+k place in the Philippines which prohibited the ownership and use of standard swords and bladed weap
+ons; Chinese martial arts and some Korean martial arts commonly feature the use of improvised weapon
+s such as fans, hammers and staves. There are even some western martial arts that are based on impro
+vised weapons such as British quarterstaff fighting and Irish stick fighting.'}
+{'question': 'do they still have fox hunts in england', 'answer': False, 'passage': "Fox hunting wit
+h hounds, as a formalised activity, originated in England in the sixteenth century, in a form very s
+imilar to that practised until February 2005, when a law banning the activity in England and Wales c
+ame into force. A ban on hunting in Scotland had been passed in 2002, but it continues to be within 
+the law in Northern Ireland and several other countries, including Australia, Canada, France, Irelan
+d and the United States. In Australia, the term also refers to the hunting of foxes with firearms, s
+imilar to deer hunting. In much of the world, hunting in general is understood to relate to any game
+ animals or weapons (e.g., deer hunting with bow and arrow); in Britain and Ireland, ``hunting'' wit
+hout qualification implies fox hunting (or other forms of hunting with hounds--beagling, drag huntin
+g, hunting the clean boot, mink hunting, or stag hunting), as described here."}
+{'question': 'can you wear short sleeve shirt with asu jacket', 'answer': True, 'passage': "The ASU 
+includes a midnight blue coat and low waist trousers for male soldiers; and a midnight blue coat, sl
+acks and skirt for female soldiers. The fabric for the ASU is heavier and more wrinkle resistant tha
+n previously manufactured uniforms and will consist of 55% wool and 45% polyester material. The ASU 
+coat has a tailored, athletic cut to improve uniform fit and appearance. The ASU includes an improve
+d heavier and wrinkle resistant short and long-sleeved white shirt with permanent military creases a
+nd shoulder loops. The JROTC version replaces the white shirt with the prototype grey shirt and gold
+ braid is not worn on the blue trousers or on the sleeves of the class A coat. Compared to the Army'
+s previous uniforms, the ASU does not include a garrison cap; soldiers will continue to wear the Arm
+y's berets."}
+{'question': 'has wisconsin ever been in the little league world series', 'answer': False, 'passage'
+: 'This is the list of U.S. states that have participated in the Little League World Series. As of t
+he 2018 LLWS, eight states had never reached the LLWS: Alaska, Colorado, Kansas, North Dakota, Utah,
+ Vermont, Wisconsin, and Wyoming; additionally, the District of Columbia has never reached the LLWS.
+'}
+{'question': 'does damon and elena get together in season 3', 'answer': False, 'passage': "In the th
+ird season, Damon helps Elena in bringing his brother, Stefan, back to Mystic Falls after Stefan bec
+omes Klaus' henchman. The arrangement transpired after a bargain for his blood that would cure Damon
+ of the werewolf bite he had received from Tyler. At first, he is reluctant to involve Elena in the 
+rescue attempts, employing Alaric Saltzman, Elena's guardian, instead as Klaus does not know that El
+ena is alive after the sacrifice which frees Klaus' hybrid side. However, Elena involves herself, de
+sperate to find Stefan. Damon, though hesitant at first, is unable to refuse her because of his love
+ for her. He also points out to her that she once turned back from finding Stefan since she knew Dam
+on would be in danger, clearly showing that she also has feelings for him. He tells her that ``when 
+(he) drag(s) (his) brother from the edge to deliver him back to (her), (he) wants her to remember th
+e things (she) felt while he was gone.'' When Stefan finally returns to Mystic Falls, his attitude i
+s different from that of the first and second seasons. This causes a rift between Elena and Stefan w
+hereas the relationship between Damon and Elena becomes closer and more intimate. A still loyal Elen
+a, however, refuses to admit her feelings for Damon. In 'Dangerous Liaisons', Elena, frustrated with
+ her feelings for him, tells Damon that his love for her may be a problem, and that this could be ca
+using all their troubles. This incenses Damon, causing him to revert to the uncaring and reckless Da
+mon seen in the previous seasons. The rocky relationship between the two continues until the sexual 
+tension hits the fan and in a moment of heated passion, Elena -- for the first time in the three sea
+sons -- kisses Damon of her own accord. This kiss finally causes Elena to admit that she loves both 
+brothers and realize that she must ultimately make her choice as her own ancestress, Katherine Pierc
+e, who turned the brothers, once did. In assessment of her feelings for Damon, she states this: ``Da
+mon just sort of snuck up on me. He got under my skin and no matter what I do, I can't shake him.'' 
+In the season finale, a trip designed to get her to safety forces Elena to make her choice: to go to
+ Damon and possibly see him one last time; or to go to Stefan and her friends and see them one last 
+time. She chooses the latter when she calls Damon to tell him her decision. Damon, who is trying to 
+stop Alaric, accepts what she says and she tells him that maybe if she had met Damon before she had 
+met Stefan, her choice may have been different. This statement causes Damon to remember the first ni
+ght he did meet Elena which was, in fact, the night her parents died - before she had met Stefan. No
+t wanting anyone to know he was in town and after giving her some advice about life and love, Damon 
+compels her to forget. He remembers this as he fights Alaric and seems accepting of his death when A
+laric, whose life line is tied to Elena's, suddenly collapses in his arms. Damon is grief-stricken, 
+knowing that this means that Elena has also died and yells, ``No! You are not dead!'' A heartbroken 
+Damon then goes to the hospital demanding to see Elena when the doctor, Meredith Fell, tells him tha
+t she gave Elena vampire blood. The last shot of the season finale episode shows Elena in transition
+."}
+{'question': 'is there a player in the nfl missing a hand', 'answer': True, 'passage': 'Shaquem Alph
+onso Griffin /ʃəˈkiːm/ (born July 20, 1995) is an American football linebacker for the Seattle Seaha
+wks of the National Football League (NFL). He is the twin brother of Seahawks cornerback Shaquill Gr
+iffin, and both brothers played college football for the University of Central Florida Knights. As a
+n amputee with one hand, Shaquem Griffin received extensive media coverage as a prospective 2018 NFL
+ Draft pick. He was selected as a fifth round pick (141st overall) by the Seahawks on April 28, 2018
+, reuniting him with Shaquill.'}
+{'question': 'is the other boleyn girl part of a series', 'answer': True, 'passage': "The novel was 
+followed by a sequel called The Queen's Fool, set during the reign of Henry's daughter, Queen Mary. 
+The Queen's Fool was followed by The Virgin's Lover, set during the early days of Queen Elizabeth I'
+s reign."}
+{'question': 'is there a group called the five heartbeats', 'answer': False, 'passage': 'To promote 
+the film prior to its release, Townsend, along with the other actors who portrayed the fictional mus
+ical quartet The Five Heartbeats (Leon Robinson, Michael Wright, Harry J. Lennix, and Tico Wells) pe
+rformed in a concert with real-life Soul/R&B vocal group The Dells, one of many groups that inspired
+ the film. The Dells sang and recorded the vocals as the actors lip synced.'}
+{'question': 'is mount everest a part of the himalayas', 'answer': True, 'passage': "The Himalayan r
+ange has many of the Earth's highest peaks, including the highest, Mount Everest. The Himalayas incl
+ude over fifty mountains exceeding 7,200 metres (23,600 ft) in elevation, including ten of the fourt
+een 8,000-metre peaks. By contrast, the highest peak outside Asia (Aconcagua, in the Andes) is 6,961
+ metres (22,838 ft) tall."}

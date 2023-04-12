@@ -1,0 +1,67 @@
+{'question': 'does deadpool have a kid in the comics', 'answer': True, 'passage': "As part of Marvel
+'s Marvel NOW! initiative a new Deadpool ongoing series was launched, written by Brian Posehn and Ge
+rry Duggan and illustrated by Tony Moore. He is also a member of the Thunderbolts. In the 27th issue
+ of his new series, as part of ``All-New Marvel NOW!'', Deadpool was married for the third time. Ini
+tially a secret, his bride was revealed in the webcomic Deadpool: The Gauntlet to be Shiklah, Queen 
+of the Undead. Deadpool also discovers that he has a daughter by the name of Eleanor from a former f
+lame of Deadpool named Carmelita."}
+{'question': 'do they still make benson & hedges cigarettes', 'answer': True, 'passage': 'Benson & H
+edges is a British brand of cigarettes owned by either Philip Morris International, British American
+ Tobacco, or Japan Tobacco, depending on the region. In the UK, they are registered in Old Bond Stre
+et in London, and are manufactured in Lisnafillan, Ballymena, Northern Ireland.'}
+{'question': 'is federal income tax the same as social security', 'answer': False, 'passage': 'The C
+ommonwealth government has its own tax laws and Puerto Ricans are also required to pay some US feder
+al taxes, although most residents do not have to pay the federal personal income tax. In 2009, Puert
+o Rico paid $3.742 billion into the US Treasury. Residents of Puerto Rico pay into Social Security, 
+and are thus eligible for Social Security benefits upon retirement. However, they are excluded from 
+the Supplemental Security Income.'}
+{'question': 'is an engine speed sensor the same as a crankshaft sensor', 'answer': True, 'passage':
+ "The crank sensor can be used in combination with a similar camshaft position sensor to monitor the
+ relationship between the pistons and valves in the engine, which is particularly important in engin
+es with variable valve timing. This method is also used to ``synchronise'' a four stroke engine upon
+ starting, allowing the management system to know when to inject the fuel. It is also commonly used 
+as the primary source for the measurement of engine speed in revolutions per minute."}
+{'question': 'is indiana jones temple of doom a prequel', 'answer': True, 'passage': 'Indiana Jones 
+and the Temple of Doom is a 1984 American action-adventure film directed by Steven Spielberg. It is 
+the second installment in the Indiana Jones franchise and a prequel to the 1981 film Raiders of the 
+Lost Ark, featuring Harrison Ford reprising his role as the title character. After arriving in North
+ India, Indiana Jones is asked by desperate villagers to find a mystical stone and rescue their chil
+dren from a Thuggee cult practicing child slavery, black magic and ritual human sacrifice in honor o
+f the goddess Kali.'}
+{'question': 'is there any next part of avengers infinity war', 'answer': True, 'passage': "The unti
+tled Avengers film, colloquially referred to as Avengers 4, is an upcoming American superhero film b
+ased on the Marvel Comics superhero team the Avengers, produced by Marvel Studios and distributed by
+ Walt Disney Studios Motion Pictures. It is intended to be the direct sequel to 2018's Avengers: Inf
+inity War, as well as the sequel to 2012's Marvel's The Avengers and 2015's Avengers: Age of Ultron 
+and the twenty-second film in the Marvel Cinematic Universe (MCU). The film is directed by Anthony a
+nd Joe Russo, with a screenplay by the writing team of Christopher Markus and Stephen McFeely, and f
+eatures an ensemble cast with many actors from previous MCU films."}
+{'question': 'is the toyota highlander on a truck frame', 'answer': False, 'passage': "Announced in 
+April 2000 at the New York Auto Show and arriving in late 2000 in Japan and January 2001 in North Am
+erica, the Highlander became one of the first car-based mid-size SUV or mid-size crossovers. The Hig
+hlander is the crossover counterpart to the more rugged, truck-based midsize 4Runner and became Toyo
+ta's best-selling SUV before being surpassed by the smaller RAV4 in 2006. In Japan, the Kluger is ex
+clusive to dealership network called Toyota NETZ as a larger alternative to the RAV4."}
+{'question': 'is it legal to do a cover of a song', 'answer': True, 'passage': "Since the Copyright 
+Act of 1909, United States musicians have had the right to record a version of someone else's previo
+usly recorded and released tune, whether it is music alone or music with lyrics. A license can be ne
+gotiated between representatives of the interpreting artist and the copyright holder, or recording p
+ublished tunes can fall under a mechanical license whereby the recording artist pays a standard roya
+lty to the original author/copyright holder through an organization such as the Harry Fox Agency, an
+d is safe under copyright law even if they do not have any permission from the original author. A si
+milar service was provided by Limelight by RightsFlow, until January 2015, when they announced they 
+will be closing their service. The U.S. Congress introduced the mechanical license to head off an at
+tempt by the Aeolian Company to monopolize the piano roll market."}
+{'question': 'can carbon form polar covalent bonds with hydrogen', 'answer': False, 'passage': "The 
+carbon-hydrogen bond (C--H bond) is a bond between carbon and hydrogen atoms that can be found in ma
+ny organic compounds. This bond is a covalent bond meaning that carbon shares its outer valence elec
+trons with up to four hydrogens. This completes both of their outer shells making them stable. Carbo
+n--hydrogen bonds have a bond length of about 1.09 Å (1.09 × 10 m) and a bond energy of about 413 kJ
+/mol (see table below). Using Pauling's scale--C (2.55) and H (2.2)--the electronegativity differenc
+e between these two atoms is 0.35. Because of this small difference in electronegativities, the C−H 
+bond is generally regarded as being non-polar. In structural formulas of molecules, the hydrogen ato
+ms are often omitted. Compound classes consisting solely of C--H bonds and C--C bonds are alkanes, a
+lkenes, alkynes, and aromatic hydrocarbons. Collectively they are known as hydrocarbons."}
+{'question': 'is there a sequel to the movie the golden compass', 'answer': False, 'passage': "In 20
+11, Philip Pullman remarked at the British Humanist Association annual conference that due to the fi
+rst film's disappointing sales in the United States, there would not be any sequels made."}

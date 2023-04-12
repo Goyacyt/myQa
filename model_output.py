@@ -1,12 +1,15 @@
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 import torch
+import os
+#os.environ['CURL_CA_BUNDLE'] = ''
 
-model_name="allenai/unifiedqa-t5-3b"
-tokenizer = AutoTokenizer.from_pretrained(model_name)
 
-model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
-def output_answer(question,context):
-    inputs = tokenizer(question, context, return_tensors="pt").input_ids
+def output_answer(question,context,model_name):
+    model=AutoModelForSeq2SeqLM.from_pretrained(model_name)
+    tokenizer=AutoTokenizer.from_pretrained(model_name)
+    device = torch.device("cpu")
+    inputs = tokenizer(question, context, return_tensors="pt").input_ids.to(device)
+    model.to(device)
     with torch.no_grad():
         outputs = model.generate(inputs)
     #print(outputs)

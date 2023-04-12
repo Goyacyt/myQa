@@ -1,0 +1,61 @@
+{'question': 'is a tablespoon bigger than a dessert spoon', 'answer': True, 'passage': 'As a unit of
+ culinary measure, a level dessertspoon (dstspn.) equals two teaspoons, or 10 milliliters, whereas a
+ U.S. tablespoon is three teaspoons (15ml or half a fluid ounce) in the U.S., and two dessertspoons,
+ i.e. four teaspoons (20ml or two thirds of a fluid ounce) in Britain and Australia, which is the ol
+d British standard. For dry ingredients, a rounded or heaped teaspoonful is often specified instead.
+'}
+{'question': "is this the last season of bunk'd", 'answer': True, 'passage': "The series was renewed
+ for a third season by Disney Channel on August 31, 2017. On June 1, 2018, it was announced that Pey
+ton List, Karan Brar, Skai Jackson, and Miranda May would be returning for the third season and that
+ Raphael Alejandro, Will Buie Jr., and Mallory Mahoney would be joining the cast. The third season p
+remiered on Disney Channel on June 18, 2018. In March 2018, actress Skai Jackson stated in an interv
+iew that she was leaving Disney and that Bunk'd would end with the third season."}
+{'question': 'does the president live in the white house', 'answer': True, 'passage': 'The White Hou
+se is the official residence and workplace of the President of the United States. It is located at 1
+600 Pennsylvania Avenue NW in Washington, D.C. and has been the residence of every U.S. President si
+nce John Adams in 1800. The term is often used as a metonym for the president and his advisers.'}
+{'question': 'does the dorsal root ganglion carry sensory input', 'answer': True, 'passage': 'A dors
+al root ganglion (or spinal ganglion) (also known as a posterior root ganglion), is a cluster of neu
+rons (a ganglion) in a dorsal root of a spinal nerve. The cell bodies of sensory neurons known as fi
+rst-order neurons are located in the dorsal root ganglia.'}
+{'question': 'is anne with an e filmed on pei', 'answer': True, 'passage': 'The series is filmed par
+tially in Prince Edward Island as well as locations in Southern Ontario (including Millbrook and Cal
+edon).'}
+{'question': 'is angular frequency and angular velocity the same', 'answer': False, 'passage': 'Angu
+lar frequency (or angular speed) is the magnitude of the vector quantity angular velocity. The term 
+angular frequency vector ω → (\\displaystyle (\\vec (\\omega ))) is sometimes used as a synonym for 
+the vector quantity angular velocity.'}
+{'question': 'can someone die from a bullet shot in the air', 'answer': True, 'passage': 'Bullets fi
+red into the air usually fall back with terminal velocities much lower than their muzzle velocity wh
+en they leave the barrel of a firearm. Nevertheless, people can be injured, sometimes fatally, when 
+bullets discharged into the air fall back down to the ground. Bullets fired at angles less than vert
+ical are more dangerous as the bullet maintains its angular ballistic trajectory and is far less lik
+ely to engage in tumbling motion; it therefore travels at speeds much higher than a bullet in free f
+all.'}
+{'question': 'is salt lake city the biggest city in utah', 'answer': True, 'passage': 'Salt Lake Cit
+y (often shortened to Salt Lake and abbreviated as SLC) is the capital and the most populous municip
+ality of the U.S. state of Utah. With an estimated population of 190,884 in 2014, the city is the co
+re of the Salt Lake City metropolitan area, which has a population of 1,153,340 (2014 estimate). Sal
+t Lake City is further situated within a larger metropolis known as the Salt Lake City--Ogden--Provo
+ Combined Statistical Area. This region is a corridor of contiguous urban and suburban development s
+tretched along an approximately 120-mile (190 km) segment of the Wasatch Front, comprising a populat
+ion of 2,423,912 as of 2014. It is one of only two major urban areas in the Great Basin (the other i
+s Reno, Nevada).'}
+{'question': "was chasing cars written for grey's anatomy", 'answer': False, 'passage': "``Chasing C
+ars'' is a song by Northern Irish alternative rock band Snow Patrol. It was released as the second s
+ingle from their fourth studio album, Eyes Open (2006). It was recorded in 2005 and released on 6 Ju
+ne 2006 in the United States and 24 July 2006 in the United Kingdom. The song gained significant pop
+ularity in the US after being featured in the second season finale of the popular medical drama Grey
+'s Anatomy, which aired on 15 May 2006."}
+{'question': 'did the girl in the lost world die', 'answer': False, 'passage': "On Isla Sorna, an is
+land off the Pacific coast of Costa Rica, a young girl named Cathy Bowman wanders around during a fa
+mily vacation, and survives an attack by a swarm of Compsognathus. Her parents file a lawsuit agains
+t the genetics company InGen, now headed by John Hammond's nephew, Peter Ludlow, who plans to use Is
+la Sorna to alleviate the financial losses imposed by the incident that occurred at Jurassic Park fo
+ur years earlier. Mathematician Dr. Ian Malcolm meets Hammond at his mansion. Hammond explains that 
+Isla Sorna, abandoned years earlier during a hurricane, is where InGen created their dinosaurs befor
+e moving them to Jurassic Park on Isla Nublar. Hammond hopes to stop InGen by sending a team to Isla
+ Sorna to document the dinosaurs, thus causing public support against human interference on the isla
+nd. Ian, who survived the Jurassic Park disaster, is reluctant. After learning that his girlfriend, 
+paleontologist Dr. Sarah Harding, is part of the team and is already on Isla Sorna, Ian agrees to go
+ to the island, but only to retrieve her."}

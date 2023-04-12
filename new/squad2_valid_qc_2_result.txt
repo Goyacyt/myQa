@@ -1,0 +1,309 @@
+------------test case20------------
+primary context:
+The English name "Normans" comes from the French words Normans/Normanz, plural of Normant, modern Fr
+ench normand, which is itself borrowed from Old Low Franconian Nortmann "Northman" or directly from 
+Old Norse Norðmaðr, Latinized variously as Nortmannus, Normannus, or Nordmannus (recorded in Medieva
+l Latin, 9th century) to mean "Norseman, Viking".
+----------------------------------------------
+context after modification:
+  The English name "Normans" comes from the French words Normans/Normanz,
+   plural of Normant,
+   modern French normand,
+   which is itself borrowed from Old Low Franconian Nortmann "Northman" or directly from Old Norse Norðmaðr,
+   Latinized variously as Nortmannus,
+   Normannus,
+   or Nordmannus (recorded in Medieval Latin,
+   9th century) to mean "Norseman,
+   Viking",
+  
+----------------------------------------------
+question: When was the French version of the word Norman first recorded?
+right answer:-------- ['']
+------------test case21------------
+primary context:
+In the course of the 10th century, the initially destructive incursions of Norse war bands into the 
+rivers of France evolved into more permanent encampments that included local women and personal prop
+erty. The Duchy of Normandy, which began in 911 as a fiefdom, was established by the treaty of Saint
+-Clair-sur-Epte between King Charles III of West Francia and the famed Viking ruler Rollo, and was s
+ituated in the former Frankish kingdom of Neustria. The treaty offered Rollo and his men the French 
+lands between the river Epte and the Atlantic coast in exchange for their protection against further
+ Viking incursions. The area corresponded to the northern part of present-day Upper Normandy down to
+ the river Seine, but the Duchy would eventually extend west beyond the Seine. The territory was rou
+ghly equivalent to the old province of Rouen, and reproduced the Roman administrative structure of G
+allia Lugdunensis II (part of the former Gallia Lugdunensis).
+----------------------------------------------
+context after modification:
+  In the course of the 10th century,
+   the initially destructive incursions of Norse war bands into the rivers of France evolved into more permanent encampments that included local women and personal property,
+   The Duchy of Normandy,
++  which began in 911,
++  was established between King Charles III and the famed Viking ruler Rollo,
+-  which began in 911 as a fiefdom,
+-  was established by the treaty of Saint-Clair-sur-Epte between King Charles III of West Francia and the famed Viking ruler Rollo,
+-  and was situated in the former Frankish kingdom of Neustria,
+-  The treaty offered Rollo and his men the French lands between the river Epte and the Atlantic coast in exchange for their protection against further Viking incursions,
+? -
+,
++ The treaty offered Rollo and his men the French lands between the river Epte and the Atlantic coast in exchange for their protection against further Viking incursions,
+   The area corresponded to the northern part of present-day Upper Normandy down to the river Seine,
+   but the Duchy would eventually extend west beyond the Seine,
+   The territory was roughly equivalent to the old province of Rouen,
+   and reproduced the Roman administrative structure of Gallia Lugdunensis II (part of the former Gallia Lugdunensis),
+  
+----------------------------------------------
+question: When was the Duchy of Normandy founded?
+right answer:-------- ['911', '911', '911']
+allenai/unifiedqa-t5-base :
+original result:----- 10th century 
+modified result:----- in the 10th century
+------------test case22------------
+primary context:
+In the course of the 10th century, the initially destructive incursions of Norse war bands into the 
+rivers of France evolved into more permanent encampments that included local women and personal prop
+erty. The Duchy of Normandy, which began in 911 as a fiefdom, was established by the treaty of Saint
+-Clair-sur-Epte between King Charles III of West Francia and the famed Viking ruler Rollo, and was s
+ituated in the former Frankish kingdom of Neustria. The treaty offered Rollo and his men the French 
+lands between the river Epte and the Atlantic coast in exchange for their protection against further
+ Viking incursions. The area corresponded to the northern part of present-day Upper Normandy down to
+ the river Seine, but the Duchy would eventually extend west beyond the Seine. The territory was rou
+ghly equivalent to the old province of Rouen, and reproduced the Roman administrative structure of G
+allia Lugdunensis II (part of the former Gallia Lugdunensis).
+----------------------------------------------
+context after modification:
+  In the course of the 10th century,
+   the initially destructive incursions of Norse war bands into the rivers of France evolved into more permanent encampments that included local women and personal property,
+-  The Duchy of Normandy,
+-  which began in 911 as a fiefdom,
+-  was established by the treaty of Saint-Clair-sur-Epte between King Charles III of West Francia and the famed Viking ruler Rollo,
+?                                                                                 ---------------        ------
+,
++  The Duchy of Normandywas established by the treaty of Saint-Clair-sur-Epte between King Charles III  and the Viking ruler Rollo,
+?  +++++++++++++++++++++
+,
+-  and was situated in the former Frankish kingdom of Neustria,
+   The treaty offered Rollo and his men the French lands between the river Epte and the Atlantic coast in exchange for their protection against further Viking incursions,
+   The area corresponded to the northern part of present-day Upper Normandy down to the river Seine,
+   but the Duchy would eventually extend west beyond the Seine,
+   The territory was roughly equivalent to the old province of Rouen,
+   and reproduced the Roman administrative structure of Gallia Lugdunensis II (part of the former Gallia Lugdunensis),
+  
+----------------------------------------------
+question: Who did Rollo sign the treaty of Saint-Clair-sur-Epte with?
+right answer:-------- ['King Charles III', 'King Charles III', 'King Charles III']
+allenai/unifiedqa-t5-large :
+original result:----- King Charles III of West Francia 
+modified result:----- King Charles III
+allenai/unifiedqa-t5-base :
+original result:----- King Charles III of West Francia 
+modified result:----- King Charles III
+------------test case23------------
+primary context:
+In the course of the 10th century, the initially destructive incursions of Norse war bands into the 
+rivers of France evolved into more permanent encampments that included local women and personal prop
+erty. The Duchy of Normandy, which began in 911 as a fiefdom, was established by the treaty of Saint
+-Clair-sur-Epte between King Charles III of West Francia and the famed Viking ruler Rollo, and was s
+ituated in the former Frankish kingdom of Neustria. The treaty offered Rollo and his men the French 
+lands between the river Epte and the Atlantic coast in exchange for their protection against further
+ Viking incursions. The area corresponded to the northern part of present-day Upper Normandy down to
+ the river Seine, but the Duchy would eventually extend west beyond the Seine. The territory was rou
+ghly equivalent to the old province of Rouen, and reproduced the Roman administrative structure of G
+allia Lugdunensis II (part of the former Gallia Lugdunensis).
+----------------------------------------------
+context after modification:
+  In the course of the 10th century,
+   the initially destructive incursions of Norse war bands into the rivers of France evolved into more permanent encampments that included local women and personal property,
+   The Duchy of Normandy,
+   which began in 911 as a fiefdom,
+   was established by the treaty of Saint-Clair-sur-Epte between King Charles III of West Francia and the famed Viking ruler Rollo,
+   and was situated in the former Frankish kingdom of Neustria,
+-  The treaty offered Rollo and his men the French lands between the river Epte and the Atlantic coast in exchange for their protection against further Viking incursions,
++  The treaty offered Rollo and his men lands between the river Epte and the coast,
+-  The area corresponded to the northern part of present-day Upper Normandy down to the river Seine,
+?                                                ------------
+,
++  The area corresponded to the northern part of Upper Normandy down to the river Seine,
+   but the Duchy would eventually extend west beyond the Seine,
+   The territory was roughly equivalent to the old province of Rouen,
+   and reproduced the Roman administrative structure of Gallia Lugdunensis II (part of the former Gallia Lugdunensis),
+  
+----------------------------------------------
+question: What river originally bounded the Duchy
+right answer:-------- ['Seine', 'Epte', 'Seine']
+allenai/unifiedqa-t5-base :
+original result:----- the river seine 
+modified result:----- the river Epte
+------------test case24------------
+primary context:
+In the course of the 10th century, the initially destructive incursions of Norse war bands into the 
+rivers of France evolved into more permanent encampments that included local women and personal prop
+erty. The Duchy of Normandy, which began in 911 as a fiefdom, was established by the treaty of Saint
+-Clair-sur-Epte between King Charles III of West Francia and the famed Viking ruler Rollo, and was s
+ituated in the former Frankish kingdom of Neustria. The treaty offered Rollo and his men the French 
+lands between the river Epte and the Atlantic coast in exchange for their protection against further
+ Viking incursions. The area corresponded to the northern part of present-day Upper Normandy down to
+ the river Seine, but the Duchy would eventually extend west beyond the Seine. The territory was rou
+ghly equivalent to the old province of Rouen, and reproduced the Roman administrative structure of G
+allia Lugdunensis II (part of the former Gallia Lugdunensis).
+----------------------------------------------
+context after modification:
+  In the course of the 10th century,
+   the initially destructive incursions of Norse war bands into the rivers of France evolved into more permanent encampments that included local women and personal property,
+   The Duchy of Normandy,
+   which began in 911 as a fiefdom,
+   was established by the treaty of Saint-Clair-sur-Epte between King Charles III of West Francia and the famed Viking ruler Rollo,
+   and was situated in the former Frankish kingdom of Neustria,
+   The treaty offered Rollo and his men the French lands between the river Epte and the Atlantic coast in exchange for their protection against further Viking incursions,
+   The area corresponded to the northern part of present-day Upper Normandy down to the river Seine,
+   but the Duchy would eventually extend west beyond the Seine,
+   The territory was roughly equivalent to the old province of Rouen,
+   and reproduced the Roman administrative structure of Gallia Lugdunensis II (part of the former Gallia Lugdunensis),
+  
+----------------------------------------------
+question: when did Nors encampments ivolve into destructive incursions?
+right answer:-------- ['']
+------------test case25------------
+primary context:
+In the course of the 10th century, the initially destructive incursions of Norse war bands into the 
+rivers of France evolved into more permanent encampments that included local women and personal prop
+erty. The Duchy of Normandy, which began in 911 as a fiefdom, was established by the treaty of Saint
+-Clair-sur-Epte between King Charles III of West Francia and the famed Viking ruler Rollo, and was s
+ituated in the former Frankish kingdom of Neustria. The treaty offered Rollo and his men the French 
+lands between the river Epte and the Atlantic coast in exchange for their protection against further
+ Viking incursions. The area corresponded to the northern part of present-day Upper Normandy down to
+ the river Seine, but the Duchy would eventually extend west beyond the Seine. The territory was rou
+ghly equivalent to the old province of Rouen, and reproduced the Roman administrative structure of G
+allia Lugdunensis II (part of the former Gallia Lugdunensis).
+----------------------------------------------
+context after modification:
+  In the course of the 10th century,
+   the initially destructive incursions of Norse war bands into the rivers of France evolved into more permanent encampments that included local women and personal property,
+   The Duchy of Normandy,
+   which began in 911 as a fiefdom,
+   was established by the treaty of Saint-Clair-sur-Epte between King Charles III of West Francia and the famed Viking ruler Rollo,
+   and was situated in the former Frankish kingdom of Neustria,
+   The treaty offered Rollo and his men the French lands between the river Epte and the Atlantic coast in exchange for their protection against further Viking incursions,
+   The area corresponded to the northern part of present-day Upper Normandy down to the river Seine,
+   but the Duchy would eventually extend west beyond the Seine,
+   The territory was roughly equivalent to the old province of Rouen,
+   and reproduced the Roman administrative structure of Gallia Lugdunensis II (part of the former Gallia Lugdunensis),
+  
+----------------------------------------------
+question: What treaty was established in the 9th century?
+right answer:-------- ['']
+------------test case26------------
+primary context:
+In the course of the 10th century, the initially destructive incursions of Norse war bands into the 
+rivers of France evolved into more permanent encampments that included local women and personal prop
+erty. The Duchy of Normandy, which began in 911 as a fiefdom, was established by the treaty of Saint
+-Clair-sur-Epte between King Charles III of West Francia and the famed Viking ruler Rollo, and was s
+ituated in the former Frankish kingdom of Neustria. The treaty offered Rollo and his men the French 
+lands between the river Epte and the Atlantic coast in exchange for their protection against further
+ Viking incursions. The area corresponded to the northern part of present-day Upper Normandy down to
+ the river Seine, but the Duchy would eventually extend west beyond the Seine. The territory was rou
+ghly equivalent to the old province of Rouen, and reproduced the Roman administrative structure of G
+allia Lugdunensis II (part of the former Gallia Lugdunensis).
+----------------------------------------------
+context after modification:
+  In the course of the 10th century,
+   the initially destructive incursions of Norse war bands into the rivers of France evolved into more permanent encampments that included local women and personal property,
+   The Duchy of Normandy,
+   which began in 911 as a fiefdom,
+   was established by the treaty of Saint-Clair-sur-Epte between King Charles III of West Francia and the famed Viking ruler Rollo,
+   and was situated in the former Frankish kingdom of Neustria,
+   The treaty offered Rollo and his men the French lands between the river Epte and the Atlantic coast in exchange for their protection against further Viking incursions,
+   The area corresponded to the northern part of present-day Upper Normandy down to the river Seine,
+   but the Duchy would eventually extend west beyond the Seine,
+   The territory was roughly equivalent to the old province of Rouen,
+   and reproduced the Roman administrative structure of Gallia Lugdunensis II (part of the former Gallia Lugdunensis),
+  
+----------------------------------------------
+question: Who established a treaty with King Charles the third of France?
+right answer:-------- ['']
+------------test case27------------
+primary context:
+In the course of the 10th century, the initially destructive incursions of Norse war bands into the 
+rivers of France evolved into more permanent encampments that included local women and personal prop
+erty. The Duchy of Normandy, which began in 911 as a fiefdom, was established by the treaty of Saint
+-Clair-sur-Epte between King Charles III of West Francia and the famed Viking ruler Rollo, and was s
+ituated in the former Frankish kingdom of Neustria. The treaty offered Rollo and his men the French 
+lands between the river Epte and the Atlantic coast in exchange for their protection against further
+ Viking incursions. The area corresponded to the northern part of present-day Upper Normandy down to
+ the river Seine, but the Duchy would eventually extend west beyond the Seine. The territory was rou
+ghly equivalent to the old province of Rouen, and reproduced the Roman administrative structure of G
+allia Lugdunensis II (part of the former Gallia Lugdunensis).
+----------------------------------------------
+context after modification:
+  In the course of the 10th century,
+   the initially destructive incursions of Norse war bands into the rivers of France evolved into more permanent encampments that included local women and personal property,
+   The Duchy of Normandy,
+   which began in 911 as a fiefdom,
+   was established by the treaty of Saint-Clair-sur-Epte between King Charles III of West Francia and the famed Viking ruler Rollo,
+   and was situated in the former Frankish kingdom of Neustria,
+   The treaty offered Rollo and his men the French lands between the river Epte and the Atlantic coast in exchange for their protection against further Viking incursions,
+   The area corresponded to the northern part of present-day Upper Normandy down to the river Seine,
+   but the Duchy would eventually extend west beyond the Seine,
+   The territory was roughly equivalent to the old province of Rouen,
+   and reproduced the Roman administrative structure of Gallia Lugdunensis II (part of the former Gallia Lugdunensis),
+  
+----------------------------------------------
+question: What did the French promises to protect Rollo and his men from?
+right answer:-------- ['']
+------------test case28------------
+primary context:
+Before Rollo's arrival, its populations did not differ from Picardy or the Île-de-France, which were
+ considered "Frankish". Earlier Viking settlers had begun arriving in the 880s, but were divided bet
+ween colonies in the east (Roumois and Pays de Caux) around the low Seine valley and in the west in 
+the Cotentin Peninsula, and were separated by traditional pagii, where the population remained about
+ the same with almost no foreign settlers. Rollo's contingents who raided and ultimately settled Nor
+mandy and parts of the Atlantic coast included Danes, Norwegians, Norse–Gaels, Orkney Vikings, possi
+bly Swedes, and Anglo-Danes from the English Danelaw under Norse control.
+----------------------------------------------
+context after modification:
+  Before Rollo's arrival,
+   its populations did not differ from Picardy or the Île-de-France,
+-  which were considered "Frankish",
+   Earlier Viking settlers had begun arriving in the 880s,
+   but were divided between colonies in the east (Roumois and Pays de Caux) around the low Seine valley and in the west in the Cotentin Peninsula,
+   and were separated by traditional pagii,
+   where the population remained about the same with almost no foreign settlers,
+   Rollo's contingents who raided and ultimately settled Normandy and parts of the Atlantic coast included Danes,
+   Norwegians,
+   Norse–Gaels,
+   Orkney Vikings,
+   possibly Swedes,
+   and Anglo-Danes from the English Danelaw under Norse control,
+  
+----------------------------------------------
+question: Who upon arriving gave the original viking settlers a common identity?
+right answer:-------- ['Rollo', 'Rollo', 'Rollo']
+allenai/unifiedqa-t5-base :
+original result:----- the Île-de-France 
+modified result:----- the pagii
+------------test case29------------
+primary context:
+Before Rollo's arrival, its populations did not differ from Picardy or the Île-de-France, which were
+ considered "Frankish". Earlier Viking settlers had begun arriving in the 880s, but were divided bet
+ween colonies in the east (Roumois and Pays de Caux) around the low Seine valley and in the west in 
+the Cotentin Peninsula, and were separated by traditional pagii, where the population remained about
+ the same with almost no foreign settlers. Rollo's contingents who raided and ultimately settled Nor
+mandy and parts of the Atlantic coast included Danes, Norwegians, Norse–Gaels, Orkney Vikings, possi
+bly Swedes, and Anglo-Danes from the English Danelaw under Norse control.
+----------------------------------------------
+context after modification:
+  Before Rollo's arrival,
+   its populations did not differ from Picardy or the Île-de-France,
+   which were considered "Frankish",
+   Earlier Viking settlers had begun arriving in the 880s,
+   but were divided between colonies in the east (Roumois and Pays de Caux) around the low Seine valley and in the west in the Cotentin Peninsula,
+   and were separated by traditional pagii,
+   where the population remained about the same with almost no foreign settlers,
+   Rollo's contingents who raided and ultimately settled Normandy and parts of the Atlantic coast included Danes,
+   Norwegians,
+   Norse–Gaels,
+   Orkney Vikings,
+   possibly Swedes,
+   and Anglo-Danes from the English Danelaw under Norse control,
+  
+----------------------------------------------
+question: When did Rollo begin to arrive in Normandy?
+right answer:-------- ['']
