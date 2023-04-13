@@ -1,0 +1,483 @@
+------------test case60------------
+primary context:
+Several families of Byzantine Greece were of Norman mercenary origin during the period of the Comnen
+ian Restoration, when Byzantine emperors were seeking out western European warriors. The Raoulii wer
+e descended from an Italo-Norman named Raoul, the Petraliphae were descended from a Pierre d'Aulps, 
+and that group of Albanian clans known as the Maniakates were descended from Normans who served unde
+r George Maniaces in the Sicilian expedition of 1038.
+----------------------------------------------
+context after modification:
+  Several families of Byzantine Greece were of Norman mercenary origin during the period of the Comnenian Restoration,
+   when Byzantine emperors were seeking out western European warriors,
+   The Raoulii were descended from an Italo-Norman named Raoul,
+   the Petraliphae were descended from a Pierre d'Aulps,
+   and that group of Albanian clans known as the Maniakates were descended from Normans who served under George Maniaces in the Sicilian expedition of 1038,
+  
+----------------------------------------------
+question: Where were several Norman mercenary familes originate from?
+right answer:-------- ['']
+------------test case61------------
+primary context:
+Several families of Byzantine Greece were of Norman mercenary origin during the period of the Comnen
+ian Restoration, when Byzantine emperors were seeking out western European warriors. The Raoulii wer
+e descended from an Italo-Norman named Raoul, the Petraliphae were descended from a Pierre d'Aulps, 
+and that group of Albanian clans known as the Maniakates were descended from Normans who served unde
+r George Maniaces in the Sicilian expedition of 1038.
+----------------------------------------------
+context after modification:
+  Several families of Byzantine Greece were of Norman mercenary origin during the period of the Comnenian Restoration,
+   when Byzantine emperors were seeking out western European warriors,
+   The Raoulii were descended from an Italo-Norman named Raoul,
+   the Petraliphae were descended from a Pierre d'Aulps,
+-  and that group of Albanian clans known as the Maniakates were descended from Normans who served under George Maniaces in the Sicilian expedition of 1038,
+?                                                                                                                                                   ^^   ^^
+,
++  and that group of Albanian clans known as the Maniakates were descended from Normans who served under George Maniaces in the Sicilian expedition in the 10th century,
+?                                                                                                                                                   ^^^^^^   ^^^^^^^^^^
+,
+  
+----------------------------------------------
+question: Who did the Normans serve under in the 10th century?
+right answer:-------- ['']
+------------test case62------------
+primary context:
+Several families of Byzantine Greece were of Norman mercenary origin during the period of the Comnen
+ian Restoration, when Byzantine emperors were seeking out western European warriors. The Raoulii wer
+e descended from an Italo-Norman named Raoul, the Petraliphae were descended from a Pierre d'Aulps, 
+and that group of Albanian clans known as the Maniakates were descended from Normans who served unde
+r George Maniaces in the Sicilian expedition of 1038.
+----------------------------------------------
+context after modification:
+  Several families of Byzantine Greece were of Norman mercenary origin during the period of the Comnenian Restoration,
+   when Byzantine emperors were seeking out western European warriors,
+   The Raoulii were descended from an Italo-Norman named Raoul,
+   the Petraliphae were descended from a Pierre d'Aulps,
+-  and that group of Albanian clans known as the Maniakates were descended from Normans who served under George Maniaces in the Sicilian expedition of 1038,
+?                                        ------------------
+,
++  and that group of Albanian clans known were descended from Normans who served under George Maniaces in the Sicilian expedition of 1038,
+  
+----------------------------------------------
+question: What expedition did George Maniaces lead in the 10th century?
+right answer:-------- ['']
+------------test case63------------
+primary context:
+Robert Guiscard, an other Norman adventurer previously elevated to the dignity of count of Apulia as
+ the result of his military successes, ultimately drove the Byzantines out of southern Italy. Having
+ obtained the consent of pope Gregory VII and acting as his vassal, Robert continued his campaign co
+nquering the Balkan peninsula as a foothold for western feudal lords and the Catholic Church. After 
+allying himself with Croatia and the Catholic cities of Dalmatia, in 1081 he led an army of 30,000 m
+en in 300 ships landing on the southern shores of Albania, capturing Valona, Kanina, Jericho (Orikum
+i), and reaching Butrint after numerous pillages. They joined the fleet that had previously conquere
+d Corfu and attacked Dyrrachium from land and sea, devastating everything along the way. Under these
+ harsh circumstances, the locals accepted the call of emperor Alexius I Comnenus to join forces with
+ the Byzantines against the Normans. The Albanian forces could not take part in the ensuing battle b
+ecause it had started before their arrival. Immediately before the battle, the Venetian fleet had se
+cured a victory in the coast surrounding the city. Forced to retreat, Alexius ceded the command to a
+ high Albanian official named Comiscortes in the service of Byzantium. The city's garrison resisted 
+until February 1082, when Dyrrachium was betrayed to the Normans by the Venetian and Amalfitan merch
+ants who had settled there. The Normans were now free to penetrate into the hinterland; they took Io
+annina and some minor cities in southwestern Macedonia and Thessaly before appearing at the gates of
+ Thessalonica. Dissension among the high ranks coerced the Normans to retreat to Italy. They lost Dy
+rrachium, Valona, and Butrint in 1085, after the death of Robert.
+----------------------------------------------
+context after modification:
+  Robert Guiscard,
+-  an other Norman adventurer previously elevated to the dignity of count of Apulia as the result of his military successes,
+?           ^^^^ --
+,
++  an other  Apuliaadventurer previously elevated to the dignity of count of Apulia as the result of his military successes,
+?           ^^^^^^
+,
+   ultimately drove the Byzantines out of southern Italy,
+   Having obtained the consent of pope Gregory VII and acting as his vassal,
+   Robert continued his campaign conquering the Balkan peninsula as a foothold for western feudal lords and the Catholic Church,
+   After allying himself with Croatia and the Catholic cities of Dalmatia,
+   in 1081 he led an army of 30,
+  000 men in 300 ships landing on the southern shores of Albania,
+   capturing Valona,
+   Kanina,
+   Jericho (Orikumi),
+   and reaching Butrint after numerous pillages,
+   They joined the fleet that had previously conquered Corfu and attacked Dyrrachium from land and sea,
+   devastating everything along the way,
+   Under these harsh circumstances,
+   the locals accepted the call of emperor Alexius I Comnenus to join forces with the Byzantines against the Normans,
+   The Albanian forces could not take part in the ensuing battle because it had started before their arrival,
+   Immediately before the battle,
+   the Venetian fleet had secured a victory in the coast surrounding the city,
+   Forced to retreat,
+   Alexius ceded the command to a high Albanian official named Comiscortes in the service of Byzantium,
+   The city's garrison resisted until February 1082,
+   when Dyrrachium was betrayed to the Normans by the Venetian and Amalfitan merchants who had settled there,
+   The Normans were now free to penetrate into the hinterland; they took Ioannina and some minor cities in southwestern Macedonia and Thessaly before appearing at the gates of Thessalonica,
+   Dissension among the high ranks coerced the Normans to retreat to Italy,
+   They lost Dyrrachium,
+   Valona,
+   and Butrint in 1085,
+   after the death of Robert,
+  
+----------------------------------------------
+question: What was the name of the count of Apulia 
+right answer:-------- ['Robert Guiscard', 'Robert Guiscard', 'Robert Guiscard']
+------------test case64------------
+primary context:
+Robert Guiscard, an other Norman adventurer previously elevated to the dignity of count of Apulia as
+ the result of his military successes, ultimately drove the Byzantines out of southern Italy. Having
+ obtained the consent of pope Gregory VII and acting as his vassal, Robert continued his campaign co
+nquering the Balkan peninsula as a foothold for western feudal lords and the Catholic Church. After 
+allying himself with Croatia and the Catholic cities of Dalmatia, in 1081 he led an army of 30,000 m
+en in 300 ships landing on the southern shores of Albania, capturing Valona, Kanina, Jericho (Orikum
+i), and reaching Butrint after numerous pillages. They joined the fleet that had previously conquere
+d Corfu and attacked Dyrrachium from land and sea, devastating everything along the way. Under these
+ harsh circumstances, the locals accepted the call of emperor Alexius I Comnenus to join forces with
+ the Byzantines against the Normans. The Albanian forces could not take part in the ensuing battle b
+ecause it had started before their arrival. Immediately before the battle, the Venetian fleet had se
+cured a victory in the coast surrounding the city. Forced to retreat, Alexius ceded the command to a
+ high Albanian official named Comiscortes in the service of Byzantium. The city's garrison resisted 
+until February 1082, when Dyrrachium was betrayed to the Normans by the Venetian and Amalfitan merch
+ants who had settled there. The Normans were now free to penetrate into the hinterland; they took Io
+annina and some minor cities in southwestern Macedonia and Thessaly before appearing at the gates of
+ Thessalonica. Dissension among the high ranks coerced the Normans to retreat to Italy. They lost Dy
+rrachium, Valona, and Butrint in 1085, after the death of Robert.
+----------------------------------------------
+context after modification:
+  Robert Guiscard,
+   an other Norman adventurer previously elevated to the dignity of count of Apulia as the result of his military successes,
+   ultimately drove the Byzantines out of southern Italy,
+   Having obtained the consent of pope Gregory VII and acting as his vassal,
+   Robert continued his campaign conquering the Balkan peninsula as a foothold for western feudal lords and the Catholic Church,
+   After allying himself with Croatia and the Catholic cities of Dalmatia,
+   in 1081 he led an army of 30,
+  000 men in 300 ships landing on the southern shores of Albania,
+   capturing Valona,
+   Kanina,
+   Jericho (Orikumi),
+   and reaching Butrint after numerous pillages,
+   They joined the fleet that had previously conquered Corfu and attacked Dyrrachium from land and sea,
+   devastating everything along the way,
+   Under these harsh circumstances,
+   the locals accepted the call of emperor Alexius I Comnenus to join forces with the Byzantines against the Normans,
+   The Albanian forces could not take part in the ensuing battle because it had started before their arrival,
+   Immediately before the battle,
+   the Venetian fleet had secured a victory in the coast surrounding the city,
+   Forced to retreat,
+   Alexius ceded the command to a high Albanian official named Comiscortes in the service of Byzantium,
+   The city's garrison resisted until February 1082,
+-  when Dyrrachium was betrayed to the Normans by the Venetian and Amalfitan merchants who had settled there,
+?                                                     ^^^^ -       ^^^^^ -            ----------------------
+,
++  when Dyrrachium was betrayed to the Normans by the Amalfitan and Venetian merchants,
+?                                                     ^^^^^^        ^^^^^
+,
+   The Normans were now free to penetrate into the hinterland; they took Ioannina and some minor cities in southwestern Macedonia and Thessaly before appearing at the gates of Thessalonica,
+   Dissension among the high ranks coerced the Normans to retreat to Italy,
+   They lost Dyrrachium,
+   Valona,
+   and Butrint in 1085,
+   after the death of Robert,
+  
+----------------------------------------------
+question: When did Dyrrachium  fall to the Normans?
+right answer:-------- ['1082', 'February 1082', 'February 1082']
+allenai/unifiedqa-t5-base :
+original result:----- 1082 
+modified result:----- 1085
+------------test case65------------
+primary context:
+Robert Guiscard, an other Norman adventurer previously elevated to the dignity of count of Apulia as
+ the result of his military successes, ultimately drove the Byzantines out of southern Italy. Having
+ obtained the consent of pope Gregory VII and acting as his vassal, Robert continued his campaign co
+nquering the Balkan peninsula as a foothold for western feudal lords and the Catholic Church. After 
+allying himself with Croatia and the Catholic cities of Dalmatia, in 1081 he led an army of 30,000 m
+en in 300 ships landing on the southern shores of Albania, capturing Valona, Kanina, Jericho (Orikum
+i), and reaching Butrint after numerous pillages. They joined the fleet that had previously conquere
+d Corfu and attacked Dyrrachium from land and sea, devastating everything along the way. Under these
+ harsh circumstances, the locals accepted the call of emperor Alexius I Comnenus to join forces with
+ the Byzantines against the Normans. The Albanian forces could not take part in the ensuing battle b
+ecause it had started before their arrival. Immediately before the battle, the Venetian fleet had se
+cured a victory in the coast surrounding the city. Forced to retreat, Alexius ceded the command to a
+ high Albanian official named Comiscortes in the service of Byzantium. The city's garrison resisted 
+until February 1082, when Dyrrachium was betrayed to the Normans by the Venetian and Amalfitan merch
+ants who had settled there. The Normans were now free to penetrate into the hinterland; they took Io
+annina and some minor cities in southwestern Macedonia and Thessaly before appearing at the gates of
+ Thessalonica. Dissension among the high ranks coerced the Normans to retreat to Italy. They lost Dy
+rrachium, Valona, and Butrint in 1085, after the death of Robert.
+----------------------------------------------
+context after modification:
+  Robert Guiscard,
+   an other Norman adventurer previously elevated to the dignity of count of Apulia as the result of his military successes,
+   ultimately drove the Byzantines out of southern Italy,
+   Having obtained the consent of pope Gregory VII and acting as his vassal,
+   Robert continued his campaign conquering the Balkan peninsula as a foothold for western feudal lords and the Catholic Church,
+   After allying himself with Croatia and the Catholic cities of Dalmatia,
+   in 1081 he led an army of 30,
++ 000 men in 300 ships,
+- 000 men in 300 ships landing on the southern shores of Albania,
+-  capturing Valona,
+-  Kanina,
+-  Jericho (Orikumi),
+-  and reaching Butrint after numerous pillages,
+-  They joined the fleet that had previously conquered Corfu and attacked Dyrrachium from land and sea,
+? -
+,
++ They joined the fleet that had previously conquered Corfu and attacked Dyrrachium from land and sea,
+   devastating everything along the way,
+   Under these harsh circumstances,
+   the locals accepted the call of emperor Alexius I Comnenus to join forces with the Byzantines against the Normans,
+   The Albanian forces could not take part in the ensuing battle because it had started before their arrival,
+   Immediately before the battle,
+   the Venetian fleet had secured a victory in the coast surrounding the city,
+   Forced to retreat,
+   Alexius ceded the command to a high Albanian official named Comiscortes in the service of Byzantium,
+   The city's garrison resisted until February 1082,
+   when Dyrrachium was betrayed to the Normans by the Venetian and Amalfitan merchants who had settled there,
+   The Normans were now free to penetrate into the hinterland; they took Ioannina and some minor cities in southwestern Macedonia and Thessaly before appearing at the gates of Thessalonica,
+   Dissension among the high ranks coerced the Normans to retreat to Italy,
+   They lost Dyrrachium,
+   Valona,
+   and Butrint in 1085,
+   after the death of Robert,
+  
+----------------------------------------------
+question: How many men were in Robert's army?
+right answer:-------- ['30,000', '30,000', '30,000']
+------------test case66------------
+primary context:
+Robert Guiscard, an other Norman adventurer previously elevated to the dignity of count of Apulia as
+ the result of his military successes, ultimately drove the Byzantines out of southern Italy. Having
+ obtained the consent of pope Gregory VII and acting as his vassal, Robert continued his campaign co
+nquering the Balkan peninsula as a foothold for western feudal lords and the Catholic Church. After 
+allying himself with Croatia and the Catholic cities of Dalmatia, in 1081 he led an army of 30,000 m
+en in 300 ships landing on the southern shores of Albania, capturing Valona, Kanina, Jericho (Orikum
+i), and reaching Butrint after numerous pillages. They joined the fleet that had previously conquere
+d Corfu and attacked Dyrrachium from land and sea, devastating everything along the way. Under these
+ harsh circumstances, the locals accepted the call of emperor Alexius I Comnenus to join forces with
+ the Byzantines against the Normans. The Albanian forces could not take part in the ensuing battle b
+ecause it had started before their arrival. Immediately before the battle, the Venetian fleet had se
+cured a victory in the coast surrounding the city. Forced to retreat, Alexius ceded the command to a
+ high Albanian official named Comiscortes in the service of Byzantium. The city's garrison resisted 
+until February 1082, when Dyrrachium was betrayed to the Normans by the Venetian and Amalfitan merch
+ants who had settled there. The Normans were now free to penetrate into the hinterland; they took Io
+annina and some minor cities in southwestern Macedonia and Thessaly before appearing at the gates of
+ Thessalonica. Dissension among the high ranks coerced the Normans to retreat to Italy. They lost Dy
+rrachium, Valona, and Butrint in 1085, after the death of Robert.
+----------------------------------------------
+context after modification:
+  Robert Guiscard,
+   an other Norman adventurer previously elevated to the dignity of count of Apulia as the result of his military successes,
+-  ultimately drove the Byzantines out of southern Italy,
+?                                         ^ ^^^ --------
+,
++  ultimately drove the Byzantines out of Europe,
+?                                         ^^^ ^
+,
+   Having obtained the consent of pope Gregory VII and acting as his vassal,
+   Robert continued his campaign conquering the Balkan peninsula as a foothold for western feudal lords and the Catholic Church,
+   After allying himself with Croatia and the Catholic cities of Dalmatia,
+   in 1081 he led an army of 30,
+  000 men in 300 ships landing on the southern shores of Albania,
+   capturing Valona,
+   Kanina,
+   Jericho (Orikumi),
+   and reaching Butrint after numerous pillages,
+   They joined the fleet that had previously conquered Corfu and attacked Dyrrachium from land and sea,
+   devastating everything along the way,
+   Under these harsh circumstances,
+   the locals accepted the call of emperor Alexius I Comnenus to join forces with the Byzantines against the Normans,
+   The Albanian forces could not take part in the ensuing battle because it had started before their arrival,
+   Immediately before the battle,
+   the Venetian fleet had secured a victory in the coast surrounding the city,
+   Forced to retreat,
+   Alexius ceded the command to a high Albanian official named Comiscortes in the service of Byzantium,
+   The city's garrison resisted until February 1082,
+   when Dyrrachium was betrayed to the Normans by the Venetian and Amalfitan merchants who had settled there,
+   The Normans were now free to penetrate into the hinterland; they took Ioannina and some minor cities in southwestern Macedonia and Thessaly before appearing at the gates of Thessalonica,
+   Dissension among the high ranks coerced the Normans to retreat to Italy,
+   They lost Dyrrachium,
+   Valona,
+   and Butrint in 1085,
+   after the death of Robert,
+  
+----------------------------------------------
+question: Who ultimatly drove the Byzantines out of Europe?
+right answer:-------- ['']
+------------test case67------------
+primary context:
+Robert Guiscard, an other Norman adventurer previously elevated to the dignity of count of Apulia as
+ the result of his military successes, ultimately drove the Byzantines out of southern Italy. Having
+ obtained the consent of pope Gregory VII and acting as his vassal, Robert continued his campaign co
+nquering the Balkan peninsula as a foothold for western feudal lords and the Catholic Church. After 
+allying himself with Croatia and the Catholic cities of Dalmatia, in 1081 he led an army of 30,000 m
+en in 300 ships landing on the southern shores of Albania, capturing Valona, Kanina, Jericho (Orikum
+i), and reaching Butrint after numerous pillages. They joined the fleet that had previously conquere
+d Corfu and attacked Dyrrachium from land and sea, devastating everything along the way. Under these
+ harsh circumstances, the locals accepted the call of emperor Alexius I Comnenus to join forces with
+ the Byzantines against the Normans. The Albanian forces could not take part in the ensuing battle b
+ecause it had started before their arrival. Immediately before the battle, the Venetian fleet had se
+cured a victory in the coast surrounding the city. Forced to retreat, Alexius ceded the command to a
+ high Albanian official named Comiscortes in the service of Byzantium. The city's garrison resisted 
+until February 1082, when Dyrrachium was betrayed to the Normans by the Venetian and Amalfitan merch
+ants who had settled there. The Normans were now free to penetrate into the hinterland; they took Io
+annina and some minor cities in southwestern Macedonia and Thessaly before appearing at the gates of
+ Thessalonica. Dissension among the high ranks coerced the Normans to retreat to Italy. They lost Dy
+rrachium, Valona, and Butrint in 1085, after the death of Robert.
+----------------------------------------------
+context after modification:
+  Robert Guiscard,
+-  an other Norman adventurer previously elevated to the dignity of count of Apulia as the result of his military successes,
++  an other Norman adventurer previously elevated to the dignity of count of Apulia as the result of   his military successes,
+?                                                                                                    ++
+,
+   ultimately drove the Byzantines out of southern Italy,
+   Having obtained the consent of pope Gregory VII and acting as his vassal,
+   Robert continued his campaign conquering the Balkan peninsula as a foothold for western feudal lords and the Catholic Church,
+   After allying himself with Croatia and the Catholic cities of Dalmatia,
+   in 1081 he led an army of 30,
+  000 men in 300 ships landing on the southern shores of Albania,
+   capturing Valona,
+   Kanina,
+   Jericho (Orikumi),
+   and reaching Butrint after numerous pillages,
+   They joined the fleet that had previously conquered Corfu and attacked Dyrrachium from land and sea,
+   devastating everything along the way,
+   Under these harsh circumstances,
+   the locals accepted the call of emperor Alexius I Comnenus to join forces with the Byzantines against the Normans,
+   The Albanian forces could not take part in the ensuing battle because it had started before their arrival,
+   Immediately before the battle,
+   the Venetian fleet had secured a victory in the coast surrounding the city,
+   Forced to retreat,
+   Alexius ceded the command to a high Albanian official named Comiscortes in the service of Byzantium,
+   The city's garrison resisted until February 1082,
+   when Dyrrachium was betrayed to the Normans by the Venetian and Amalfitan merchants who had settled there,
+   The Normans were now free to penetrate into the hinterland; they took Ioannina and some minor cities in southwestern Macedonia and Thessaly before appearing at the gates of Thessalonica,
+   Dissension among the high ranks coerced the Normans to retreat to Italy,
+   They lost Dyrrachium,
+   Valona,
+   and Butrint in 1085,
+   after the death of Robert,
+  
+----------------------------------------------
+question: What pope opposed Roberts campaign?
+right answer:-------- ['']
+------------test case68------------
+primary context:
+Robert Guiscard, an other Norman adventurer previously elevated to the dignity of count of Apulia as
+ the result of his military successes, ultimately drove the Byzantines out of southern Italy. Having
+ obtained the consent of pope Gregory VII and acting as his vassal, Robert continued his campaign co
+nquering the Balkan peninsula as a foothold for western feudal lords and the Catholic Church. After 
+allying himself with Croatia and the Catholic cities of Dalmatia, in 1081 he led an army of 30,000 m
+en in 300 ships landing on the southern shores of Albania, capturing Valona, Kanina, Jericho (Orikum
+i), and reaching Butrint after numerous pillages. They joined the fleet that had previously conquere
+d Corfu and attacked Dyrrachium from land and sea, devastating everything along the way. Under these
+ harsh circumstances, the locals accepted the call of emperor Alexius I Comnenus to join forces with
+ the Byzantines against the Normans. The Albanian forces could not take part in the ensuing battle b
+ecause it had started before their arrival. Immediately before the battle, the Venetian fleet had se
+cured a victory in the coast surrounding the city. Forced to retreat, Alexius ceded the command to a
+ high Albanian official named Comiscortes in the service of Byzantium. The city's garrison resisted 
+until February 1082, when Dyrrachium was betrayed to the Normans by the Venetian and Amalfitan merch
+ants who had settled there. The Normans were now free to penetrate into the hinterland; they took Io
+annina and some minor cities in southwestern Macedonia and Thessaly before appearing at the gates of
+ Thessalonica. Dissension among the high ranks coerced the Normans to retreat to Italy. They lost Dy
+rrachium, Valona, and Butrint in 1085, after the death of Robert.
+----------------------------------------------
+context after modification:
+  Robert Guiscard,
+   an other Norman adventurer previously elevated to the dignity of count of Apulia as the result of his military successes,
+   ultimately drove the Byzantines out of southern Italy,
+   Having obtained the consent of pope Gregory VII and acting as his vassal,
+   Robert continued his campaign conquering the Balkan peninsula as a foothold for western feudal lords and the Catholic Church,
+   After allying himself with Croatia and the Catholic cities of Dalmatia,
+   in 1081 he led an army of 30,
+  000 men in 300 ships landing on the southern shores of Albania,
+   capturing Valona,
+   Kanina,
+   Jericho (Orikumi),
+   and reaching Butrint after numerous pillages,
+   They joined the fleet that had previously conquered Corfu and attacked Dyrrachium from land and sea,
+   devastating everything along the way,
+   Under these harsh circumstances,
+   the locals accepted the call of emperor Alexius I Comnenus to join forces with the Byzantines against the Normans,
+   The Albanian forces could not take part in the ensuing battle because it had started before their arrival,
+   Immediately before the battle,
+   the Venetian fleet had secured a victory in the coast surrounding the city,
+   Forced to retreat,
+   Alexius ceded the command to a high Albanian official named Comiscortes in the service of Byzantium,
+   The city's garrison resisted until February 1082,
+   when Dyrrachium was betrayed to the Normans by the Venetian and Amalfitan merchants who had settled there,
+   The Normans were now free to penetrate into the hinterland; they took Ioannina and some minor cities in southwestern Macedonia and Thessaly before appearing at the gates of Thessalonica,
+   Dissension among the high ranks coerced the Normans to retreat to Italy,
+   They lost Dyrrachium,
+   Valona,
+-  and Butrint in 1085,
++  and Butrint in the 10th century,
+   after the death of Robert,
+  
+----------------------------------------------
+question: What fell to the Normans in the 10th century?
+right answer:-------- ['']
+allenai/unifiedqa-t5-large :
+original result:----- the city of Dyrrachium 
+modified result:----- Dyrrachium, Valona, and Butrint
+allenai/unifiedqa-t5-base :
+original result:----- the count of Apulia 
+modified result:----- the dignity of count of Apulia
+------------test case69------------
+primary context:
+Robert Guiscard, an other Norman adventurer previously elevated to the dignity of count of Apulia as
+ the result of his military successes, ultimately drove the Byzantines out of southern Italy. Having
+ obtained the consent of pope Gregory VII and acting as his vassal, Robert continued his campaign co
+nquering the Balkan peninsula as a foothold for western feudal lords and the Catholic Church. After 
+allying himself with Croatia and the Catholic cities of Dalmatia, in 1081 he led an army of 30,000 m
+en in 300 ships landing on the southern shores of Albania, capturing Valona, Kanina, Jericho (Orikum
+i), and reaching Butrint after numerous pillages. They joined the fleet that had previously conquere
+d Corfu and attacked Dyrrachium from land and sea, devastating everything along the way. Under these
+ harsh circumstances, the locals accepted the call of emperor Alexius I Comnenus to join forces with
+ the Byzantines against the Normans. The Albanian forces could not take part in the ensuing battle b
+ecause it had started before their arrival. Immediately before the battle, the Venetian fleet had se
+cured a victory in the coast surrounding the city. Forced to retreat, Alexius ceded the command to a
+ high Albanian official named Comiscortes in the service of Byzantium. The city's garrison resisted 
+until February 1082, when Dyrrachium was betrayed to the Normans by the Venetian and Amalfitan merch
+ants who had settled there. The Normans were now free to penetrate into the hinterland; they took Io
+annina and some minor cities in southwestern Macedonia and Thessaly before appearing at the gates of
+ Thessalonica. Dissension among the high ranks coerced the Normans to retreat to Italy. They lost Dy
+rrachium, Valona, and Butrint in 1085, after the death of Robert.
+----------------------------------------------
+context after modification:
+  Robert Guiscard,
+   an other Norman adventurer previously elevated to the dignity of count of Apulia as the result of his military successes,
+   ultimately drove the Byzantines out of southern Italy,
+   Having obtained the consent of pope Gregory VII and acting as his vassal,
+   Robert continued his campaign conquering the Balkan peninsula as a foothold for western feudal lords and the Catholic Church,
+   After allying himself with Croatia and the Catholic cities of Dalmatia,
+-  in 1081 he led an army of 30,
+? --------
+,
++  he led an army of 30,
++ 000 men landing on the southern shores of Albania and reaching Butrint after numerous pillages,
+- 000 men in 300 ships landing on the southern shores of Albania,
+-  capturing Valona,
+-  Kanina,
+-  Jericho (Orikumi),
+-  and reaching Butrint after numerous pillages,
+   They joined the fleet that had previously conquered Corfu and attacked Dyrrachium from land and sea,
+   devastating everything along the way,
+   Under these harsh circumstances,
+   the locals accepted the call of emperor Alexius I Comnenus to join forces with the Byzantines against the Normans,
+   The Albanian forces could not take part in the ensuing battle because it had started before their arrival,
+   Immediately before the battle,
+   the Venetian fleet had secured a victory in the coast surrounding the city,
+   Forced to retreat,
+   Alexius ceded the command to a high Albanian official named Comiscortes in the service of Byzantium,
+   The city's garrison resisted until February 1082,
+   when Dyrrachium was betrayed to the Normans by the Venetian and Amalfitan merchants who had settled there,
+   The Normans were now free to penetrate into the hinterland; they took Ioannina and some minor cities in southwestern Macedonia and Thessaly before appearing at the gates of Thessalonica,
+   Dissension among the high ranks coerced the Normans to retreat to Italy,
+   They lost Dyrrachium,
+   Valona,
+   and Butrint in 1085,
+   after the death of Robert,
+  
+----------------------------------------------
+question: How many men did Roberts army face?
+right answer:-------- ['']

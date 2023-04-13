@@ -1,0 +1,4 @@
+allenai/unifiedqa-t5-large :
+em score:  40.0 f1 score:  42.77777777777778
+allenai/unifiedqa-t5-base :
+em score:  26.666666666666668 f1 score:  32.88888888888889

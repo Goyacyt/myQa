@@ -20,7 +20,7 @@ def main():
     em_score_large=f1_score_large=0
     em_score_base=f1_score_base=0
     em_score_3b=f1_score_3b=0
-    for e in range(0,8):
+    for e in range(5,8):
         refileName="squad2_valid_qc_"+str(e)+".txt"
         with open(refileName,"r",encoding='utf-8') as f:
             s=f.read()
