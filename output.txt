@@ -1,4 +1,17 @@
-allenai/unifiedqa-t5-large :
-em score:  40.0 f1 score:  42.77777777777778
-allenai/unifiedqa-t5-base :
-em score:  26.666666666666668 f1 score:  32.88888888888889
+Which NFL team represented the AFC at Super Bowl 50?
+0 : Super Bowl 50 was an American football game to determine the champion of the National Football League (NFL) for the 2015 season
+1 :  The American Football Conference (AFC) champion Denver Broncos defeated the National Football Conference (NFC) champion Carolina Panthers 24–10 to earn their third Super Bowl title
+2 :  The game was played on February 7, 2016, at Levi's Stadium in the San Francisco Bay Area at Santa Clara, California
+3 :  As this was the 50th Super Bowl, the league emphasized the "golden anniversary" with various gold-themed initiatives, as well as temporarily suspending the tradition of naming each Super Bowl game with Roman numerals (under which the game would have been known as "Super Bowl L"), so that the logo could prominently feature the Arabic numerals 50
+2 : 0.00
+3 : 0.00
+0 : 0.50
+1 : 1.00
+2 : 0.30      right
+3 : 0.52      right
+0 : 0.63      right
+1 : 0.64      right
+3 : 0.491767      false
+2 : 0.542943      false
+1 : 0.551741      false
+0 : 0.682142      false
