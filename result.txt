@@ -1258,3 +1258,234 @@ Question:
 Standard Answer:      {'text': ['Wojciech Bogusławski Theatre', 'Wojciech Bogusławski Theatre', 'Wojciech Bogusławski Theatre'], 'answer_start': [251, 251, 251]}
 Original Answer:      the Wojciech Bogusawski Theatre 
  Modified Answer:      the wojciech Bogusawski Theatre
+------------test case866------------
+Original Context:
+ As interesting examples of expositions the most notable are: the world's first Museum of Posters boasting one of the largest collections of art posters in the world, Museum of Hunting and Riding and the Railway Museum. From among Warsaw's 60 museums, the most prestigious ones are National Museum with a collection of works whose origin ranges in time from antiquity till the present epoch as well as one of the best collections of paintings in the country including some paintings from Adolf Hitler's private collection, and Museum of the Polish Army whose set portrays the history of arms.
+Modified Context:
+  From among Warsaw's 60 museums, the most prestigious ones are National Museum with a collection of works whose origin ranges in time from antiquity till the present epoch as well as one of the best collections of paintings in the country including some paintings from Adolf Hitler's private collection, and Museum of the Polish Army whose set portrays the history of arms.
+Question:
+ Warsaw's National Museum is one of the most what?
+Standard Answer:      {'text': ['prestigious', 'prestigious', 'prestigious'], 'answer_start': [260, 260, 260]}
+Original Answer:      the largest collections of art posters in the world, Museum of Hunting and Riding and the 
+ Modified Answer:      prestigious
+
+------------test case884------------
+Original Context:
+ The mermaid (syrenka) is Warsaw's symbol and can be found on statues throughout the city and on the city's coat of arms. This imagery has been in use since at least the mid-14th century. The oldest existing armed seal of Warsaw is from the year 1390, consisting of a round seal bordered with the Latin inscription Sigilium Civitatis Varsoviensis (Seal of the city of Warsaw). City records as far back as 1609 document the use of a crude form of a sea monster with a female upper body and holding a sword in its claws. In 1653 the poet Zygmunt Laukowski asks the question:
+Modified Context:
+ The mermaid (syrenka) is Warsaw's symbol and can be found on statues throughout the city and on the city's coat of arms. The oldest existing armed seal of Warsaw is from the year 1390, consisting of a round seal bordered with the Latin inscription Sigilium Civitatis Varsoviensis (Seal of the city of Warsaw). City records as far back as 1609 document the use of a crude form of a sea monster with a female upper body and holding a sword in its claws.
+Question:
+ What is polish for "mermaid"?
+Standard Answer:      {'text': ['syrenka', 'syrenka', 'syrenka'], 'answer_start': [13, 13, 13]}
+Original Answer:      syrenka 
+ Modified Answer:      seal of warsaw
+
+------------test case915------------
+Original Context:
+ Warsaw's name in the Polish language is Warszawa, approximately /vɑːrˈʃɑːvə/ (also formerly spelled Warszewa and Warszowa), meaning "belonging to Warsz", Warsz being a shortened form of the masculine name of Slavic origin Warcisław; see also etymology of Wrocław. Folk etymology attributes the city name to a fisherman, Wars, and his wife, Sawa. According to legend, Sawa was a mermaid living in the Vistula River with whom Wars fell in love. In actuality, Warsz was a 12th/13th-century nobleman who owned a village located at the modern-day site of Mariensztat neighbourhood. See also the Vršovci family which had escaped to Poland. The official city name in full is miasto stołeczne Warszawa (English: "The Capital City of Warsaw"). A native or resident of Warsaw is known as a Varsovian – in Polish warszawiak (male), warszawianka (female), warszawiacy (plural).
+Modified Context:
+ Warsaw's name in the Polish language is Warszawa, approximately /vɑːrˈʃɑːvə/ (also formerly spelled Warszewa and Warszowa), meaning "belonging to Warsz", Warsz being a shortened form of the masculine name of Slavic origin Warcisław; see also etymology of Wrocław. Folk etymology attributes the city name to a fisherman, Wars, and his wife, Sawa. In actuality, Warsz was a 12th/13th-century nobleman who owned a village located at the modern-day site of Mariensztat neighbourhood. See also the Vršovci family which had escaped to Poland. The official city name in full is miasto stołeczne Warszawa (English: "The Capital City of Warsaw"). A native or resident of Warsaw is known as a Varsovian – in Polish warszawiak (male), warszawianka (female), warszawiacy (plural).
+Question:
+ What does Warszawa mean in Polish?
+Standard Answer:      {'text': ['belonging to Warsz', 'belonging to Warsz', 'belonging to Warsz'], 'answer_start': [133, 133, 133]}
+Original Answer:      warsaw 
+ Modified Answer:      "belonging to Warsz"
+
+------------test case926------------
+Original Context:
+ In 1529, Warsaw for the first time became the seat of the General Sejm, permanent from 1569. In 1573 the city gave its name to the Warsaw Confederation, formally establishing religious freedom in the Polish–Lithuanian Commonwealth. Due to its central location between the Commonwealth's capitals of Kraków and Vilnius, Warsaw became the capital of the Commonwealth and the Crown of the Kingdom of Poland when King Sigismund III Vasa moved his court from Kraków to Warsaw in 1596. In the following years the town expanded towards the suburbs. Several private independent districts were established, the property of aristocrats and the gentry, which were ruled by their own laws. Three times between 1655–1658 the city was under siege and three times it was taken and pillaged by the Swedish, Brandenburgian and Transylvanian forces.
+Modified Context:
+ In 1529, Warsaw for the first time became the seat of the General Sejm, permanent from 1569. In 1573 the city gave its name to the Warsaw Confederation, formally establishing religious freedom in the Polish–Lithuanian Commonwealth. Due to its central location between the Commonwealth's capitals of Kraków and Vilnius, Warsaw became the capital of the Commonwealth and the Crown of the Kingdom of Poland when King Sigismund III Vasa moved his court from Kraków to Warsaw in 1596. Several private independent districts were established, the property of aristocrats and the gentry, which were ruled by their own laws. Three times between 1655–1658 the city was under siege and three times it was taken and pillaged by the Swedish, Brandenburgian and Transylvanian forces.
+Question:
+ What did the Warsaw Confederation formally establish in 1573?
+Standard Answer:      {'text': ['religious freedom', 'religious freedom in the Polish–Lithuanian Commonwealth', 'religious freedom'], 'answer_start': [175, 175, 175]}
+Original Answer:      the warsaw confederation 
+ Modified Answer:      the seat of the general sejm
+
+------------test case940------------
+Original Context:
+ After the German Invasion of Poland on 1 September 1939 began the Second World War, Warsaw was defended till September 27. Central Poland, including Warsaw, came under the rule of the General Government, a German Nazi colonial administration. All higher education institutions were immediately closed and Warsaw's entire Jewish population – several hundred thousand, some 30% of the city – herded into the Warsaw Ghetto. The city would become the centre of urban resistance to Nazi rule in occupied Europe. When the order came to annihilate the ghetto as part of Hitler's "Final Solution" on 19 April 1943, Jewish fighters launched the Warsaw Ghetto Uprising. Despite being heavily outgunned and outnumbered, the Ghetto held out for almost a month. When the fighting ended, almost all survivors were massacred, with only a few managing to escape or hide.
+Modified Context:
+ After the German Invasion of Poland on 1 September 1939 began the Second World War, Warsaw was defended till September 27. Central Poland, including Warsaw, came under the rule of the General Government, a German Nazi colonial administration. All higher education institutions were immediately closed and Warsaw's entire Jewish population – several hundred thousand, some 30% of the city – herded into the Warsaw Ghetto. The city would become the centre of urban resistance to Nazi rule in occupied Europe. When the order came to annihilate the ghetto as part of Hitler's "Final Solution" on 19 April 1943, Jewish fighters launched the Warsaw Ghetto Uprising. Despite being heavily outgunned and outnumbered, the Ghetto held out for almost a month.
+Question:
+ Who was Warsaw under the administration of when it came under the rule of the General Goverment?
+Standard Answer:      {'text': ['a German Nazi colonial administration', 'German Nazi', 'German Nazi colonial administration'], 'answer_start': [204, 206, 206]}
+Original Answer:      the general government 
+ Modified Answer:      german nazi colonial administration
+
+------------test case954------------
+Original Context:
+ John Paul II's visits to his native country in 1979 and 1983 brought support to the budding solidarity movement and encouraged the growing anti-communist fervor there. In 1979, less than a year after becoming pope, John Paul celebrated Mass in Victory Square in Warsaw and ended his sermon with a call to "renew the face" of Poland: Let Thy Spirit descend! Let Thy Spirit descend and renew the face of the land! This land! These words were very meaningful for the Polish citizens who understood them as the incentive for the democratic changes.
+Modified Context:
+  In 1979, less than a year after becoming pope, John Paul celebrated Mass in Victory Square in Warsaw and ended his sermon with a call to "renew the face" of Poland: Let Thy Spirit descend! Let Thy Spirit descend and renew the face of the land! This land! These words were very meaningful for the Polish citizens who understood them as the incentive for the democratic changes.
+Question:
+ What pope as a native of Poland?
+Standard Answer:      {'text': ['John Paul II', 'John Paul II', 'John Paul II'], 'answer_start': [0, 0, 0]}
+Original Answer:      John Paul II 
+ Modified Answer:      pope
+
+------------test case955------------
+Original Context:
+ John Paul II's visits to his native country in 1979 and 1983 brought support to the budding solidarity movement and encouraged the growing anti-communist fervor there. In 1979, less than a year after becoming pope, John Paul celebrated Mass in Victory Square in Warsaw and ended his sermon with a call to "renew the face" of Poland: Let Thy Spirit descend! Let Thy Spirit descend and renew the face of the land! This land! These words were very meaningful for the Polish citizens who understood them as the incentive for the democratic changes.
+Modified Context:
+ John Paul II's visits to his native country in 1979 and 1983 brought support to the budding solidarity movement and encouraged the growing anti-communist fervor there.
+Question:
+ What did John Paul II's visits in 1979 and 1983 encourage?
+Standard Answer:      {'text': ['growing anti-communist fervor', 'anti-communist fervor', 'growing anti-communist fervor'], 'answer_start': [131, 139, 131]}
+Original Answer:      the anti-communist fervor in Poland. 
+ Modified Answer:      the growing anti-communist fervor in his native country.
+
+------------test case994------------
+Original Context:
+ There are also many places commemorating the heroic history of Warsaw. Pawiak, an infamous German Gestapo prison now occupied by a Mausoleum of Memory of Martyrdom and the museum, is only the beginning of a walk in the traces of Heroic City. The Warsaw Citadel, an impressive 19th-century fortification built after the defeat of the November Uprising, was a place of martyr for the Poles. Another important monument, the statue of Little Insurgent located at the ramparts of the Old Town, commemorates the children who served as messengers and frontline troops in the Warsaw Uprising, while the impressive Warsaw Uprising Monument by Wincenty Kućma was erected in memory of the largest insurrection of World War II.
+Modified Context:
+ There are also many places commemorating the heroic history of Warsaw. The Warsaw Citadel, an impressive 19th-century fortification built after the defeat of the November Uprising, was a place of martyr for the Poles. Another important monument, the statue of Little Insurgent located at the ramparts of the Old Town, commemorates the children who served as messengers and frontline troops in the Warsaw Uprising, while the impressive Warsaw Uprising Monument by Wincenty Kućma was erected in memory of the largest insurrection of World War II.
+Question:
+ What commemorates Warsaw's heroic history?
+Standard Answer:      {'text': ['many places', 'many places'], 'answer_start': [15, 15]}
+Original Answer:      many places 
+ Modified Answer:      the Warsaw Citadel
+
+------------test case1006------------
+Original Context:
+ The flora of the city may be considered very rich in species. The species richness is mainly due to the location of Warsaw within the border region of several big floral regions comprising substantial proportions of close-to-wilderness areas (natural forests, wetlands along the Vistula) as well as arable land, meadows and forests. Bielany Forest, located within the borders of Warsaw, is the remaining part of the Masovian Primeval Forest. Bielany Forest nature reserve is connected with Kampinos Forest. It is home to rich fauna and flora. Within the forest there are three cycling and walking trails. Other big forest area is Kabaty Forest by the southern city border. Warsaw has also two botanic gardens: by the Łazienki park (a didactic-research unit of the University of Warsaw) as well as by the Park of Culture and Rest in Powsin (a unit of the Polish Academy of Science).
+Modified Context:
+ The flora of the city may be considered very rich in species. The species richness is mainly due to the location of Warsaw within the border region of several big floral regions comprising substantial proportions of close-to-wilderness areas (natural forests, wetlands along the Vistula) as well as arable land, meadows and forests. Bielany Forest, located within the borders of Warsaw, is the remaining part of the Masovian Primeval Forest. Bielany Forest nature reserve is connected with Kampinos Forest. It is home to rich fauna and flora. Within the forest there are three cycling and walking trails. Other big forest area is Kabaty Forest by the southern city border.
+Question:
+ What is the Bielany Forest the last remnant of?
+Standard Answer:      {'text': ['Masovian Primeval Forest', 'Masovian Primeval Forest', 'Masovian Primeval Forest'], 'answer_start': [416, 416, 416]}
+Original Answer:      the Masovian Primeval Forest 
+ Modified Answer:      the Masovian primeval forest
+
+------------test case1011------------
+Original Context:
+ In 1939, c. 1,300,000 people lived in Warsaw, but in 1945 – only 420,000. During the first years after the war, the population growth was c. 6%, so shortly the city started to suffer from the lack of flats and of areas for new houses. The first remedial measure was the Warsaw area enlargement (1951) – but the city authorities were still forced to introduce residency registration limitations: only the spouses and children of the permanent residents as well as some persons of public importance (like renowned specialists) were allowed to get the registration, hence halving the population growth in the following years. It also bolstered some kind of conviction among Poles that Varsovians thought of themselves as better only because they lived in the capital. Unfortunately this belief still lives on in Poland (although not as much as it used to be) – even though since 1990 there are no limitations to residency registration anymore.
+Modified Context:
+  1,300,000 people lived in Warsaw, but in 1945 – only 420,000. During the first years after the war, the population growth was c. 6%, so shortly the city started to suffer from the lack of flats and of areas for new houses. The first remedial measure was the Warsaw area enlargement (1951) – but the city authorities were still forced to introduce residency registration limitations: only the spouses and children of the permanent residents as well as some persons of public importance (like renowned specialists) were allowed to get the registration, hence halving the population growth in the following years. It also bolstered some kind of conviction among Poles that Varsovians thought of themselves as better only because they lived in the capital. Unfortunately this belief still lives on in Poland (although not as much as it used to be) – even though since 1990 there are no limitations to residency registration anymore.
+Question:
+ When did the Warsaw area enlargement take place?
+Standard Answer:      {'text': ['1951', '1951', '1951'], 'answer_start': [295, 295, 295]}
+Original Answer:      1950 
+ Modified Answer:      1945
+
+------------test case1029------------
+Original Context:
+ The mayor of Warsaw is called President. Generally, in Poland, the mayors of bigger cities are called presidents – i.e. such cities, which have over 100,000 people or these, where already was president before 1990. The first Warsaw President was Jan Andrzej Menich (1695–1696). Between 1975 and 1990 the Warsaw Presidents was simultaneously the Warsaw Voivode. Since 1990 the President of Warsaw had been elected by the City council. In the years of 1994–1999 the mayor of the district Centrum automatically was designated as the President of Warsaw: the mayor of Centrum was elected by the district council of Centrum and the council was elected only by the Centrum residents. Since 2002 the President of Warsaw is elected by all of the citizens of Warsaw.
+Modified Context:
+ The mayor of Warsaw is called President. Generally, in Poland, the mayors of bigger cities are called presidents – i. such cities, which have over 100,000 people or these, where already was president before 1990. The first Warsaw President was Jan Andrzej Menich (1695–1696). Between 1975 and 1990 the Warsaw Presidents was simultaneously the Warsaw Voivode. Since 1990 the President of Warsaw had been elected by the City council. In the years of 1994–1999 the mayor of the district Centrum automatically was designated as the President of Warsaw: the mayor of Centrum was elected by the district council of Centrum and the council was elected only by the Centrum residents. Since 2002 the President of Warsaw is elected by all of the citizens of Warsaw.
+Question:
+ When did Menich serve as President?
+Standard Answer:      {'text': ['1695–1696', '1695–1696', '1695–1696'], 'answer_start': [266, 266, 266]}
+Original Answer:      between 1975 and 1990 
+ Modified Answer:      1695–1696
+
+------------test case1039------------
+Original Context:
+ Warsaw's first stock exchange was established in 1817 and continued trading until World War II. It was re-established in April 1991, following the end of the post-war communist control of the country and the reintroduction of a free-market economy. Today, the Warsaw Stock Exchange (WSE) is, according to many indicators, the largest market in the region, with 374 companies listed and total capitalization of 162 584 mln EUR as of 31 August 2009. From 1991 until 2000, the stock exchange was, ironically, located in the building previously used as the headquarters of the Polish United Workers' Party (PZPR).
+Modified Context:
+ Warsaw's first stock exchange was established in 1817 and continued trading until World War II. Today, the Warsaw Stock Exchange (WSE) is, according to many indicators, the largest market in the region, with 374 companies listed and total capitalization of 162 584 mln EUR as of 31 August 2009. From 1991 until 2000, the stock exchange was, ironically, located in the building previously used as the headquarters of the Polish United Workers' Party (PZPR).
+Question:
+ When was Warsaw's stock exchange brought back to life?
+Standard Answer:      {'text': ['April 1991', 'April 1991', 'April 1991'], 'answer_start': [121, 121, 121]}
+Original Answer:      1991 
+ Modified Answer:      after world war two
+
+------------test case1050------------
+Original Context:
+ Warsaw (Polish: Warszawa [varˈʂava] ( listen); see also other names) is the capital and largest city of Poland. It stands on the Vistula River in east-central Poland, roughly 260 kilometres (160 mi) from the Baltic Sea and 300 kilometres (190 mi) from the Carpathian Mountains. Its population is estimated at 1.740 million residents within a greater metropolitan area of 2.666 million residents, which makes Warsaw the 9th most-populous capital city in the European Union. The city limits cover 516.9 square kilometres (199.6 sq mi), while the metropolitan area covers 6,100.43 square kilometres (2,355.39 sq mi).
+Modified Context:
+ Warsaw (Polish: Warszawa [varˈʂava] ( listen); see also other names) is the capital and largest city of Poland. Its population is estimated at 1.740 million residents within a greater metropolitan area of 2.666 million residents, which makes Warsaw the 9th most-populous capital city in the European Union. The city limits cover 516.9 square kilometres (199.6 sq mi), while the metropolitan area covers 6,100.43 square kilometres (2,355.39 sq mi).
+Question:
+ How many people live in the greater metropolitan area?
+Standard Answer:      {'text': ['2.666 million residents', '2.666 million', '2.666 million'], 'answer_start': [371, 371, 371]}
+Original Answer:      2.666 million 
+ Modified Answer:      1.740 million
+
+------------test case1054------------
+Original Context:
+ Warsaw (Polish: Warszawa [varˈʂava] ( listen); see also other names) is the capital and largest city of Poland. It stands on the Vistula River in east-central Poland, roughly 260 kilometres (160 mi) from the Baltic Sea and 300 kilometres (190 mi) from the Carpathian Mountains. Its population is estimated at 1.740 million residents within a greater metropolitan area of 2.666 million residents, which makes Warsaw the 9th most-populous capital city in the European Union. The city limits cover 516.9 square kilometres (199.6 sq mi), while the metropolitan area covers 6,100.43 square kilometres (2,355.39 sq mi).
+Modified Context:
+ Warsaw (Polish: Warszawa [varˈʂava] ( listen); see also other names) is the capital and largest city of Poland. It stands on the Vistula River in east-central Poland, roughly 260 kilometres (160 mi) from the Baltic Sea and 300 kilometres (190 mi) from the Carpathian Mountains.740 million residents within a greater metropolitan area of 2.666 million residents, which makes Warsaw the 9th most-populous capital city in the European Union. The city limits cover 516.9 square kilometres (199.6 sq mi), while the metropolitan area covers 6,100.43 square kilometres (2,355.39 sq mi).
+Question:
+ How far is Warsaw from the Baltic Sea?
+Standard Answer:      {'text': ['roughly 260 kilometres', '260 kilometres', '260 kilometres'], 'answer_start': [167, 175, 175]}
+Original Answer:      160 mi 
+ Modified Answer:      260 kilometres
+
+------------test case1069------------
+Original Context:
+ In the course of the 10th century, the initially destructive incursions of Norse war bands into the rivers of France evolved into more permanent encampments that included local women and personal property. The Duchy of Normandy, which began in 911 as a fiefdom, was established by the treaty of Saint-Clair-sur-Epte between King Charles III of West Francia and the famed Viking ruler Rollo, and was situated in the former Frankish kingdom of Neustria. The treaty offered Rollo and his men the French lands between the river Epte and the Atlantic coast in exchange for their protection against further Viking incursions. The area corresponded to the northern part of present-day Upper Normandy down to the river Seine, but the Duchy would eventually extend west beyond the Seine. The territory was roughly equivalent to the old province of Rouen, and reproduced the Roman administrative structure of Gallia Lugdunensis II (part of the former Gallia Lugdunensis).
+Modified Context:
+ In the course of the 10th century, the initially destructive incursions of Norse war bands into the rivers of France evolved into more permanent encampments that included local women and personal property. The Duchy of Normandy, which began in 911 as a fiefdom, was established by the treaty of Saint-Clair-sur-Epte between King Charles III of West Francia and the famed Viking ruler Rollo, and was situated in the former Frankish kingdom of Neustria. The treaty offered Rollo and his men the French lands between the river Epte and the Atlantic coast in exchange for their protection against further Viking incursions. The area corresponded to the northern part of present-day Upper Normandy down to the river Seine, but the Duchy would eventually extend west beyond the Seine.
+Question:
+ What river originally bounded the Duchy
+Standard Answer:      {'text': ['Seine', 'Epte', 'Seine'], 'answer_start': [711, 524, 711]}
+Original Answer:      the river seine 
+ Modified Answer:      the river Epte
+
+------------test case1070------------
+Original Context:
+ Before Rollo's arrival, its populations did not differ from Picardy or the Île-de-France, which were considered "Frankish". Earlier Viking settlers had begun arriving in the 880s, but were divided between colonies in the east (Roumois and Pays de Caux) around the low Seine valley and in the west in the Cotentin Peninsula, and were separated by traditional pagii, where the population remained about the same with almost no foreign settlers. Rollo's contingents who raided and ultimately settled Normandy and parts of the Atlantic coast included Danes, Norwegians, Norse–Gaels, Orkney Vikings, possibly Swedes, and Anglo-Danes from the English Danelaw under Norse control.
+Modified Context:
+  Earlier Viking settlers had begun arriving in the 880s, but were divided between colonies in the east (Roumois and Pays de Caux) around the low Seine valley and in the west in the Cotentin Peninsula, and were separated by traditional pagii, where the population remained about the same with almost no foreign settlers. Rollo's contingents who raided and ultimately settled Normandy and parts of the Atlantic coast included Danes, Norwegians, Norse–Gaels, Orkney Vikings, possibly Swedes, and Anglo-Danes from the English Danelaw under Norse control.
+Question:
+ Who upon arriving gave the original viking settlers a common identity?
+Standard Answer:      {'text': ['Rollo', 'Rollo', 'Rollo'], 'answer_start': [7, 7, 7]}
+Original Answer:      the Île-de-France 
+ Modified Answer:      the pagii
+
+------------test case1077------------
+Original Context:
+ The two most prominent Norman families to arrive in the Mediterranean were descendants of Tancred of Hauteville and the Drengot family, of whom Rainulf Drengot received the county of Aversa, the first Norman toehold in the south, from Duke Sergius IV of Naples in 1030. The Hauteville family achieved princely rank by proclaiming prince Guaimar IV of Salerno "Duke of Apulia and Calabria". He promptly awarded their elected leader, William Iron Arm, with the title of count in his capital of Melfi. The Drengot family thereafter attained the principality of Capua, and emperor Henry III legally ennobled the Hauteville leader, Drogo, as "dux et magister Italiae comesque Normannorum totius Apuliae et Calabriae" ("Duke and Master of Italy and Count of the Normans of all Apulia and Calabria") in 1047.
+Modified Context:
+ The two most prominent Norman families to arrive in the Mediterranean were descendants of Tancred of Hauteville and the Drengot family, of whom Rainulf Drengot received the county of Aversa, the first Norman toehold in the south, from Duke Sergius IV of Naples in 1030. He promptly awarded their elected leader, William Iron Arm, with the title of count in his capital of Melfi. The Drengot family thereafter attained the principality of Capua, and emperor Henry III legally ennobled the Hauteville leader, Drogo, as "dux et magister Italiae comesque Normannorum totius Apuliae et Calabriae" ("Duke and Master of Italy and Count of the Normans of all Apulia and Calabria") in 1047.
+Question:
+ What was the name of the leader ennobled by Henry III
+Standard Answer:      {'text': ['Drogo', 'Drogo', 'Drogo'], 'answer_start': [627, 627, 627]}
+Original Answer:      "duke and master of italiae comesque normanorum totius a 
+ Modified Answer:      "duke and master of italiae comesque Normannorum totius Apul
+
+------------test case1078------------
+Original Context:
+ The two most prominent Norman families to arrive in the Mediterranean were descendants of Tancred of Hauteville and the Drengot family, of whom Rainulf Drengot received the county of Aversa, the first Norman toehold in the south, from Duke Sergius IV of Naples in 1030. The Hauteville family achieved princely rank by proclaiming prince Guaimar IV of Salerno "Duke of Apulia and Calabria". He promptly awarded their elected leader, William Iron Arm, with the title of count in his capital of Melfi. The Drengot family thereafter attained the principality of Capua, and emperor Henry III legally ennobled the Hauteville leader, Drogo, as "dux et magister Italiae comesque Normannorum totius Apuliae et Calabriae" ("Duke and Master of Italy and Count of the Normans of all Apulia and Calabria") in 1047.
+Modified Context:
+ The two most prominent Norman families to arrive in the Mediterranean were descendants of Tancred of Hauteville and the Drengot family, of whom Rainulf Drengot received the county of Aversa, the first Norman toehold in the south, from Duke Sergius IV of Naples in 1030. He promptly awarded their elected leader, William Iron Arm, with the title of count in his capital of Melfi. The Drengot family thereafter attained the principality of Capua, and emperor Henry III legally ennobled the Hauteville leader, Drogo, as "dux et magister Italiae comesque Normannorum totius Apuliae et Calabriae" ("Duke and Master of Italy and Count of the Normans of all Apulia and Calabria") in 1047.
+Question:
+ Who was Count of Melfi
+Standard Answer:      {'text': ['William Iron Arm', 'William Iron Arm', 'William Iron Arm'], 'answer_start': [432, 432, 432]}
+Original Answer:      Count of Melfi 
+ Modified Answer:      William Iron Arm
+
+------------test case1085------------
+Original Context:
+ Soon after the Normans began to enter Italy, they entered the Byzantine Empire and then Armenia, fighting against the Pechenegs, the Bulgars, and especially the Seljuk Turks. Norman mercenaries were first encouraged to come to the south by the Lombards to act against the Byzantines, but they soon fought in Byzantine service in Sicily. They were prominent alongside Varangian and Lombard contingents in the Sicilian campaign of George Maniaces in 1038–40. There is debate whether the Normans in Greek service actually were from Norman Italy, and it now seems likely only a few came from there. It is also unknown how many of the "Franks", as the Byzantines called them, were Normans and not other Frenchmen.
+Modified Context:
+ Soon after the Normans began to enter Italy, they entered the Byzantine Empire and then Armenia, fighting against the Pechenegs, the Bulgars, and especially the Seljuk Turks. Norman mercenaries were first encouraged to come to the south by the Lombards to act against the Byzantines, but they soon fought in Byzantine service in Sicily. There is debate whether the Normans in Greek service actually were from Norman Italy, and it now seems likely only a few came from there. It is also unknown how many of the "Franks", as the Byzantines called them, were Normans and not other Frenchmen.
+Question:
+ Who was the Normans' main enemy in Italy, the Byzantine Empire and Armenia?
+Standard Answer:      {'text': ['Seljuk Turks', 'the Pechenegs, the Bulgars, and especially the Seljuk Turks', 'the Seljuk Turks'], 'answer_start': [161, 114, 157]}
+Original Answer:      the Bulgars, the Pechenegs, and especially the Seljuk Turk 
+ Modified Answer:      the Normans
+------------test case1091------------
+Original Context:
+ Some Normans joined Turkish forces to aid in the destruction of the Armenians vassal-states of Sassoun and Taron in far eastern Anatolia. Later, many took up service with the Armenian state further south in Cilicia and the Taurus Mountains. A Norman named Oursel led a force of "Franks" into the upper Euphrates valley in northern Syria. From 1073 to 1074, 8,000 of the 20,000 troops of the Armenian general Philaretus Brachamius were Normans—formerly of Oursel—led by Raimbaud. They even lent their ethnicity to the name of their castle: Afranji, meaning "Franks." The known trade between Amalfi and Antioch and between Bari and Tarsus may be related to the presence of Italo-Normans in those cities while Amalfi and Bari were under Norman rule in Italy.
+Modified Context:
+ Some Normans joined Turkish forces to aid in the destruction of the Armenians vassal-states of Sassoun and Taron in far eastern Anatolia. A Norman named Oursel led a force of "Franks" into the upper Euphrates valley in northern Syria. From 1073 to 1074, 8,000 of the 20,000 troops of the Armenian general Philaretus Brachamius were Normans—formerly of Oursel—led by Raimbaud. They even lent their ethnicity to the name of their castle: Afranji, meaning "Franks." The known trade between Amalfi and Antioch and between Bari and Tarsus may be related to the presence of Italo-Normans in those cities while Amalfi and Bari were under Norman rule in Italy.
+Question:
+ Who did the Normans team up with in Anatolia?
+Standard Answer:      {'text': ['Turkish forces', 'Turkish forces', 'Turkish forces'], 'answer_start': [20, 20, 20]}
+Original Answer:      the armen 
+ Modified Answer:      the turkey
+
+------------test case1092------------
+Original Context:
+ Several families of Byzantine Greece were of Norman mercenary origin during the period of the Comnenian Restoration, when Byzantine emperors were seeking out western European warriors. The Raoulii were descended from an Italo-Norman named Raoul, the Petraliphae were descended from a Pierre d'Aulps, and that group of Albanian clans known as the Maniakates were descended from Normans who served under George Maniaces in the Sicilian expedition of 1038.
+Modified Context:
+  The Raoulii were descended from an Italo-Norman named Raoul, the Petraliphae were descended from a Pierre d'Aulps, and that group of Albanian clans known as the Maniakates were descended from Normans who served under George Maniaces in the Sicilian expedition of 1038.
+Question:
+ What were the origins of the Raouliii family?
+Standard Answer:      {'text': ['Norman mercenary', 'an Italo-Norman named Raoul', 'descended from an Italo-Norman named Raoul'], 'answer_start': [45, 217, 202]}
+Original Answer:      Norman mercenary origin 
+ Modified Answer:      they were descended from an italo-Norman named Raoul.
+
+

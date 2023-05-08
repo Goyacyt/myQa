@@ -16,7 +16,7 @@ parser.add_argument("--module",default="t5-base",help="choose between t5-large o
 parser.add_argument("--dataset",default="squad",help="choose between squad2|squad|boolq")
 parser.add_argument("--lowk",default=True,help="true if you want to delete the least associated sentence")
 parser.add_argument("-f","--filename",default="output.txt",help="file to record the bugs")
-parser.add_argument("-de","--deleteextent",default="least",help="the pattern of deleting unrelated message,you can\
+parser.add_argument("-de","--deleteextent",default="leastone",help="the pattern of deleting unrelated message,you can\
                     choose between least|proportion|threshold")
 parser.add_argument("-p","--proportion",default=0.3,help="the proportion of sentences being deleted")
 parser.add_argument("-t","--threshold",default=0.4,help="delete the sentence whose distance is below this value")
@@ -32,12 +32,16 @@ def record(context,modContext,question,answer,modAnswer,groundTruth,fn,_):
     print("Standard Answer:     ",groundTruth,file=fn)
     print("Original Answer:     ",answer,'\n',"Modified Answer:     ",modAnswer,file=fn)
     print('',file=fn)
+    print("bug")
 
 
 def main(args):
     dataset=load_dataset(args.dataset)['validation']
     fileName=open(args.filename,'w+',encoding='utf-8')
-    for _,data in enumerate(dataset):
+    #for _,data in enumerate(dataset):
+    for i in range(1090,len(dataset)):
+        _=i
+        data=dataset[i]
         context=data['context']
         question=data['question']
         groundTruth=data['answers']
@@ -48,7 +52,7 @@ def main(args):
         distance=semanticMatch(oriContext=context,question=question)
         print("finish semanticMatch......")
         if args.mr==2:
-            modContext=MR2(context=context,distance=distance,pattern='leastone')
+            modContext=MR2(context=context,distance=distance,pattern=args.deleteextent,threshold=args.threshold)
             print("finish MR2......")
         elif args.mr==1:
             modContext=MR1(context=context,pattern="")
