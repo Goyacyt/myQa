@@ -72,6 +72,8 @@ def threshold():
     sen_num=0
     distribute=[0 for __ in range(10)]
     for _,data in enumerate(dataset):
+        """if _>50:
+            break"""
         context=data['context']
         question=data['question']
         num+=1
@@ -111,6 +113,8 @@ def threshold():
               :{distribute[i]/sen_num}")
     if ver==sen_num:
         print("right")
+    return distribute,sen_num
+
 
 if __name__=='__main__':
     threshold()
