@@ -20,7 +20,8 @@ def MR2(context,distance,pattern,threshold,proportion):
         for i in range(len(distance)):
             if distance[i][1]<threshold:
                 v=np.random.rand()
-                if v<0.5:
+                #print(f"v:{v}")
+                if v<proportion:
                     delnum.append(distance[i][0])
         delnum.sort(reverse=True)
         for i in range(len(delnum)):

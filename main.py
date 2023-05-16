@@ -7,6 +7,7 @@ from answerCompare import answerMatch
 import difflib
 import urllib3
 import json
+import ast
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 parser=argparse.ArgumentParser(description="input MR type")
@@ -24,6 +25,8 @@ parser.add_argument("-t","--threshold",default=0.3,help="delete the sentence who
 parser.add_argument("-cmp","--compare",default="com",help="the type of comparing two answers")
 parser.add_argument("-cmpt","--comparethreshold",default=0.75,help="the threshold of answer similarity")
 parser.add_argument("-l","--logfile",default="log.txt")
+parser.add_argument("-s","--start",default=0,help="dataset start number")
+parser.add_argument("-e","--end",default=2000,help="dataset end number")
 
 args=parser.parse_args()
 #case=0
@@ -59,7 +62,7 @@ def main(args):
     f=open (args.filename,'w+',encoding='utf-8')
     l=len(dataset)
     logf=open(args.logfile,'w+',encoding='utf-8')
-    for i in range(0,4000):
+    for i in range((int)(args.start),(int)(args.end)):
         _=i
         data=dataset[i]
         context=data['context']
@@ -94,10 +97,22 @@ def main(args):
 
 
 def answerAnalysis(args):
-    f=open (args.filename,'r+',encoding='utf-8')
+    f=open (args.filename,'r',encoding='utf-8')
     result=f.read()
-    f=open("temp.txt",)
-
+    f.close()
+    f=open (args.filename,'w+',encoding='utf-8')
+    result=result.split('}{')
+    for i in range(len(result)):
+        if i==0:
+            result[i]=result[i]+'}'
+        elif i==len(result)-1:
+            result[i]='{'+result[i]
+        else:
+            result[i]='{'+result[i]+'}'
+        result[i]=ast.literal_eval(result[i])
+    #print(result[0]['groundTruth'],result[0]['answer'])
+    print(result,file=f)
 
 if __name__=='__main__':
     main(args=args)
+    answerAnalysis(args=args)
