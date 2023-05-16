@@ -4,11 +4,11 @@ import numpy as np
 def MR2(context,distance,pattern,threshold,proportion):
     context=context.split('.')
     context=context[:-1]
+    delnum=[]
     if pattern=="leastone":
         if len(distance)>1:
             del context[distance[len(distance)-1][0]]
     elif pattern=="threshold":
-        delnum=[]
         for i in range(len(distance)):
             if distance[i][1]<threshold:
                 delnum.append(distance[i][0])
@@ -17,7 +17,6 @@ def MR2(context,distance,pattern,threshold,proportion):
         for i in range(len(delnum)):
             del context[delnum[i]]
     elif pattern=="proportion":
-        delnum=[]
         for i in range(len(distance)):
             if distance[i][1]<threshold:
                 v=np.random.rand()
@@ -32,7 +31,7 @@ def MR2(context,distance,pattern,threshold,proportion):
     str='.'
     context=str.join(context)
     context=context+'.'
-    return context
+    return context,delnum
 
 def MR1(context,pattern):
     #TODO:

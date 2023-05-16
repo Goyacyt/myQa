@@ -21,18 +21,24 @@ parser.add_argument("-de","--deleteextent",default="leastone",help="the pattern 
                     choose between least|proportion|threshold")
 parser.add_argument("-p","--proportion",default=0.5,help="the proportion of sentences being deleted")
 parser.add_argument("-t","--threshold",default=0.3,help="delete the sentence whose distance is below this value")
+parser.add_argument("-cmp","--compare",default="com",help="the type of comparing two answers")
+parser.add_argument("-cmpt","--comparethreshold",default=0.75,help="the threshold of answer similarity")
+parser.add_argument("-l","--logfile",default="log.txt")
 
 args=parser.parse_args()
 #case=0
 
-def record(context,modContext,question,answer,modAnswer,groundTruth,f,_):
+def record(_,context,modContext,question,answer,modAnswer,groundTruth,delsentence,distance,f):
     info_dict={}
+    info_dict['test case number']=_
     info_dict['context']=context
     info_dict['modContext']=modContext
     info_dict['question']=question
     info_dict['groundTruth']=groundTruth
     info_dict['answer']=answer
     info_dict['modAnswer']=modAnswer
+    info_dict['delete sentence number']=delsentence
+    info_dict["distance value"]=distance
     json.dump(info_dict,f)
 
 
@@ -43,7 +49,7 @@ def record(context,modContext,question,answer,modAnswer,groundTruth,f,_):
     print("Standard Answer:     ",groundTruth,file=fn)
     print("Original Answer:     ",answer,'\n',"Modified Answer:     ",modAnswer,file=fn)
     print('',file=fn)"""
-    print("Bug")
+    #print("Bug")
 
 
 def main(args):
@@ -51,35 +57,46 @@ def main(args):
     #fileName=open(args.filename,'w+',encoding='utf-8')
     #for _,data in enumerate(dataset):
     f=open (args.filename,'w+',encoding='utf-8')
-    for i in range(130,len(dataset)):
+    l=len(dataset)
+    logf=open(args.logfile,'w+',encoding='utf-8')
+    for i in range(0,4000):
         _=i
         data=dataset[i]
         context=data['context']
         question=data['question']
         groundTruth=data['answers']
 
+        print("starting processing data  ......",_,file=logf)
         print("starting processing data  ......",_)
         #Get distance imformation
         modContext=''
         distance=semanticMatch(oriContext=context,question=question)
         #print("finish semanticMatch......")
         if args.mr==2:
-            modContext=MR2(context=context,distance=distance,pattern=args.deleteextent,threshold=float(args.threshold),proportion=args.proportion)
+            modContext,delsentence=MR2(context=context,distance=distance,pattern=args.deleteextent,threshold=float(args.threshold),proportion=args.proportion)
             #print("finish MR2......")
         elif args.mr==1:
             modContext=MR1(context=context,pattern="")
-
         model_name='allenai/unifiedqa-'+args.module
         answer=output_answer(question=question,context=context,model_name=model_name)
         #print("finish original answer......")
-        modAnswer=output_answer(question=question,context=modContext,model_name=model_name)
+        if delsentence!=[]:
+            modAnswer=output_answer(question=question,context=modContext,model_name=model_name)
+        else:
+            modAnswer=answer
+            #print(delsentence,'yes')
         #print("finish modified answer......")
 
 
-        if not answerMatch(answer=answer,modAnswer=modAnswer):
-            record(context,modContext,question,answer,modAnswer,groundTruth,f,_)
+        #if not answerMatch(answer=answer,modAnswer=modAnswer,pattern=args.compare,threshold=args.comparethreshold,logfile=logf):
+        record(_,context,modContext,question,answer,modAnswer,groundTruth,delsentence,distance,f)
         #print("finish recording......")
 
+
+def answerAnalysis(args):
+    f=open (args.filename,'r+',encoding='utf-8')
+    result=f.read()
+    f=open("temp.txt",)
 
 
 if __name__=='__main__':
