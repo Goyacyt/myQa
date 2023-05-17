@@ -1,0 +1,522 @@
+{"test case number": 156, "answer": "the owners of the $1.2 billion stadium in boston voted on the venue for the game.", "modAnswer": "the nfl owners at their spring meetings in boston voted and awarded the game to levi's", "similarity": 0.7976986169815063}
+
+{"test case number": 156, "answer": "the owners of the $1.2 billion stadium in boston voted on the venue for the game.", "modAnswer": "nfl owners", "similarity": 0.5677840709686279}
+
+{"test case number": 156, "answer": "the owners of the $1.2 billion stadium in boston voted on the venue for the game.", "modAnswer": "nfl owners", "similarity": 0.5677840709686279}
+
+{"test case number": 156, "answer": "the owners of the $1.2 billion stadium in boston voted on the venue for the game.", "modAnswer": "nfl owners", "similarity": 0.5677840709686279}
+
+{"test case number": 164, "answer": "san diego", "modAnswer": "san francisco", "similarity": 0.9171575903892517}
+
+{"test case number": 165, "answer": "2013", "modAnswer": "2014", "similarity": 0.9395576119422913}
+
+{"test case number": 173, "answer": "in boston", "modAnswer": "levi's stadium", "similarity": 0.33443957567214966}
+
+{"test case number": 173, "answer": "boston", "modAnswer": "levi's stadium", "similarity": 0.43020394444465637}
+
+{"test case number": 173, "answer": "in boston", "modAnswer": "levi's stadium", "similarity": 0.33443957567214966}
+
+{"test case number": 173, "answer": "boston", "modAnswer": "levi's stadium", "similarity": 0.43020394444465637}
+
+{"test case number": 276, "answer": "1,967", "modAnswer": "2,249", "similarity": 0.8812792301177979}
+
+{"test case number": 281, "answer": "six", "modAnswer": "17", "similarity": 0.6283878087997437}
+
+{"test case number": 281, "answer": "six", "modAnswer": "17", "similarity": 0.6283878087997437}
+
+{"test case number": 281, "answer": "six", "modAnswer": "17", "similarity": 0.6283878087997437}
+
+{"test case number": 281, "answer": "six", "modAnswer": "17", "similarity": 0.6283878087997437}
+
+{"test case number": 285, "answer": "six", "modAnswer": "17", "similarity": 0.6283878087997437}
+
+{"test case number": 285, "answer": "six", "modAnswer": "17", "similarity": 0.6283878087997437}
+
+{"test case number": 285, "answer": "six", "modAnswer": "17", "similarity": 0.6283878087997437}
+
+{"test case number": 285, "answer": "six", "modAnswer": "17", "similarity": 0.6283878087997437}
+
+{"test case number": 287, "answer": "c. j. anderson", "modAnswer": "c. anderson", "similarity": 0.948817253112793}
+
+{"test case number": 443, "answer": "arab", "modAnswer": "50", "similarity": 0.4707099497318268}
+
+{"test case number": 443, "answer": "l.", "modAnswer": "50", "similarity": 0.4594629406929016}
+
+{"test case number": 443, "answer": "l", "modAnswer": "50", "similarity": 0.4948788285255432}
+
+{"test case number": 443, "answer": "l", "modAnswer": "50", "similarity": 0.4948788285255432}
+
+{"test case number": 443, "answer": "arab", "modAnswer": "l.", "similarity": 0.5093755125999451}
+
+{"test case number": 443, "answer": "arab", "modAnswer": "l", "similarity": 0.5293958187103271}
+
+{"test case number": 443, "answer": "arab", "modAnswer": "l", "similarity": 0.5293958187103271}
+
+{"test case number": 474, "answer": "santa clara university", "modAnswer": "the university of california", "similarity": 0.8604321479797363}
+
+{"test case number": 522, "answer": "25 percent", "modAnswer": "53%", "similarity": 0.762874186038971}
+
+{"test case number": 522, "answer": "25 percent", "modAnswer": "53%", "similarity": 0.762874186038971}
+
+{"test case number": 522, "answer": "25 percent", "modAnswer": "53%", "similarity": 0.762874186038971}
+
+{"test case number": 522, "answer": "25", "modAnswer": "53%", "similarity": 0.61887127161026}
+
+{"test case number": 676, "answer": "british", "modAnswer": "black", "similarity": 0.3705926239490509}
+
+{"test case number": 676, "answer": "british", "modAnswer": "black", "similarity": 0.3705926239490509}
+
+{"test case number": 676, "answer": "british", "modAnswer": "black", "similarity": 0.3705926239490509}
+
+{"test case number": 676, "answer": "british", "modAnswer": "black", "similarity": 0.3705926239490509}
+
+{"test case number": 697, "answer": "peyton manning completed an 18 yard pass to tight end owen daniels.", "modAnswer": "peyton manning completed an 18 yard pass to tight end andre cadwell.", "similarity": 0.9848443269729614}
+
+{"test case number": 730, "answer": "demarcus ware", "modAnswer": "newton", "similarity": 0.6383669972419739}
+
+{"test case number": 730, "answer": "demarcus ware", "modAnswer": "newton", "similarity": 0.6383669972419739}
+
+{"test case number": 730, "answer": "demarcus ware", "modAnswer": "newton", "similarity": 0.6383669972419739}
+
+{"test case number": 730, "answer": "demarcus ware", "modAnswer": "newton", "similarity": 0.6383669972419739}
+
+{"test case number": 741, "answer": "corey brown", "modAnswer": "ted ginn jr.", "similarity": 0.7120482325553894}
+
+{"test case number": 741, "answer": "corey brown", "modAnswer": "ted ginn jr.", "similarity": 0.7120482325553894}
+
+{"test case number": 741, "answer": "corey brown", "modAnswer": "ted ginn jr", "similarity": 0.7153707146644592}
+
+{"test case number": 741, "answer": "corey brown", "modAnswer": "ted ginn jr", "similarity": 0.7153707146644592}
+
+{"test case number": 839, "answer": "5,111 m2", "modAnswer": "more than 10,000 m2 (107,639.10 sq ft)", "similarity": 0.7674389481544495}
+
+{"test case number": 839, "answer": "5,111 m2", "modAnswer": "10,000 m2", "similarity": 0.8373628258705139}
+
+{"test case number": 889, "answer": "the second mermaid", "modAnswer": "the mermaid", "similarity": 0.8143299221992493}
+
+{"test case number": 915, "answer": "warsaw", "modAnswer": "\"belonging to warsz\"", "similarity": 0.5896922945976257}
+
+{"test case number": 915, "answer": "warsaw", "modAnswer": "belonging to warsz", "similarity": 0.5961896181106567}
+
+{"test case number": 915, "answer": "warsaw", "modAnswer": "belonging to warsz", "similarity": 0.5961896181106567}
+
+{"test case number": 915, "answer": "warsaw", "modAnswer": "belonging to warsz", "similarity": 0.5961896181106567}
+
+{"test case number": 926, "answer": "the warsaw confederation", "modAnswer": "the seat of the general sejm", "similarity": 0.694779098033905}
+
+{"test case number": 926, "answer": "religious freedom", "modAnswer": "the seat of the general sejm", "similarity": 0.4155372977256775}
+
+{"test case number": 926, "answer": "religious freedom in the polish\u2013lithuanian commonwealth", "modAnswer": "the seat of the general sejm", "similarity": 0.568326473236084}
+
+{"test case number": 926, "answer": "religious freedom", "modAnswer": "the seat of the general sejm", "similarity": 0.4155372977256775}
+
+{"test case number": 926, "answer": "the warsaw confederation", "modAnswer": "religious freedom", "similarity": 0.47092610597610474}
+
+{"test case number": 926, "answer": "the warsaw confederation", "modAnswer": "religious freedom in the polish\u2013lithuanian commonwealth", "similarity": 0.6775360703468323}
+
+{"test case number": 926, "answer": "the warsaw confederation", "modAnswer": "religious freedom", "similarity": 0.47092610597610474}
+
+{"test case number": 940, "answer": "the general government", "modAnswer": "german nazi colonial administration", "similarity": 0.4658765196800232}
+
+{"test case number": 940, "answer": "the general government", "modAnswer": "a german nazi colonial administration", "similarity": 0.47943776845932007}
+
+{"test case number": 940, "answer": "the general government", "modAnswer": "german nazi", "similarity": 0.38030731678009033}
+
+{"test case number": 940, "answer": "the general government", "modAnswer": "german nazi colonial administration", "similarity": 0.4658765196800232}
+
+{"test case number": 1001, "answer": "in the northern part of the city", "modAnswer": "northern mokot\u00f3w", "similarity": 0.6568344235420227}
+
+{"test case number": 1001, "answer": "pole mokotowskie", "modAnswer": "northern mokot\u00f3w", "similarity": 0.5593346357345581}
+
+{"test case number": 1001, "answer": "in the northern part of the city", "modAnswer": "pole mokotowskie", "similarity": 0.3421798348426819}
+
+{"test case number": 1001, "answer": "in the northern part of the city", "modAnswer": "mokot\u00f3w", "similarity": 0.33211255073547363}
+
+{"test case number": 1001, "answer": "in the northern part of the city", "modAnswer": "pole mokotowskie", "similarity": 0.3421798348426819}
+
+{"test case number": 1002, "answer": "park ujazdowski", "modAnswer": "the botanic garden and the university library garden.", "similarity": 0.5160861611366272}
+
+{"test case number": 1002, "answer": "park ujazdowski", "modAnswer": "the botanic garden and the university library garden.", "similarity": 0.5160861611366272}
+
+{"test case number": 1002, "answer": "park ujazdowski", "modAnswer": "the botanic garden and the university library garden.", "similarity": 0.5160861611366272}
+
+{"test case number": 1002, "answer": "park ujazdowski", "modAnswer": "the botanic garden and the university library garden.", "similarity": 0.5160861611366272}
+
+{"test case number": 1078, "answer": "count of melfi", "modAnswer": "william iron arm", "similarity": 0.51413893699646}
+
+{"test case number": 1078, "answer": "count of melfi", "modAnswer": "william iron arm", "similarity": 0.51413893699646}
+
+{"test case number": 1078, "answer": "count of melfi", "modAnswer": "william iron arm", "similarity": 0.51413893699646}
+
+{"test case number": 1078, "answer": "count of melfi", "modAnswer": "william iron arm", "similarity": 0.51413893699646}
+
+{"test case number": 1082, "answer": "the book of rick", "modAnswer": "\"the book of roger\"", "similarity": 0.8335997462272644}
+
+{"test case number": 1117, "answer": "edgar", "modAnswer": "king malcolm", "similarity": 0.668410062789917}
+
+{"test case number": 1117, "answer": "edgar", "modAnswer": "king malcolm", "similarity": 0.668410062789917}
+
+{"test case number": 1117, "answer": "edgar", "modAnswer": "king malcolm", "similarity": 0.668410062789917}
+
+{"test case number": 1117, "answer": "edgar atheling", "modAnswer": "king malcolm", "similarity": 0.5815976858139038}
+
+{"test case number": 1134, "answer": "berengaria", "modAnswer": "isaac", "similarity": 0.5875019431114197}
+
+{"test case number": 1134, "answer": "berengaria", "modAnswer": "isaac", "similarity": 0.5875019431114197}
+
+{"test case number": 1134, "answer": "berengaria", "modAnswer": "isaac", "similarity": 0.5875019431114197}
+
+{"test case number": 1134, "answer": "berengaria", "modAnswer": "isaac", "similarity": 0.5875019431114197}
+
+{"test case number": 1137, "answer": "conrad of montferrat", "modAnswer": "guy", "similarity": 0.4357742965221405}
+
+{"test case number": 1137, "answer": "conrad of montferrat", "modAnswer": "guy", "similarity": 0.4357742965221405}
+
+{"test case number": 1137, "answer": "conrad of montferrat", "modAnswer": "guy", "similarity": 0.4357742965221405}
+
+{"test case number": 1137, "answer": "conrad of montferrat", "modAnswer": "guy", "similarity": 0.4357742965221405}
+
+{"test case number": 1175, "answer": "alternating current", "modAnswer": "ac", "similarity": 0.5481058955192566}
+
+{"test case number": 1175, "answer": "alternating current", "modAnswer": "ac", "similarity": 0.5481058955192566}
+
+{"test case number": 1175, "answer": "alternating current", "modAnswer": "ac", "similarity": 0.5481058955192566}
+
+{"test case number": 1175, "answer": "alternating current", "modAnswer": "ac", "similarity": 0.5481058955192566}
+
+{"test case number": 1204, "answer": "he had a talent for making home craft tools, mechanical appliances, and the ability to", "modAnswer": "eidetic memory", "similarity": 0.40417757630348206}
+
+{"test case number": 1204, "answer": "he had a talent for making home craft tools, mechanical appliances, and the ability to", "modAnswer": "eidetic", "similarity": 0.33741769194602966}
+
+{"test case number": 1204, "answer": "he had a talent for making home craft tools, mechanical appliances, and the ability to", "modAnswer": "eidetic", "similarity": 0.33741769194602966}
+
+{"test case number": 1204, "answer": "he had a talent for making home craft tools, mechanical appliances, and the ability to", "modAnswer": "eidetic", "similarity": 0.33741769194602966}
+
+{"test case number": 1214, "answer": "nikola", "modAnswer": "milka", "similarity": 0.7236543297767639}
+
+{"test case number": 1214, "answer": "dane", "modAnswer": "milka", "similarity": 0.6344561576843262}
+
+{"test case number": 1214, "answer": "dane", "modAnswer": "milka", "similarity": 0.6344561576843262}
+
+{"test case number": 1214, "answer": "dane", "modAnswer": "milka", "similarity": 0.6344561576843262}
+
+{"test case number": 1214, "answer": "nikola", "modAnswer": "dane", "similarity": 0.7223290205001831}
+
+{"test case number": 1214, "answer": "nikola", "modAnswer": "dane", "similarity": 0.7223290205001831}
+
+{"test case number": 1214, "answer": "nikola", "modAnswer": "dane", "similarity": 0.7223290205001831}
+
+{"test case number": 1217, "answer": "gospi, austria-eastria", "modAnswer": "gospi, austrian empire", "similarity": 0.8827848434448242}
+
+{"test case number": 1244, "answer": "he evaded being drafted into the austro-hungarian army.", "modAnswer": "he evaded being drafted into the austro-hungarian army in", "similarity": 0.9892686009407043}
+
+{"test case number": 1246, "answer": "he explored the mountains in hunter's garb.", "modAnswer": "he read many books.", "similarity": 0.31617897748947144}
+
+{"test case number": 1246, "answer": "he explored the mountains in hunter's garb", "modAnswer": "he read many books.", "similarity": 0.30701571702957153}
+
+{"test case number": 1246, "answer": "he explored", "modAnswer": "he read many books.", "similarity": 0.41446948051452637}
+
+{"test case number": 1246, "answer": "explored the mountains in hunter's garb", "modAnswer": "he read many books.", "similarity": 0.27802592515945435}
+
+{"test case number": 1251, "answer": "his academics", "modAnswer": "his grades", "similarity": 0.730019211769104}
+
+{"test case number": 1251, "answer": "gambling", "modAnswer": "his grades", "similarity": 0.3416156470775604}
+
+{"test case number": 1251, "answer": "gambling", "modAnswer": "his grades", "similarity": 0.3416156470775604}
+
+{"test case number": 1251, "answer": "gambling", "modAnswer": "his grades", "similarity": 0.3416156470775604}
+
+{"test case number": 1251, "answer": "his academics", "modAnswer": "gambling", "similarity": 0.3500663936138153}
+
+{"test case number": 1251, "answer": "his academics", "modAnswer": "gambling", "similarity": 0.3500663936138153}
+
+{"test case number": 1251, "answer": "his academics", "modAnswer": "gambling", "similarity": 0.3500663936138153}
+
+{"test case number": 1261, "answer": "to leave the city", "modAnswer": "to leave the river.", "similarity": 0.7302011847496033}
+
+{"test case number": 1261, "answer": "return home", "modAnswer": "to leave the river.", "similarity": 0.6051158905029297}
+
+{"test case number": 1261, "answer": "return home", "modAnswer": "to leave the river.", "similarity": 0.6051158905029297}
+
+{"test case number": 1261, "answer": "return home", "modAnswer": "to leave the river.", "similarity": 0.6051158905029297}
+
+{"test case number": 1261, "answer": "to leave the city", "modAnswer": "return home", "similarity": 0.6720116138458252}
+
+{"test case number": 1261, "answer": "to leave the city", "modAnswer": "return home", "similarity": 0.6720116138458252}
+
+{"test case number": 1261, "answer": "to leave the city", "modAnswer": "return home", "similarity": 0.6720116138458252}
+
+{"test case number": 1277, "answer": "gospi", "modAnswer": "prague", "similarity": 0.649368405342102}
+
+{"test case number": 1277, "answer": "gospi", "modAnswer": "prague", "similarity": 0.649368405342102}
+
+{"test case number": 1277, "answer": "gospi", "modAnswer": "prague", "similarity": 0.649368405342102}
+
+{"test case number": 1277, "answer": "gospi", "modAnswer": "prague", "similarity": 0.649368405342102}
+
+{"test case number": 1280, "answer": "charles-ferdinand university", "modAnswer": "gospi", "similarity": 0.45400840044021606}
+
+{"test case number": 1280, "answer": "charles-ferdinand university", "modAnswer": "gospi", "similarity": 0.45400840044021606}
+
+{"test case number": 1280, "answer": "charles-ferdinand university", "modAnswer": "gospi", "similarity": 0.45400840044021606}
+
+{"test case number": 1280, "answer": "charles-ferdinand university", "modAnswer": "gospi", "similarity": 0.45400840044021606}
+
+{"test case number": 1333, "answer": "charles f. peck", "modAnswer": "peck and brown", "similarity": 0.4976423382759094}
+
+{"test case number": 1333, "answer": "charles f. peck", "modAnswer": "peck and brown", "similarity": 0.4976423382759094}
+
+{"test case number": 1333, "answer": "charles f. peck", "modAnswer": "peck and brown", "similarity": 0.4976423382759094}
+
+{"test case number": 1333, "answer": "new york attorney charles f. peck", "modAnswer": "peck and brown", "similarity": 0.3710882067680359}
+
+{"test case number": 1345, "answer": "the editor of electrical world magazine", "modAnswer": "a friend and publicist", "similarity": 0.5016962885856628}
+
+{"test case number": 1345, "answer": "editor of electrical world magazine", "modAnswer": "a friend and publicist", "similarity": 0.48634079098701477}
+
+{"test case number": 1345, "answer": "the editor of electrical world magazine", "modAnswer": "a friend and publicist", "similarity": 0.5016962885856628}
+
+{"test case number": 1345, "answer": "editor of electrical world magazine", "modAnswer": "a friend and publicist", "similarity": 0.48634079098701477}
+
+{"test case number": 1353, "answer": "physicist", "modAnswer": "a commutator-less, rotating magnetic field-based induction motor", "similarity": 0.6495400071144104}
+
+{"test case number": 1353, "answer": "physicist", "modAnswer": "a commutator-less, rotating magnetic field-based induction motor", "similarity": 0.6495400071144104}
+
+{"test case number": 1353, "answer": "physicist", "modAnswer": "a commutator-less, rotating magnetic field-based induction motor", "similarity": 0.6495400071144104}
+
+{"test case number": 1353, "answer": "italian physicist", "modAnswer": "a commutator-less, rotating magnetic field-based induction motor", "similarity": 0.5495328307151794}
+
+{"test case number": 1370, "answer": "a competition between rival lighting systems", "modAnswer": "the war of currents", "similarity": 0.3814396262168884}
+
+{"test case number": 1370, "answer": "lighting systems", "modAnswer": "the war of currents", "similarity": 0.33047977089881897}
+
+{"test case number": 1370, "answer": "electrical distribution", "modAnswer": "the war of currents", "similarity": 0.4710018038749695}
+
+{"test case number": 1370, "answer": "a competition between rival lighting systems", "modAnswer": "the war of currents", "similarity": 0.3814396262168884}
+
+{"test case number": 1400, "answer": "j. p. morgan", "modAnswer": "j. morgan", "similarity": 0.9545780420303345}
+
+{"test case number": 1418, "answer": "the 5th avenue laboratory fire of march 1895", "modAnswer": "a fire", "similarity": 0.47466111183166504}
+
+{"test case number": 1418, "answer": "5th avenue laboratory fire of march 1895", "modAnswer": "a fire", "similarity": 0.4419463872909546}
+
+{"test case number": 1434, "answer": "that they are longitudinal waves", "modAnswer": "that they were longitudinal waves", "similarity": 0.9477139711380005}
+
+{"test case number": 1441, "answer": "in force-free magnetic fields.", "modAnswer": "plasmas", "similarity": 0.6709190607070923}
+
+{"test case number": 1441, "answer": "force-free magnetic fields", "modAnswer": "plasmas", "similarity": 0.7170552611351013}
+
+{"test case number": 1449, "answer": "it would strike him physically.", "modAnswer": "it would break off the cathode, pass out of the tube, and physically strike", "similarity": 0.7562770247459412}
+
+{"test case number": 1449, "answer": "physically strike him", "modAnswer": "it would break off the cathode, pass out of the tube, and physically strike", "similarity": 0.7098646759986877}
+
+{"test case number": 1449, "answer": "physically strike him", "modAnswer": "it would break off the cathode, pass out of the tube, and physically strike", "similarity": 0.7098646759986877}
+
+{"test case number": 1449, "answer": "physically strike him", "modAnswer": "it would break off the cathode, pass out of the tube, and physically strike", "similarity": 0.7098646759986877}
+
+{"test case number": 1449, "answer": "it would strike him physically.", "modAnswer": "physically strike him", "similarity": 0.8273626565933228}
+
+{"test case number": 1451, "answer": "metal bits", "modAnswer": "bits of metal", "similarity": 0.947329044342041}
+
+{"test case number": 1476, "answer": "the butterflies were electrified.", "modAnswer": "they were electrified, swirling in circles with blue halos of st.", "similarity": 0.6679723262786865}
+
+{"test case number": 1476, "answer": "butterflies were electrified", "modAnswer": "they were electrified, swirling in circles with blue halos of st.", "similarity": 0.6550384759902954}
+
+{"test case number": 1516, "answer": "superintendent of schools", "modAnswer": "he was a scientist.", "similarity": 0.3861056864261627}
+
+{"test case number": 1516, "answer": "superintendent of new york city schools", "modAnswer": "he was a scientist.", "similarity": 0.2707207500934601}
+
+{"test case number": 1516, "answer": "superintendent of new york city schools", "modAnswer": "he was a scientist.", "similarity": 0.2707207500934601}
+
+{"test case number": 1516, "answer": "superintendent of new york city schools", "modAnswer": "he was a scientist.", "similarity": 0.2707207500934601}
+
+{"test case number": 1516, "answer": "superintendent of schools", "modAnswer": "superintendent of new york city schools", "similarity": 0.7676199674606323}
+
+{"test case number": 1516, "answer": "superintendent of schools", "modAnswer": "superintendent of new york city schools", "similarity": 0.7676199674606323}
+
+{"test case number": 1516, "answer": "superintendent of schools", "modAnswer": "superintendent of new york city schools", "similarity": 0.7676199674606323}
+
+{"test case number": 1519, "answer": "he sold it", "modAnswer": "tesla sold it", "similarity": 0.7455394864082336}
+
+{"test case number": 1551, "answer": "after midnight in 1937", "modAnswer": "while crossing the street", "similarity": 0.4198682904243469}
+
+{"test case number": 1551, "answer": "the fall of 1937", "modAnswer": "while crossing the street", "similarity": 0.2088809609413147}
+
+{"test case number": 1551, "answer": "in the fall of 1937", "modAnswer": "while crossing the street", "similarity": 0.21897545456886292}
+
+{"test case number": 1551, "answer": "fall of 1937", "modAnswer": "while crossing the street", "similarity": 0.20550590753555298}
+
+{"test case number": 1551, "answer": "after midnight in 1937", "modAnswer": "the fall of 1937", "similarity": 0.6033353805541992}
+
+{"test case number": 1551, "answer": "after midnight in 1937", "modAnswer": "in the fall of 1937", "similarity": 0.6055097579956055}
+
+{"test case number": 1551, "answer": "after midnight in 1937", "modAnswer": "fall of 1937", "similarity": 0.6017349362373352}
+
+{"test case number": 1575, "answer": "the fbi ordered the alien property custodian to seize the tesla items.", "modAnswer": "the fbi ordered the alien property custodian to seize tesla's belongings", "similarity": 0.9767634272575378}
+
+{"test case number": 1577, "answer": "nothing", "modAnswer": "tesla's belongings", "similarity": 0.41759011149406433}
+
+{"test case number": 1577, "answer": "nothing", "modAnswer": "tesla's belongings", "similarity": 0.41759011149406433}
+
+{"test case number": 1577, "answer": "nothing", "modAnswer": "tesla's belongings", "similarity": 0.41759011149406433}
+
+{"test case number": 1577, "answer": "nothing", "modAnswer": "tesla's belongings", "similarity": 0.41759011149406433}
+
+{"test case number": 1588, "answer": "in the nikola tesla museum", "modAnswer": "1957", "similarity": 0.30830129981040955}
+
+{"test case number": 1588, "answer": "nikola tesla museum", "modAnswer": "1957", "similarity": 0.33580270409584045}
+
+{"test case number": 1588, "answer": "the nikola tesla museum", "modAnswer": "1957", "similarity": 0.32544398307800293}
+
+{"test case number": 1588, "answer": "the nikola tesla museum", "modAnswer": "1957", "similarity": 0.32544398307800293}
+
+{"test case number": 1594, "answer": "8:00 p.m. until 6:00 p.m.", "modAnswer": "8:00 p.m. to 6:00 p.m.", "similarity": 0.9533401727676392}
+
+{"test case number": 1595, "answer": "until 6:00 p.m.", "modAnswer": "until 3:00 a.m.", "similarity": 0.9003706574440002}
+
+{"test case number": 1602, "answer": "newspaper editor", "modAnswer": ".", "similarity": 0.3966788351535797}
+
+{"test case number": 1602, "answer": "newspaper editor", "modAnswer": ".", "similarity": 0.3966788351535797}
+
+{"test case number": 1602, "answer": "newspaper editor", "modAnswer": ".", "similarity": 0.3966788351535797}
+
+{"test case number": 1602, "answer": "newspaper editor", "modAnswer": ".", "similarity": 0.3966788351535797}
+
+{"test case number": 1606, "answer": "she had a broken wing and leg.", "modAnswer": "he had been visited by a specific injured white pigeon daily.", "similarity": 0.5643751621246338}
+
+{"test case number": 1606, "answer": "broken wing and leg", "modAnswer": "he had been visited by a specific injured white pigeon daily.", "similarity": 0.46184825897216797}
+
+{"test case number": 1606, "answer": "broken wing and leg", "modAnswer": "he had been visited by a specific injured white pigeon daily.", "similarity": 0.46184825897216797}
+
+{"test case number": 1606, "answer": "broken wing and leg", "modAnswer": "he had been visited by a specific injured white pigeon daily.", "similarity": 0.46184825897216797}
+
+{"test case number": 1614, "answer": "he would see objects in detail", "modAnswer": "visions", "similarity": 0.49862396717071533}
+
+{"test case number": 1614, "answer": "he would see objects in detail", "modAnswer": "visions", "similarity": 0.49862396717071533}
+
+{"test case number": 1614, "answer": "he would see objects in detail", "modAnswer": "blinding flashes of light", "similarity": 0.4153936803340912}
+
+{"test case number": 1614, "answer": "he would see objects in detail", "modAnswer": "visions", "similarity": 0.49862396717071533}
+
+{"test case number": 1616, "answer": "he was a polyglot, speaking eight languages.", "modAnswer": "blinding flashes of light", "similarity": 0.1400524228811264}
+
+{"test case number": 1616, "answer": "he was a polyglot, speaking eight languages.", "modAnswer": "blinding flashes of light", "similarity": 0.1400524228811264}
+
+{"test case number": 1616, "answer": "he was a polyglot, speaking eight languages.", "modAnswer": "flashbacks", "similarity": 0.14419180154800415}
+
+{"test case number": 1616, "answer": "he was a polyglot, speaking eight languages.", "modAnswer": "blinding flashes of light", "similarity": 0.1400524228811264}
+
+{"test case number": 1619, "answer": "48 hours", "modAnswer": "84 hours", "similarity": 0.813550591468811}
+
+{"test case number": 1635, "answer": "a secretary", "modAnswer": "a subordinate", "similarity": 0.744789183139801}
+
+{"test case number": 1635, "answer": "secretary", "modAnswer": "a subordinate", "similarity": 0.6850548982620239}
+
+{"test case number": 1635, "answer": "a secretary", "modAnswer": "a subordinate", "similarity": 0.744789183139801}
+
+{"test case number": 1635, "answer": "a secretary", "modAnswer": "a subordinate", "similarity": 0.744789183139801}
+
+{"test case number": 1663, "answer": "\"a machine to end war\"", "modAnswer": ".", "similarity": 0.5411198139190674}
+
+{"test case number": 1663, "answer": "\"a machine to end war\"", "modAnswer": ".", "similarity": 0.5411198139190674}
+
+{"test case number": 1663, "answer": "\"a machine to end war\"", "modAnswer": ".", "similarity": 0.5411198139190674}
+
+{"test case number": 1663, "answer": "a machine to end war", "modAnswer": ".", "similarity": 0.44629141688346863}
+
+{"test case number": 1665, "answer": "the machine hopes to end the war.", "modAnswer": "what did the machine hope to end?", "similarity": 0.6972032785415649}
+
+{"test case number": 1665, "answer": "war", "modAnswer": "what did the machine hope to end?", "similarity": 0.4076194167137146}
+
+{"test case number": 1665, "answer": "war", "modAnswer": "what did the machine hope to end?", "similarity": 0.4076194167137146}
+
+{"test case number": 1665, "answer": "war", "modAnswer": "what did the machine hope to end?", "similarity": 0.4076194167137146}
+
+{"test case number": 1695, "answer": "the number", "modAnswer": "the instance", "similarity": 0.5647512674331665}
+
+{"test case number": 1695, "answer": "instances", "modAnswer": "the instance", "similarity": 0.7865961790084839}
+
+{"test case number": 1695, "answer": "the number", "modAnswer": "instances", "similarity": 0.46296989917755127}
+
+{"test case number": 1695, "answer": "the number", "modAnswer": "the instance", "similarity": 0.5647512674331665}
+
+{"test case number": 1695, "answer": "the number", "modAnswer": "instance", "similarity": 0.5612542629241943}
+
+{"test case number": 1754, "answer": "computational resources", "modAnswer": "complexity", "similarity": 0.6789630651473999}
+
+{"test case number": 1754, "answer": "computational resources", "modAnswer": "complexity resources", "similarity": 0.8542988300323486}
+
+{"test case number": 1765, "answer": "worst-case", "modAnswer": "time taken", "similarity": 0.5018935203552246}
+
+{"test case number": 1765, "answer": "o(n2)", "modAnswer": "time taken", "similarity": 0.4847067594528198}
+
+{"test case number": 1765, "answer": "o(n2)", "modAnswer": "time taken", "similarity": 0.4847067594528198}
+
+{"test case number": 1765, "answer": "o(n2)", "modAnswer": "time taken", "similarity": 0.4847067594528198}
+
+{"test case number": 1765, "answer": "worst-case", "modAnswer": "o(n2)", "similarity": 0.4640212059020996}
+
+{"test case number": 1765, "answer": "worst-case", "modAnswer": "o(n2)", "similarity": 0.4640212059020996}
+
+{"test case number": 1765, "answer": "worst-case", "modAnswer": "o(n2)", "similarity": 0.4640212059020996}
+
+{"test case number": 1792, "answer": "dtime(n) is contained in n2 but it would be interesting to know", "modAnswer": "additional time or space", "similarity": 0.47500932216644287}
+
+{"test case number": 1792, "answer": "dtime(n2)", "modAnswer": "additional time or space", "similarity": 0.4109349250793457}
+
+{"test case number": 1792, "answer": "dtime(n2)", "modAnswer": "additional time or space", "similarity": 0.4109349250793457}
+
+{"test case number": 1792, "answer": "dtime(n2)", "modAnswer": "additional time or space", "similarity": 0.4109349250793457}
+
+{"test case number": 1792, "answer": "dtime(n) is contained in n2 but it would be interesting to know", "modAnswer": "dtime(n2)", "similarity": 0.820797860622406}
+
+{"test case number": 1826, "answer": "np-intermediate problems", "modAnswer": "if p  np then there are problems in np that are neither in p", "similarity": 0.7995198369026184}
+
+{"test case number": 1826, "answer": "np-intermediate problems", "modAnswer": "if p  np then there are problems in np that are neither in p", "similarity": 0.7995198369026184}
+
+{"test case number": 1826, "answer": "np-intermediate problems", "modAnswer": "if p  np then there are problems in np that are neither in p", "similarity": 0.7995198369026184}
+
+{"test case number": 1826, "answer": "np-intermediate", "modAnswer": "if p  np then there are problems in np that are neither in p", "similarity": 0.7005097270011902}
+
+{"test case number": 1837, "answer": "that many known complexity classes are suspected to be unequal.", "modAnswer": "that many known complexity classes collapse to one class.", "similarity": 0.9095555543899536}
+
+{"test case number": 1910, "answer": "allegations of professional misconduct", "modAnswer": "what could someone be investigated for?", "similarity": 0.5680890083312988}
+
+{"test case number": 1910, "answer": "allegations of professional misconduct", "modAnswer": "what could someone be investigated for?", "similarity": 0.5680890083312988}
+
+{"test case number": 1910, "answer": "professional misconduct", "modAnswer": "what could someone be investigated for?", "similarity": 0.5508401989936829}
+
+{"test case number": 1910, "answer": "professional misconduct", "modAnswer": "what could someone be investigated for?", "similarity": 0.5508401989936829}
+
+{"test case number": 1940, "answer": "the same group of peers for all classes", "modAnswer": "one group of students in one class that moves from one specialist to another for every subject.", "similarity": 0.7005903720855713}
+
+{"test case number": 1940, "answer": "staying with the same group of peers for all classes", "modAnswer": "one group of students in one class that moves from one specialist to another for every subject.", "similarity": 0.7145426273345947}
+
+{"test case number": 1940, "answer": "staying with the same group of peers for all classes", "modAnswer": "one group of students in one class that moves from one specialist to another for every subject.", "similarity": 0.7145426273345947}
+
+{"test case number": 1940, "answer": "by staying with the same group of peers for all classes", "modAnswer": "one group of students in one class that moves from one specialist to another for every subject.", "similarity": 0.6963078379631042}
+
+{"test case number": 1966, "answer": "sitting in a classroom and doing work", "modAnswer": "\"saturday detention\"", "similarity": 0.43372946977615356}
+
+{"test case number": 1966, "answer": "sitting in a classroom and doing work", "modAnswer": "detention", "similarity": 0.42684412002563477}
+
+{"test case number": 1966, "answer": "sitting in a classroom and doing work", "modAnswer": "detention", "similarity": 0.42684412002563477}
+
+{"test case number": 1966, "answer": "sitting in a classroom and doing work", "modAnswer": "detention", "similarity": 0.42684412002563477}
+
+{"test case number": 1974, "answer": "attempts to humiliate pupils", "modAnswer": ".", "similarity": 0.3617892861366272}
+
+{"test case number": 1974, "answer": "sarcasm and attempts to humiliate pupils", "modAnswer": ".", "similarity": 0.44503501057624817}
+
+{"test case number": 1974, "answer": "sarcasm and attempts to humiliate pupils", "modAnswer": ".", "similarity": 0.44503501057624817}
+
+{"test case number": 1974, "answer": "sarcasm and attempts to humiliate pupils", "modAnswer": ".", "similarity": 0.44503501057624817}
+
+{"test case number": 1975, "answer": "positive reinforcement", "modAnswer": "respect", "similarity": 0.5963000059127808}
+
+{"test case number": 1975, "answer": "positive reinforcement", "modAnswer": "respect", "similarity": 0.5963000059127808}
+
+{"test case number": 1975, "answer": "positive reinforcement", "modAnswer": "respect", "similarity": 0.5963000059127808}
+
+{"test case number": 1975, "answer": "positive reinforcement", "modAnswer": "respect", "similarity": 0.5963000059127808}
+['{"test case number": 156, "answer": "the owners of the $1.2 billion stadium in boston voted on the venue for the game.", "modAnswer": "the nfl owners at their spring meetings in boston voted and awarded the game to levi\'s", "similarity": 0.7976986169815063}\n', '{"test case number": 156, "answer": "the owners of the $1.2 billion stadium in boston voted on the venue for the game.", "modAnswer": "nfl owners", "similarity": 0.5677840709686279}\n', '{"test case number": 156, "answer": "the owners of the $1.2 billion stadium in boston voted on the venue for the game.", "modAnswer": "nfl owners", "similarity": 0.5677840709686279}\n', '{"test case number": 156, "answer": "the owners of the $1.2 billion stadium in boston voted on the venue for the game.", "modAnswer": "nfl owners", "similarity": 0.5677840709686279}\n', '{"test case number": 164, "answer": "san diego", "modAnswer": "san francisco", "similarity": 0.9171575903892517}\n', '{"test case number": 165, "answer": "2013", "modAnswer": "2014", "similarity": 0.9395576119422913}\n', '{"test case number": 173, "answer": "in boston", "modAnswer": "levi\'s stadium", "similarity": 0.33443957567214966}\n', '{"test case number": 173, "answer": "boston", "modAnswer": "levi\'s stadium", "similarity": 0.43020394444465637}\n', '{"test case number": 173, "answer": "in boston", "modAnswer": "levi\'s stadium", "similarity": 0.33443957567214966}\n', '{"test case number": 173, "answer": "boston", "modAnswer": "levi\'s stadium", "similarity": 0.43020394444465637}\n', '{"test case number": 276, "answer": "1,967", "modAnswer": "2,249", "similarity": 0.8812792301177979}\n', '{"test case number": 281, "answer": "six", "modAnswer": "17", "similarity": 0.6283878087997437}\n', '{"test case number": 281, "answer": "six", "modAnswer": "17", "similarity": 0.6283878087997437}\n', '{"test case number": 281, "answer": "six", "modAnswer": "17", "similarity": 0.6283878087997437}\n', '{"test case number": 281, "answer": "six", "modAnswer": "17", "similarity": 0.6283878087997437}\n', '{"test case number": 285, "answer": "six", "modAnswer": "17", "similarity": 0.6283878087997437}\n', '{"test case number": 285, "answer": "six", "modAnswer": "17", "similarity": 0.6283878087997437}\n', '{"test case number": 285, "answer": "six", "modAnswer": "17", "similarity": 0.6283878087997437}\n', '{"test case number": 285, "answer": "six", "modAnswer": "17", "similarity": 0.6283878087997437}\n', '{"test case number": 287, "answer": "c. j. anderson", "modAnswer": "c. anderson", "similarity": 0.948817253112793}\n', '{"test case number": 443, "answer": "arab", "modAnswer": "50", "similarity": 0.4707099497318268}\n', '{"test case number": 443, "answer": "l.", "modAnswer": "50", "similarity": 0.4594629406929016}\n', '{"test case number": 443, "answer": "l", "modAnswer": "50", "similarity": 0.4948788285255432}\n', '{"test case number": 443, "answer": "l", "modAnswer": "50", "similarity": 0.4948788285255432}\n', '{"test case number": 443, "answer": "arab", "modAnswer": "l.", "similarity": 0.5093755125999451}\n', '{"test case number": 443, "answer": "arab", "modAnswer": "l", "similarity": 0.5293958187103271}\n', '{"test case number": 443, "answer": "arab", "modAnswer": "l", "similarity": 0.5293958187103271}\n', '{"test case number": 474, "answer": "santa clara university", "modAnswer": "the university of california", "similarity": 0.8604321479797363}\n', '{"test case number": 522, "answer": "25 percent", "modAnswer": "53%", "similarity": 0.762874186038971}\n', '{"test case number": 522, "answer": "25 percent", "modAnswer": "53%", "similarity": 0.762874186038971}\n', '{"test case number": 522, "answer": "25 percent", "modAnswer": "53%", "similarity": 0.762874186038971}\n', '{"test case number": 522, "answer": "25", "modAnswer": "53%", "similarity": 0.61887127161026}\n', '{"test case number": 676, "answer": "british", "modAnswer": "black", "similarity": 0.3705926239490509}\n', '{"test case number": 676, "answer": "british", "modAnswer": "black", "similarity": 0.3705926239490509}\n', '{"test case number": 676, "answer": "british", "modAnswer": "black", "similarity": 0.3705926239490509}\n', '{"test case number": 676, "answer": "british", "modAnswer": "black", "similarity": 0.3705926239490509}\n', '{"test case number": 697, "answer": "peyton manning completed an 18 yard pass to tight end owen daniels.", "modAnswer": "peyton manning completed an 18 yard pass to tight end andre cadwell.", "similarity": 0.9848443269729614}\n', '{"test case number": 730, "answer": "demarcus ware", "modAnswer": "newton", "similarity": 0.6383669972419739}\n', '{"test case number": 730, "answer": "demarcus ware", "modAnswer": "newton", "similarity": 0.6383669972419739}\n', '{"test case number": 730, "answer": "demarcus ware", "modAnswer": "newton", "similarity": 0.6383669972419739}\n', '{"test case number": 730, "answer": "demarcus ware", "modAnswer": "newton", "similarity": 0.6383669972419739}\n', '{"test case number": 741, "answer": "corey brown", "modAnswer": "ted ginn jr.", "similarity": 0.7120482325553894}\n', '{"test case number": 741, "answer": "corey brown", "modAnswer": "ted ginn jr.", "similarity": 0.7120482325553894}\n', '{"test case number": 741, "answer": "corey brown", "modAnswer": "ted ginn jr", "similarity": 0.7153707146644592}\n', '{"test case number": 741, "answer": "corey brown", "modAnswer": "ted ginn jr", "similarity": 0.7153707146644592}\n', '{"test case number": 839, "answer": "5,111 m2", "modAnswer": "more than 10,000 m2 (107,639.10 sq ft)", "similarity": 0.7674389481544495}\n', '{"test case number": 839, "answer": "5,111 m2", "modAnswer": "10,000 m2", "similarity": 0.8373628258705139}\n', '{"test case number": 889, "answer": "the second mermaid", "modAnswer": "the mermaid", "similarity": 0.8143299221992493}\n', '{"test case number": 915, "answer": "warsaw", "modAnswer": "\\"belonging to warsz\\"", "similarity": 0.5896922945976257}\n', '{"test case number": 915, "answer": "warsaw", "modAnswer": "belonging to warsz", "similarity": 0.5961896181106567}\n', '{"test case number": 915, "answer": "warsaw", "modAnswer": "belonging to warsz", "similarity": 0.5961896181106567}\n', '{"test case number": 915, "answer": "warsaw", "modAnswer": "belonging to warsz", "similarity": 0.5961896181106567}\n', '{"test case number": 926, "answer": "the warsaw confederation", "modAnswer": "the seat of the general sejm", "similarity": 0.694779098033905}\n', '{"test case number": 926, "answer": "religious freedom", "modAnswer": "the seat of the general sejm", "similarity": 0.4155372977256775}\n', '{"test case number": 926, "answer": "religious freedom in the polish\\u2013lithuanian commonwealth", "modAnswer": "the seat of the general sejm", "similarity": 0.568326473236084}\n', '{"test case number": 926, "answer": "religious freedom", "modAnswer": "the seat of the general sejm", "similarity": 0.4155372977256775}\n', '{"test case number": 926, "answer": "the warsaw confederation", "modAnswer": "religious freedom", "similarity": 0.47092610597610474}\n', '{"test case number": 926, "answer": "the warsaw confederation", "modAnswer": "religious freedom in the polish\\u2013lithuanian commonwealth", "similarity": 0.6775360703468323}\n', '{"test case number": 926, "answer": "the warsaw confederation", "modAnswer": "religious freedom", "similarity": 0.47092610597610474}\n', '{"test case number": 940, "answer": "the general government", "modAnswer": "german nazi colonial administration", "similarity": 0.4658765196800232}\n', '{"test case number": 940, "answer": "the general government", "modAnswer": "a german nazi colonial administration", "similarity": 0.47943776845932007}\n', '{"test case number": 940, "answer": "the general government", "modAnswer": "german nazi", "similarity": 0.38030731678009033}\n', '{"test case number": 940, "answer": "the general government", "modAnswer": "german nazi colonial administration", "similarity": 0.4658765196800232}\n', '{"test case number": 1001, "answer": "in the northern part of the city", "modAnswer": "northern mokot\\u00f3w", "similarity": 0.6568344235420227}\n', '{"test case number": 1001, "answer": "pole mokotowskie", "modAnswer": "northern mokot\\u00f3w", "similarity": 0.5593346357345581}\n', '{"test case number": 1001, "answer": "in the northern part of the city", "modAnswer": "pole mokotowskie", "similarity": 0.3421798348426819}\n', '{"test case number": 1001, "answer": "in the northern part of the city", "modAnswer": "mokot\\u00f3w", "similarity": 0.33211255073547363}\n', '{"test case number": 1001, "answer": "in the northern part of the city", "modAnswer": "pole mokotowskie", "similarity": 0.3421798348426819}\n', '{"test case number": 1002, "answer": "park ujazdowski", "modAnswer": "the botanic garden and the university library garden.", "similarity": 0.5160861611366272}\n', '{"test case number": 1002, "answer": "park ujazdowski", "modAnswer": "the botanic garden and the university library garden.", "similarity": 0.5160861611366272}\n', '{"test case number": 1002, "answer": "park ujazdowski", "modAnswer": "the botanic garden and the university library garden.", "similarity": 0.5160861611366272}\n', '{"test case number": 1002, "answer": "park ujazdowski", "modAnswer": "the botanic garden and the university library garden.", "similarity": 0.5160861611366272}\n', '{"test case number": 1078, "answer": "count of melfi", "modAnswer": "william iron arm", "similarity": 0.51413893699646}\n', '{"test case number": 1078, "answer": "count of melfi", "modAnswer": "william iron arm", "similarity": 0.51413893699646}\n', '{"test case number": 1078, "answer": "count of melfi", "modAnswer": "william iron arm", "similarity": 0.51413893699646}\n', '{"test case number": 1078, "answer": "count of melfi", "modAnswer": "william iron arm", "similarity": 0.51413893699646}\n', '{"test case number": 1082, "answer": "the book of rick", "modAnswer": "\\"the book of roger\\"", "similarity": 0.8335997462272644}\n', '{"test case number": 1117, "answer": "edgar", "modAnswer": "king malcolm", "similarity": 0.668410062789917}\n', '{"test case number": 1117, "answer": "edgar", "modAnswer": "king malcolm", "similarity": 0.668410062789917}\n', '{"test case number": 1117, "answer": "edgar", "modAnswer": "king malcolm", "similarity": 0.668410062789917}\n', '{"test case number": 1117, "answer": "edgar atheling", "modAnswer": "king malcolm", "similarity": 0.5815976858139038}\n', '{"test case number": 1134, "answer": "berengaria", "modAnswer": "isaac", "similarity": 0.5875019431114197}\n', '{"test case number": 1134, "answer": "berengaria", "modAnswer": "isaac", "similarity": 0.5875019431114197}\n', '{"test case number": 1134, "answer": "berengaria", "modAnswer": "isaac", "similarity": 0.5875019431114197}\n', '{"test case number": 1134, "answer": "berengaria", "modAnswer": "isaac", "similarity": 0.5875019431114197}\n', '{"test case number": 1137, "answer": "conrad of montferrat", "modAnswer": "guy", "similarity": 0.4357742965221405}\n', '{"test case number": 1137, "answer": "conrad of montferrat", "modAnswer": "guy", "similarity": 0.4357742965221405}\n', '{"test case number": 1137, "answer": "conrad of montferrat", "modAnswer": "guy", "similarity": 0.4357742965221405}\n', '{"test case number": 1137, "answer": "conrad of montferrat", "modAnswer": "guy", "similarity": 0.4357742965221405}\n', '{"test case number": 1175, "answer": "alternating current", "modAnswer": "ac", "similarity": 0.5481058955192566}\n', '{"test case number": 1175, "answer": "alternating current", "modAnswer": "ac", "similarity": 0.5481058955192566}\n', '{"test case number": 1175, "answer": "alternating current", "modAnswer": "ac", "similarity": 0.5481058955192566}\n', '{"test case number": 1175, "answer": "alternating current", "modAnswer": "ac", "similarity": 0.5481058955192566}\n', '{"test case number": 1204, "answer": "he had a talent for making home craft tools, mechanical appliances, and the ability to", "modAnswer": "eidetic memory", "similarity": 0.40417757630348206}\n', '{"test case number": 1204, "answer": "he had a talent for making home craft tools, mechanical appliances, and the ability to", "modAnswer": "eidetic", "similarity": 0.33741769194602966}\n', '{"test case number": 1204, "answer": "he had a talent for making home craft tools, mechanical appliances, and the ability to", "modAnswer": "eidetic", "similarity": 0.33741769194602966}\n', '{"test case number": 1204, "answer": "he had a talent for making home craft tools, mechanical appliances, and the ability to", "modAnswer": "eidetic", "similarity": 0.33741769194602966}\n', '{"test case number": 1214, "answer": "nikola", "modAnswer": "milka", "similarity": 0.7236543297767639}\n', '{"test case number": 1214, "answer": "dane", "modAnswer": "milka", "similarity": 0.6344561576843262}\n', '{"test case number": 1214, "answer": "dane", "modAnswer": "milka", "similarity": 0.6344561576843262}\n', '{"test case number": 1214, "answer": "dane", "modAnswer": "milka", "similarity": 0.6344561576843262}\n', '{"test case number": 1214, "answer": "nikola", "modAnswer": "dane", "similarity": 0.7223290205001831}\n', '{"test case number": 1214, "answer": "nikola", "modAnswer": "dane", "similarity": 0.7223290205001831}\n', '{"test case number": 1214, "answer": "nikola", "modAnswer": "dane", "similarity": 0.7223290205001831}\n', '{"test case number": 1217, "answer": "gospi, austria-eastria", "modAnswer": "gospi, austrian empire", "similarity": 0.8827848434448242}\n', '{"test case number": 1244, "answer": "he evaded being drafted into the austro-hungarian army.", "modAnswer": "he evaded being drafted into the austro-hungarian army in", "similarity": 0.9892686009407043}\n', '{"test case number": 1246, "answer": "he explored the mountains in hunter\'s garb.", "modAnswer": "he read many books.", "similarity": 0.31617897748947144}\n', '{"test case number": 1246, "answer": "he explored the mountains in hunter\'s garb", "modAnswer": "he read many books.", "similarity": 0.30701571702957153}\n', '{"test case number": 1246, "answer": "he explored", "modAnswer": "he read many books.", "similarity": 0.41446948051452637}\n', '{"test case number": 1246, "answer": "explored the mountains in hunter\'s garb", "modAnswer": "he read many books.", "similarity": 0.27802592515945435}\n', '{"test case number": 1251, "answer": "his academics", "modAnswer": "his grades", "similarity": 0.730019211769104}\n', '{"test case number": 1251, "answer": "gambling", "modAnswer": "his grades", "similarity": 0.3416156470775604}\n', '{"test case number": 1251, "answer": "gambling", "modAnswer": "his grades", "similarity": 0.3416156470775604}\n', '{"test case number": 1251, "answer": "gambling", "modAnswer": "his grades", "similarity": 0.3416156470775604}\n', '{"test case number": 1251, "answer": "his academics", "modAnswer": "gambling", "similarity": 0.3500663936138153}\n', '{"test case number": 1251, "answer": "his academics", "modAnswer": "gambling", "similarity": 0.3500663936138153}\n', '{"test case number": 1251, "answer": "his academics", "modAnswer": "gambling", "similarity": 0.3500663936138153}\n', '{"test case number": 1261, "answer": "to leave the city", "modAnswer": "to leave the river.", "similarity": 0.7302011847496033}\n', '{"test case number": 1261, "answer": "return home", "modAnswer": "to leave the river.", "similarity": 0.6051158905029297}\n', '{"test case number": 1261, "answer": "return home", "modAnswer": "to leave the river.", "similarity": 0.6051158905029297}\n', '{"test case number": 1261, "answer": "return home", "modAnswer": "to leave the river.", "similarity": 0.6051158905029297}\n', '{"test case number": 1261, "answer": "to leave the city", "modAnswer": "return home", "similarity": 0.6720116138458252}\n', '{"test case number": 1261, "answer": "to leave the city", "modAnswer": "return home", "similarity": 0.6720116138458252}\n', '{"test case number": 1261, "answer": "to leave the city", "modAnswer": "return home", "similarity": 0.6720116138458252}\n', '{"test case number": 1277, "answer": "gospi", "modAnswer": "prague", "similarity": 0.649368405342102}\n', '{"test case number": 1277, "answer": "gospi", "modAnswer": "prague", "similarity": 0.649368405342102}\n', '{"test case number": 1277, "answer": "gospi", "modAnswer": "prague", "similarity": 0.649368405342102}\n', '{"test case number": 1277, "answer": "gospi", "modAnswer": "prague", "similarity": 0.649368405342102}\n', '{"test case number": 1280, "answer": "charles-ferdinand university", "modAnswer": "gospi", "similarity": 0.45400840044021606}\n', '{"test case number": 1280, "answer": "charles-ferdinand university", "modAnswer": "gospi", "similarity": 0.45400840044021606}\n', '{"test case number": 1280, "answer": "charles-ferdinand university", "modAnswer": "gospi", "similarity": 0.45400840044021606}\n', '{"test case number": 1280, "answer": "charles-ferdinand university", "modAnswer": "gospi", "similarity": 0.45400840044021606}\n', '{"test case number": 1333, "answer": "charles f. peck", "modAnswer": "peck and brown", "similarity": 0.4976423382759094}\n', '{"test case number": 1333, "answer": "charles f. peck", "modAnswer": "peck and brown", "similarity": 0.4976423382759094}\n', '{"test case number": 1333, "answer": "charles f. peck", "modAnswer": "peck and brown", "similarity": 0.4976423382759094}\n', '{"test case number": 1333, "answer": "new york attorney charles f. peck", "modAnswer": "peck and brown", "similarity": 0.3710882067680359}\n', '{"test case number": 1345, "answer": "the editor of electrical world magazine", "modAnswer": "a friend and publicist", "similarity": 0.5016962885856628}\n', '{"test case number": 1345, "answer": "editor of electrical world magazine", "modAnswer": "a friend and publicist", "similarity": 0.48634079098701477}\n', '{"test case number": 1345, "answer": "the editor of electrical world magazine", "modAnswer": "a friend and publicist", "similarity": 0.5016962885856628}\n', '{"test case number": 1345, "answer": "editor of electrical world magazine", "modAnswer": "a friend and publicist", "similarity": 0.48634079098701477}\n', '{"test case number": 1353, "answer": "physicist", "modAnswer": "a commutator-less, rotating magnetic field-based induction motor", "similarity": 0.6495400071144104}\n', '{"test case number": 1353, "answer": "physicist", "modAnswer": "a commutator-less, rotating magnetic field-based induction motor", "similarity": 0.6495400071144104}\n', '{"test case number": 1353, "answer": "physicist", "modAnswer": "a commutator-less, rotating magnetic field-based induction motor", "similarity": 0.6495400071144104}\n', '{"test case number": 1353, "answer": "italian physicist", "modAnswer": "a commutator-less, rotating magnetic field-based induction motor", "similarity": 0.5495328307151794}\n', '{"test case number": 1370, "answer": "a competition between rival lighting systems", "modAnswer": "the war of currents", "similarity": 0.3814396262168884}\n', '{"test case number": 1370, "answer": "lighting systems", "modAnswer": "the war of currents", "similarity": 0.33047977089881897}\n', '{"test case number": 1370, "answer": "electrical distribution", "modAnswer": "the war of currents", "similarity": 0.4710018038749695}\n', '{"test case number": 1370, "answer": "a competition between rival lighting systems", "modAnswer": "the war of currents", "similarity": 0.3814396262168884}\n', '{"test case number": 1400, "answer": "j. p. morgan", "modAnswer": "j. morgan", "similarity": 0.9545780420303345}\n', '{"test case number": 1418, "answer": "the 5th avenue laboratory fire of march 1895", "modAnswer": "a fire", "similarity": 0.47466111183166504}\n', '{"test case number": 1418, "answer": "5th avenue laboratory fire of march 1895", "modAnswer": "a fire", "similarity": 0.4419463872909546}\n', '{"test case number": 1434, "answer": "that they are longitudinal waves", "modAnswer": "that they were longitudinal waves", "similarity": 0.9477139711380005}\n', '{"test case number": 1441, "answer": "in force-free magnetic fields.", "modAnswer": "plasmas", "similarity": 0.6709190607070923}\n', '{"test case number": 1441, "answer": "force-free magnetic fields", "modAnswer": "plasmas", "similarity": 0.7170552611351013}\n', '{"test case number": 1449, "answer": "it would strike him physically.", "modAnswer": "it would break off the cathode, pass out of the tube, and physically strike", "similarity": 0.7562770247459412}\n', '{"test case number": 1449, "answer": "physically strike him", "modAnswer": "it would break off the cathode, pass out of the tube, and physically strike", "similarity": 0.7098646759986877}\n', '{"test case number": 1449, "answer": "physically strike him", "modAnswer": "it would break off the cathode, pass out of the tube, and physically strike", "similarity": 0.7098646759986877}\n', '{"test case number": 1449, "answer": "physically strike him", "modAnswer": "it would break off the cathode, pass out of the tube, and physically strike", "similarity": 0.7098646759986877}\n', '{"test case number": 1449, "answer": "it would strike him physically.", "modAnswer": "physically strike him", "similarity": 0.8273626565933228}\n', '{"test case number": 1451, "answer": "metal bits", "modAnswer": "bits of metal", "similarity": 0.947329044342041}\n', '{"test case number": 1476, "answer": "the butterflies were electrified.", "modAnswer": "they were electrified, swirling in circles with blue halos of st.", "similarity": 0.6679723262786865}\n', '{"test case number": 1476, "answer": "butterflies were electrified", "modAnswer": "they were electrified, swirling in circles with blue halos of st.", "similarity": 0.6550384759902954}\n', '{"test case number": 1516, "answer": "superintendent of schools", "modAnswer": "he was a scientist.", "similarity": 0.3861056864261627}\n', '{"test case number": 1516, "answer": "superintendent of new york city schools", "modAnswer": "he was a scientist.", "similarity": 0.2707207500934601}\n', '{"test case number": 1516, "answer": "superintendent of new york city schools", "modAnswer": "he was a scientist.", "similarity": 0.2707207500934601}\n', '{"test case number": 1516, "answer": "superintendent of new york city schools", "modAnswer": "he was a scientist.", "similarity": 0.2707207500934601}\n', '{"test case number": 1516, "answer": "superintendent of schools", "modAnswer": "superintendent of new york city schools", "similarity": 0.7676199674606323}\n', '{"test case number": 1516, "answer": "superintendent of schools", "modAnswer": "superintendent of new york city schools", "similarity": 0.7676199674606323}\n', '{"test case number": 1516, "answer": "superintendent of schools", "modAnswer": "superintendent of new york city schools", "similarity": 0.7676199674606323}\n', '{"test case number": 1519, "answer": "he sold it", "modAnswer": "tesla sold it", "similarity": 0.7455394864082336}\n', '{"test case number": 1551, "answer": "after midnight in 1937", "modAnswer": "while crossing the street", "similarity": 0.4198682904243469}\n', '{"test case number": 1551, "answer": "the fall of 1937", "modAnswer": "while crossing the street", "similarity": 0.2088809609413147}\n', '{"test case number": 1551, "answer": "in the fall of 1937", "modAnswer": "while crossing the street", "similarity": 0.21897545456886292}\n', '{"test case number": 1551, "answer": "fall of 1937", "modAnswer": "while crossing the street", "similarity": 0.20550590753555298}\n', '{"test case number": 1551, "answer": "after midnight in 1937", "modAnswer": "the fall of 1937", "similarity": 0.6033353805541992}\n', '{"test case number": 1551, "answer": "after midnight in 1937", "modAnswer": "in the fall of 1937", "similarity": 0.6055097579956055}\n', '{"test case number": 1551, "answer": "after midnight in 1937", "modAnswer": "fall of 1937", "similarity": 0.6017349362373352}\n', '{"test case number": 1575, "answer": "the fbi ordered the alien property custodian to seize the tesla items.", "modAnswer": "the fbi ordered the alien property custodian to seize tesla\'s belongings", "similarity": 0.9767634272575378}\n', '{"test case number": 1577, "answer": "nothing", "modAnswer": "tesla\'s belongings", "similarity": 0.41759011149406433}\n', '{"test case number": 1577, "answer": "nothing", "modAnswer": "tesla\'s belongings", "similarity": 0.41759011149406433}\n', '{"test case number": 1577, "answer": "nothing", "modAnswer": "tesla\'s belongings", "similarity": 0.41759011149406433}\n', '{"test case number": 1577, "answer": "nothing", "modAnswer": "tesla\'s belongings", "similarity": 0.41759011149406433}\n', '{"test case number": 1588, "answer": "in the nikola tesla museum", "modAnswer": "1957", "similarity": 0.30830129981040955}\n', '{"test case number": 1588, "answer": "nikola tesla museum", "modAnswer": "1957", "similarity": 0.33580270409584045}\n', '{"test case number": 1588, "answer": "the nikola tesla museum", "modAnswer": "1957", "similarity": 0.32544398307800293}\n', '{"test case number": 1588, "answer": "the nikola tesla museum", "modAnswer": "1957", "similarity": 0.32544398307800293}\n', '{"test case number": 1594, "answer": "8:00 p.m. until 6:00 p.m.", "modAnswer": "8:00 p.m. to 6:00 p.m.", "similarity": 0.9533401727676392}\n', '{"test case number": 1595, "answer": "until 6:00 p.m.", "modAnswer": "until 3:00 a.m.", "similarity": 0.9003706574440002}\n', '{"test case number": 1602, "answer": "newspaper editor", "modAnswer": ".", "similarity": 0.3966788351535797}\n', '{"test case number": 1602, "answer": "newspaper editor", "modAnswer": ".", "similarity": 0.3966788351535797}\n', '{"test case number": 1602, "answer": "newspaper editor", "modAnswer": ".", "similarity": 0.3966788351535797}\n', '{"test case number": 1602, "answer": "newspaper editor", "modAnswer": ".", "similarity": 0.3966788351535797}\n', '{"test case number": 1606, "answer": "she had a broken wing and leg.", "modAnswer": "he had been visited by a specific injured white pigeon daily.", "similarity": 0.5643751621246338}\n', '{"test case number": 1606, "answer": "broken wing and leg", "modAnswer": "he had been visited by a specific injured white pigeon daily.", "similarity": 0.46184825897216797}\n', '{"test case number": 1606, "answer": "broken wing and leg", "modAnswer": "he had been visited by a specific injured white pigeon daily.", "similarity": 0.46184825897216797}\n', '{"test case number": 1606, "answer": "broken wing and leg", "modAnswer": "he had been visited by a specific injured white pigeon daily.", "similarity": 0.46184825897216797}\n', '{"test case number": 1614, "answer": "he would see objects in detail", "modAnswer": "visions", "similarity": 0.49862396717071533}\n', '{"test case number": 1614, "answer": "he would see objects in detail", "modAnswer": "visions", "similarity": 0.49862396717071533}\n', '{"test case number": 1614, "answer": "he would see objects in detail", "modAnswer": "blinding flashes of light", "similarity": 0.4153936803340912}\n', '{"test case number": 1614, "answer": "he would see objects in detail", "modAnswer": "visions", "similarity": 0.49862396717071533}\n', '{"test case number": 1616, "answer": "he was a polyglot, speaking eight languages.", "modAnswer": "blinding flashes of light", "similarity": 0.1400524228811264}\n', '{"test case number": 1616, "answer": "he was a polyglot, speaking eight languages.", "modAnswer": "blinding flashes of light", "similarity": 0.1400524228811264}\n', '{"test case number": 1616, "answer": "he was a polyglot, speaking eight languages.", "modAnswer": "flashbacks", "similarity": 0.14419180154800415}\n', '{"test case number": 1616, "answer": "he was a polyglot, speaking eight languages.", "modAnswer": "blinding flashes of light", "similarity": 0.1400524228811264}\n', '{"test case number": 1619, "answer": "48 hours", "modAnswer": "84 hours", "similarity": 0.813550591468811}\n', '{"test case number": 1635, "answer": "a secretary", "modAnswer": "a subordinate", "similarity": 0.744789183139801}\n', '{"test case number": 1635, "answer": "secretary", "modAnswer": "a subordinate", "similarity": 0.6850548982620239}\n', '{"test case number": 1635, "answer": "a secretary", "modAnswer": "a subordinate", "similarity": 0.744789183139801}\n', '{"test case number": 1635, "answer": "a secretary", "modAnswer": "a subordinate", "similarity": 0.744789183139801}\n', '{"test case number": 1663, "answer": "\\"a machine to end war\\"", "modAnswer": ".", "similarity": 0.5411198139190674}\n', '{"test case number": 1663, "answer": "\\"a machine to end war\\"", "modAnswer": ".", "similarity": 0.5411198139190674}\n', '{"test case number": 1663, "answer": "\\"a machine to end war\\"", "modAnswer": ".", "similarity": 0.5411198139190674}\n', '{"test case number": 1663, "answer": "a machine to end war", "modAnswer": ".", "similarity": 0.44629141688346863}\n', '{"test case number": 1665, "answer": "the machine hopes to end the war.", "modAnswer": "what did the machine hope to end?", "similarity": 0.6972032785415649}\n', '{"test case number": 1665, "answer": "war", "modAnswer": "what did the machine hope to end?", "similarity": 0.4076194167137146}\n', '{"test case number": 1665, "answer": "war", "modAnswer": "what did the machine hope to end?", "similarity": 0.4076194167137146}\n', '{"test case number": 1665, "answer": "war", "modAnswer": "what did the machine hope to end?", "similarity": 0.4076194167137146}\n', '{"test case number": 1695, "answer": "the number", "modAnswer": "the instance", "similarity": 0.5647512674331665}\n', '{"test case number": 1695, "answer": "instances", "modAnswer": "the instance", "similarity": 0.7865961790084839}\n', '{"test case number": 1695, "answer": "the number", "modAnswer": "instances", "similarity": 0.46296989917755127}\n', '{"test case number": 1695, "answer": "the number", "modAnswer": "the instance", "similarity": 0.5647512674331665}\n', '{"test case number": 1695, "answer": "the number", "modAnswer": "instance", "similarity": 0.5612542629241943}\n', '{"test case number": 1754, "answer": "computational resources", "modAnswer": "complexity", "similarity": 0.6789630651473999}\n', '{"test case number": 1754, "answer": "computational resources", "modAnswer": "complexity resources", "similarity": 0.8542988300323486}\n', '{"test case number": 1765, "answer": "worst-case", "modAnswer": "time taken", "similarity": 0.5018935203552246}\n', '{"test case number": 1765, "answer": "o(n2)", "modAnswer": "time taken", "similarity": 0.4847067594528198}\n', '{"test case number": 1765, "answer": "o(n2)", "modAnswer": "time taken", "similarity": 0.4847067594528198}\n', '{"test case number": 1765, "answer": "o(n2)", "modAnswer": "time taken", "similarity": 0.4847067594528198}\n', '{"test case number": 1765, "answer": "worst-case", "modAnswer": "o(n2)", "similarity": 0.4640212059020996}\n', '{"test case number": 1765, "answer": "worst-case", "modAnswer": "o(n2)", "similarity": 0.4640212059020996}\n', '{"test case number": 1765, "answer": "worst-case", "modAnswer": "o(n2)", "similarity": 0.4640212059020996}\n', '{"test case number": 1792, "answer": "dtime(n) is contained in n2 but it would be interesting to know", "modAnswer": "additional time or space", "similarity": 0.47500932216644287}\n', '{"test case number": 1792, "answer": "dtime(n2)", "modAnswer": "additional time or space", "similarity": 0.4109349250793457}\n', '{"test case number": 1792, "answer": "dtime(n2)", "modAnswer": "additional time or space", "similarity": 0.4109349250793457}\n', '{"test case number": 1792, "answer": "dtime(n2)", "modAnswer": "additional time or space", "similarity": 0.4109349250793457}\n', '{"test case number": 1792, "answer": "dtime(n) is contained in n2 but it would be interesting to know", "modAnswer": "dtime(n2)", "similarity": 0.820797860622406}\n', '{"test case number": 1826, "answer": "np-intermediate problems", "modAnswer": "if p  np then there are problems in np that are neither in p", "similarity": 0.7995198369026184}\n', '{"test case number": 1826, "answer": "np-intermediate problems", "modAnswer": "if p  np then there are problems in np that are neither in p", "similarity": 0.7995198369026184}\n', '{"test case number": 1826, "answer": "np-intermediate problems", "modAnswer": "if p  np then there are problems in np that are neither in p", "similarity": 0.7995198369026184}\n', '{"test case number": 1826, "answer": "np-intermediate", "modAnswer": "if p  np then there are problems in np that are neither in p", "similarity": 0.7005097270011902}\n', '{"test case number": 1837, "answer": "that many known complexity classes are suspected to be unequal.", "modAnswer": "that many known complexity classes collapse to one class.", "similarity": 0.9095555543899536}\n', '{"test case number": 1910, "answer": "allegations of professional misconduct", "modAnswer": "what could someone be investigated for?", "similarity": 0.5680890083312988}\n', '{"test case number": 1910, "answer": "allegations of professional misconduct", "modAnswer": "what could someone be investigated for?", "similarity": 0.5680890083312988}\n', '{"test case number": 1910, "answer": "professional misconduct", "modAnswer": "what could someone be investigated for?", "similarity": 0.5508401989936829}\n', '{"test case number": 1910, "answer": "professional misconduct", "modAnswer": "what could someone be investigated for?", "similarity": 0.5508401989936829}\n', '{"test case number": 1940, "answer": "the same group of peers for all classes", "modAnswer": "one group of students in one class that moves from one specialist to another for every subject.", "similarity": 0.7005903720855713}\n', '{"test case number": 1940, "answer": "staying with the same group of peers for all classes", "modAnswer": "one group of students in one class that moves from one specialist to another for every subject.", "similarity": 0.7145426273345947}\n', '{"test case number": 1940, "answer": "staying with the same group of peers for all classes", "modAnswer": "one group of students in one class that moves from one specialist to another for every subject.", "similarity": 0.7145426273345947}\n', '{"test case number": 1940, "answer": "by staying with the same group of peers for all classes", "modAnswer": "one group of students in one class that moves from one specialist to another for every subject.", "similarity": 0.6963078379631042}\n', '{"test case number": 1966, "answer": "sitting in a classroom and doing work", "modAnswer": "\\"saturday detention\\"", "similarity": 0.43372946977615356}\n', '{"test case number": 1966, "answer": "sitting in a classroom and doing work", "modAnswer": "detention", "similarity": 0.42684412002563477}\n', '{"test case number": 1966, "answer": "sitting in a classroom and doing work", "modAnswer": "detention", "similarity": 0.42684412002563477}\n', '{"test case number": 1966, "answer": "sitting in a classroom and doing work", "modAnswer": "detention", "similarity": 0.42684412002563477}\n', '{"test case number": 1974, "answer": "attempts to humiliate pupils", "modAnswer": ".", "similarity": 0.3617892861366272}\n', '{"test case number": 1974, "answer": "sarcasm and attempts to humiliate pupils", "modAnswer": ".", "similarity": 0.44503501057624817}\n', '{"test case number": 1974, "answer": "sarcasm and attempts to humiliate pupils", "modAnswer": ".", "similarity": 0.44503501057624817}\n', '{"test case number": 1974, "answer": "sarcasm and attempts to humiliate pupils", "modAnswer": ".", "similarity": 0.44503501057624817}\n', '{"test case number": 1975, "answer": "positive reinforcement", "modAnswer": "respect", "similarity": 0.5963000059127808}\n', '{"test case number": 1975, "answer": "positive reinforcement", "modAnswer": "respect", "similarity": 0.5963000059127808}\n', '{"test case number": 1975, "answer": "positive reinforcement", "modAnswer": "respect", "similarity": 0.5963000059127808}\n', '{"test case number": 1975, "answer": "positive reinforcement", "modAnswer": "respect", "similarity": 0.5963000059127808}']

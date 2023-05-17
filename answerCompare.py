@@ -8,7 +8,7 @@ phrase_sim_model=SentenceTransformer(model_path)
 
 cos_sim=nn.CosineSimilarity(dim=0)
 
-def answerMatch(answer,modAnswer,pattern,threshold,logfile):
+def answerMatch(answer,modAnswer,pattern,threshold,logfile,count):
     answer=answer.strip().lower()
     modAnswer=modAnswer.strip().lower()
     #simple == match:
@@ -24,11 +24,14 @@ def answerMatch(answer,modAnswer,pattern,threshold,logfile):
         
         res=phrase_sim_model.encode([answer,modAnswer])
         [e1,e2]=res
-        sim=cos_sim(torch.tensor(e1),torch.tensor(e2))
-        info_dict={}
+        sim=(float)(cos_sim(torch.tensor(e1),torch.tensor(e2)))
+        info_dict={
+            'test case number':count,
+        }
         info_dict['answer']=answer
         info_dict['modAnswer']=modAnswer
         info_dict['similarity']=sim
+        #info_dict['test case number']=count
         json.dump(info_dict,logfile)
         #print(f"{answer} | {modAnswer} | {sim}",file=logfile)
         #print(f"similarity of {answer} and {modAnswer} : {sim}")

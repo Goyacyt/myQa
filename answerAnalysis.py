@@ -11,19 +11,15 @@ parser.add_argument("-bl","--buglogfile",default="buglogfile.json")
 parser.add_argument("-ml","--matchlogfile",default="matchlog.json")
 args=parser.parse_args()
 
-def answerAnalysis(args):
-    """f=open ('infopro0.json','r',encoding='utf-8')
+def merge(args):
+    f=open ('infopro_03_0.json','r',encoding='utf-8')
     s=f.read()
-    ff=open ('infopro172.json','r',encoding='utf-8')
+    ff=open ('infopro_03_381.json','r',encoding='utf-8')
     ss=ff.read()
-    fff=open ('infopro253.json','r',encoding='utf-8')
+    fff=open ('infopro_03_1230.json','r',encoding='utf-8')
     sss=fff.read()
-    ffff=open ('infopro1001.json','r',encoding='utf-8')
-    ssss=ffff.read()
-    fffff=open ('infopro1465.json','r',encoding='utf-8')
-    sssss=fffff.read()
-    result=s+ss+sss+ssss+sssss
-    wf=open ('infoproportion_04_50.json','w+',encoding='utf-8')
+    result=s+ss+sss
+    wf=open ('infoproportion_03_50.json','w+',encoding='utf-8')
     result=result.split('}{')
     for i in range(len(result)):
         if i==0:
@@ -34,13 +30,20 @@ def answerAnalysis(args):
             result[i]='{'+result[i]+'}'
         result[i]=ast.literal_eval(result[i])
     #print(result[0]['groundTruth'],result[0]['answer'])
-    print(result,file=wf)"""
+    print(result,file=wf)
+
+def answerAnalysis(args):
+
+
+    thisresfile=args.filename[:-5]+'result_'+'threshold_'+str(args.simThreshold)[-2:]+'.json'
     f=open(args.filename,'r',encoding='utf-8')
-    logfile=open(args.matchlogfile,'w+',encoding='utf-8')
-    bugfile=open(args.buglogfile,'w+',encoding='utf-8')
+    logfilename=thisresfile[:-5]+'_'+args.matchlogfile
+    logfile=open(logfilename,'w+',encoding='utf-8')
+    bugfilename=thisresfile[:-5]+'_'+args.buglogfile
+    bugfile=open(bugfilename,'w+',encoding='utf-8')
     resultList=f.read()
     resultList=ast.literal_eval(resultList)
-    simthreshold=args.simThreshold
+    simThreshold=(float)(args.simThreshold)
     totalNum=0
     bugNum=0#modified answer is different from original answer
     oEqualg=0
@@ -56,6 +59,7 @@ def answerAnalysis(args):
     fpPerContext=[]
     bugRateofContext=[]#the rate
     fpRateofContext=[]
+    bugfpRateofContext=[]
     lastContext=''
     for i in range(len(resultList)):
         thisResult=resultList[i]
@@ -72,8 +76,20 @@ def answerAnalysis(args):
         
         totalNum+=1
         if context!=lastContext:
-            bugRateofContext.append(bugPerContext[contextNum]/questionNumPerContext[contextNum])
-            fpRateofContext.append(fpPerContext[contextNum]/bugPerContext[contextNum])
+            if contextNum>=0:
+                temp_dict={}
+                temp_dict['End case number']=caseNum
+                temp_dict['context number']=contextNum
+                temp_dict['Bug rate']=0
+                temp_dict['FP Rate']=0
+                if questionNumPerContext[contextNum]!=0:
+                    temp_dict['Bug rate']=bugPerContext[contextNum]/questionNumPerContext[contextNum]
+                    bugRateofContext.append(bugPerContext[contextNum]/questionNumPerContext[contextNum])
+                if bugPerContext[contextNum]!=0:
+                    temp_dict['FP Rate']=fpPerContext[contextNum]/bugPerContext[contextNum]
+                    fpRateofContext.append(fpPerContext[contextNum]/bugPerContext[contextNum])
+                bugfpRateofContext.append(temp_dict)
+            
             lastContext=context
             contextNum+=1
             questionPerContext.append([])
@@ -85,7 +101,7 @@ def answerAnalysis(args):
         questionNumPerContext[contextNum]+=1
         questionPerContext[contextNum].append([caseNum,question,modContext])
 
-        if not answerMatch(answer,modAnswer,args.compare,args.simThreshold,logfile):
+        if not answerMatch(answer,modAnswer,args.compare,simThreshold,logfile,caseNum):
             bug_dict={}
             bug_dict['test case number']=caseNum
             bug_dict['context']=context
@@ -101,23 +117,29 @@ def answerAnalysis(args):
             #discover a bug
             bugNum+=1
             bugPerContext[contextNum]+=1
-            if groundTruth not in modContext:
-                fp+=1
-                fpPerContext[contextNum]+=1
             text=groundTruth['text']
             for t in range(len(text)):
-                if answerMatch(text[t],modAnswer,args.compare,args.simThreshold,logfile):
+                if text[t] not in modContext:
+                    fp+=1
+                    fpPerContext[contextNum]+=1
+                    break
+            #TODO:not sure
+            
+            for t in range(len(text)):
+                if answerMatch(text[t],modAnswer,args.compare,simThreshold,logfile,caseNum):
                     mEqualg+=1
                     break
+
+            
             for t in range(len(text)):
-                if answerMatch(answer,text[t],args.compare,args.simThreshold,logfile):
+                if answerMatch(answer,text[t],args.compare,simThreshold,logfile,caseNum):
                     oEqualg+=1
                     break
 
     bugRate=bugNum/totalNum
     fpRate=fp/bugNum
 
-    wf=open(args.filename[:-5]+'res.json','w+',encoding='utf-8')
+    wf=open(thisresfile,'w+',encoding='utf-8')
     info_dict={}
     info_dict['Total Number']=totalNum
     info_dict['Bug Number']=bugNum
@@ -127,11 +149,42 @@ def answerAnalysis(args):
 
     info_dict['Bug Rate of Context']=bugRateofContext
     info_dict['FP Rate of Context']=fpRateofContext
+    info_dict['Bug Rate and FP Rate of Context']=bugfpRateofContext
     info_dict['Context list']=contextList
     info_dict['Question and ModContext']=questionPerContext
     json.dump(info_dict,wf)
+    wf.close()
+    logfile.close()
+    bugfile.close()
+    beauty(logfilename)
+    beauty(bugfilename)
+    otherbeauty(thisresfile)
 
+def beauty(file):
+    f=open(file,'r',encoding='utf-8')
+    result=f.read()
+    result=result.split('}{')
+    wf=open(file,'w',encoding='utf-8')
+    for i in range(len(result)):
+        if i==0:
+            result[i]=result[i]+'}\n'
+        elif i==len(result)-1:
+            result[i]='{'+result[i]
+        else:
+            result[i]='{'+result[i]+'}\n'
+        print(result[i],file=wf)
+        #result[i]=ast.literal_eval(result[i])
+    #print(result[0]['groundTruth'],result[0]['answer'])
+    print(result,file=wf)
 
+def otherbeauty(file):
+    f=open(file,'r',encoding='utf-8')
+    result=f.read()
+    result=ast.literal_eval(result)
+    wf=open(file,'w',encoding='utf-8')
+    for key in result:
+        print(key+':'+str(result[key]),file=wf)
 
 if __name__=='__main__':
     answerAnalysis(args)
+    
