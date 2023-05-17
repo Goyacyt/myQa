@@ -1,6 +1,7 @@
 from sentence_transformers import SentenceTransformer
 import torch
 from torch import nn
+import json
 
 model_path='whaleloops/phrase-bert'
 phrase_sim_model=SentenceTransformer(model_path)
@@ -11,21 +12,26 @@ def answerMatch(answer,modAnswer,pattern,threshold,logfile):
     answer=answer.strip().lower()
     modAnswer=modAnswer.strip().lower()
     #simple == match:
-    if pattern=="sim":
+    if pattern=="simple":
         if (answer==modAnswer) or (answer in modAnswer) or (modAnswer in answer):
             return True
         else:
             return False
     
-    elif pattern=="com":
+    elif pattern=="complicate":
         if (answer==modAnswer) or (answer in modAnswer) or (modAnswer in answer):
             return True
         
         res=phrase_sim_model.encode([answer,modAnswer])
         [e1,e2]=res
         sim=cos_sim(torch.tensor(e1),torch.tensor(e2))
-        print(f"{answer} | {modAnswer} | {sim}",file=logfile)
-        print(f"similarity of {answer} and {modAnswer} : {sim}")
+        info_dict={}
+        info_dict['answer']=answer
+        info_dict['modAnswer']=modAnswer
+        info_dict['similarity']=sim
+        json.dump(info_dict,logfile)
+        #print(f"{answer} | {modAnswer} | {sim}",file=logfile)
+        #print(f"similarity of {answer} and {modAnswer} : {sim}")
         if sim>threshold:
             return True
         else:
