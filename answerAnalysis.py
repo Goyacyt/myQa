@@ -34,6 +34,10 @@ def merge(args):
 
 def answerAnalysis(args):
 
+    whWord=[['what','which'],['what year','what month','what day','when','in what year','in which year'],['how many'],['how'],['who'],['where'],['why'],['if'],['other wh']]
+    whWordNum=[0 for i in range(len(whWord))]
+    whWordNumBug=[0 for i in range(len(whWord))]
+    whWordNumBugRate=[0 for i in range(len(whWord))]
 
     thisresfile=args.filename[:-5]+'result_'+'threshold_'+str(args.simThreshold)[-2:]+'.json'
     f=open(args.filename,'r',encoding='utf-8')
@@ -66,13 +70,31 @@ def answerAnalysis(args):
         caseNum=thisResult['test case number']
         context=thisResult['context']
         modContext=thisResult['modContext']
-        question=thisResult['question']
+        question=thisResult['question'].strip().lower()
         groundTruth=thisResult['groundTruth']
         answer=thisResult['answer']
         modAnswer=thisResult['modAnswer']
         dsn=thisResult['delete sentence number']
         dv=thisResult['distance value']
+        
+        findwh=0
+        whtype=-1
+        for i in range(len(whWord)-1):
+            wh=whWord[i]
+            for j in range(len(wh)):
+                w=wh[j]
+                if question.startswith(w):
+                    whWordNum[i]+=1
+                    findwh=1
+                    whtype=i
+                    break
+            if findwh:
+                break
 
+        if not findwh:
+            #print(question)
+            whWordNum[len(whWord)-1]+=1
+            whtype=len(whWord)-1
         
         totalNum+=1
         if context!=lastContext:
@@ -117,6 +139,10 @@ def answerAnalysis(args):
             #discover a bug
             bugNum+=1
             bugPerContext[contextNum]+=1
+
+            whWordNumBug[whtype]+=1
+
+
             text=groundTruth['text']
             for t in range(len(text)):
                 if text[t] not in modContext:
@@ -138,6 +164,18 @@ def answerAnalysis(args):
 
     bugRate=bugNum/totalNum
     fpRate=fp/bugNum
+    for i in range(len(whWord)):
+        if whWordNum[i]!=0:
+            whWordNumBugRate[i]=whWordNumBug[i]/whWordNum[i]
+
+    whBug=[]
+    for i in range(len(whWord)):
+        tem_dict={}
+        tem_dict['wh-word']=whWord[i]
+        tem_dict['total number']=whWordNum[i]
+        tem_dict['bug number']=whWordNumBug[i]
+        tem_dict['bug rate']=whWordNumBugRate[i]
+        whBug.append(tem_dict)
 
     wf=open(thisresfile,'w+',encoding='utf-8')
     info_dict={}
@@ -146,6 +184,15 @@ def answerAnalysis(args):
     info_dict['Bug Rate']=bugRate
     info_dict['False Positive Number']=fp
     info_dict['FP Rate']=fpRate
+    info_dict['original answer=standard answer']=oEqualg
+    info_dict['modified answer=standard answer']=mEqualg
+    info_dict['original answer!=standard answer && modified answer!=standard answer']=bugNum-oEqualg-mEqualg
+
+    whBugs=''
+    for i in range(len(whBug)):
+        whBugs=whBugs+str(whBug[i])+'\n'
+
+    info_dict['bug rate related to the wh-word of a question']=whBugs
 
     info_dict['Bug Rate of Context']=bugRateofContext
     info_dict['FP Rate of Context']=fpRateofContext
@@ -186,5 +233,6 @@ def otherbeauty(file):
         print(key+':'+str(result[key]),file=wf)
 
 if __name__=='__main__':
+    #merge(args)
     answerAnalysis(args)
     
