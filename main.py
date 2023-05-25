@@ -27,6 +27,9 @@ parser.add_argument("-cmpt","--comparethreshold",default=0.75,help="the threshol
 parser.add_argument("-l","--logfile",default="log.txt")
 parser.add_argument("-s","--start",default=0,help="dataset start number")
 parser.add_argument("-e","--end",default=2000,help="dataset end number")
+parser.add_argument("-re","--rewritePattern",default="all",help="rewrite all the sentence or choose some sentence and rewrite them")
+parser.add_argument("-tH","--reThreshold",default=0.5)
+parser.add_argument("-tL","--thresholdLow",default=15)
 
 args=parser.parse_args()
 #case=0
@@ -62,6 +65,9 @@ def main(args):
     f=open (args.filename,'w+',encoding='utf-8')
     l=len(dataset)
     logf=open(args.logfile,'w+',encoding='utf-8')
+    lastContext=''
+    lastModContext=''
+    lastChange=True
     for i in range((int)(args.start),(int)(args.end)):
         _=i
         data=dataset[i]
@@ -74,23 +80,43 @@ def main(args):
         #Get distance imformation
         modContext=''
         distance=semanticMatch(oriContext=context,question=question)
+        delsentence=[]
         #print("finish semanticMatch......")
-        if args.mr==2:
+        if (int)(args.mr)==2:
             modContext,delsentence=MR2(context=context,distance=distance,pattern=args.deleteextent,threshold=float(args.threshold),proportion=args.proportion)
             #print("finish MR2......")
-        elif args.mr==1:
-            modContext=MR1(context=context,pattern="")
+        elif (int)(args.mr)==1:
+            if context==lastContext:
+                modContext=lastModContext
+                print("one",file=logf)
+                print(lastModContext)
+            else:
+                lastContext=context
+                modContext,change=MR1(context=context,pattern=args.rewritePattern,distance=distance,reThreshold=(float)(args.reThreshold))
+                lastModContext=modContext
+                lastChange=change
+                print("two",file=logf)
+                print(lastModContext)
         model_name='allenai/unifiedqa-'+args.module
         answer=output_answer(question=question,context=context,model_name=model_name)
         #print("finish original answer......")
-        if delsentence!=[]:
-            modAnswer=output_answer(question=question,context=modContext,model_name=model_name)
-        else:
-            modAnswer=answer
+        modAnswer=''
+        if (int)(args.mr)==2:
+            if delsentence!=[]:
+                modAnswer=output_answer(question=question,context=modContext,model_name=model_name)
+            else:
+                modAnswer=answer
+        elif (int)(args.mr)==1:
+            if lastChange:
+                modAnswer=output_answer(question=question,context=modContext,model_name=model_name)
+                print("change",file=logf)
+            else:
+                print("unchange",file=logf)
+                modAnswer=answer
             #print(delsentence,'yes')
         #print("finish modified answer......")
 
-
+        print(modAnswer)
         #if not answerMatch(answer=answer,modAnswer=modAnswer,pattern=args.compare,threshold=args.comparethreshold,logfile=logf):
         record(_,context,modContext,question,answer,modAnswer,groundTruth,delsentence,distance,f)
         #print("finish recording......")

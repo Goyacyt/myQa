@@ -1,34 +1,24 @@
-import nltk
-nltk.download('punkt')
-nltk.download('averaged_perceptron_tagger')
-from nltk import pos_tag, word_tokenize, RegexpParser
-
-# String to parse
-to_parse = "This tree is illustrating the constituency relation"
-
-# Find all parts of speech in above sentence
-tagged_parts = pos_tag(word_tokenize(to_parse))
-
-# Defining grammar on basis of which we 've to extract
-grammar = r'''
-NP: {<DT>?<JJ>*<NN>}
-P: {<IN>}
-V: {<V.*>}
-PP: {<p> <NP>}
-VP: {<V> <NP|PP>*}'''
-
- #Extracting all parts of speech
-parser = RegexpParser(grammar)
-
- # Print all parts of speech in above sentence
-output = parser.parse(tagged_parts)
-print("\nAfter Extracting the parts\n\n", output,"\n")
-
 import spacy
 
-nlp = spacy.load("en_core_web_sm")
-doc = nlp("Apple is looking at buying U.K. startup for $1 billion")
+def manually():
+    nlp = spacy.load('en_core_web_md')
+    sentence="The Super Bowl 50 halftime show was headlined by the British rock group Coldplay with special guest perfrmers Beyoncé and Bruno Mars, who headlined the Super Bowl XLVII and Super Bowl XLVIII halftime shows, respectively. It was the third-most watched U.S."
+    doc = nlp(sentence)
+    for token in doc:
+        print('{0}({1}) <-- {2} -- {3}({4})'.format(token.text, token.tag_, token.dep_, token.head.text, token.head.tag_))
 
-for token in doc:
-    print(token.text, token.lemma_, token.pos_, token.tag_, token.dep_,
-            token.shape_, token.is_alpha, token.is_stop)
+from parrot import Parrot
+
+parrot = Parrot()
+phrases = [
+  "CBS broadcast Super Bowl 50 in the U.S., and charged an average of $5 million for a 30-second commercial during the game."
+]
+
+for phrase in phrases:
+  print("-"*100)
+  print("Input_phrase: ", phrase)
+  print("-"*100)
+  paraphrases = parrot.augment(input_phrase=phrase)
+  if paraphrases:
+    for paraphrase in paraphrases:
+      print(paraphrase)

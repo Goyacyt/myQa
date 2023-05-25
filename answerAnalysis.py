@@ -12,7 +12,7 @@ parser.add_argument("-ml","--matchlogfile",default="matchlog.json")
 args=parser.parse_args()
 
 def merge(args):
-    f=open ('infopro_03_0.json','r',encoding='utf-8')
+    f=open ('MR1.txt','r',encoding='utf-8')
     s=f.read()
     ff=open ('infopro_03_381.json','r',encoding='utf-8')
     ss=ff.read()
@@ -233,6 +233,6 @@ def otherbeauty(file):
         print(key+':'+str(result[key]),file=wf)
 
 if __name__=='__main__':
-    #merge(args)
-    answerAnalysis(args)
+    merge(args)
+    #answerAnalysis(args)
     
